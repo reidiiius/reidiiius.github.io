@@ -8,6 +8,16 @@ li {
   display:inline;
   font-family:sans-serif;
   padding:1em; }
+table {
+ margin-left:auto;
+ margin-right:auto; }
+td.tablet {
+ border:1px solid tan;
+ background-color:ivory;
+ color:maroon;
+ white-space:nowrap;
+ padding:1em;
+ overflow:hidden; }
 a:link {
  text-decoration:none;
  color:#aaa; }
@@ -39,10 +49,10 @@ a:active {
 .cush {
  margin-left:3%; }
 #container {
-  width:620px; }
+  width:100%; }
 #content {
   background-color:cornsilk;
-  width:620px;
+  width:100%;
   float:left;
   padding-bottom:1em; }
 #footer {
