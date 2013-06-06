@@ -1,6 +1,6 @@
 
 body {
- background-color:cornsilk; }
+ background-color:#fffaf0; } /* FloralWhite */
 h1 {
   font-family:sans-serif;
   color:#fff;  }
@@ -12,9 +12,9 @@ table {
  margin-left:auto;
  margin-right:auto; }
 td.tablet {
- border:1px solid tan;
- background-color:ivory;
- color:maroon;
+ border:1px solid #d2b48c; /* Tan */
+ background-color:#fffff0; /* Ivory */
+ color:#800000; /* Maroon */
  white-space:nowrap;
  padding:1em;
  overflow:hidden; }
@@ -51,7 +51,7 @@ a:active {
 #container {
   width:100%; }
 #content {
-  background-color:cornsilk;
+  background-color:#fffaf0; /* FloralWhite */
   width:100%;
   float:left;
   padding-bottom:1em; }
