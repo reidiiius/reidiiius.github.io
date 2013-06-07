@@ -1,4 +1,4 @@
-﻿// Copyright 2013 Reid Netterville III 
+// Copyright 2013 Reid Netterville III 
 gtrSTD_topaz=[
 "<tt>",
 "Topaz",
@@ -9,7 +9,7 @@ gtrSTD_topaz=[
 "AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____",
 "SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____",
 "AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____",
-"CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____",
+"CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____",
 " ",
 "k6",
 "CuPb PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____",

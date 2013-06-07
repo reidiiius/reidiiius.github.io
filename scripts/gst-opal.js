@@ -1,4 +1,4 @@
-﻿// Copyright 2013 Reid Netterville III 
+// Copyright 2013 Reid Netterville III 
 gtrSTD_opal=[
 "<tt>",
 "Opal",
@@ -9,7 +9,7 @@ gtrSTD_opal=[
 "AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____",
 "SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____",
 "AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____",
-"CuMg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____",
+"CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____",
 " ",
 "j5",
 "AgHg TiFe FeTi ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____",
