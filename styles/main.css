@@ -9,6 +9,21 @@ li {
   font-family:sans-serif;
   font-size:18px;
   padding:1em; }
+div.strings { 
+ font-family:monospace;
+ font-size:20px;
+ color:olive;
+ white-space:nowrap; } 
+div.cmd-ui {
+ text-align:center; }
+button.bttn {
+ background-color:ivory;
+ border-color:transparent;
+ font-family:monospace;
+ font-size:18px;
+ color:peru;
+ padding:2px;
+ cursor:pointer; }
 table {
  margin-left:auto;
  margin-right:auto; }
@@ -17,7 +32,7 @@ td.tablet {
  background-color:#fffff0; 
  color:#800000; /* Maroon */
  white-space:nowrap;
- padding:1em;
+ padding:0.5em;
  overflow:hidden; }
 p.cush {
  margin-left:1em; }
