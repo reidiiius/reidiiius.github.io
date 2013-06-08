@@ -12,16 +12,16 @@ li {
 div.strings { 
  font-family:monospace;
  font-size:20px;
- color:olive;
+ color:#808000; /* olive */
  white-space:nowrap; } 
 div.cmd-ui {
  text-align:center; }
 button.bttn {
- background-color:ivory;
+ background-color:#fffff0;
  border-color:transparent;
  font-family:monospace;
  font-size:18px;
- color:peru;
+ color:#cd853f; /* peru */
  padding:2px;
  cursor:pointer; }
 table {
@@ -45,11 +45,11 @@ a:visited {
 a:hover {
  text-decoration:none; 
  color:#deb887; /* BurlyWood */
- background-color:#fffaf0; } 
+ background-color:#fffff0; } 
 a:active {
  text-decoration:none; 
  color:#deb887;
- background-color:#fffaf0; } 
+ background-color:#fffff0; } 
 .molign {
  margin-left:18%; }
 .center {
