@@ -2,22 +2,37 @@
 <html dir="ltr" lang="en">
 <head>
 <meta charset="UTF-8"/>
-<title>blank page</title>
+<title>404</title>
+<script type="text/javascript">
+function delayer(){ 
+  window.location = "../"} 
+</script>
 <style>
 body {
- background-color:cornsilk; }
+ background-color:#fff8dc; }
 #container {
  font-family:sans-serif;
  color:#888;
  position:fixed;
  left:100px;
  top:100px; }
+#mic {
+  text-align:center;
+  font-size:100px; }
 </style>
 </head>
-<body>
+<body onLoad="setTimeout('delayer()',5000)">
 <div id="container">
+<div id="header">
+<h1>Error code 404</h1>
+</div>
+<div id="content">
 <h2>Move along, nothing to see here.</h2>
-<p>This is not the page your looking for.</p>
+<p>This is not the page your looking for. You will be redirected.</p>
+</div>
+<div id="mic">
+<script>document.getElementById("mic").innerHTML="&#911;";</script>
+</div>
 </div>
 </body>
 </html>
