@@ -24,6 +24,8 @@ button.bttn {
  color:#cd853f; /* peru */
  padding:2px;
  cursor:pointer; }
+kbd {
+ padding:2px; }
 table {
  margin-left:auto;
  margin-right:auto; }
@@ -75,7 +77,17 @@ a:active {
   background-color:#d2b48c; 
   font-family:sans-serif;
   color:#fffff0; }
+#gst-ui {
+ background-color:#d2b48c;
+ font-size:18px;
+ padding:1em;
+ margin:0.5em; }
 #header {
   background-color:#d2b48c; } 
 #menu {
   background-color:#d2b48c;  }
+#mst-ui {
+ background-color:#d2b48c;
+ font-size:18px;
+ padding:1em;
+ margin:0.5em; }
