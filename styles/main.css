@@ -1,9 +1,9 @@
 
 body {
- background-color:#fffaf0; } /* FloralWhite */
+ background-color:#fffff0; } /* ivory */
 h1 {
   font-family:sans-serif;
-  color:#fffff0;  } /* Ivory */
+  color:#2f4f4f;  } /* DarkSlateGray */
 li {
   display:inline;
   font-family:sans-serif;
@@ -12,16 +12,16 @@ li {
 div.strings { 
  font-family:monospace;
  font-size:20px;
- color:#808000; /* olive */
+ color:#2f4f4f;
  white-space:nowrap; } 
 div.cmd-ui {
  text-align:center; }
 button.bttn {
  background-color:#fffff0;
- border-color:transparent;
+ border-color:transparent; /* GhostWhite */
  font-family:monospace;
  font-size:18px;
- color:#cd853f; /* peru */
+ color:#1e90ff; /* DodgerBlue */
  padding:2px;
  cursor:pointer; }
 kbd {
@@ -30,9 +30,9 @@ table {
  margin-left:auto;
  margin-right:auto; }
 td.tablet {
- border:1px solid #d2b48c; /* Tan */
+ border:1px solid #dcdcdc; /* Gainsboro */
  background-color:#fffff0; 
- color:#800000; /* Maroon */
+ color:#2f4f4f; /* DarkSlateGray */
  white-space:nowrap;
  padding:0.5em;
  overflow:hidden; }
@@ -40,18 +40,20 @@ p.cush {
  margin-left:1em; }
 a:link {
  text-decoration:none;
- color:#fffff0; }
+ color:#1e90ff; } /* DodgerBlue */
 a:visited {
  text-decoration:none; 
- color:#fffff0; }
+ color:#1e90ff; }
 a:hover {
- text-decoration:none; 
- color:#deb887; /* BurlyWood */
- background-color:#fffff0; } 
+ text-decoration:underline; 
+ color:#4682b4; /* SteelBlue */ 
+ background-color:#f8f8ff; } /* GhostWhite */ 
 a:active {
- text-decoration:none; 
- color:#deb887;
- background-color:#fffff0; } 
+ text-decoration:underline; 
+ color:#4682b4; 
+ background-color:#f8f8ff; } 
+.logo { 
+ float:left; }
 .molign {
  margin-left:18%; }
 .center {
@@ -60,34 +62,34 @@ a:active {
  text-align:center;
  font-family:sans-serif;
  font-size:18px;
- color:#aaa; }
+ color:#2f4f4f; } /* DarkSlateGray */
 .text-zodiac {
  margin-left:12%;
  font-family:monospace;
  font-size:24px;
- color:#800000; } 
+ color:#808080; } /* Gray */
 #container {
   width:100%; }
 #content {
-  background-color:#fffaf0; 
+  background-color:#fffff0; /* ivory */
   width:100%;
   float:left;
-  padding-bottom:1em;  }
+  padding:0.15em;  }
 #footer {
-  background-color:#d2b48c; 
+  background-color:f8f8ff; /* GhostWhite */
   font-family:sans-serif;
-  color:#fffff0; }
+  color:#a9a9a9; } /* DarkGray */
 #gst-ui {
- background-color:#d2b48c;
+ background-color:f8f8ff; /* GhostWhite */
  font-size:18px;
  padding:1em;
  margin:0.5em; }
 #header {
-  background-color:#d2b48c; } 
+  background-color:f8f8ff; } /* GhostWhite */
 #menu {
-  background-color:#d2b48c;  }
+  background-color:f8f8ff; } /* GhostWhite */
 #mst-ui {
- background-color:#d2b48c;
+ background-color:f8f8ff; /* GhostWhite */
  font-size:18px;
  padding:1em;
  margin:0.5em; }
