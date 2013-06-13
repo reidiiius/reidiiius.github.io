@@ -29,13 +29,19 @@ kbd {
 table {
  margin-left:auto;
  margin-right:auto; }
+table.fretboard { 
+  border-collapse:collapse;
+  border:1px solid #dcdcdc;  } /* Gainsboro */
 td.tablet {
  border:1px solid #dcdcdc; /* Gainsboro */
  background-color:#fffff0; 
  color:#2f4f4f; /* DarkSlateGray */
  white-space:nowrap;
- padding:0.5em;
- overflow:hidden; }
+ overflow:hidden;
+ padding:0.5em; }
+td.glyph {
+ width:40px;
+ height:54px; }
 p.cush {
  margin-left:1em; }
 a:link {
@@ -51,7 +57,7 @@ a:hover {
 a:active {
  text-decoration:underline; 
  color:#4682b4; 
- background-color:#f8f8ff; } 
+ background-color:#f8f8ff; }
 .logo { 
  float:left; }
 .molign {
@@ -93,3 +99,5 @@ a:active {
  font-size:18px;
  padding:1em;
  margin:0.5em; }
+#scribe {
+ padding:2em; }
