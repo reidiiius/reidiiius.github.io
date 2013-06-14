@@ -128,9 +128,9 @@ button.bttn {
  cursor:pointer; }
 table.t-center {
  margin-left:auto;
- margin-right:auto; }
+ margin-right:auto; } 
 table.fretboard { 
- background-color:#ffffff; 
+ background-color:transparent; 
  border-collapse:collapse;
  margin-left:auto;
  margin-right:auto;  }
@@ -175,7 +175,10 @@ div#container {
  background-color:#fffff0; } /* FloralWhite */
 div#content {
  background-color:#fffff0; 
- padding:0.25em;  }
+ padding:0.25em;  } 
+div#scribe { 
+ background-color:transparent;
+ padding:2em; } 
 div#footer { 
  background-color:transparent; 
  font-family:sans-serif;
@@ -189,9 +192,6 @@ div#menu {
  background-color:#f4f4f4;
  width:715px;
  height:37px; } 
-div#scribe { 
- background-color:#ffffff;
- padding:2em; }
 @media print { 
  div#header { 
   visibility:hidden; } 
