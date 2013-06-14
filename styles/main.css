@@ -1,36 +1,136 @@
 
 body {
- background-color:#fffff0; } /* ivory */
+ background-color:#fffff0; } 
 h1 {
-  font-family:sans-serif;
-  color:#2f4f4f;  } /* DarkSlateGray */
+ font-family:sans-serif;
+ color:#2f4f4f;  } /* DarkSlateGray */ 
+h3.nav-util { 
+ font-family:sans-serif;
+ color:#cdcdcd; } 
+ul {
+ white-space:nowrap; }
 li {
-  display:inline;
-  font-family:sans-serif;
-  font-size:18px;
-  padding:1em; }
+ display:inline; 
+ font-family:sans-serif;
+ font-size:18px;
+ padding:1em; }
 div.strings { 
  font-family:monospace;
  font-size:20px;
  color:#2f4f4f;
  white-space:nowrap; } 
 div.cmd-ui {
- text-align:center; }
+ text-align:center; } 
+div.embed { 
+ width:500px;
+ margin-left:96px; }
+div#gst-ui { 
+ background-color:#fffff0; 
+ text-align:center;
+ font-family:monospace;
+ font-size:18px;
+ margin-left:20px; }
+div#mst-ui { 
+ background-color:#fffff0; 
+ text-align:center;
+ font-family:monospace;
+ font-size:18px;
+ position:absolute;
+ left:688px;
+ top:120px; } 
+th#gemstone-gst { 
+ background-color:#fff8dc; /* Cornsilk */ 
+ padding:1em; }
+th#gemstone-mst { 
+ background-color:#fff8dc; 
+ padding:1em; }
+td#opal-sapphire-gst { 
+ background-color:#fffaf0; /* FloralWhite */
+ padding:1em; }
+td#opal-peridot-gst { 
+ background-color:#fff8dc;
+ padding:1em; }
+td#opal-amethyst-gst { 
+ background-color:#fffaf0;
+ padding:1em; }
+td#opal-onyx-gst { 
+ background-color:#fff8dc;
+ padding:1em; }
+td#opal-agate-gst { 
+ background-color:#fffaf0;
+ padding:1em; }
+td#opal-beryl-gst { 
+ background-color:#fff8dc;
+ padding:1em; }
+td#topaz-sapphire-gst { 
+ background-color:#fffaf0;
+ padding:1em; }
+td#topaz-peridot-gst { 
+ background-color:#fff8dc;
+ padding:1em; }
+td#topaz-amethyst-gst { 
+ background-color:#fffaf0;
+ padding:1em; }
+td#topaz-onyx-gst { 
+ background-color:#fff8dc;
+ padding:1em; }
+td#topaz-agate-gst { 
+ background-color:#fffaf0;
+ padding:1em; }
+td#topaz-beryl-gst { 
+ background-color:#fff8dc;
+ padding:1em; }
+td#opal-sapphire-mst { 
+ background-color:#fffaf0;
+ padding:1em; }
+td#opal-peridot-mst { 
+ background-color:#fff8dc;
+ padding:1em; }
+td#opal-amethyst-mst { 
+ background-color:#fffaf0;
+ padding:1em; }
+td#opal-onyx-mst { 
+ background-color:#fff8dc;
+ padding:1em; }
+td#opal-agate-mst { 
+ background-color:#fffaf0;
+ padding:1em; }
+td#opal-beryl-mst { 
+ background-color:#fff8dc;
+ padding:1em; }
+td#topaz-sapphire-mst { 
+ background-color:#fffaf0;
+ padding:1em; }
+td#topaz-peridot-mst { 
+ background-color:#fff8dc;
+ padding:1em; }
+td#topaz-amethyst-mst { 
+ background-color:#fffaf0;
+ padding:1em; }
+td#topaz-onyx-mst { 
+ background-color:#fff8dc;
+ padding:1em; }
+td#topaz-agate-mst { 
+ background-color:#fffaf0;
+ padding:1em; }
+td#topaz-beryl-mst { 
+ background-color:#fff8dc;
+ padding:1em; }
 button.bttn {
  background-color:#fffff0;
- border-color:transparent; /* GhostWhite */
+ border-color:transparent;
  font-family:monospace;
  font-size:18px;
  color:#1e90ff; /* DodgerBlue */
  padding:2px;
  cursor:pointer; }
-kbd {
- padding:2px; }
-table {
+table.t-center {
  margin-left:auto;
  margin-right:auto; }
 table.fretboard { 
-  border-collapse:collapse; }
+ border-collapse:collapse;
+ margin-left:auto;
+ margin-right:auto;  }
 td.tablet {
  border:1px solid #dcdcdc; /* Gainsboro */
  background-color:#fffff0; 
@@ -52,15 +152,15 @@ a:visited {
 a:hover {
  text-decoration:underline; 
  color:#4682b4; /* SteelBlue */ 
- background-color:#f8f8ff; } /* GhostWhite */ 
+ background-color:#fffff0; } 
 a:active {
  text-decoration:underline; 
  color:#4682b4; 
- background-color:#f8f8ff; }
+ background-color:#fffff0; }
 .logo { 
  float:left; }
 .molign {
- margin-left:18%; }
+ margin-left:5em; }
 .center {
  text-align:center; }
 .text-main {
@@ -68,35 +168,17 @@ a:active {
  font-family:sans-serif;
  font-size:18px;
  color:#2f4f4f; } /* DarkSlateGray */
-.text-zodiac {
- margin-left:12%;
- font-family:monospace;
- font-size:24px;
- color:#808080; } /* Gray */
-#container {
-  width:100%; }
+#container { background-color:#fffff0; } 
 #content {
-  background-color:#fffff0; /* ivory */
-  width:100%;
-  float:left;
-  padding:0.15em;  }
-#footer {
-  background-color:f8f8ff; /* GhostWhite */
-  font-family:sans-serif;
-  color:#a9a9a9; } /* DarkGray */
-#gst-ui {
- background-color:f8f8ff; /* GhostWhite */
- font-size:18px;
- padding:1em;
- margin:0.5em; }
+ background-color:#fffff0; 
+ padding:0.15em;  }
+div#footer { 
+ background-color:transparent; 
+ font-family:sans-serif;
+ color:#a9a9a9;  } /* DarkGray */
 #header {
-  background-color:f8f8ff; } /* GhostWhite */
+ background-color:transparent; } 
 #menu {
-  background-color:f8f8ff; } /* GhostWhite */
-#mst-ui {
- background-color:f8f8ff; /* GhostWhite */
- font-size:18px;
- padding:1em;
- margin:0.5em; }
+ background-color:transparent; } 
 #scribe {
  padding:2em; }
