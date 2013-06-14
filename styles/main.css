@@ -3,17 +3,19 @@ body {
  background-color:#fffff0; } 
 h1 {
  font-family:sans-serif;
- color:#2f4f4f;  } /* DarkSlateGray */ 
+ color:#2f4f4f;
+ padding-top:2px; } /* DarkSlateGray */ 
 h3.nav-util { 
  font-family:sans-serif;
  color:#cdcdcd; } 
 ul {
- white-space:nowrap; }
+ white-space:nowrap;
+ padding-top:8px; }
 li {
  display:inline; 
  font-family:sans-serif;
  font-size:18px;
- padding:1em; }
+ padding-left:1em; }
 div.strings { 
  font-family:monospace;
  font-size:20px;
@@ -36,14 +38,14 @@ div#mst-ui {
  font-family:monospace;
  font-size:18px;
  position:absolute;
- left:688px;
+ left:465px;
  top:120px; } 
 th#gemstone-gst { 
  background-color:#fff8dc; /* Cornsilk */ 
- padding:1em; }
+ padding:0.5em; }
 th#gemstone-mst { 
  background-color:#fff8dc; 
- padding:1em; }
+ padding:0.5em; }
 td#opal-sapphire-gst { 
  background-color:#fffaf0; /* FloralWhite */
  padding:1em; }
@@ -168,17 +170,23 @@ a:active {
  font-family:sans-serif;
  font-size:18px;
  color:#2f4f4f; } /* DarkSlateGray */
-#container { background-color:#fffff0; } 
-#content {
+div#container { 
+ background-color:#fffff0; } /* FloralWhite */
+div#content {
  background-color:#fffff0; 
- padding:0.15em;  }
+ padding:0.25em;  }
 div#footer { 
  background-color:transparent; 
  font-family:sans-serif;
- color:#a9a9a9;  } /* DarkGray */
-#header {
- background-color:transparent; } 
-#menu {
- background-color:transparent; } 
-#scribe {
+ color:#a9a9a9; /* DarkGray */
+ padding-bottom:0.15em; } 
+div#header {
+ background-color:#f4f4f4;
+ width:400px;
+ height:45px; } 
+div#menu {
+ background-color:#f4f4f4;
+ width:715px;
+ height:37px; } 
+div#scribe {
  padding:2em; }
