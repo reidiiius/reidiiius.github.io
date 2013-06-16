@@ -179,6 +179,10 @@ div#content {
 div#scribe { 
  background-color:transparent;
  padding:2em; } 
+div#sqr { 
+ background-color:transparent;
+ width:555px;
+ height:555px; } 
 div#footer { 
  background-color:transparent; 
  font-family:sans-serif;
