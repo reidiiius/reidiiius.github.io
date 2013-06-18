@@ -1,0 +1,7 @@
+NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr ____ ____ AuHg 
+____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb 
+TiAg FeNp HgAu ____ SnPb ____ CuUr ____ ____ AuHg NpFe ____ 
+____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr 
+HgAu ____ SnPb ____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp 
+AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr ____ ____ 
+SnPb ____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ 
