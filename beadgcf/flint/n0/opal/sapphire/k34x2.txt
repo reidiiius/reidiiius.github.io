@@ -1,0 +1,7 @@
+TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ AgHg 
+PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb 
+HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ AgHg TiFe FeTi 
+____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ 
+SnAu ____ CuPb PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ 
+AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ 
+CuPb PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ 

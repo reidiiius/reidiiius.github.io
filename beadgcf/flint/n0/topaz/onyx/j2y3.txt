@@ -1,0 +1,7 @@
+PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ 
+HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ FePu 
+AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ 
+SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe 
+AgUr ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ 
+____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ 
+FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ 
