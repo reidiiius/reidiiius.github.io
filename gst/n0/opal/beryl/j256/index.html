@@ -13,18 +13,13 @@
 <pre>
 <b>j256</b>
 <script>
-document.write(j256.slice(20,60))
-document.write(j256.slice(0,19)+"<br>")
-document.write(j256.slice(55,60))
-document.write(j256.slice(0,54)+"<br>")
-document.write(j256.slice(35,60))
-document.write(j256.slice(0,35)+"<br>")
-document.write(j256.slice(10,60))
-document.write(j256.slice(0,10)+"<br>")
-document.write(j256.slice(45,60))
-document.write(j256.slice(0,45)+"<br>")
-document.write(j256.slice(20,60))
-document.write(j256.slice(0,20)+"<br>")
+var d=document,o=j256;
+d.writeln(o.slice(20,60).concat(o.slice(0,20)))
+d.writeln(o.slice(55,60).concat(o.slice(0,55)))
+d.writeln(o.slice(35,60).concat(o.slice(0,35)))
+d.writeln(o.slice(10,60).concat(o.slice(0,10)))
+d.writeln(o.slice(45,60).concat(o.slice(0,45)))
+d.writeln(o.slice(20,60).concat(o.slice(0,20)))
 </script>
 </pre>
 </div>
