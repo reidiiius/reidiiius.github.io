@@ -21,6 +21,8 @@ div.strings {
  font-size:20px;
  color:#2f4f4f;
  white-space:nowrap; } 
+div.symbol {
+ white-space:nowrap; }
 div.cmd-ui {
  text-align:center; } 
 div.embed { 
