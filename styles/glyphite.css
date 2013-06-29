@@ -511,17 +511,14 @@
 
 /* unicode */ 
 
-#uMn:before {content:"\25C7";padding-left:0.125em;padding-right:0.1em;}
-#uVa:before {content:"\25CA";padding-left:0.3em;padding-right:0.225em;}
-#uDb:before {content:"\25C6";padding-left:0.125em;padding-right:0.1em;}
-#uDd:before {content:"\25C8";padding-left:0.125em;padding-right:0.1em;}
+#uMn:before {content:"\25CA";padding-left:0.3em;padding-right:0.225em;}
 #uUp:before {content:"\260A";}
 #uDw:before {content:"\260B";}
 #uOp:before {content:"\260D";}
 #uTi:before {content:"\2604";}
 #uSt:before {content:"\2606";}
 #uAu:before {content:"\2609";}
-#uag:before {content:"\263D";}
+#ugA:before {content:"\263D";}
 #uAg:before {content:"\263E";}
 #uHg:before {content:"\263F";}
 #uCu:before {content:"\2640";padding-left:0.15em;padding-right:0.15em;}
@@ -532,7 +529,6 @@
 #uUr:before {content:"\2645";}
 #uNp:before {content:"\2646";}
 #uPu:before {content:"\2647";}
-#uDx:before {content:"\2756";}
 #u__:before {content:"\2003";}
 
 #uAri:before {content:"\2648";font-size:98%;}
@@ -549,7 +545,7 @@
 #uPis:before {content:"\2653";font-size:98%;}
 
 #uFlt:before {content:"\266D";}
-#uNat:before {content:"\266E";}
+#uNtl:before {content:"\266E";}
 #uShp:before {content:"\266F";}
 #uRst:before {content:"\203A";}
 #uUbt:before {content:"\2191";}
