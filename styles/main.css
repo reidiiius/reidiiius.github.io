@@ -28,7 +28,8 @@ div.cmd-ui {
  text-align:center; } 
 div.embed { 
  width:615px;
- margin-left:96px; }
+ margin-left:50px;
+ white-space:nowrap; }
 div#gst-ui { 
  background-color:#fffff0; 
  text-align:center;
