@@ -25,7 +25,8 @@ div.strings {
 div.symbol {
  white-space:nowrap; }
 div.cmd-ui {
- text-align:center; } 
+ text-align:center;
+ white-space:nowrap; } 
 div.embed { 
  width:615px;
  margin-left:20px;
@@ -176,7 +177,7 @@ a:active {
  font-size:18px;
  color:#2f4f4f; } /* DarkSlateGray */
 div#container { 
- background-color:#fffff0; } /* FloralWhite */
+ background-color:#fffff0; } 
 div#content {
  background-color:#fffff0; 
  padding:0.25em;  } 
