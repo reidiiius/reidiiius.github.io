@@ -245,6 +245,6 @@ mdlSTD_topaz=[
 " ",
 " ",
 "Copyright &#169; 2013 Reid Netterville III",
-"</pre>"];
+"<\/pre>"];
 for(var i=0;i<mdlSTD_topaz.length;i++){document.write(mdlSTD_topaz[i]+"<br>");}
 // var i=0;while(mdlSTD_topaz[i]){document.write(mdlSTD_topaz[i]+"<br>");i++;}

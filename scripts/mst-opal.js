@@ -245,6 +245,6 @@ mdlSTD_opal=[
 " ",
 " ",
 "Copyright &#169; 2013 Reid Netterville III",
-"</pre>"];
+"<\/pre>"];
 for(var i=0;i<mdlSTD_opal.length;i++){document.write(mdlSTD_opal[i]+"<br>");}
 // var i=0;while(mdlSTD_opal[i]){document.write(mdlSTD_opal[i]+"<br>");i++;}

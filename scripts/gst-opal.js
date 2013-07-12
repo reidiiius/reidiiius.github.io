@@ -325,6 +325,6 @@ gtrSTD_opal=[
 " ",
 " ",
 "Copyright &#169; 2013 Reid Netterville III",
-"</pre>"];
+"<\/pre>"];
 for(var i=0;i<gtrSTD_opal.length;i++){document.write(gtrSTD_opal[i]+"<br>");}
 // var i=0;while(gtrSTD_opal[i]){document.write(gtrSTD_opal[i]+"<br>");i++;}
