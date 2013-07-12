@@ -1,6 +1,6 @@
 // Copyright 2013 Reid Netterville III 
 gtrSTD_topaz=[
-"<tt>",
+"<pre>",
 "Topaz",
 " ",
 "n0",
@@ -325,6 +325,6 @@ gtrSTD_topaz=[
 " ",
 " ",
 "Copyright &#169; 2013 Reid Netterville III",
-"</tt>"];
+"</pre>"];
 for(var i=0;i<gtrSTD_topaz.length;i++){document.write(gtrSTD_topaz[i]+"<br>");}
 // var i=0;while(gtrSTD_topaz[i]){document.write(gtrSTD_topaz[i]+"<br>");i++;}
