@@ -1,0 +1,7 @@
+k15
+AuHg NpFe ____ ____ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ 
+SnPb ____ CuUr PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ 
+____ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ AuHg NpFe ____ 
+PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb ____ CuUr 
+HgAu ____ SnPb ____ CuUr PbSn ____ AuHg NpFe ____ ____ FeNp 
+AuHg NpFe ____ ____ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ 

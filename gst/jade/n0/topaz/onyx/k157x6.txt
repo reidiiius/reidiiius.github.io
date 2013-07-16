@@ -1,0 +1,7 @@
+k157x6
+CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ 
+FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ 
+____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ 
+SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe 
+____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu 
+CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ 

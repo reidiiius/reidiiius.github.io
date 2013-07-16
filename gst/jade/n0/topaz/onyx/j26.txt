@@ -1,0 +1,7 @@
+j26
+CuNp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ 
+FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ 
+AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
+____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe 
+____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu 
+CuNp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ 

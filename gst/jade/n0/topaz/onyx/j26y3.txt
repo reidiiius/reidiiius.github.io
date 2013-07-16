@@ -1,0 +1,7 @@
+j26y3
+____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ 
+FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ 
+AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ 
+SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe 
+____ ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb NpCu 
+____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ 

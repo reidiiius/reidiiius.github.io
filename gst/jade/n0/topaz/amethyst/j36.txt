@@ -1,0 +1,7 @@
+j36
+____ PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb UrCu 
+FeNp HgAu ____ SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ 
+AuHg NpFe ____ ____ FeNp HgAu ____ SnPb UrCu ____ PbSn ____ 
+SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ 
+____ ____ FeNp HgAu ____ SnPb UrCu ____ PbSn ____ AuHg NpFe 
+____ PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb UrCu 

@@ -1,0 +1,7 @@
+j25
+MnHg CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ 
+TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ 
+____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi 
+____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn 
+NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ 
+MnHg CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ 

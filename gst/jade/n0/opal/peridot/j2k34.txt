@@ -1,0 +1,7 @@
+j2k34
+____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ 
+AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ 
+PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi 
+____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn 
+AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ 
+____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ 

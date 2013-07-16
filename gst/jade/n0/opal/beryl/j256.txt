@@ -1,0 +1,7 @@
+j256
+MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ 
+TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ 
+____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi 
+____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn 
+____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp 
+MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ 

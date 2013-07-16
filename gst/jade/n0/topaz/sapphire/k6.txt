@@ -1,0 +1,7 @@
+k6
+CuPb PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ 
+FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ ____ TiFe 
+AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ 
+SnAu ____ CuPb PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ 
+____ TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ 
+CuPb PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ 

@@ -1,0 +1,7 @@
+j2k5
+MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ 
+TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ 
+____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ 
+____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn 
+NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp 
+MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ 

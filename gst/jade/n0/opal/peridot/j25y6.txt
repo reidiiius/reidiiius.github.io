@@ -1,0 +1,7 @@
+j25y6
+SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ 
+AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ 
+PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi 
+____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn 
+____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ 
+SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ 

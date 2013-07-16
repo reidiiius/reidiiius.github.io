@@ -1,0 +1,7 @@
+k125
+HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu 
+AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
+____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ 
+____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr 
+PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp 
+HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu 

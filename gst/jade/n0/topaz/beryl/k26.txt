@@ -1,0 +1,7 @@
+k26
+CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg 
+FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb 
+AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ 
+____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ 
+____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ 
+CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg 

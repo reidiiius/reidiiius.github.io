@@ -1,0 +1,7 @@
+k26x5
+CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe 
+FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu 
+____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ 
+____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ 
+AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ 
+CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe 
