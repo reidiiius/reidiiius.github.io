@@ -1,0 +1,5 @@
+j17k2
+CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe 
+AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ 
+____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ 
+AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ 

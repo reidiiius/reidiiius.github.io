@@ -1,0 +1,5 @@
+k2j6
+CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg 
+____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu 
+____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ 
+AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ 

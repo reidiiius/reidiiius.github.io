@@ -1,0 +1,5 @@
+j23
+____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg 
+AgUr ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ 
+____ UrAg ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe 
+AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ 

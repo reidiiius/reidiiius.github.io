@@ -1,0 +1,5 @@
+n345
+CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ 
+____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu 
+____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe 
+AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ 

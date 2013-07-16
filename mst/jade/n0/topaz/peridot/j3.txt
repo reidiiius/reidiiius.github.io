@@ -1,0 +1,5 @@
+j3
+____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe 
+AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ 
+SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ 
+AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ 

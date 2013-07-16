@@ -1,0 +1,5 @@
+j5
+AgHg TiFe FeTi ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ 
+SnAu ____ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ 
+AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ CuPb PbCu ____ 
+____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi 

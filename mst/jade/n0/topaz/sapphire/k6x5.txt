@@ -1,0 +1,5 @@
+k6x5
+CuPb PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ 
+AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ 
+SnAu ____ CuPb PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ 
+____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ 

@@ -1,0 +1,5 @@
+n26y5
+CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe 
+AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ 
+SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ 
+____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ 

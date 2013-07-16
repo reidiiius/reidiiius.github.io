@@ -1,0 +1,5 @@
+k256
+CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg 
+____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu 
+____ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ 
+____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ 

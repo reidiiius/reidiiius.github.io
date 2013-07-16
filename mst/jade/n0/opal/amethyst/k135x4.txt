@@ -1,0 +1,5 @@
+k135x4
+____ NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr PbSn ____ 
+HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg FeNp 
+PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr 
+TiAg FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe ____ 

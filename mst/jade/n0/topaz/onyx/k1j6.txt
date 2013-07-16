@@ -1,0 +1,5 @@
+k1j6
+CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ 
+____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu 
+SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe 
+AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ 
