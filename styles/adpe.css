@@ -1,0 +1,20 @@
+
+body {
+ background-color:#eec;
+ }
+div {
+ background-color:#ffe;
+ border:1px solid #ccc;
+ border-radius:15px;
+ padding:5px;
+ }
+.frm-topaz {
+ position:absolute;
+ left:100px;
+ top:50px;
+ }
+.frm-opal {
+ position:absolute;
+ left:100px;
+ top:250px;
+ }
