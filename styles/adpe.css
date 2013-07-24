@@ -2,12 +2,6 @@
 body {
  background-color:#eec;
  }
-div {
- background-color:#ffe;
- border:1px solid #ccc;
- border-radius:15px;
- padding:5px;
- }
 div.footer {
  position:absolute;
  left:50px;
@@ -18,6 +12,12 @@ p.attr {
  font-size:14px;
  color:#777; 
  }
+.frm-topaz, .frm-opal {
+ background-color:#ffe;
+ border:1px solid #ccc;
+ border-radius:15px;
+ padding:5px;
+ }
 .frm-topaz {
  position:absolute;
  left:100px;
@@ -27,4 +27,14 @@ p.attr {
  position:absolute;
  left:100px;
  top:250px;
+ }
+.srl {
+ position:absolute;
+ left:150px;
+ top:450px;
+ font-family:monospace;
+ background-color:#ffe;
+ border:1px solid #ccc;
+ border-radius:8px;
+ padding:5px; 
  }
