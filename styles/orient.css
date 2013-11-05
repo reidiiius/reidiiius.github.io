@@ -1,0 +1,32 @@
+
+body {
+  background-color:#fffef0;
+}
+h1 {
+  text-align:center;
+  font-family:SimSun,SimHei;
+  color:#990;
+  padding:20px;
+}
+.content {
+  position:relative;
+  left:150px;
+  top:1px;
+  font-family:SimSun,SimHei;
+  font-size:28px;
+  color:#550;
+  white-space:nowrap;
+}
+.attr {
+  position:relative;
+  left:530px;
+  top:50px;
+  padding:20px;
+}
+.cpy {
+  font-family:sans-serif;
+  font-size:14px;
+  color:#333;
+  white-space:nowrap;
+}
+
