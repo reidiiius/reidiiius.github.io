@@ -78,3 +78,12 @@
  var n345y7='____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb '
 var j2k56x4='HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu '
 var k2j56y7='NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ '
+
+function guQin() { var d=document;
+d.writeln(o.slice(35,60).concat(o.slice(0,39)))
+d.writeln(o.slice(45,60).concat(o.slice(0,49)))
+d.writeln(o.slice(0, 60).concat(o.slice(0, 4)))
+d.writeln(o.slice(10,60).concat(o.slice(0,14)))
+d.writeln(o.slice(20,60).concat(o.slice(0,24)))
+d.writeln(o.slice(35,60).concat(o.slice(0,39)))
+d.writeln(o.slice(45,60).concat(o.slice(0,49))) }
