@@ -79,6 +79,14 @@
 var j2k56x4='HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu '
 var k2j56y7='NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ '
 
+function gstd() { var d=document;
+d.writeln(o.slice(20,60).concat(o.slice(0,20)))
+d.writeln(o.slice(55,60).concat(o.slice(0,55)))
+d.writeln(o.slice(35,60).concat(o.slice(0,35)))
+d.writeln(o.slice(10,60).concat(o.slice(0,10)))
+d.writeln(o.slice(45,60).concat(o.slice(0,45)))
+d.writeln(o.slice(20,60).concat(o.slice(0,20))) }
+
 function guQin() { var d=document;
 d.writeln(o.slice(35,60).concat(o.slice(0,39)))
 d.writeln(o.slice(45,60).concat(o.slice(0,49)))
@@ -87,3 +95,9 @@ d.writeln(o.slice(10,60).concat(o.slice(0,14)))
 d.writeln(o.slice(20,60).concat(o.slice(0,24)))
 d.writeln(o.slice(35,60).concat(o.slice(0,39)))
 d.writeln(o.slice(45,60).concat(o.slice(0,49))) }
+
+function mstd() { var d=document;
+d.writeln(o.slice(20,60).concat(o.slice(0,20)))
+d.writeln(o.slice(45,60).concat(o.slice(0,45)))
+d.writeln(o.slice(10,60).concat(o.slice(0,10)))
+d.writeln(o.slice(35,60).concat(o.slice(0,35))) }
