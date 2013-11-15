@@ -217,7 +217,11 @@ div#header {
 div#menu {
  background-color:#f4f4f4;
  width:715px;
- height:37px; } 
+ height:37px; }
+div#side-menu {
+ position:absolute;
+ left:700px;
+ top:67px; }
 @media print { 
  div#header { 
   display:none; } 
