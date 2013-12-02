@@ -17,6 +17,15 @@ h1 {
   color:#550;
   white-space:nowrap;
 }
+.qin-octave {
+  position:relative;
+  left:136px;
+  top:1px;
+  font-family:SimSun,SimHei;
+  font-size:28px;
+  color:#550;
+  white-space:nowrap;
+}
 .attr {
   position:relative;
   left:530px;
