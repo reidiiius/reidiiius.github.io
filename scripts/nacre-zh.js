@@ -87,3 +87,31 @@ d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
 d.writeln(o.slice(12,36).concat(o.slice(0,14)))
 d.writeln(o.slice(21,39).concat(o.slice(0,23)))
 d.writeln(o.slice(27,36).concat(o.slice(0,29))) }
+
+function eadgbe() { var d=document
+ d.writeln(o.slice(12,36).concat(o.slice(0,14)))
+ d.writeln(o.slice(33,36).concat(o.slice(0,35)))
+ d.writeln(o.slice(21,39).concat(o.slice(0,23)))
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
+ d.writeln(o.slice(27,36).concat(o.slice(0,29)))
+ d.writeln(o.slice(12,36).concat(o.slice(0,14))) }
+
+function eadgcf() { var d=document
+ d.writeln(o.slice(15,36).concat(o.slice(0,17)))
+ d.writeln(o.slice( 0,36).concat(o.slice(0, 2)))
+ d.writeln(o.slice(21,39).concat(o.slice(0,23)))
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
+ d.writeln(o.slice(27,36).concat(o.slice(0,29)))
+ d.writeln(o.slice(12,36).concat(o.slice(0,14))) }
+
+function cgdae() { var d=document
+ d.writeln(o.slice(12,36).concat(o.slice(0,14)))
+ d.writeln(o.slice(27,36).concat(o.slice(0,29)))
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
+ d.writeln(o.slice(21,39).concat(o.slice(0,23)))
+ d.writeln(o.slice( 0,36).concat(o.slice(0, 2))) }
+
+function serialism() {
+ var nt = new Date()
+ var sr = document.getElementById("qe")
+ sr.innerHTML=nt.getTime() }
