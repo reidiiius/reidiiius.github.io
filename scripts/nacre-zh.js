@@ -80,13 +80,13 @@ var j2k56x4="汞汞 钚铁 一一 一一 铜镎 一一 一一 金铅 镎铜 一�
 var k2j56y7="镎铜 一一 一一 铁钚 汞汞 钚铁 锡钒 一一 铜镎 铅金 一一 一一 "
 
 function guqin() { var d=document
-d.writeln(o.slice(21,39).concat(o.slice(0,23)))
-d.writeln(o.slice(27,36).concat(o.slice(0,29)))
-d.writeln(o.slice( 0,36).concat(o.slice(0, 2)))
-d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
-d.writeln(o.slice(12,36).concat(o.slice(0,14)))
-d.writeln(o.slice(21,39).concat(o.slice(0,23)))
-d.writeln(o.slice(27,36).concat(o.slice(0,29))) }
+ d.writeln(o.slice(21,39).concat(o.slice(0,23)))
+ d.writeln(o.slice(27,36).concat(o.slice(0,29)))
+ d.writeln(o.slice( 0,36).concat(o.slice(0, 2)))
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
+ d.writeln(o.slice(12,36).concat(o.slice(0,14)))
+ d.writeln(o.slice(21,39).concat(o.slice(0,23)))
+ d.writeln(o.slice(27,36).concat(o.slice(0,29))) }
 
 function eadgbe() { var d=document
  d.writeln(o.slice(12,36).concat(o.slice(0,14)))
