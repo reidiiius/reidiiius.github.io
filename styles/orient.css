@@ -4,7 +4,7 @@ body {
 }
 h1 {
   text-align:center;
-  font-family:SimSun,SimHei;
+  font-family:SimSun,SimHei,monospace;
   color:#990;
   padding:20px;
 }
@@ -12,7 +12,7 @@ h1 {
   position:relative;
   left:172px;
   top:1px;
-  font-family:SimSun,SimHei;
+  font-family:SimSun,SimHei,monospace;
   font-size:28px;
   color:#550;
   white-space:nowrap;
@@ -21,7 +21,7 @@ h1 {
   position:relative;
   left:134px;
   top:1px;
-  font-family:SimSun,SimHei;
+  font-family:SimSun,SimHei,monospace;
   font-size:28px;
   color:#550;
   white-space:nowrap;
