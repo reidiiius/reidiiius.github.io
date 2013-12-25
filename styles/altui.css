@@ -1,0 +1,97 @@
+
+html {
+  background-color:#fffef0; }
+body {
+  background-color:transparent; }
+.content {
+  text-align:center;
+  font-family:consolas,monospace;
+  font-size:16px;
+  color:#550;
+  white-space:nowrap; }
+h1 {
+  font-family:helvetica,sans-serif;
+  color:#696969;
+  margin-left:20px; }
+.topaz {
+  position:absolute;
+  left:85px;
+  top:118px;
+  background-color:#fffff0;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px; }
+.sapphire {
+  position:absolute;
+  left:30px;
+  top:230px;
+  background-color:#fffff0;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px; }
+.peridot {
+  position:absolute;
+  left:245px;
+  top:80px;
+  background-color:#fffff0;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px; }
+.amethyst {
+  position:absolute;
+  left:265px;
+  top:230px;
+  background-color:#fffff0;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px; }
+.onyx {
+  position:absolute;
+  left:520px;
+  top:52px;
+  background-color:#fffff0;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px; }
+.agate {
+  position:absolute;
+  left:788px;
+  top:100px;
+  background-color:#fffff0;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px; }
+.beryl {
+  position:absolute;
+  left:800px;
+  top:230px;
+  background-color:#fffff0;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px; }
+.attr {
+  position:absolute;
+  left:40px;
+  top:575px; }
+.cpy {
+  font-family:sans-serif;
+  font-size:16px;
+  color:#a9a9a9; }
+.logo {
+  position:absolute;
+  left:70px;
+  top:420px; }
+ul {
+  list-style-type:none; }
+a:link {
+  text-decoration:none;
+  color:#a0522d; }
+a:visited {
+  text-decoration:none;
+  color:#a0522d; }
+a:hover {
+  text-decoration:underline;
+  color:#8b4513; }
+a:active {
+  text-decoration:underline;
+  color:#8b4513; }
