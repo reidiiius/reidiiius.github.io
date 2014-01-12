@@ -75,6 +75,14 @@ h2 {
   border:2px solid #d3d3d3;
   border-radius:15px;
   padding-right:40px; }
+.list01 {
+  position:absolute;
+  left:80px;
+  top:250px;
+  background-color:#fffff0;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px; }
 ul {
   list-style-type:none; }
 a:link {
