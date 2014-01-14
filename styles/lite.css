@@ -70,15 +70,23 @@ h2 {
 .list00 {
   position:absolute;
   left:80px;
-  top:120px;
+  top:100px;
   background-color:#fffff0;
   border:2px solid #d3d3d3;
   border-radius:15px;
   padding-right:40px; }
 .list01 {
   position:absolute;
-  left:80px;
-  top:250px;
+  left:60px;
+  top:200px;
+  background-color:#fffff0;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px; }
+.list02 {
+  position:absolute;
+  left:100px;
+  top:280px;
   background-color:#fffff0;
   border:2px solid #d3d3d3;
   border-radius:15px;

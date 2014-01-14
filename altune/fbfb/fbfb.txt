@@ -1,0 +1,484 @@
+FBFB
+
+n0
+FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ 
+PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg 
+FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ 
+PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg 
+
+k6
+FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ ____ TiFe 
+PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ CuPb 
+FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ ____ TiFe 
+PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ CuPb 
+
+j17
+FeTi ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ AgHg TiFe 
+PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ CuPb 
+FeTi ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ AgHg TiFe 
+PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ CuPb 
+
+k6x5
+FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ AgHg TiFe 
+PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb 
+FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ AgHg TiFe 
+PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb 
+
+j17y2
+FeTi HgAg ____ ____ ____ CuPb PbCu ____ AuSn ____ AgHg TiFe 
+PbCu ____ AuSn ____ AgHg TiFe FeTi HgAg ____ ____ ____ CuPb 
+FeTi HgAg ____ ____ ____ CuPb PbCu ____ AuSn ____ AgHg TiFe 
+PbCu ____ AuSn ____ AgHg TiFe FeTi HgAg ____ ____ ____ CuPb 
+
+j3
+FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ 
+PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ 
+FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ 
+PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ 
+
+j17k2
+FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu 
+PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi 
+FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu 
+PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi 
+
+n26y5
+FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu 
+PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi 
+FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu 
+PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi 
+
+k26x5
+FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu 
+PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi 
+FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu 
+PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi 
+
+j6
+FeNp HgAu ____ SnPb ____ CuUr PbSn ____ AuHg NpFe ____ ____ 
+PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb ____ CuUr 
+FeNp HgAu ____ SnPb ____ CuUr PbSn ____ AuHg NpFe ____ ____ 
+PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb ____ CuUr 
+
+j36
+FeNp HgAu ____ SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ 
+PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb UrCu ____ 
+FeNp HgAu ____ SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ 
+PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb UrCu ____ 
+
+k56
+FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg 
+PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr 
+FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg 
+PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr 
+
+j136y7
+FeNp ____ ____ SnPb UrCu ____ PbSn ____ AuHg NpFe AgTi ____ 
+PbSn ____ AuHg NpFe AgTi ____ FeNp ____ ____ SnPb UrCu ____ 
+FeNp ____ ____ SnPb UrCu ____ PbSn ____ AuHg NpFe AgTi ____ 
+PbSn ____ AuHg NpFe AgTi ____ FeNp ____ ____ SnPb UrCu ____ 
+
+k56x4
+FeNp HgAu ____ SnPb ____ CuUr ____ ____ AuHg NpFe ____ TiAg 
+____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr 
+FeNp HgAu ____ SnPb ____ CuUr ____ ____ AuHg NpFe ____ TiAg 
+____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr 
+
+n167x4
+FeNp HgAu ____ ____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ 
+PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ ____ UrCu ____ 
+FeNp HgAu ____ ____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ 
+PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ ____ UrCu ____ 
+
+j3k5x4
+FeNp HgAu ____ SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ 
+____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ 
+FeNp HgAu ____ SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ 
+____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ 
+
+j167y2
+FeNp HgAu ____ ____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg 
+PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr 
+FeNp HgAu ____ ____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg 
+PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr 
+
+j2k56x4
+FePu HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn 
+____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp 
+FePu HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn 
+____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp 
+
+k157x6
+FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ 
+PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp 
+FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ 
+PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp 
+
+k1j6
+FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ 
+PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp 
+FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ 
+PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp 
+
+n345
+FePu ____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn 
+PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp 
+FePu ____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn 
+PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp 
+
+j2
+FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ 
+PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp 
+FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ 
+PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp 
+
+j26
+FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ 
+PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp 
+FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ 
+PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp 
+
+j236
+FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ ____ 
+PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ 
+FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ ____ 
+PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ 
+
+j23
+FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ AgUr ____ 
+PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg ____ 
+FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ AgUr ____ 
+PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg ____ 
+
+j23k6
+FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ ____ TiSn 
+PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ UrAg ____ 
+FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ ____ TiSn 
+PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ UrAg ____ 
+
+j2y3
+FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ 
+PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ 
+FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ 
+PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ 
+
+j2k6
+FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn 
+PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp 
+FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn 
+PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp 
+
+j26y3
+FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ 
+PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ____ 
+FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ 
+PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ____ 
+
+j2k56
+FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn 
+PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp 
+FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn 
+PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp 
+
+j246y3
+FePu HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ 
+____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp 
+FePu HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ 
+____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp 
+
+j26y34
+FePu HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ 
+____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ____ 
+FePu HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ 
+____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ____ 
+
+j2k6x5
+FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn 
+PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp 
+FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn 
+PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp 
+
+j2k6y3
+FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn 
+PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ 
+FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn 
+PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ 
+
+j3k6
+FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg 
+PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ 
+FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg 
+PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ 
+
+n45y2
+FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg 
+PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ____ 
+FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg 
+PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ____ 
+
+k2j6
+FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ 
+PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe 
+FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ 
+PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe 
+
+n5y2
+FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb 
+____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe 
+FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb 
+____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe 
+
+k26
+FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb 
+PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe 
+FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb 
+PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe 
+
+k256
+FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb 
+PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe 
+FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb 
+PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe 
+
+n0
+FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ 
+PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg 
+FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ 
+PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg 
+
+j5
+CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ 
+TiFe FeTi ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ AgHg 
+CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ 
+TiFe FeTi ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ AgHg 
+
+k34
+CuPb PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ 
+TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ ____ 
+CuPb PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ 
+TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ ____ 
+
+j5y6
+CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi HgAg ____ ____ ____ 
+TiFe FeTi HgAg ____ ____ ____ CuPb PbCu ____ AuSn ____ AgHg 
+CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi HgAg ____ ____ ____ 
+TiFe FeTi HgAg ____ ____ ____ CuPb PbCu ____ AuSn ____ AgHg 
+
+k34x2
+CuPb PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ 
+TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ AgHg 
+CuPb PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ 
+TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ AgHg 
+
+k1
+AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ 
+UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg 
+AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ 
+UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg 
+
+j2k34
+AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ 
+MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ 
+AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ 
+MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ 
+
+n25x6
+AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ 
+MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ 
+AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ 
+MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ 
+
+j25y6
+AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ 
+MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg 
+AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ 
+MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg 
+
+k5
+SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ 
+NpFe ____ ____ FeNp HgAu ____ SnPb UrCu ____ PbSn ____ AuHg 
+SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ 
+NpFe ____ ____ FeNp HgAu ____ SnPb UrCu ____ PbSn ____ AuHg 
+
+k15
+SnPb ____ CuUr PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ 
+NpFe ____ ____ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ AuHg 
+SnPb ____ CuUr PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ 
+NpFe ____ ____ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ AuHg 
+
+j56
+SnPb UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp ____ ____ 
+NpFe AgTi ____ FeNp ____ ____ SnPb UrCu ____ PbSn ____ AuHg 
+SnPb UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp ____ ____ 
+NpFe AgTi ____ FeNp ____ ____ SnPb UrCu ____ PbSn ____ AuHg 
+
+k135x4
+SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ 
+NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ 
+SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ 
+NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ 
+
+j56y7
+____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ 
+NpFe AgTi ____ FeNp HgAu ____ ____ UrCu ____ PbSn ____ AuHg 
+____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ 
+NpFe AgTi ____ FeNp HgAu ____ ____ UrCu ____ PbSn ____ AuHg 
+
+n345y7
+SnPb ____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ 
+NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr ____ ____ AuHg 
+SnPb ____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ 
+NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr ____ ____ AuHg 
+
+k1j6y7
+____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ 
+NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr PbSn ____ AuHg 
+____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ 
+NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr PbSn ____ AuHg 
+
+k345x2
+SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ 
+NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ ____ ____ AuHg 
+SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ 
+NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ ____ ____ AuHg 
+
+k2j56y7
+____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ 
+PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg 
+____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ 
+PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg 
+
+j346y5
+AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ____ ____ 
+PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu HgHg 
+AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ____ ____ 
+PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu HgHg 
+
+j3k5
+AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ 
+PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ____ 
+AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ 
+PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ____ 
+
+n167
+AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ 
+PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ 
+AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ 
+PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ 
+
+k2
+AuPb NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ 
+PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg 
+AuPb NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ 
+PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg 
+
+k25
+AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
+PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu HgHg 
+AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
+PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu HgHg 
+
+k125
+AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
+PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg 
+AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
+PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg 
+
+k12
+AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ 
+PuFe ____ UrAg ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg 
+AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ 
+PuFe ____ UrAg ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg 
+
+k12j5
+AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ 
+PuFe SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg 
+AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ 
+PuFe SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg 
+
+k2x1
+AuPb ____ ____ TiSn FePu HgHg PuFe ____ UrAg ____ PbAu ____ 
+PuFe ____ UrAg ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg 
+AuPb ____ ____ TiSn FePu HgHg PuFe ____ UrAg ____ PbAu ____ 
+PuFe ____ UrAg ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg 
+
+k2j5
+AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ 
+PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg 
+AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ 
+PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg 
+
+k25x1
+AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
+PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn FePu HgHg 
+AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
+PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn FePu HgHg 
+
+k2j56
+AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ 
+PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ FePu HgHg 
+AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ 
+PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ FePu HgHg 
+
+k257x1
+____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
+PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu HgHg 
+____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
+PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu HgHg 
+
+k25x17
+____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
+PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu HgHg 
+____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
+PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu HgHg 
+
+k2j5y6
+AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ____ ____ ____ 
+PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ FePu HgHg 
+AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ____ ____ ____ 
+PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ FePu HgHg 
+
+k2j5x1
+AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ 
+PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg 
+AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ 
+PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg 
+
+k1j5
+PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ____ 
+FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg 
+PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ____ 
+FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg 
+
+n67x2
+PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ 
+FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg 
+PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ 
+FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg 
+
+j2k5
+TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ 
+CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg 
+TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ 
+CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg 
+
+n6x2
+____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ 
+CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg 
+____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ 
+CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg 
+
+j25
+TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ 
+CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg 
+TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ 
+CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg 
+
+j256
+TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ 
+CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg 
+TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ 
+CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg 
+
+
+Copyright © 2014 Reid Netterville III
