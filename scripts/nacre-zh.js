@@ -1,4 +1,4 @@
-// Copyright 2013 Reid Netterville III 
+// Copyright 2014 Reid Netterville III 
      var j2="汞汞 钚铁 一一 一一 铜镎 铅金 一一 金铅 一一 银铀 一一 铁钚 "
      var j3="汞锡 一一 锡汞 铀铁 一一 铅银 一一 金金 一一 银铅 一一 铁铀 "
      var j5="铅铜 一一 金锡 一一 银汞 钒铁 铁钒 一一 一一 锡金 一一 铜铅 "
@@ -79,19 +79,33 @@
 var j2k56x4="汞汞 钚铁 一一 一一 铜镎 一一 一一 金铅 镎铜 一一 钒锡 铁钚 "
 var k2j56y7="镎铜 一一 一一 铁钚 汞汞 钚铁 锡钒 一一 铜镎 铅金 一一 一一 "
 
-function guqin() { var d=document
- d.writeln(o.slice(21,39).concat(o.slice(0,23)))
- d.writeln(o.slice(27,36).concat(o.slice(0,29)))
- d.writeln(o.slice( 0,36).concat(o.slice(0, 2)))
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
+function cgdae() { var d=document
  d.writeln(o.slice(12,36).concat(o.slice(0,14)))
- d.writeln(o.slice(21,39).concat(o.slice(0,23)))
- d.writeln(o.slice(27,36).concat(o.slice(0,29))) }
+ d.writeln(o.slice(27,36).concat(o.slice(0,29)))
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
+ d.writeln(o.slice(21,36).concat(o.slice(0,23)))
+ d.writeln(o.slice( 0,36).concat(o.slice(0, 2))) }
+
+function dadgad() { var d=document
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
+ d.writeln(o.slice(27,36).concat(o.slice(0,29)))
+ d.writeln(o.slice(21,36).concat(o.slice(0,23)))
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
+ d.writeln(o.slice(27,36).concat(o.slice(0,29)))
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8))) }
+
+function dgdgbd() { var d=document
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
+ d.writeln(o.slice(33,36).concat(o.slice(0,35)))
+ d.writeln(o.slice(21,36).concat(o.slice(0,23)))
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
+ d.writeln(o.slice(21,36).concat(o.slice(0,23)))
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8))) }
 
 function eadgbe() { var d=document
  d.writeln(o.slice(12,36).concat(o.slice(0,14)))
  d.writeln(o.slice(33,36).concat(o.slice(0,35)))
- d.writeln(o.slice(21,39).concat(o.slice(0,23)))
+ d.writeln(o.slice(21,36).concat(o.slice(0,23)))
  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
  d.writeln(o.slice(27,36).concat(o.slice(0,29)))
  d.writeln(o.slice(12,36).concat(o.slice(0,14))) }
@@ -99,17 +113,27 @@ function eadgbe() { var d=document
 function eadgcf() { var d=document
  d.writeln(o.slice(15,36).concat(o.slice(0,17)))
  d.writeln(o.slice( 0,36).concat(o.slice(0, 2)))
- d.writeln(o.slice(21,39).concat(o.slice(0,23)))
+ d.writeln(o.slice(21,36).concat(o.slice(0,23)))
  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
  d.writeln(o.slice(27,36).concat(o.slice(0,29)))
  d.writeln(o.slice(12,36).concat(o.slice(0,14))) }
 
-function cgdae() { var d=document
- d.writeln(o.slice(12,36).concat(o.slice(0,14)))
- d.writeln(o.slice(27,36).concat(o.slice(0,29)))
+function fkbjdn() { var d=document
  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
- d.writeln(o.slice(21,39).concat(o.slice(0,23)))
- d.writeln(o.slice( 0,36).concat(o.slice(0, 2))) }
+ d.writeln(o.slice(30,36).concat(o.slice(0,32)))
+ d.writeln(o.slice(18,36).concat(o.slice(0,20)))
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
+ d.writeln(o.slice(30,36).concat(o.slice(0,32)))
+ d.writeln(o.slice(18,36).concat(o.slice(0,20))) }
+
+function guqin() { var d=document
+ d.writeln(o.slice(21,36).concat(o.slice(0,23)))
+ d.writeln(o.slice(27,36).concat(o.slice(0,29)))
+ d.writeln(o.slice( 0,36).concat(o.slice(0, 2)))
+ d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
+ d.writeln(o.slice(12,36).concat(o.slice(0,14)))
+ d.writeln(o.slice(21,36).concat(o.slice(0,23)))
+ d.writeln(o.slice(27,36).concat(o.slice(0,29))) }
 
 function serialism() {
  var nt = new Date()
