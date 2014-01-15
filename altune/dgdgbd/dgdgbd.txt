@@ -641,4 +641,4 @@ j256
  ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn 
 
 
-Copyright © 2014 Reid Netterville III
+Copyright (c) 2014 Reid Netterville III
