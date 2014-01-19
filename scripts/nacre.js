@@ -79,6 +79,21 @@
 var j2k56x4='HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu '
 var k2j56y7='NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ '
 
+function cyclone() { var d=document;
+d.writeln(o.slice(25,60).concat(o.slice(0,25))) // n4
+d.writeln(o.slice(0, 60).concat(o.slice(0, 0))) // n1
+d.writeln(o.slice(35,60).concat(o.slice(0,35))) // n5
+d.writeln(o.slice(10,60).concat(o.slice(0,10))) // n2
+d.writeln(o.slice(45,60).concat(o.slice(0,45))) // n6
+d.writeln(o.slice(20,60).concat(o.slice(0,20))) // n3
+d.writeln(o.slice(55,60).concat(o.slice(0,55))) // n7
+d.writeln(o.slice(30,60).concat(o.slice(0,30))) // j5
+d.writeln(o.slice(5, 60).concat(o.slice(0, 5))) // j2
+d.writeln(o.slice(40,60).concat(o.slice(0,40))) // j6
+d.writeln(o.slice(15,60).concat(o.slice(0,15))) // j3
+d.writeln(o.slice(50,60).concat(o.slice(0,50))) // j7
+}
+
 function gstd() { var d=document;
 d.writeln(o.slice(20,60).concat(o.slice(0,20)))
 d.writeln(o.slice(55,60).concat(o.slice(0,55)))
