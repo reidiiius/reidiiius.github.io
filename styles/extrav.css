@@ -1,0 +1,28 @@
+
+body {
+  background-color:#002;
+}
+#container {
+  padding-left:50px;
+  padding-top:20px;
+}
+pre {
+  font-family:consolas,monospace;
+  font-size:14pt;
+  color:#990;
+}
+b {
+  font-family:"courier new",monospace;
+  font-size:18pt;
+  color:#777;
+}
+#footer {
+  padding-left:50px;
+  padding-bottom:20px;
+}
+.author {
+  font-family:geneva,sans-serif;
+  font-size:12pt;
+  color:#555;
+}
+
