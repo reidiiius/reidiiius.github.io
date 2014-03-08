@@ -1,0 +1,129 @@
+
+body {
+  background-color:#fffff0;
+}
+ul {
+  list-style-type:none;
+  text-align:center;
+  font-family:consolas,monospace;
+  font-size:20px;
+}
+li {
+  padding:2px; 
+}
+a:link {
+  text-decoration:none;
+  color:#555; 
+}
+a:visited {
+  text-decoration:none;
+  color:#555; 
+}
+a:hover {
+  text-decoration:underline;
+  color:#222; 
+}
+a:active {
+  text-decoration:none;
+  color:#222; 
+}
+h1, h2 {
+  font-family:helvetica,sans-serif;
+  color:#a9a9a9;
+  margin-left:20px;
+}
+.topaz {
+  position:absolute;
+  left:60px;
+  top:118px;
+  background-color:#fffafa; 
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px;
+}
+.sapphire {
+  position:absolute;
+  left:28px;
+  top:235px; 
+  background-color:#fffafa;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px;
+}
+.peridot {
+  position:absolute;
+  left:260px;
+  top:80px; 
+  background-color:#fffafa;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px;
+}
+.amethyst {
+  position:absolute;
+  left:250px;
+  top:250px; 
+  background-color:#fffafa;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px;
+}
+.onyx {
+  position:absolute;
+  left:500px;
+  top:52px; 
+  background-color:#fffafa;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px;
+}
+.agate {
+  position:absolute;
+  left:768px;
+  top:100px; 
+  background-color:#fffafa;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px;
+}
+.beryl {
+  position:absolute;
+  left:780px;
+  top:230px; 
+  background-color:#fffafa;
+  border:2px solid #d3d3d3;
+  border-radius:15px; 
+  padding-right:40px;
+}
+#obv {
+  position:absolute;
+  left:80px;
+  top: 40px;
+  background-color:#fffafa;
+  border:1px dotted #888;
+  padding:10px 30px 0px 40px;
+}
+#rev {
+  position:absolute;
+  left:80px;
+  top:300px;
+  background-color:#fffafa;
+  border:1px dotted #888;
+  padding:10px 30px 0px 40px;
+}
+.tt {
+  font-family:consolas,monospace;
+  font-size:20px;
+  color:#444;
+}
+.attr {
+  font-family:verdana,sans-serif;
+  font-size:14px;
+  color:#888;
+}
+.ftr {
+  position:absolute;
+  left:40px;
+  top:572px;
+}
+
