@@ -206,7 +206,7 @@ div#sqr {
  height:555px; } 
 div#footer { 
  background-color:transparent; 
- width:280px;
+ width:300px;
  font-family:sans-serif;
  color:#a9a9a9; /* DarkGray */
  padding-bottom:0.15em; } 
@@ -216,7 +216,7 @@ div#header {
  height:45px; } 
 div#menu {
  background-color:#f4f4f4;
- width:715px;
+ width:730px;
  height:37px; }
 div#side-menu {
  position:absolute;
