@@ -1,0 +1,55 @@
+
+body {
+  background-color:#ffe;
+}
+#topNav {
+  position:absolute;
+  left:50px;
+  top:20px;
+  width:750px;
+  text-align:center;
+}
+#lowNav {
+  position:absolute;
+  left:50px;
+  top:400px;
+  width:750px;
+  text-align:center;
+}
+.btn {
+  background-color:beige;
+  border:2px solid #ccc;
+  border-radius:8px;
+  font-family:consolas,monospace;
+  font-size:16px;
+  font-weight:bold;
+  color:#555;
+  cursor:pointer;
+  padding:3px;
+  margin:2px;
+}
+#gtr {
+  position:absolute;
+  left:80px;
+  top:170px;
+}
+#sL {
+  font-family:consolas,monospace;
+  font-size:18px;
+  color:#220;
+}
+#sT {
+  font-weight:bold;
+}
+#footer {
+  position:absolute;
+  left:40px;
+  top:572px;
+}
+.msg {
+  font-family:verdana,sans-serif;
+  font-size:14px;
+  color:#888;
+}
+
+
