@@ -211,30 +211,30 @@ document.getElementById("s4").innerHTML=x.slice( 0,61).concat(x.slice(0, 0))
 document.getElementById("s5").innerHTML=x.slice(25,61).concat(x.slice(0,25))
 }
 function sGj(o){document.writeln(o.slice(30,61).concat(o.slice(0,30))) }
-function sDj(o){document.writeln(o.slice(5, 61).concat(o.slice(0, 5))) }
+function sDj(o){document.writeln(o.slice( 5,61).concat(o.slice(0, 5))) }
 function sAj(o){document.writeln(o.slice(40,61).concat(o.slice(0,40))) }
 function sEj(o){document.writeln(o.slice(15,61).concat(o.slice(0,15))) }
 function sBj(o){document.writeln(o.slice(50,61).concat(o.slice(0,50))) }
 function sFn(o){document.writeln(o.slice(25,61).concat(o.slice(0,25))) }
-function sCn(o){document.writeln(o.slice(0, 61).concat(o.slice(0, 0))) }
+function sCn(o){document.writeln(o.slice( 0,61).concat(o.slice(0, 0))) }
 function sGn(o){document.writeln(o.slice(35,61).concat(o.slice(0,35))) }
 function sDn(o){document.writeln(o.slice(10,61).concat(o.slice(0,10))) }
 function sAn(o){document.writeln(o.slice(45,61).concat(o.slice(0,45))) }
 function sEn(o){document.writeln(o.slice(20,61).concat(o.slice(0,20))) }
 function sBn(o){document.writeln(o.slice(55,61).concat(o.slice(0,55))) }
 function sfk(o){document.writeln(o.slice(30,61).concat(o.slice(0,30))) }
-function sCk(o){document.writeln(o.slice(5, 61).concat(o.slice(0, 5))) }
+function sCk(o){document.writeln(o.slice( 5,61).concat(o.slice(0, 5))) }
 function sGk(o){document.writeln(o.slice(40,61).concat(o.slice(0,40))) }
 function sDk(o){document.writeln(o.slice(15,61).concat(o.slice(0,15))) }
 function sAk(o){document.writeln(o.slice(50,61).concat(o.slice(0,50))) }
 
 function tk4(o) { return (o.slice(30,61).concat(o.slice(0,30))) }
-function tn7(o) { return (o.slice(5, 61).concat(o.slice(0, 5))) }
+function tn7(o) { return (o.slice( 5,61).concat(o.slice(0, 5))) }
 function tn3(o) { return (o.slice(40,61).concat(o.slice(0,40))) }
 function tn6(o) { return (o.slice(15,61).concat(o.slice(0,15))) }
 function tn2(o) { return (o.slice(50,61).concat(o.slice(0,50))) }
 function tn5(o) { return (o.slice(25,61).concat(o.slice(0,25))) }
-function tn1(o) { return (o.slice(0, 61).concat(o.slice(0, 0))) }
+function tn1(o) { return (o.slice( 0,61).concat(o.slice(0, 0))) }
 function tn4(o) { return (o.slice(35,61).concat(o.slice(0,35))) }
 function tj7(o) { return (o.slice(10,61).concat(o.slice(0,10))) }
 function tj3(o) { return (o.slice(45,61).concat(o.slice(0,45))) }
@@ -329,6 +329,12 @@ function n67x2()   { tune_("n67x2",   trans_(typSet_.n67x2))   }
 function n6x2()    { tune_("n6x2",    trans_(typSet_.n6x2))    }
 
 function srl() { document.write(new Date().getTime()) }
+
+function dsplyTm() {
+  var xTm = new Date().getTime()
+  document.getElementById("obvTm").innerHTML = xTm
+  document.getElementById("revTm").innerHTML = xTm
+}
 
 var o_j136y7 = [
   tn5(typSet_.j136y7),
