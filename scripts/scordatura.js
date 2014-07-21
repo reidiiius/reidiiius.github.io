@@ -336,6 +336,32 @@ function dsplyTm() {
   document.getElementById("revTm").innerHTML = xTm
 }
 
+function gtrTag(){
+  var s = document.getElementById(q),
+      t = s.getElementsByTagName("dt"),
+      u = s.getElementsByTagName("dd")
+  t[0].innerHTML = q
+  u[0].innerHTML = tj6(r)
+  u[1].innerHTML = tj2(r)
+  u[2].innerHTML = tn4(r)
+  u[3].innerHTML = tj7(r)
+  u[4].innerHTML = tj3(r)
+  u[5].innerHTML = tj6(r)
+}
+
+function gtrClass(){
+  var s = document.getElementById(q),
+      t = s.getElementsByClassName("sttl"),
+      u = s.getElementsByClassName("strg")
+  t[0].innerHTML = q
+  u[0].innerHTML = tj6(r)
+  u[1].innerHTML = tj2(r)
+  u[2].innerHTML = tn4(r)
+  u[3].innerHTML = tj7(r)
+  u[4].innerHTML = tj3(r)
+  u[5].innerHTML = tj6(r)
+}
+
 var o_j136y7 = [
   tn5(typSet_.j136y7),
   tn1(typSet_.j136y7),
