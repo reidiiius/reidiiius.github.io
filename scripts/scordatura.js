@@ -336,20 +336,19 @@ function dsplyTm() {
   document.getElementById("revTm").innerHTML = xTm
 }
 
-function gtrTag(){
+function mdlTag() {
   var s = document.getElementById(q),
       t = s.getElementsByTagName("dt"),
       u = s.getElementsByTagName("dd")
   t[0].innerHTML = q
   u[0].innerHTML = tj6(r)
-  u[1].innerHTML = tj2(r)
-  u[2].innerHTML = tn4(r)
-  u[3].innerHTML = tj7(r)
-  u[4].innerHTML = tj3(r)
-  u[5].innerHTML = tj6(r)
+  u[1].innerHTML = tj3(r)
+  u[2].innerHTML = tj7(r)
+  u[3].innerHTML = tn4(r)
+  u[4].innerHTML = tn1(r)
 }
 
-function gtrClass(){
+function gtrClass() {
   var s = document.getElementById(q),
       t = s.getElementsByClassName("sttl"),
       u = s.getElementsByClassName("strg")
