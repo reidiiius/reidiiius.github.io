@@ -79,7 +79,7 @@ h2 {
 }
 .list00 {
   position:absolute;
-  left:80px;
+  left:40px;
   top:100px;
   background-color:#fffff0;
   border:2px solid #d3d3d3;
@@ -88,7 +88,7 @@ h2 {
 }
 .list01 {
   position:absolute;
-  left:60px;
+  left:40px;
   top:200px;
   background-color:#fffff0;
   border:2px solid #d3d3d3;
@@ -97,7 +97,7 @@ h2 {
 }
 .list02 {
   position:absolute;
-  left:100px;
+  left:52px;
   top:280px;
   background-color:#fffff0;
   border:2px solid #d3d3d3;
@@ -133,7 +133,7 @@ a:active {
 }
 #altfrms {
   position:absolute;
-  left:260px;
+  left:230px;
   top:15px;
 }
 .tnv {
@@ -151,6 +151,8 @@ a:active {
   font-size:13px;
 }
 .ifrm {
+  width:300px;
+  height:150px;
   border:2px solid #ccc;
   border-radius:10px;
 }
