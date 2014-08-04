@@ -36,6 +36,35 @@ a:active {
   text-decoration:overline;
   color:#995;
 }
+#txtfrm {
+  position:absolute;
+  left:250px;
+  top:50px;
+}
+.dm5x2 {
+  background-color:#ffe;
+  width:580px;
+  height:284px;
+  border:2px solid #ccc;
+  border-radius:10px;
+  padding:12px;
+}
+#hepta-k56x4 {
+  position:absolute;
+  left:150px;
+  top:100px;
+  background-image:url("/images/bg/hepta-k56x4.png");
+  width:590px;
+  height:148px;
+}
+#penta-k56x4 {
+  position:absolute;
+  left:150px;
+  top:300px;
+  background-image:url("/images/bg/penta-k56x4.png");
+  width:590px;
+  height:148px;
+}
 .tCent {
   margin-left:auto;
   margin-right:auto;
