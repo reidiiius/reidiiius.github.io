@@ -53,6 +53,13 @@ div#gst-ui {
  position:absolute;
  left:20px;
  top:120px; }
+div#vGtrMdl {
+ position:absolute;
+ left:263px;
+ top:136px;
+ font-family:monospace;
+ font-size:14px;
+ color:#deb887; } /* BurlyWood */
 div#mst-ui { 
  background-color:#fffff0; 
  text-align:center;
