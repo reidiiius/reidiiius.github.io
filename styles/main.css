@@ -54,9 +54,9 @@ div#gst-ui {
  left:20px;
  top:120px; }
 div#vGtrMdl {
- position:absolute;
+ position:fixed;
  left:263px;
- top:136px;
+ top:120px;
  font-family:monospace;
  font-size:14px;
  color:#deb887; } /* BurlyWood */
@@ -210,10 +210,16 @@ div#scribe {
 div#sqr { 
  background-color:transparent;
  width:555px;
- height:555px; } 
+ height:555px; }
+div#fxd8x0 {
+ position:fixed;
+ left:8px;
+ top:0;
+ background-color:#fffff0;
+ z-index:1; } 
 div#footer { 
- background-color:transparent; 
- width:300px;
+ background-color:#fffff0;
+ width:500px;
  font-family:sans-serif;
  color:#a9a9a9; /* DarkGray */
  padding-bottom:0.15em; } 
