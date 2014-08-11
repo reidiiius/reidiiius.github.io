@@ -1,7 +1,0 @@
-PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ ____ FePb HgHg 
-NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb 
-UrAg ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ 
-____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ 
-PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ 
-HgHg PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ ____ FePu 
-AuPb NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ 

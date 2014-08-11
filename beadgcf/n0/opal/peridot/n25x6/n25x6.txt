@@ -1,7 +1,0 @@
-MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ 
-TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb 
-PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi 
-HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn 
-____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ 
-____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ 
-AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ 

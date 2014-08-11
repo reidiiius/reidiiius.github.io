@@ -1,7 +1,0 @@
-PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr 
-HgAu ____ ____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg FeNp 
-AuHg NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr PbSn ____ 
-____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ 
-____ TiAg FeNp HgAu ____ ____ ____ CuUr PbSn ____ AuHg NpFe 
-CuUr PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ ____ ____ 
-FeNp HgAu ____ ____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg 

@@ -1,7 +1,0 @@
-PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp 
-HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu 
-AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ 
-____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe 
-AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ 
-CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ 
-FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ 

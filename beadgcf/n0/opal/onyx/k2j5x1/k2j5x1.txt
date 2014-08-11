@@ -1,7 +1,0 @@
-PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg 
-____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb 
-____ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi 
-TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ 
-PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ 
-HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu 
-AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ 

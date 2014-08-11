@@ -1,7 +1,0 @@
-NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ ____ ____ AuHg 
-UrCu ____ ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb 
-____ FeNp HgAu ____ SnPb UrCu ____ ____ ____ AuHg NpFe AgTi 
-____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ 
-HgAu ____ SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ FeNp 
-AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ ____ ____ 
-SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ 
