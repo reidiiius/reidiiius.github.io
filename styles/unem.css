@@ -1,0 +1,85 @@
+
+body {
+background-color:#fffff0;
+}
+div#ifrm {
+position:absolute;
+left:60px;
+top:20px;
+}
+div#menu-ooo {
+position:absolute;
+left:1px;
+top:190px;
+background-color:#eee;
+}
+div.logicon {
+ position:absolute;
+ left:78px;
+ top:462px; 
+}
+div#footer {
+ position:absolute;
+ left:42px;
+ top:588px; 
+}
+p.attr {
+ font-family:sans-serif;
+ font-size:14px;
+ color:#777;
+}
+a:link {
+ color:#555; 
+}
+a:hover {
+ color:#000; 
+}
+a:visited {
+ color:#555; 
+}
+ul.ooo,ul.n0,ul.topal,ul.path,ul.sub {
+list-style-type:none;
+font-family:consolas,monospace;
+font-size:15px;
+}
+ul.ooo,ul.n0 li,ul.topal li,ul.path li,ul.sub li {
+width:480px;
+}
+ul.sub li {
+display:inline;
+padding:2px;
+}
+ul.ooo li a,ul.n0 li a,ul.topal li a,ul.path li a,ul.sub li a {
+text-decoration:none;
+}
+ul.ooo {
+background-color:#eee;
+}
+ul.n0 {
+background-color:#ddd;
+}
+ul.topal {
+background-color:#ccc;
+}
+ul.path {
+background-color:#ddd;
+}
+ul.sub {
+background-color:#eee;
+}
+ul.n0,ul.topal,ul.path,ul.sub {
+display:none;
+}
+ul.ooo li:hover ul.n0 {
+display:block;
+}
+ul.n0 li:hover ul.topal {
+display:block;
+}
+ul.topal li:hover ul.path {
+display:block;
+}
+ul.path li:hover ul.sub {
+display:block;
+}
+
