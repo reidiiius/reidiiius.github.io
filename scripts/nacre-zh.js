@@ -79,14 +79,14 @@
  j2k56x4="汞汞 钚铁 一一 一一 铜镎 一一 一一 金铅 镎铜 一一 钒锡 铁钚 ",
  k2j56y7="镎铜 一一 一一 铁钚 汞汞 钚铁 锡钒 一一 铜镎 铅金 一一 一一 ";
 
-function cgdae() { var d=document
+function cgdae(o) { var d=document
  d.writeln(o.slice(12,36).concat(o.slice(0,14)))
  d.writeln(o.slice(27,36).concat(o.slice(0,29)))
  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
  d.writeln(o.slice(21,36).concat(o.slice(0,23)))
  d.writeln(o.slice( 0,36).concat(o.slice(0, 2))) }
 
-function dadgad() { var d=document
+function dadgad(o) { var d=document
  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
  d.writeln(o.slice(27,36).concat(o.slice(0,29)))
  d.writeln(o.slice(21,36).concat(o.slice(0,23)))
@@ -94,7 +94,7 @@ function dadgad() { var d=document
  d.writeln(o.slice(27,36).concat(o.slice(0,29)))
  d.writeln(o.slice( 6,36).concat(o.slice(0, 8))) }
 
-function dgdgbd() { var d=document
+function dgdgbd(o) { var d=document
  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
  d.writeln(o.slice(33,36).concat(o.slice(0,35)))
  d.writeln(o.slice(21,36).concat(o.slice(0,23)))
@@ -102,7 +102,7 @@ function dgdgbd() { var d=document
  d.writeln(o.slice(21,36).concat(o.slice(0,23)))
  d.writeln(o.slice( 6,36).concat(o.slice(0, 8))) }
 
-function eadgbe() { var d=document
+function eadgbe(o) { var d=document
  d.writeln(o.slice(12,36).concat(o.slice(0,14)))
  d.writeln(o.slice(33,36).concat(o.slice(0,35)))
  d.writeln(o.slice(21,36).concat(o.slice(0,23)))
@@ -110,7 +110,7 @@ function eadgbe() { var d=document
  d.writeln(o.slice(27,36).concat(o.slice(0,29)))
  d.writeln(o.slice(12,36).concat(o.slice(0,14))) }
 
-function eadgcf() { var d=document
+function eadgcf(o) { var d=document
  d.writeln(o.slice(15,36).concat(o.slice(0,17)))
  d.writeln(o.slice( 0,36).concat(o.slice(0, 2)))
  d.writeln(o.slice(21,36).concat(o.slice(0,23)))
@@ -118,7 +118,7 @@ function eadgcf() { var d=document
  d.writeln(o.slice(27,36).concat(o.slice(0,29)))
  d.writeln(o.slice(12,36).concat(o.slice(0,14))) }
 
-function fkbjdn() { var d=document
+function fkbjdn(o) { var d=document
  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
  d.writeln(o.slice(30,36).concat(o.slice(0,32)))
  d.writeln(o.slice(18,36).concat(o.slice(0,20)))
@@ -126,7 +126,7 @@ function fkbjdn() { var d=document
  d.writeln(o.slice(30,36).concat(o.slice(0,32)))
  d.writeln(o.slice(18,36).concat(o.slice(0,20))) }
 
-function guqin() { var d=document
+function guqin(o) { var d=document
  d.writeln(o.slice(21,36).concat(o.slice(0,23)))
  d.writeln(o.slice(27,36).concat(o.slice(0,29)))
  d.writeln(o.slice( 0,36).concat(o.slice(0, 2)))
