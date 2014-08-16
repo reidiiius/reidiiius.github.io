@@ -1,0 +1,50 @@
+
+body {
+  background-color:#ffe;
+}
+#ruby {
+  position:absolute;
+  left:99px;
+  top:80px;
+  text-align:center;
+}
+#gtr {
+  position:absolute;
+  left:416px;
+  top:12px;
+}
+.vrt {
+  padding:20px;
+  font-family:monospace;
+  font-size:16px;
+  color:#550;
+}
+#emerald {
+  position:absolute;
+  left:592px;
+  top:80px;
+  text-align:center;
+}
+button {
+  margin:3px;
+  border:1px solid #aaa;
+  border-radius:6px;
+  padding:6px;
+  background-color:#fff;
+  font-family:consolas,monospace;
+  font-size:14px;
+  color:#111;
+  cursor:pointer;
+}
+#ftr {
+  position:absolute;
+  left:50px;
+  top:580px;
+}
+.attr {
+  font-family:verdana,sans-serif;
+  font-size:14px;
+  color:#777;
+}
+
+
