@@ -18,6 +18,11 @@ body {
   left:428px;
   top:12px;
 }
+#spt {
+  position:absolute;
+  left:407px;
+  top:20px;
+}
 .vrt {
   padding:20px;
   font-family:monospace;
