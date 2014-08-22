@@ -290,6 +290,38 @@ document.getElementById("s4").innerHTML=x.slice(27,36).concat(x.slice(0,29))
 document.getElementById("s5").innerHTML=x.slice(12,36).concat(x.slice(0,14))
 }
 
+function uGj(o){ document.writeln(o.slice(18,36).concat(o.slice(0,18))) }
+function uDj(o){ document.writeln(o.slice( 3,36).concat(o.slice(0, 3))) }
+function uAj(o){ document.writeln(o.slice(24,36).concat(o.slice(0,24))) }
+function uEj(o){ document.writeln(o.slice( 9,36).concat(o.slice(0, 9))) }
+function uBj(o){ document.writeln(o.slice(30,36).concat(o.slice(0,30))) }
+function uFn(o){ document.writeln(o.slice(15,36).concat(o.slice(0,15))) }
+function uCn(o){ document.writeln(o.slice( 0,36).concat(o.slice(0, 0))) }
+function uGn(o){ document.writeln(o.slice(21,36).concat(o.slice(0,21))) }
+function uDn(o){ document.writeln(o.slice( 6,36).concat(o.slice(0, 6))) }
+function uAn(o){ document.writeln(o.slice(27,36).concat(o.slice(0,27))) }
+function uEn(o){ document.writeln(o.slice(12,36).concat(o.slice(0,12))) }
+function uBn(o){ document.writeln(o.slice(33,36).concat(o.slice(0,33))) }
+function uFk(o){ document.writeln(o.slice(18,36).concat(o.slice(0,18))) }
+function uCk(o){ document.writeln(o.slice( 3,36).concat(o.slice(0, 3))) }
+function uGk(o){ document.writeln(o.slice(24,36).concat(o.slice(0,24))) }
+function uDk(o){ document.writeln(o.slice( 9,36).concat(o.slice(0, 9))) }
+function uAk(o){ document.writeln(o.slice(30,36).concat(o.slice(0,30))) }
+
+function uk4(o) { return (o.slice(18,36).concat(o.slice(0,18))) }
+function un7(o) { return (o.slice( 3,36).concat(o.slice(0, 3))) }
+function un3(o) { return (o.slice(24,36).concat(o.slice(0,24))) }
+function un6(o) { return (o.slice( 9,36).concat(o.slice(0, 9))) }
+function un2(o) { return (o.slice(30,36).concat(o.slice(0,30))) }
+function un5(o) { return (o.slice(15,36).concat(o.slice(0,15))) }
+function un1(o) { return (o.slice( 0,36).concat(o.slice(0, 0))) }
+function un4(o) { return (o.slice(21,36).concat(o.slice(0,21))) }
+function uj7(o) { return (o.slice( 6,36).concat(o.slice(0, 6))) }
+function uj3(o) { return (o.slice(27,36).concat(o.slice(0,27))) }
+function uj6(o) { return (o.slice(12,36).concat(o.slice(0,12))) }
+function uj2(o) { return (o.slice(33,36).concat(o.slice(0,33))) }
+function uj5(o) { return (o.slice(18,36).concat(o.slice(0,18))) }
+
 var clave = {
      j2:"HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu ",
      j3:"HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr ",
@@ -429,7 +461,7 @@ function sDn(o){ document.writeln(o.slice(10,61).concat(o.slice(0,10))) }
 function sAn(o){ document.writeln(o.slice(45,61).concat(o.slice(0,45))) }
 function sEn(o){ document.writeln(o.slice(20,61).concat(o.slice(0,20))) }
 function sBn(o){ document.writeln(o.slice(55,61).concat(o.slice(0,55))) }
-function sfk(o){ document.writeln(o.slice(30,61).concat(o.slice(0,30))) }
+function sFk(o){ document.writeln(o.slice(30,61).concat(o.slice(0,30))) }
 function sCk(o){ document.writeln(o.slice( 5,61).concat(o.slice(0, 5))) }
 function sGk(o){ document.writeln(o.slice(40,61).concat(o.slice(0,40))) }
 function sDk(o){ document.writeln(o.slice(15,61).concat(o.slice(0,15))) }
