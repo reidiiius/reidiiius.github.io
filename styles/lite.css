@@ -124,10 +124,10 @@ a:active {
 }
 #content {
   position:absolute;
-  left:150px;
+  left:90px;
   top:680px;
   font-family:consolas,monospace;
-  font-size:24px;
+  font-size:20px;
   color:#444;
   white-space:nowrap; 
 }
@@ -172,7 +172,7 @@ a:active {
   white-space:nowrap;
 }
 .attr {
-  margin-top:430px;
+  margin-top:380px;
   padding:20px; 
 }
 .cpy {

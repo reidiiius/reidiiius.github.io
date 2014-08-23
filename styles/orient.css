@@ -9,27 +9,25 @@ h1 {
   padding:20px;
 }
 .content {
-  position:relative;
-  left:172px;
-  top:1px;
+  width:832px;
+  margin-left:auto;
+  margin-right:auto;
   font-family:SimSun,SimHei,monospace;
-  font-size:28px;
+  font-size:24px;
   color:#550;
   white-space:nowrap;
 }
 .qin-octave {
-  position:relative;
-  left:134px;
-  top:1px;
+  width:892px;
+  margin-left:auto;
+  margin-right:auto;
   font-family:SimSun,SimHei,monospace;
-  font-size:28px;
+  font-size:24px;
   color:#550;
   white-space:nowrap;
 }
 .attr {
-  position:relative;
-  left:530px;
-  top:50px;
+  text-align:center;
   padding:20px;
 }
 .cpy {
