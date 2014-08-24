@@ -16,7 +16,7 @@ li {
  display:inline; 
  font-family:sans-serif;
  font-size:18px;
- padding-left:1em; }
+ padding-left:16px; }
 div.strings { 
  font-family:monospace;
  font-size:20px;
@@ -55,7 +55,7 @@ div#gst-ui {
  top:120px; }
 div#vGtrMdl {
  position:fixed;
- left:262px;
+ left:260px;
  top:120px;
  font-family:monospace;
  font-size:14px;
@@ -66,86 +66,86 @@ div#mst-ui {
  font-family:monospace;
  font-size:18px;
  position:absolute;
- left:465px;
+ left:466px;
  top:120px; } 
 th#gemstone-gst { 
  background-color:#fff8dc; /* Cornsilk */ 
- padding:0.5em; }
+ padding:8px; }
 th#gemstone-mst { 
  background-color:#fff8dc; 
- padding:0.5em; }
+ padding:8px; }
 td#opal-sapphire-gst { 
  background-color:#fffaf0; /* FloralWhite */
- padding:1em; }
+ padding:16px; }
 td#opal-peridot-gst { 
  background-color:#fff8dc;
- padding:1em; }
+ padding:16px; }
 td#opal-amethyst-gst { 
  background-color:#fffaf0;
- padding:1em; }
+ padding:16px; }
 td#opal-onyx-gst { 
  background-color:#fff8dc;
- padding:1em; }
+ padding:16px; }
 td#opal-agate-gst { 
  background-color:#fffaf0;
- padding:1em; }
+ padding:16px; }
 td#opal-beryl-gst { 
  background-color:#fff8dc;
- padding:1em; }
+ padding:16px; }
 td#topaz-sapphire-gst { 
  background-color:#fffaf0;
- padding:1em; }
+ padding:16px; }
 td#topaz-peridot-gst { 
  background-color:#fff8dc;
- padding:1em; }
+ padding:16px; }
 td#topaz-amethyst-gst { 
  background-color:#fffaf0;
- padding:1em; }
+ padding:16px; }
 td#topaz-onyx-gst { 
  background-color:#fff8dc;
- padding:1em; }
+ padding:16px; }
 td#topaz-agate-gst { 
  background-color:#fffaf0;
- padding:1em; }
+ padding:16px; }
 td#topaz-beryl-gst { 
  background-color:#fff8dc;
- padding:1em; }
+ padding:16px; }
 td#opal-sapphire-mst { 
  background-color:#fffaf0;
- padding:1em; }
+ padding:16px; }
 td#opal-peridot-mst { 
  background-color:#fff8dc;
- padding:1em; }
+ padding:16px; }
 td#opal-amethyst-mst { 
  background-color:#fffaf0;
- padding:1em; }
+ padding:16px; }
 td#opal-onyx-mst { 
  background-color:#fff8dc;
- padding:1em; }
+ padding:16px; }
 td#opal-agate-mst { 
  background-color:#fffaf0;
- padding:1em; }
+ padding:16px; }
 td#opal-beryl-mst { 
  background-color:#fff8dc;
- padding:1em; }
+ padding:16px; }
 td#topaz-sapphire-mst { 
  background-color:#fffaf0;
- padding:1em; }
+ padding:16px; }
 td#topaz-peridot-mst { 
  background-color:#fff8dc;
- padding:1em; }
+ padding:16px; }
 td#topaz-amethyst-mst { 
  background-color:#fffaf0;
- padding:1em; }
+ padding:16px; }
 td#topaz-onyx-mst { 
  background-color:#fff8dc;
- padding:1em; }
+ padding:16px; }
 td#topaz-agate-mst { 
  background-color:#fffaf0;
- padding:1em; }
+ padding:16px; }
 td#topaz-beryl-mst { 
  background-color:#fff8dc;
- padding:1em; }
+ padding:16px; }
 button.bttn {
  background-color:#fffff0;
  border-color:transparent;
@@ -168,12 +168,12 @@ td.tablet {
  color:#2f4f4f; /* DarkSlateGray */
  white-space:nowrap;
  overflow:hidden;
- padding:0.5em; }
+ padding:8px; }
 td.glyph {
  width:40px;
  height:54px; }
 p.cush {
- padding-left:1em; }
+ padding-left:16px; }
 a:link {
  text-decoration:none;
  color:#1e90ff; } /* DodgerBlue */
@@ -191,7 +191,7 @@ a:active {
 .logo { 
  float:left; }
 .molign {
- margin-left:5em; }
+ margin-left:120px; }
 .center {
  text-align:center; }
 .text-main {
@@ -203,10 +203,10 @@ div#container {
  background-color:#fffff0; } 
 div#content {
  background-color:#fffff0; 
- padding:0.25em;  } 
+ padding:2px;  } 
 div#scribe { 
  background-color:transparent;
- padding:2em; } 
+ padding:16px; } 
 div#sqr { 
  background-color:transparent;
  width:555px;
@@ -222,14 +222,14 @@ div#footer {
  width:500px;
  font-family:sans-serif;
  color:#a9a9a9; /* DarkGray */
- padding-bottom:0.15em; } 
+ padding-bottom:2px; } 
 div#header {
  background-color:#f4f4f4;
  width:400px;
  height:45px; } 
 div#menu {
  background-color:#f4f4f4;
- width:730px;
+ width:740px;
  height:37px; }
 div#side-menu {
  position:absolute;
@@ -245,4 +245,5 @@ div#side-menu {
  div#footer { 
   text-align:center; 
   color:#a9a9a9; } 
-  } 
+  }
+
