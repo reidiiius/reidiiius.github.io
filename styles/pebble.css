@@ -36,18 +36,27 @@ a:active {
   text-decoration:overline;
   color:#995;
 }
+iframe {
+  background-color:#ffe;
+  border:2px solid #ccc;
+  border-radius:10px;
+  padding:12px;
+}
+#cntfrm {
+  text-align:center;
+}
 #txtfrm {
   position:absolute;
   left:250px;
   top:50px;
 }
+.dm4x2 {
+  width:480px;
+  height:260px;
+}
 .dm5x2 {
-  background-color:#ffe;
   width:580px;
   height:284px;
-  border:2px solid #ccc;
-  border-radius:10px;
-  padding:12px;
 }
 #hepta-k56x4 {
   position:absolute;
@@ -85,5 +94,4 @@ a:active {
   color:#775;
   padding:20px 0 20px 0;
 }
-
 
