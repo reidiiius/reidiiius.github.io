@@ -2,35 +2,35 @@
 body {
   background-color:#fffff0;
 }
-#fxd8x0 {
+#fxd {
   position:fixed;
-  left:8px;
+  left:0;
   top:0;
-  width:99%;
-  background-color:#fffff0;
   z-index:1;
 }
 #header {
-  position:relative;
-  left:0;
-  top:0;
-  width:980px;
+  background-color:#fffff0;
+  width:1024px;
   height:98px;
+  border:1px solid #fffff0;
+  border-radius:0 0 64px 0;
 }
 .logo {
-  float:left;
+  position:absolute;
+  left:0;
+  top:0;
 }
 h1 {
-  position:relative;
-  left:10px;
-  top:10px;
-  width:300px;
-  font-family:helvetica,arial,sans-serif;
-  color:#4f4f4f;
+  position:absolute;
+  left:120px;
+  top:0;
+  width:210px;
   padding:0 0 0 10px;
 }
 .molign {
-  margin-left:100px;
+  font-family:helvetica,arial,sans-serif;
+  font-size:28px;
+  color:#4f4f4f;
 }
 #menu {
   position:absolute;
@@ -75,12 +75,12 @@ a:active {
   background-color:#fffff0;
 }
 #content {
-  background-color:#fffff0; 
-  margin:130px 0 0 0;
+  background-color:#fffff0;
+  margin-top:120px;
 }
 #scribe {
   background-color:transparent;
-  margin:140px 0 0 0;
+  margin-top:130px;
 }
 .symbol {
   white-space:nowrap;
@@ -136,12 +136,12 @@ a:active {
   font-size:18px;
   position:absolute;
   left:20px;
-  top:120px;
+  top:100px;
 }
 #vGtrMdl {
   position:fixed;
   left:260px;
-  top:120px;
+  top:100px;
   font-family:monospace;
   font-size:14px;
   color:#deb887;
@@ -153,7 +153,7 @@ a:active {
   font-size:18px;
   position:absolute;
   left:466px;
-  top:120px;
+  top:100px;
 }
 #gemstone-gst {
   background-color:#fff8dc;
