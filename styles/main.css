@@ -76,11 +76,11 @@ a:active {
 }
 #content {
   background-color:#fffff0; 
-  margin:128px 0 0 0;
+  margin:130px 0 0 0;
 }
 #scribe {
   background-color:transparent;
-  padding:120px 0 0 0;
+  margin:140px 0 0 0;
 }
 .symbol {
   white-space:nowrap;
