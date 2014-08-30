@@ -296,18 +296,18 @@ a:active {
   padding:10px;
 }
 @media print {
-  div#header {
-    display:none;
-  }
-  div#menu {
-    display:none;
-  }
-  div#content {
-    color:#2f4f4f;
-  }
-  div#footer {
-    text-align:center; 
-    color:#a9a9a9;
-  }
+#header {
+  display:none;
+}
+#menu {
+  display:none;
+}
+#content {
+  color:#2f4f4f;
+}
+#footer {
+  text-align:center; 
+  color:#a9a9a9;
+}
 }
 
