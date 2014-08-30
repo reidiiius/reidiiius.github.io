@@ -144,7 +144,7 @@ a:active {
   top:100px;
   font-family:monospace;
   font-size:14px;
-  color:#deb887;
+  color:#a0522d; /* #deb887 */
 }
 #mst-ui {
   background-color:#fffff0; 
