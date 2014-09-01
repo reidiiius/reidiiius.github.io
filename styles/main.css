@@ -98,14 +98,6 @@ a:active {
   margin-left:auto;
   margin-right:auto;
 }
-.tablet {
-  border:1px solid #dcdcdc;
-  background-color:#fffff0; 
-  color:#2f4f4f;
-  white-space:nowrap;
-  overflow:hidden;
-  padding:8px;
-}
 .cmd-ui {
   text-align:center;
   white-space:nowrap;
@@ -282,6 +274,12 @@ a:active {
   color:#2f4f4f;
   padding:0 0 0 10px;
 }
+.han {
+  font-family:monospace;
+  font-size:14px;
+  color:#2f4f4f;
+  padding:0 5px 0 5px;
+}
 #ftr42 {
   position:absolute;
   left:300px;
@@ -292,6 +290,12 @@ a:active {
   position:absolute;
   left:300px;
   top:5200px;
+  width:430px;
+}
+#ftr76 {
+  position:absolute;
+  left:300px;
+  top:7600px;
   width:430px;
 }
 .copy {
