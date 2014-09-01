@@ -264,6 +264,43 @@ a:active {
   background-color:#fff8dc;
   padding:16px;
 }
+#viewTopaz {
+  position:absolute;
+  left:50px;
+  top:100px;
+  width:430px;
+}
+#viewOpal {
+  position:absolute;
+  left:500px;
+  top:100px;
+  width:430px;
+}
+.nstr {
+  font-family:monospace;
+  font-size:12px;
+  color:#2f4f4f;
+  padding:0 0 0 10px;
+}
+#ftr42 {
+  position:absolute;
+  left:300px;
+  top:4200px;
+  width:430px;
+}
+#ftr52 {
+  position:absolute;
+  left:300px;
+  top:5200px;
+  width:430px;
+}
+.copy {
+  text-align:center;
+  font-family:sans-serif;
+  font-size:12px;
+  color:#2f4f4f;
+  padding:10px;
+}
 #sqr {
   width:444px;
   height:444px;

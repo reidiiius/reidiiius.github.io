@@ -66,9 +66,23 @@ th, td {
   font-size:16px;
   color:#a0522d;
 }
-#footer {
+#side-menu {
+  display:none;
+}
+#viewTopaz, #viewOpal {
+  width:430px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.nstr {
+  font-family:monospace;
+  font-size:12px;
+  color:#2f4f4f;
+  padding:0 0 0 10px;
+}
+#footer, #ftr42, #ftr52 {
   text-align:center;
-  font-size:16px;
+  font-size:14px;
   color:#2f4f4f;
   padding:10px;
 }
