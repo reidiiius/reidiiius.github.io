@@ -256,6 +256,9 @@ a:active {
   background-color:#fff8dc;
   padding:16px;
 }
+.brdt {
+  border:1px dotted #aaa;
+}
 #viewTopaz {
   position:absolute;
   left:50px;
@@ -275,7 +278,7 @@ a:active {
   padding:0 0 0 10px;
 }
 .han {
-  font-family:monospace;
+  font-family:SimSun,SimHei,monospace;
   font-size:14px;
   color:#2f4f4f;
   padding:0 5px 0 5px;
