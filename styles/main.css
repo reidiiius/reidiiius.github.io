@@ -103,13 +103,13 @@ a:active {
   white-space:nowrap;
 }
 .bttn {
- background-color:#fffff0;
- border-color:transparent;
- font-family:monospace;
- font-size:18px;
- color:#1e90ff;
- padding:2px;
- cursor:pointer;
+  border:1px solid #fffff0;
+  background-color:#fffff0;
+  font-family:consolas,"courier new",monospace;
+  font-size:18px;
+  color:#1e90ff;
+  padding:2px;
+  cursor:pointer;
 }
 .fretboard {
   background-color:transparent; 
