@@ -1,30 +1,13 @@
 
 body {
-  background-color:#fffef0;
+  background-color:#fffff0;
 }
 h1 {
   text-align:center;
   font-family:SimSun,SimHei,monospace;
-  color:#990;
-  padding:20px;
-}
-.content {
-  width:832px;
-  margin-left:auto;
-  margin-right:auto;
-  font-family:SimSun,SimHei,monospace;
-  font-size:24px;
-  color:#550;
-  white-space:nowrap;
-}
-.qin-octave {
-  width:892px;
-  margin-left:auto;
-  margin-right:auto;
-  font-family:SimSun,SimHei,monospace;
-  font-size:24px;
-  color:#550;
-  white-space:nowrap;
+  font-size:32px;
+  color:#888800;
+  padding:16px;
 }
 .attr {
   text-align:center;
@@ -33,7 +16,45 @@ h1 {
 .cpy {
   font-family:sans-serif;
   font-size:14px;
-  color:#333;
+  color:#696969;
   white-space:nowrap;
 }
+@media ( min-width:800px ) {
+.content {
+  width:832px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:SimSun,SimHei,monospace;
+  font-size:24px;
+  color:#555500;
+  white-space:nowrap;
+}
+.qin-octave {
+  width:892px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:SimSun,SimHei,monospace;
+  font-size:24px;
+  color:#555500;
+  white-space:nowrap;
+} }
+@media ( max-width:800px ) {
+.content {
+  width:432px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:SimSun,SimHei,monospace;
+  font-size:14px;
+  color:#444400;
+  white-space:nowrap;
+}
+.qin-octave {
+  width:468px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:SimSun,SimHei,monospace;
+  font-size:14px;
+  color:#444400;
+  white-space:nowrap;
+} }
 
