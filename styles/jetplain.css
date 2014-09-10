@@ -46,6 +46,11 @@ button {
   left:416px;
   top:5px;
 }
+#gqn {
+  position:absolute;
+  left:416px;
+  top:5px;
+}
 #cll {
   position:absolute;
   left:426px;
@@ -71,6 +76,9 @@ button {
   margin-right:auto;
 }
 #gtr {
+  text-align:center;
+}
+#gqn {
   text-align:center;
 }
 #cll {
