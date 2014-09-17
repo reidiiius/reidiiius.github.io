@@ -200,3 +200,64 @@ function rR(z) {
   dmt.getElementById("a120").innerHTML = mx[0].slice(12,13)
 }
 
+function crtBss(z) {  var dmt=document
+  dmt.writeln(z.slice( 0,12).concat(z.slice( 0, 1)).join(' ')),
+  dmt.writeln(z.slice( 7,12).concat(z.slice( 0, 8)).join(' ')),
+  dmt.writeln(z.slice( 2,12).concat(z.slice( 0, 3)).join(' ')),
+  dmt.writeln(z.slice( 9,12).concat(z.slice( 0,10)).join(' ')),
+  dmt.writeln(z.slice( 4,12).concat(z.slice( 0, 5)).join(' ')),
+  dmt.writeln(z.slice(11,12).concat(z.slice( 0,12)).join(' ')),
+  dmt.writeln(z.slice( 6,12).concat(z.slice( 0, 7)).join(' '))
+}
+
+function crtGQn(z) {  var dmt=document
+  dmt.writeln(z.slice( 2,12).concat(z.slice( 0, 3)).join(' ')),
+  dmt.writeln(z.slice( 4,12).concat(z.slice( 0, 5)).join(' ')),
+  dmt.writeln(z.slice( 7,12).concat(z.slice( 0, 8)).join(' ')),
+  dmt.writeln(z.slice( 9,12).concat(z.slice( 0,10)).join(' ')),
+  dmt.writeln(z.slice(11,12).concat(z.slice( 0,12)).join(' ')),
+  dmt.writeln(z.slice( 2,12).concat(z.slice( 0, 3)).join(' ')),
+  dmt.writeln(z.slice( 4,12).concat(z.slice( 0, 5)).join(' '))
+}
+
+function crtGtr(z) {  var dmt=document
+  dmt.writeln(z.slice(11,12).concat(z.slice( 0,12)).join(' ')),
+  dmt.writeln(z.slice( 6,12).concat(z.slice( 0, 7)).join(' ')),
+  dmt.writeln(z.slice( 2,12).concat(z.slice( 0, 3)).join(' ')),
+  dmt.writeln(z.slice( 9,12).concat(z.slice( 0,10)).join(' ')),
+  dmt.writeln(z.slice( 4,12).concat(z.slice( 0, 5)).join(' ')),
+  dmt.writeln(z.slice(11,12).concat(z.slice( 0,12)).join(' '))
+}
+
+function crtCll(z) {  var dmt=document
+  dmt.writeln(z.slice(11,12).concat(z.slice( 0,12)).join(' ')),
+  dmt.writeln(z.slice( 4,12).concat(z.slice( 0, 5)).join(' ')),
+  dmt.writeln(z.slice( 9,12).concat(z.slice( 0,10)).join(' ')),
+  dmt.writeln(z.slice( 2,12).concat(z.slice( 0, 3)).join(' ')),
+  dmt.writeln(z.slice( 7,12).concat(z.slice( 0, 8)).join(' '))
+}
+
+function xchng() {
+  function drk_at() {
+    var instr = document.getElementById("dgrm").innerHTML
+    var graph = instr.replace(/\u25A0/g,"@")
+    document.getElementById("dgrm").innerHTML = graph
+  }
+  function lit_pc() {
+    var instr = document.getElementById("dgrm").innerHTML
+    var graph = instr.replace(/\u25A1/g,"%")
+    document.getElementById("dgrm").innerHTML = graph
+  }
+  function at_lit() {
+    var instr = document.getElementById("dgrm").innerHTML
+    var graph = instr.replace(/@/g,"\u25A1")
+    document.getElementById("dgrm").innerHTML = graph
+  }
+  function pc_drk() {
+    var instr = document.getElementById("dgrm").innerHTML
+    var graph = instr.replace(/%/g,"\u25A0")
+    document.getElementById("dgrm").innerHTML = graph
+  }
+    drk_at(); lit_pc(); at_lit(); pc_drk()
+}
+
