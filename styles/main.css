@@ -52,7 +52,7 @@ ul {
 }
 li {
   display:inline;
-  font-family:sans-serif;
+  font-family:helvetica,arial,sans-serif;
   font-size:18px;
   padding:0 0 0 14px;
 }
