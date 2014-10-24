@@ -19,6 +19,10 @@ button {
   cursor:pointer;
   margin:2px;
 }
+.cntrlgn {
+  text-align:center;
+  padding:10px;
+}
 .vrt {
   padding:20px;
   font-family:monospace;
