@@ -240,22 +240,22 @@ function crtCll(z) {  var dmt=document
 function xchng() {
   function drk_at() {
     var instr = document.getElementById("dgrm").innerHTML
-    var graph = instr.replace(/\u25A0/g,"@")
+    var graph = instr.replace(/\u25A0/g,"\u25C6")
     document.getElementById("dgrm").innerHTML = graph
   }
   function lit_pc() {
     var instr = document.getElementById("dgrm").innerHTML
-    var graph = instr.replace(/\u25A1/g,"%")
+    var graph = instr.replace(/\u25A1/g,"\u25C7")
     document.getElementById("dgrm").innerHTML = graph
   }
   function at_lit() {
     var instr = document.getElementById("dgrm").innerHTML
-    var graph = instr.replace(/@/g,"\u25A1")
+    var graph = instr.replace(/\u25C6/g,"\u25A1")
     document.getElementById("dgrm").innerHTML = graph
   }
   function pc_drk() {
     var instr = document.getElementById("dgrm").innerHTML
-    var graph = instr.replace(/%/g,"\u25A0")
+    var graph = instr.replace(/\u25C7/g,"\u25A0")
     document.getElementById("dgrm").innerHTML = graph
   }
     drk_at(); lit_pc(); at_lit(); pc_drk()
