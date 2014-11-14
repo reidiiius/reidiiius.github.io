@@ -1,0 +1,73 @@
+
+body { 
+  background-color:#fdfdfb;
+}
+code {
+  font-family:"courier new",monospace;
+  font-size:14px;
+  color:#2f4f4f;
+}
+#topaz-ui { 
+  position:absolute;
+  left:95px;
+  top:50px;
+}
+#sapphire-ui { 
+  position:absolute;
+  left:50px;
+  top:150px;
+}
+#peridot-ui { 
+  position:absolute;
+  left:220px;
+  top:20px;
+}
+#amethyst-ui { 
+  position:absolute;
+  left:220px;
+  top:200px;
+}
+#onyx-ui { 
+  position:absolute;
+  left:400px;
+  top:20px;
+}
+#agate-ui { 
+  position:absolute;
+  left:565px;
+  top:50px;
+}
+#beryl-ui { 
+  position:absolute;
+  left:580px;
+  top:190px;
+}
+.nav {
+  text-align:center;
+}
+button {
+  margin:2px;
+  border:1px solid #d3d3d3;
+  border-radius:6px;
+  background-color:#fffff0;
+  font-family:"courier new",monospace;
+  font-size:14px;
+  color:#2f4f4f;
+  padding:4px;
+}
+button:hover {
+  border:1px solid #a9a9a9;
+  color:#000000;
+  cursor:pointer;
+}
+#footer { 
+  position:absolute;
+  left:100px;
+  top:580px;
+}
+.attr {
+  font-family:arial,sans-serif;
+  font-size:14px;
+  color:#808080;
+}
+
