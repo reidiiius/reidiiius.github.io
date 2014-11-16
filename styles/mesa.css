@@ -1,0 +1,51 @@
+
+body {
+  background-color:#f5f5dc;
+}
+td {
+  width:30px;
+  height:20px;
+  border:1px solid #d2b48c;
+  border-radius:2px;
+}
+@media screen and ( max-width:400px ) {
+  td {
+    width:18px;
+    height:12px;
+  }
+}
+button {
+  margin:1px;
+  padding:6px;
+  border:1px solid #d2b48c;
+  border-radius:4px;
+  background-color:inherit;
+  font-family:"courier new",monospace;
+  font-size:16px;
+  font-weight:bold;
+  color:#8b4513;
+  cursor:pointer;
+}
+#majestic {
+  padding:1%;
+  text-align:center;
+}
+#guitarneck {
+  margin-top:2%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:2%;
+  background-color:inherit;
+  padding:2px;
+}
+#ftr {
+  margin-top:20%;
+  text-align:center;
+}
+.atrb {
+  font-family:arial,sans-serif;
+  font-size:14px;
+  color:#a0522d;
+}
+
+
