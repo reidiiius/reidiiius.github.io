@@ -3,7 +3,7 @@
 function makeTable(x) {
   var xtbl = document.createElement("TABLE");
   xtbl.setAttribute("id", x);
-  document.getElementById("upper").appendChild(xtbl);
+  document.getElementById("middle").appendChild(xtbl);
 }
 
 function makeRow(x) {
