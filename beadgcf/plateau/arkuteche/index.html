@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="author" content="Reid Netterville III" />
+  <title>Arkuteche</title>
+  <link rel="stylesheet" href="/styles/pastel.css" type="text/css" />
+  <script src="/scripts/nacre.js" type="text/javascript"></script>
+  <script src="/scripts/creatable.js" type="text/javascript"></script>
+</head>
+<body onload="genesis()">
+<div id="upper" class="gates">
+  <button type="button" class="btn" onclick="tbl(n0)">n0</button>
+  <button type="button" class="btn" onclick="tbl(k6)">k6</button>
+  <button type="button" class="btn" onclick="tbl(j17)">j17</button>
+  <button type="button" class="btn" onclick="tbl(k6x5)">k6x5</button>
+  <button type="button" class="btn" onclick="tbl(j17y2)">j17y2</button>
+  <button type="button" class="btn" onclick="tbl(j3)">j3</button>
+  <button type="button" class="btn" onclick="tbl(j17k2)">j17k2</button>
+  <button type="button" class="btn" onclick="tbl(n26y5)">n26y5</button>
+  <button type="button" class="btn" onclick="tbl(k26x5)">k26x5</button>
+  <button type="button" class="btn" onclick="tbl(j6)">j6</button>
+  <button type="button" class="btn" onclick="tbl(j36)">j36</button>
+  <button type="button" class="btn" onclick="tbl(k56)">k56</button>
+  <button type="button" class="btn" onclick="tbl(j136y7)">j136y7</button>
+  <button type="button" class="btn" onclick="tbl(k56x4)">k56x4</button>
+  <button type="button" class="btn" onclick="tbl(n167x4)">n167x4</button>
+  <button type="button" class="btn" onclick="tbl(j3k5x4)">j3k5x4</button>
+  <button type="button" class="btn" onclick="tbl(j167y2)">j167y2</button>
+  <button type="button" class="btn" onclick="tbl(j2)">j2</button>
+  <button type="button" class="btn" onclick="tbl(j236)">j236</button>
+  <button type="button" class="btn" onclick="tbl(j26)">j26</button>
+  <button type="button" class="btn" onclick="tbl(j23)">j23</button>
+  <button type="button" class="btn" onclick="tbl(j23k6)">j23k6</button>
+  <button type="button" class="btn" onclick="tbl(j2y3)">j2y3</button>
+  <button type="button" class="btn" onclick="tbl(j2k6)">j2k6</button>
+  <button type="button" class="btn" onclick="tbl(j26y3)">j26y3</button>
+  <button type="button" class="btn" onclick="tbl(j2k56)">j2k56</button>
+  <button type="button" class="btn" onclick="tbl(j246y3)">j246y3</button>
+  <button type="button" class="btn" onclick="tbl(j2k56x4)">j2k56x4</button>
+  <button type="button" class="btn" onclick="tbl(k157x6)">k157x6</button>
+  <button type="button" class="btn" onclick="tbl(j26y34)">j26y34</button>
+  <button type="button" class="btn" onclick="tbl(j2k6x5)">j2k6x5</button>
+  <button type="button" class="btn" onclick="tbl(j2k6y3)">j2k6y3</button>
+  <button type="button" class="btn" onclick="tbl(k1j6)">k1j6</button>
+  <button type="button" class="btn" onclick="tbl(n345)">n345</button>
+  <button type="button" class="btn" onclick="tbl(j3k6)">j3k6</button>
+  <button type="button" class="btn" onclick="tbl(n45y2)">n45y2</button>
+  <button type="button" class="btn" onclick="tbl(k2j6)">k2j6</button>
+  <button type="button" class="btn" onclick="tbl(n5y2)">n5y2</button>
+  <button type="button" class="btn" onclick="tbl(k26)">k26</button>
+  <button type="button" class="btn" onclick="tbl(k256)">k256</button>
+</div>
+<div id="lower" class="gates">
+  <button type="button" class="btn" onclick="tbl(n0)">n0</button>
+  <button type="button" class="btn" onclick="tbl(j5)">j5</button>
+  <button type="button" class="btn" onclick="tbl(k34)">k34</button>
+  <button type="button" class="btn" onclick="tbl(j5y6)">j5y6</button>
+  <button type="button" class="btn" onclick="tbl(k34x2)">k34x2</button>
+  <button type="button" class="btn" onclick="tbl(k1)">k1</button>
+  <button type="button" class="btn" onclick="tbl(j2k34)">j2k34</button>
+  <button type="button" class="btn" onclick="tbl(n25x6)">n25x6</button>
+  <button type="button" class="btn" onclick="tbl(j25y6)">j25y6</button>
+  <button type="button" class="btn" onclick="tbl(k5)">k5</button>
+  <button type="button" class="btn" onclick="tbl(k15)">k15</button>
+  <button type="button" class="btn" onclick="tbl(j56)">j56</button>
+  <button type="button" class="btn" onclick="tbl(k135x4)">k135x4</button>
+  <button type="button" class="btn" onclick="tbl(j56y7)">j56y7</button>
+  <button type="button" class="btn" onclick="tbl(n345y7)">n345y7</button>
+  <button type="button" class="btn" onclick="tbl(k1j6y7)">k1j6y7</button>
+  <button type="button" class="btn" onclick="tbl(k345x2)">k345x2</button>
+  <button type="button" class="btn" onclick="tbl(k2)">k2</button>
+  <button type="button" class="btn" onclick="tbl(k125)">k125</button>
+  <button type="button" class="btn" onclick="tbl(k25)">k25</button>
+  <button type="button" class="btn" onclick="tbl(k12)">k12</button>
+  <button type="button" class="btn" onclick="tbl(k12j5)">k12j5</button>
+  <button type="button" class="btn" onclick="tbl(k2x1)">k2x1</button>
+  <button type="button" class="btn" onclick="tbl(k2j5)">k2j5</button>
+  <button type="button" class="btn" onclick="tbl(k25x1)">k25x1</button>
+  <button type="button" class="btn" onclick="tbl(k2j56)">k2j56</button>
+  <button type="button" class="btn" onclick="tbl(k257x1)">k257x1</button>
+  <button type="button" class="btn" onclick="tbl(k2j56y7)">k2j56y7</button>
+  <button type="button" class="btn" onclick="tbl(j346y5)">j346y5</button>
+  <button type="button" class="btn" onclick="tbl(k25x17)">k25x17</button>
+  <button type="button" class="btn" onclick="tbl(k2j5y6)">k2j5y6</button>
+  <button type="button" class="btn" onclick="tbl(k2j5x1)">k2j5x1</button>
+  <button type="button" class="btn" onclick="tbl(j3k5)">j3k5</button>
+  <button type="button" class="btn" onclick="tbl(n167)">n167</button>
+  <button type="button" class="btn" onclick="tbl(k1j5)">k1j5</button>
+  <button type="button" class="btn" onclick="tbl(n67x2)">n67x2</button>
+  <button type="button" class="btn" onclick="tbl(j2k5)">j2k5</button>
+  <button type="button" class="btn" onclick="tbl(n6x2)">n6x2</button>
+  <button type="button" class="btn" onclick="tbl(j25)">j25</button>
+  <button type="button" class="btn" onclick="tbl(j256)">j256</button>
+</div>
+<div id="ftr">
+  <p class="atrb">Copyright &#xA9; 2014 Reid Netterville III</p>
+</div>
+</body>
+</html>
+
