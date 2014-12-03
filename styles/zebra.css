@@ -2,6 +2,18 @@
 body {
   background-color:#fffff0;
 }
+#heptxt, #pentxt {
+  width:304px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:5px;
+}
+.dm3x2 {
+  width:300px;
+  height:220px;
+  border:1px solid #a9a9a9;
+  border-radius:6px;
+}
 .cntrlgn {
   text-align:center;
   padding:10px;
