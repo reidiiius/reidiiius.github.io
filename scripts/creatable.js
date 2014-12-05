@@ -249,7 +249,4 @@ function genesis() {
   viewScale(n0);
 }
 
-function tbl(x) {
-  viewScale(x);
-}
 
