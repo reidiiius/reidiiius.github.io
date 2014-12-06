@@ -1,108 +1,109 @@
 
-body { 
- background-color:beige;
+body {
+  margin:0;
+  padding:0;
+  background-color:#f5f5dc;
 }
-ul {
- list-style-type:none;
- text-align:center;
- font-family:monospace;
- font-size:18px;
-}
-li {
- padding:1px; 
-}
-a:link {
- text-decoration:none;
- color:#555; 
-}
-a:hover {
- text-decoration:underline;
- color:#222; 
-}
-a:visited {
- text-decoration:none;
- color:#555; 
-}
-h1, h2, h3 {
+h1 {
   font-family:sans-serif;
-  color:darkgrey;
+  color:#a9a9a9;
   margin-left:20px;
 }
+.topaz, .sapphire, .peridot, .amethyst, .onyx, .agate, .beryl {
+  background-color:#fffff0; 
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px;
+}
+ul {
+  list-style-type:none;
+  text-align:center;
+  font-family:monospace;
+  font-size:18px;
+}
+li {
+  padding:1px; 
+}
+a:link {
+  text-decoration:none;
+  color:#696969; 
+}
+a:visited {
+  text-decoration:none;
+  color:#696969; 
+}
+a:hover {
+  text-decoration:underline;
+  color:#2f4f4f; 
+}
+.footer {
+  padding:1px;
+}
+.attr {
+  font-family:sans-serif;
+  font-size:14px;
+  color:#808080;
+}
+@media screen and ( min-width:800px ) {
 .topaz {
   position:absolute;
   left:60px;
   top:118px;
-  background-color:ivory; 
-  border:2px solid lightgrey;
-  border-radius:15px;
-  padding-right:40px;
 }
 .sapphire {
   position:absolute;
   left:28px;
   top:230px; 
-  background-color:ivory;
-  border:2px solid lightgrey;
-  border-radius:15px;
-  padding-right:40px;
 }
 .peridot {
   position:absolute;
   left:260px;
   top:80px; 
-  background-color:ivory;
-  border:2px solid lightgrey;
-  border-radius:15px;
-  padding-right:40px;
 }
 .amethyst {
   position:absolute;
   left:250px;
-  top:230px; 
-  background-color:ivory;
-  border:2px solid lightgrey;
-  border-radius:15px;
-  padding-right:40px;
+  top:230px;
 }
 .onyx {
   position:absolute;
   left:500px;
-  top:52px; 
-  background-color:ivory;
-  border:2px solid lightgrey;
-  border-radius:15px;
-  padding-right:40px;
+  top:52px;
 }
 .agate {
   position:absolute;
   left:768px;
-  top:100px; 
-  background-color:ivory;
-  border:2px solid lightgrey;
-  border-radius:15px;
-  padding-right:40px;
+  top:100px;
 }
 .beryl {
   position:absolute;
   left:780px;
-  top:230px; 
-  background-color:ivory;
-  border:2px solid lightgrey;
-  border-radius:15px; 
-  padding-right:40px;
+  top:230px;
 }
 .logo {
   position:absolute;
   left:70px;
   top:420px; 
 }
-div.footer {
- position:absolute;
- left:50px;
- top:550px; 
+.footer {
+  position:absolute;
+  left:50px;
+  top:550px; 
+  }
 }
-p.attr {
- font-family:sans-serif;
- font-size:14px;
- color:#777;
+@media screen and ( max-width:800px ) {
+.topaz, .sapphire, .peridot, .amethyst, .onyx, .agate, .beryl {
+  margin-top:8px;
+  margin-left:auto;
+  margin-right:auto;
+  width:200px;
 }
+.logo {
+  margin-top:16px;
+  text-align:center;
+}
+.footer {
+  text-align:center;
+  }
+}
+
