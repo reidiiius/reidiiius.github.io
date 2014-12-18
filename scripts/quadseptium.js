@@ -1,6 +1,6 @@
 /* Copyright 2014 Reid Netterville III */
 
-  var uc = ['\u25A1','\u25A0']
+  var uc = ['\u25A0','\u25A1']
 
   var z_i0 = [uc[1],uc[1],uc[1],uc[1],uc[1],uc[1],uc[1],uc[1],uc[1],uc[1],uc[1],uc[1]],
       z_j2 = [uc[0],uc[1],uc[0],uc[1],uc[0],uc[1],uc[0],uc[0],uc[0],uc[1],uc[1],uc[0]],
