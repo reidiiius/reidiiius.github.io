@@ -6,8 +6,23 @@
 <title>Forty</title>
 <style type="text/css">
 body {
-  padding-top:12px;
+  margin:0;
+  padding:0;
   background-color:#fffff0;
+}
+#util {
+  padding:0.25em;
+  text-align:center;
+}
+button {
+  border:1px solid #a9a9a9;
+  border-radius:6px;
+  padding:0.25em;
+  background-color:inherit;
+  font-family:monospace;
+  font-size:0.75em;
+  color:#2f4f4f;
+  cursor:pointer;
 }
 table {
   margin-left:auto;
@@ -26,14 +41,45 @@ td {
 }
 .attr {
   text-align:center;
-  line-height:0.75em;
+  line-height:0.8em;
   font-family:monospace;
-  font-size:0.5em;
+  font-size:0.75em;
   color:#696969;
 }
 </style>
+<script type="text/javascript">
+function rplChr() {
+  function l_v() {
+    var x = document.getElementById("wilderness").innerHTML
+    var y = x.replace(/\u2500/g,"\u25CC")
+    document.getElementById("wilderness").innerHTML = y
+  }
+  function b_w() {
+    var x = document.getElementById("wilderness").innerHTML
+    var y = x.replace(/\u25CF/g,"\u25CB")
+    document.getElementById("wilderness").innerHTML = y
+  }
+  function v_b() {
+    var x = document.getElementById("wilderness").innerHTML
+    var y = x.replace(/\u25CC/g,"\u25CF")
+    document.getElementById("wilderness").innerHTML = y
+  }
+  function w_l() {
+    var x = document.getElementById("wilderness").innerHTML
+    var y = x.replace(/\u25CB/g,"\u2500")
+    document.getElementById("wilderness").innerHTML = y
+  }
+    l_v()
+   b_w()
+  v_b()
+ w_l()
+}
+</script>
 </head>
 <body>
+<div id="util">
+  <button type="button" onclick="rplChr()">&#x25CF; &lt;&#x2500;&gt; &#x25CB;</button>
+</div>
 <table id="wilderness">
 <tbody><tr>
   <td>
