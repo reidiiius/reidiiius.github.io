@@ -48,37 +48,22 @@ td {
 }
 </style>
 <script type="text/javascript">
-function rplChr() {
-  function l_v() {
+function heptaPenta() {
+  var q = function darkToLight( n, z ) {
     var x = document.getElementById("wilderness").innerHTML
-    var y = x.replace(/\u2500/g,"\u25CC")
+    var y = x.replace( n, z )
     document.getElementById("wilderness").innerHTML = y
   }
-  function b_w() {
-    var x = document.getElementById("wilderness").innerHTML
-    var y = x.replace(/\u25CF/g,"\u25CB")
-    document.getElementById("wilderness").innerHTML = y
-  }
-  function v_b() {
-    var x = document.getElementById("wilderness").innerHTML
-    var y = x.replace(/\u25CC/g,"\u25CF")
-    document.getElementById("wilderness").innerHTML = y
-  }
-  function w_l() {
-    var x = document.getElementById("wilderness").innerHTML
-    var y = x.replace(/\u25CB/g,"\u2500")
-    document.getElementById("wilderness").innerHTML = y
-  }
-    l_v()
-   b_w()
-  v_b()
- w_l()
+     q( /\u2500/g, "\u25CC" )
+    q( /\u25CF/g, "\u25CB" )
+   q( /\u25CC/g, "\u25CF" )
+  q( /\u25CB/g, "\u2500" )
 }
 </script>
 </head>
 <body>
 <div id="util">
-  <button type="button" onclick="rplChr()">&#x25CF; &lt;&#x2500;&gt; &#x25CB;</button>
+  <button type="button" onclick="heptaPenta()">● &lt;~&gt; ○</button>
 </div>
 <table id="wilderness">
 <tbody><tr>
