@@ -2,5 +2,5 @@
 
  - [http://reidiiius.github.io/](http://reidiiius.github.io/)
 
-> Copyright &#169; 2014 Reid Netterville III
+> Copyright &#169; 2014-2015 Reid Netterville III
 
