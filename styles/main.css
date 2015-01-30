@@ -111,6 +111,10 @@ a:active {
   padding:2px;
   cursor:pointer;
 }
+button:hover {
+  color:#4682b4;
+  text-decoration:underline;
+}
 .fretboard {
   background-color:transparent; 
   border-collapse:collapse;
