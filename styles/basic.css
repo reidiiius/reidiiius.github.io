@@ -51,16 +51,16 @@ h1, h2 {
 }
 .peridot {
   position:absolute;
-  left:260px;
-  top:80px; 
+  left:264px;
+  top:75px; 
   background-color:#fffff0;
   border:2px solid #d3d3d3;
   border-radius:15px;
 }
 .amethyst {
   position:absolute;
-  left:250px;
-  top:250px; 
+  left:252px;
+  top:275px; 
   background-color:#fffff0;
   border:2px solid #d3d3d3;
   border-radius:15px;

@@ -1,4 +1,4 @@
-/* Copyright 2014 Reid Netterville III */
+/* Copyright 2014-2015 Reid Netterville III */
 
 function eQf(resId) {
   var xhrq = new XMLHttpRequest()
@@ -13,6 +13,7 @@ function qrtj17() { eQf("/beadgcf/vrt/obv/qrtj17.txt") }
 function qrtk6x5() { eQf("/beadgcf/vrt/obv/qrtk6x5.txt") }
 function qrtj17y2() { eQf("/beadgcf/vrt/obv/qrtj17y2.txt") }
 function qrtj3() { eQf("/beadgcf/vrt/obv/qrtj3.txt") }
+function qrtj34k6() { eQf("/beadgcf/vrt/obv/qrtj34k6.txt") }
 function qrtj17k2() { eQf("/beadgcf/vrt/obv/qrtj17k2.txt") }
 function qrtn26y5() { eQf("/beadgcf/vrt/obv/qrtn26y5.txt") }
 function qrtk26x5() { eQf("/beadgcf/vrt/obv/qrtk26x5.txt") }
@@ -55,6 +56,7 @@ function qrtk34() { eQf("/beadgcf/vrt/rev/qrtk34.txt") }
 function qrtj5y6() { eQf("/beadgcf/vrt/rev/qrtj5y6.txt") }
 function qrtk34x2() { eQf("/beadgcf/vrt/rev/qrtk34x2.txt") }
 function qrtk1() { eQf("/beadgcf/vrt/rev/qrtk1.txt") }
+function qrtk17j5() { eQf("/beadgcf/vrt/rev/qrtk17j5.txt") }
 function qrtj2k34() { eQf("/beadgcf/vrt/rev/qrtj2k34.txt") }
 function qrtn25x6() { eQf("/beadgcf/vrt/rev/qrtn25x6.txt") }
 function qrtj25y6() { eQf("/beadgcf/vrt/rev/qrtj25y6.txt") }
