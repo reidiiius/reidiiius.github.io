@@ -1,4 +1,4 @@
-/* Copyright 2014 Reid Netterville III */
+/* Copyright 2014-2015 Reid Netterville III */
 
   var uc = ['\u25A0','\u25A1']
 
@@ -51,8 +51,10 @@
    z_j26y3 = [uc[0],uc[1],uc[0],uc[0],uc[1],uc[1],uc[0],uc[0],uc[0],uc[0],uc[1],uc[1]],
    z_j2k34 = [uc[0],uc[0],uc[0],uc[1],uc[0],uc[1],uc[0],uc[0],uc[0],uc[1],uc[1],uc[1]],
    z_j2k56 = [uc[0],uc[1],uc[1],uc[0],uc[1],uc[0],uc[0],uc[0],uc[0],uc[1],uc[1],uc[0]],
+   z_j34k6 = [uc[1],uc[1],uc[0],uc[1],uc[1],uc[0],uc[0],uc[0],uc[1],uc[0],uc[0],uc[0]],
    z_j56y7 = [uc[0],uc[0],uc[1],uc[0],uc[0],uc[1],uc[1],uc[0],uc[1],uc[0],uc[1],uc[0]],
    z_k12j5 = [uc[0],uc[0],uc[1],uc[1],uc[0],uc[1],uc[0],uc[1],uc[0],uc[1],uc[0],uc[0]],
+   z_k17j5 = [uc[0],uc[0],uc[1],uc[1],uc[0],uc[1],uc[1],uc[0],uc[0],uc[0],uc[1],uc[0]],
    z_k25x1 = [uc[0],uc[1],uc[1],uc[0],uc[0],uc[1],uc[0],uc[1],uc[1],uc[0],uc[0],uc[0]],
    z_k26x5 = [uc[0],uc[1],uc[1],uc[1],uc[0],uc[0],uc[0],uc[0],uc[1],uc[1],uc[0],uc[0]],
    z_k2j56 = [uc[0],uc[0],uc[1],uc[0],uc[1],uc[1],uc[0],uc[0],uc[1],uc[1],uc[0],uc[0]],

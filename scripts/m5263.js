@@ -1,4 +1,5 @@
-// Copyright 2013 Reid Netterville III 
+// Copyright 2013-2015 Reid Netterville III 
+
 mdlSTD=[
 "<pre>",
 "Mandolin Standard Tuning",
@@ -38,6 +39,12 @@ mdlSTD=[
 "AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____",
 "SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____",
 "AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____",
+"<a name='j34k6'><\/a>",
+"j34k6",
+"CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe",
+"____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____",
+"SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____",
+"AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____",
 "<a name='j17k2'><\/a>",
 "j17k2",
 "CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe",
@@ -272,6 +279,12 @@ mdlSTD=[
 "AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____",
 "HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr",
 "PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____",
+"<a name='k17j5'><\/a>",
+"k17j5",
+"SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____",
+"AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____",
+"HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn",
+"____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi",
 "<a name='j2k34'><\/a>",
 "j2k34",
 "____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____",
@@ -478,7 +491,10 @@ mdlSTD=[
 "____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi",
 " ",
 " ",
-"Copyright &#169; 2013 Reid Netterville III",
+"Copyright \u00A9 2013-2015 Reid Netterville III",
 "<\/pre>"];
-for(var i=0;i<mdlSTD.length;i++){document.write(mdlSTD[i]+"<br>");}
-// var i=0;while(mdlSTD[i]){document.write(mdlSTD[i]+"<br>");i++;}
+
+for (var i = 0; i < mdlSTD.length; i++) {
+  document.writeln(mdlSTD[i]);
+}
+

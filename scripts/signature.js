@@ -1,4 +1,4 @@
-/*  Copyright 2014 Reid Netterville III  */
+/*  Copyright 2014-2015 Reid Netterville III  */
 
  var n0 = {  // 1392405136828
  fn:"PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg ",
@@ -53,6 +53,15 @@
  an:"AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ ",
  en:"____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ",
  bn:"FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ "}
+
+ var j34k6 = {  // 1423265032293
+ fn:"____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ",
+ cn:"HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn ",
+ gn:"AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ ",
+ dn:"SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ ",
+ an:"____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ",
+ en:"CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe ",
+ bn:"FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu "}
 
  var j17k2 = {  // 1392405588312
  fn:"PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi ",
@@ -404,6 +413,15 @@
  an:"AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ ",
  en:"SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ ",
  bn:"AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ "}
+
+ var k17j5 = {  // 1423265224394
+ fn:"MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg ",
+ cn:"TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ ",
+ gn:"____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ",
+ dn:"HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn ",
+ an:"AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ ",
+ en:"SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ ",
+ bn:"____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ "}
 
  var j2k34 = {  // 1392408428968
  fn:"MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ ",

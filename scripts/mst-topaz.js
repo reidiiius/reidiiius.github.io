@@ -1,4 +1,5 @@
-// Copyright 2013 Reid Netterville III 
+// Copyright 2013-2015 Reid Netterville III 
+
 mdlSTD_topaz=[
 "<pre>",
 "Topaz",
@@ -38,6 +39,12 @@ mdlSTD_topaz=[
 "AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____",
 "SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____",
 "AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____",
+" ",
+"j34k6",
+"CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe",
+"____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____",
+"SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____",
+"AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____",
 " ",
 "j17k2",
 "CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe",
@@ -244,7 +251,10 @@ mdlSTD_topaz=[
 "____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____",
 " ",
 " ",
-"Copyright &#169; 2013 Reid Netterville III",
+"Copyright \u00A9 2013-2015 Reid Netterville III",
 "<\/pre>"];
-for(var i=0;i<mdlSTD_topaz.length;i++){document.write(mdlSTD_topaz[i]+"<br>");}
-// var i=0;while(mdlSTD_topaz[i]){document.write(mdlSTD_topaz[i]+"<br>");i++;}
+
+for (var i = 0; i < mdlSTD_topaz.length; i++) {
+  document.writeln(mdlSTD_topaz[i]);
+}
+

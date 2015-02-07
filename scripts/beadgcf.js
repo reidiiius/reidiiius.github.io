@@ -49,6 +49,14 @@ var beadgcf = {
   "j3_E"     :" ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ",
   "j3_B"     :" FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ ",
 
+  "j34k6_F"  :" ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ",
+  "j34k6_C"  :" HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn ",
+  "j34k6_G"  :" AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ ",
+  "j34k6_D"  :" SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ ",
+  "j34k6_A"  :" ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ",
+  "j34k6_E"  :" CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe ",
+  "j34k6_B"  :" FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu ",
+
   "j17k2_F"  :" PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi ",
   "j17k2_C"  :" ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ",
   "j17k2_G"  :" AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ ",
@@ -360,6 +368,14 @@ var beadgcf = {
   "k1_A"     :" AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ ",
   "k1_E"     :" SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ ",
   "k1_B"     :" AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ ",
+
+  "k17j5_F"  :" MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg ",
+  "k17j5_C"  :" TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ ",
+  "k17j5_G"  :" ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ",
+  "k17j5_D"  :" HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn ",
+  "k17j5_A"  :" AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ ",
+  "k17j5_E"  :" SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ ",
+  "k17j5_B"  :" ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ",
 
   "j2k34_F"  :" MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ ",
   "j2k34_C"  :" TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb ",

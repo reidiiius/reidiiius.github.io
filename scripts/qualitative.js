@@ -1,4 +1,4 @@
-// Copyright 2015 Reid Netterville III
+// Copyright 2015 Reid Netterville III 
 
 var QualitativE = [
 
@@ -55,6 +55,15 @@ var QualitativE = [
   "nA":"AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ ",
   "nE":"____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ",
   "nB":"FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ "},
+
+ {"$T":"j34k6",
+  "nF":"____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ",
+  "nC":"HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn ",
+  "nG":"AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ ",
+  "nD":"SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ ",
+  "nA":"____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ",
+  "nE":"CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe ",
+  "nB":"FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu "},
 
  {"$T":"j17k2",
   "nF":"PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi ",
@@ -415,6 +424,15 @@ var QualitativE = [
   "nA":"AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ ",
   "nE":"SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ ",
   "nB":"AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ "},
+
+ {"$T":"k17j5",
+  "nF":"MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg ",
+  "nC":"TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ ",
+  "nG":"____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ",
+  "nD":"HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn ",
+  "nA":"AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ ",
+  "nE":"SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ ",
+  "nB":"____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ "},
 
  {"$T":"j2k34",
   "nF":"MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ ",

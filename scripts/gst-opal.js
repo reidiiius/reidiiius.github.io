@@ -1,4 +1,5 @@
-// Copyright 2013 Reid Netterville III 
+// Copyright 2013-2015 Reid Netterville III 
+
 gtrSTD_opal=[
 "<pre>",
 "Opal",
@@ -50,6 +51,14 @@ gtrSTD_opal=[
 "HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr",
 "AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____",
 "SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____",
+" ",
+"k17j5",
+"SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____",
+"____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____",
+"____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi",
+"HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn",
+"AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____",
+"SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____",
 " ",
 "j2k34",
 "____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____",
@@ -324,7 +333,10 @@ gtrSTD_opal=[
 "MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____",
 " ",
 " ",
-"Copyright &#169; 2013 Reid Netterville III",
+"Copyright \u00A9 2013-2015 Reid Netterville III",
 "<\/pre>"];
-for(var i=0;i<gtrSTD_opal.length;i++){document.write(gtrSTD_opal[i]+"<br>");}
-// var i=0;while(gtrSTD_opal[i]){document.write(gtrSTD_opal[i]+"<br>");i++;}
+
+for (var i = 0; i < gtrSTD_opal.length; i++) {
+  document.writeln(gtrSTD_opal[i]);
+}
+

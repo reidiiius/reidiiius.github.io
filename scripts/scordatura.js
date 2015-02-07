@@ -1,4 +1,4 @@
-/*  Copyright 2014 Reid Netterville III  */
+/*  Copyright 2014-2015 Reid Netterville III  */
 
 var vv = "\u2591\u2591\u2591\u2591 ",
     qq = "\u2592\u2592\u2592\u2592 "
@@ -52,8 +52,10 @@ var blks = {
   j26y3:qq+qq+qq+vv+vv+qq+vv+qq+qq+vv+vv+qq,
   j2k34:qq+qq+vv+vv+vv+qq+qq+qq+vv+qq+vv+qq,
   j2k56:qq+qq+vv+vv+qq+qq+vv+vv+qq+vv+qq+qq,
+  j34k6:qq+vv+qq+qq+qq+vv+vv+qq+vv+vv+qq+qq,
   j56y7:qq+vv+qq+vv+qq+qq+qq+vv+qq+qq+vv+vv,
   k12j5:vv+qq+vv+qq+qq+qq+qq+vv+vv+qq+vv+qq,
+  k17j5:qq+qq+qq+vv+qq+qq+qq+vv+vv+qq+vv+vv,
   k25x1:vv+vv+qq+qq+qq+qq+vv+vv+qq+qq+vv+qq,
   k26x5:qq+vv+vv+qq+qq+qq+vv+vv+vv+qq+qq+qq,
   k2j56:qq+vv+vv+qq+qq+qq+qq+vv+qq+vv+vv+qq,
@@ -239,8 +241,10 @@ var uCrypt = {
   j26y3:hGhG+pUfE+sNtI+_zz_+_zz_+pBaU+_zz_+aUpB+nPcU+_zz_+_zz_+fEpU,
   j2k34:tIcU+fEmN+_zz_+_zz_+_zz_+mNfE+cUtI+pBaG+_zz_+aUaU+_zz_+aGpB,
   j2k56:hGhG+pUfE+_zz_+_zz_+cUnP+pBaU+_zz_+_zz_+nPcU+_zz_+tIsN+fEpU,
+  j34k6:hGsN+_zz_+sNhG+mNfE+cUtI+_zz_+_zz_+aUaU+_zz_+_zz_+tIcU+fEmN,
   j56y7:uRcU+_zz_+pBsN+_zz_+aUhG+nPfE+aGtI+_zz_+fEnP+hGaU+_zz_+_zz_,
   k12j5:_zz_+aGuR+_zz_+fEpU+hGhG+pUfE+sNtI+_zz_+_zz_+pBaU+_zz_+aUpB,
+  k17j5:tIcU+fEmN+hGsN+_zz_+sNhG+mNfE+cUtI+_zz_+_zz_+aUaU+_zz_+_zz_,
   k25x1:_zz_+_zz_+tIsN+fEpU+hGhG+pUfE+_zz_+_zz_+cUnP+pBaU+_zz_+aUpB,
   k26x5:hGsN+_zz_+_zz_+mNfE+cUtI+pBaG+_zz_+_zz_+_zz_+aGpB+tIcU+fEmN,
   k2j56:nPcU+_zz_+_zz_+fEpU+hGhG+pUfE+sNtI+_zz_+cUnP+_zz_+_zz_+aUpB,
@@ -371,8 +375,10 @@ var clave = {
   j26y3:"HgHg PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ FePu ",
   j2k34:"TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb ",
   j2k56:"HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu ",
+  j34k6:"HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn ",
   j56y7:"UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ ____ ",
   k12j5:"____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ",
+  k17j5:"TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ ",
   k25x1:"____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ",
   k26x5:"HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ",
   k2j56:"NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ AuPb ",
@@ -517,6 +523,7 @@ function j3k5()    { tune_("j3k5",    trans_(typSet_.j3k5))    }
 function j3k5x4()  { tune_("j3k5x4",  trans_(typSet_.j3k5x4))  }
 function j3k6()    { tune_("j3k6",    trans_(typSet_.j3k6))    }
 function j3()      { tune_("j3",      trans_(typSet_.j3))      }
+function j34k6()   { tune_("j34k6",   trans_(typSet_.j34k6))   }
 function j56()     { tune_("j56",     trans_(typSet_.j56))     }
 function j56y7()   { tune_("j56y7",   trans_(typSet_.j56y7))   }
 function j5()      { tune_("j5",      trans_(typSet_.j5))      }
@@ -528,6 +535,7 @@ function k12()     { tune_("k12",     trans_(typSet_.k12))     }
 function k135x4()  { tune_("k135x4",  trans_(typSet_.k135x4))  }
 function k157x6()  { tune_("k157x6",  trans_(typSet_.k157x6))  }
 function k15()     { tune_("k15",     trans_(typSet_.k15))     }
+function k17j5()   { tune_("k17j5",   trans_(typSet_.k17j5))   }
 function k1j5()    { tune_("k1j5",    trans_(typSet_.k1j5))    }
 function k1j6()    { tune_("k1j6",    trans_(typSet_.k1j6))    }
 function k1j6y7()  { tune_("k1j6y7",  trans_(typSet_.k1j6y7))  }
@@ -970,6 +978,20 @@ var o_j2y3 = [
   _n6(cycln.j2y3),
   _n2(cycln.j2y3)]
 
+var o_j34k6 = [
+  _n5(cycln.j34k6),
+  _n1(cycln.j34k6),
+  _n4(cycln.j34k6),
+  _j7(cycln.j34k6),
+  _j3(cycln.j34k6),
+  _j6(cycln.j34k6),
+  _j2(cycln.j34k6),
+  _j5(cycln.j34k6),
+  _n7(cycln.j34k6),
+  _n3(cycln.j34k6),
+  _n6(cycln.j34k6),
+  _n2(cycln.j34k6)]
+
 var o_j346y5 = [
   _n5(cycln.j346y5),
   _n1(cycln.j346y5),
@@ -1207,6 +1229,20 @@ var o_k15 = [
   _n3(cycln.k15),
   _n6(cycln.k15),
   _n2(cycln.k15)]
+
+var o_k17j5 = [
+  _n5(cycln.k17j5),
+  _n1(cycln.k17j5),
+  _n4(cycln.k17j5),
+  _j7(cycln.k17j5),
+  _j3(cycln.k17j5),
+  _j6(cycln.k17j5),
+  _j2(cycln.k17j5),
+  _j5(cycln.k17j5),
+  _n7(cycln.k17j5),
+  _n3(cycln.k17j5),
+  _n6(cycln.k17j5),
+  _n2(cycln.k17j5)]
 
 var o_k1j5 = [
   _n5(cycln.k1j5),

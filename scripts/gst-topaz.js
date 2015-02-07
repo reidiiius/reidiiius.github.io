@@ -1,4 +1,5 @@
-// Copyright 2013 Reid Netterville III 
+// Copyright 2013-2015 Reid Netterville III 
+
 gtrSTD_topaz=[
 "<pre>",
 "Topaz",
@@ -50,6 +51,14 @@ gtrSTD_topaz=[
 "SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____",
 "AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____",
 "____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe",
+" ",
+"j34k6",
+"CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe",
+"FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu",
+"AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____",
+"SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____",
+"____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____",
+"CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe",
 " ",
 "j17k2",
 "CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe",
@@ -324,7 +333,10 @@ gtrSTD_topaz=[
 "CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg",
 " ",
 " ",
-"Copyright &#169; 2013 Reid Netterville III",
+"Copyright \u00A9 2013-2015 Reid Netterville III",
 "<\/pre>"];
-for(var i=0;i<gtrSTD_topaz.length;i++){document.write(gtrSTD_topaz[i]+"<br>");}
-// var i=0;while(gtrSTD_topaz[i]){document.write(gtrSTD_topaz[i]+"<br>");i++;}
+
+for (var i = 0; i < gtrSTD_topaz.length; i++) {
+  document.writeln(gtrSTD_topaz[i]);
+}
+
