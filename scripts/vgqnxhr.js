@@ -1,4 +1,4 @@
-/* Copyright 2014 Reid Netterville III */
+/* Copyright 2014-2015 Reid Netterville III */
 
 function gQn(resId) {
   var xhrq = new XMLHttpRequest()
@@ -13,6 +13,7 @@ function gqj17() { gQn("/guqin/vrt/obv/gqj17.txt") }
 function gqk6x5() { gQn("/guqin/vrt/obv/gqk6x5.txt") }
 function gqj17y2() { gQn("/guqin/vrt/obv/gqj17y2.txt") }
 function gqj3() { gQn("/guqin/vrt/obv/gqj3.txt") }
+function gqj34k6() { gQn("/guqin/vrt/obv/gqj34k6.txt") }
 function gqj17k2() { gQn("/guqin/vrt/obv/gqj17k2.txt") }
 function gqn26y5() { gQn("/guqin/vrt/obv/gqn26y5.txt") }
 function gqk26x5() { gQn("/guqin/vrt/obv/gqk26x5.txt") }
@@ -55,6 +56,7 @@ function gqk34() { gQn("/guqin/vrt/rev/gqk34.txt") }
 function gqj5y6() { gQn("/guqin/vrt/rev/gqj5y6.txt") }
 function gqk34x2() { gQn("/guqin/vrt/rev/gqk34x2.txt") }
 function gqk1() { gQn("/guqin/vrt/rev/gqk1.txt") }
+function gqk17j5() { gQn("/guqin/vrt/rev/gqk17j5.txt") }
 function gqj2k34() { gQn("/guqin/vrt/rev/gqj2k34.txt") }
 function gqn25x6() { gQn("/guqin/vrt/rev/gqn25x6.txt") }
 function gqj25y6() { gQn("/guqin/vrt/rev/gqj25y6.txt") }
