@@ -297,6 +297,19 @@ button:hover {
   font-size:12px;
   color:#2f4f4f;
 }
+.embed {
+  width:675px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+  font-family:monospace;
+  font-size:18px;
+  color:#2f4f4f;
+}
+#sqr {
+  width:400px;
+  height:400px;
+}
 #ftr42 {
   position:absolute;
   left:300px;
@@ -321,10 +334,6 @@ button:hover {
   font-size:12px;
   color:#2f4f4f;
   padding:10px;
-}
-#sqr {
-  width:444px;
-  height:444px;
 }
 #footer {
   background-color:#fffff0;

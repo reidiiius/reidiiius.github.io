@@ -1,4 +1,4 @@
-/* Copyright 2014 Reid Netterville III */
+/* Copyright 2014-2015 Reid Netterville III */
 
 function pgCll(resId) {
   var xhrq = new XMLHttpRequest()
@@ -13,6 +13,7 @@ function cltj17() { pgCll("/mst/vrt/obv/cltj17.txt") }
 function cltk6x5() { pgCll("/mst/vrt/obv/cltk6x5.txt") }
 function cltj17y2() { pgCll("/mst/vrt/obv/cltj17y2.txt") }
 function cltj3() { pgCll("/mst/vrt/obv/cltj3.txt") }
+function cltj34k6() { pgCll("/mst/vrt/obv/cltj34k6.txt") }
 function cltj17k2() { pgCll("/mst/vrt/obv/cltj17k2.txt") }
 function cltn26y5() { pgCll("/mst/vrt/obv/cltn26y5.txt") }
 function cltk26x5() { pgCll("/mst/vrt/obv/cltk26x5.txt") }
@@ -55,6 +56,7 @@ function cltk34() { pgCll("/mst/vrt/rev/cltk34.txt") }
 function cltj5y6() { pgCll("/mst/vrt/rev/cltj5y6.txt") }
 function cltk34x2() { pgCll("/mst/vrt/rev/cltk34x2.txt") }
 function cltk1() { pgCll("/mst/vrt/rev/cltk1.txt") }
+function cltk17j5() { pgCll("/mst/vrt/rev/cltk17j5.txt") }
 function cltj2k34() { pgCll("/mst/vrt/rev/cltj2k34.txt") }
 function cltn25x6() { pgCll("/mst/vrt/rev/cltn25x6.txt") }
 function cltj25y6() { pgCll("/mst/vrt/rev/cltj25y6.txt") }
