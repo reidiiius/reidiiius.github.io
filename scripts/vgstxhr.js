@@ -1,4 +1,4 @@
-/* Copyright 2014 Reid Netterville III */
+/* Copyright 2014-2015 Reid Netterville III */
 
 function pgTmp(resId) {
   var xhrq = new XMLHttpRequest()
@@ -13,6 +13,7 @@ function gstj17() { pgTmp("/gst/vrt/obv/gstj17.txt") }
 function gstk6x5() { pgTmp("/gst/vrt/obv/gstk6x5.txt") }
 function gstj17y2() { pgTmp("/gst/vrt/obv/gstj17y2.txt") }
 function gstj3() { pgTmp("/gst/vrt/obv/gstj3.txt") }
+function gstj34k6() { pgTmp("/gst/vrt/obv/gstj34k6.txt") }
 function gstj17k2() { pgTmp("/gst/vrt/obv/gstj17k2.txt") }
 function gstn26y5() { pgTmp("/gst/vrt/obv/gstn26y5.txt") }
 function gstk26x5() { pgTmp("/gst/vrt/obv/gstk26x5.txt") }
@@ -55,6 +56,7 @@ function gstk34() { pgTmp("/gst/vrt/rev/gstk34.txt") }
 function gstj5y6() { pgTmp("/gst/vrt/rev/gstj5y6.txt") }
 function gstk34x2() { pgTmp("/gst/vrt/rev/gstk34x2.txt") }
 function gstk1() { pgTmp("/gst/vrt/rev/gstk1.txt") }
+function gstk17j5() { pgTmp("/gst/vrt/rev/gstk17j5.txt") }
 function gstj2k34() { pgTmp("/gst/vrt/rev/gstj2k34.txt") }
 function gstn25x6() { pgTmp("/gst/vrt/rev/gstn25x6.txt") }
 function gstj25y6() { pgTmp("/gst/vrt/rev/gstj25y6.txt") }

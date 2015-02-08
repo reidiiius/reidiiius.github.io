@@ -659,5 +659,5 @@ j256
 
 
 
-Copyright © 2014-2015 Reid Netterville III
+© 2014-2015 Reid Netterville III
 
