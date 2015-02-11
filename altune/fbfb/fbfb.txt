@@ -36,6 +36,12 @@ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____
 FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ 
 PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ 
 
+j34k6
+FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu 
+____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi 
+FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu 
+____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi 
+
 j17k2
 FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu 
 PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi 
@@ -276,6 +282,12 @@ UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg
 AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ 
 UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg 
 
+k17j5
+____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ 
+MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg 
+____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ 
+MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg 
+
 j2k34
 AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ 
 MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ 
@@ -481,4 +493,5 @@ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____
 CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg 
 
 
-Copyright (c) 2014 Reid Netterville III
+Copyright (c) 2014-2015 Reid Netterville III
+
