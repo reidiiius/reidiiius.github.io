@@ -13,6 +13,9 @@ body {
   font-size:16px;
   font-weight:bold;
 }
+.uol li {
+  display:inline;
+}
 .twg {
   padding:2px 4px 2px 4px;
   background-color:#fffff0;
