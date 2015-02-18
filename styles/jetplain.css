@@ -3,8 +3,8 @@ body {
   background-color:#fffff0;
 }
 .wing {
-  width:320px;
-  height:440px;
+  width:300px;
+  height:380px;
   padding:10px 0 0 0;
   text-align:center;
 }
@@ -24,7 +24,8 @@ button {
   padding:10px;
 }
 .vrt {
-  padding:20px;
+  margin-top:10px;
+  padding:0 20px 0 20px;
   font-family:monospace;
   font-size:16px;
   color:#4f4f4f;
@@ -34,7 +35,7 @@ button {
   font-size:14px;
   color:#696969;
 }
-@media ( min-width:932px ) {
+@media ( min-width:900px ) {
 #obv {
   position:absolute;
   left:95px;
@@ -42,27 +43,27 @@ button {
 }
 #rev {
   position:absolute;
-  left:597px;
+  left:595px;
   top:80px;
 }
 #gtr {
   position:absolute;
-  left:416px;
+  left:410px;
   top:5px;
 }
 #gqn {
   position:absolute;
-  left:416px;
+  left:400px;
   top:5px;
 }
 #cll {
   position:absolute;
-  left:426px;
+  left:420px;
   top:5px;
 }
 #spt {
   position:absolute;
-  left:406px;
+  left:400px;
   top:20px;
 }
 #ftr {
@@ -70,7 +71,7 @@ button {
   left:50px;
   top:580px;
 } }
-@media ( max-width:932px ) {
+@media ( max-width:900px ) {
 #obv {
   margin-left:auto;
   margin-right:auto;
@@ -90,6 +91,9 @@ button {
 }
 #spt {
   text-align:center;
+}
+.vrt {
+  padding:0;
 }
 #ftr {
   text-align:center;
