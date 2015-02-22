@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <title>Cyclone</title>
-  <link rel="stylesheet" href="/styles/nebula.css" type="text/css" />
   <script src="/scripts/scordatura.js" type="text/javascript"></script>
 <style type="text/css">
 #area64 {
@@ -12,10 +11,31 @@
 .test {
   font-family:consolas,monospace;
   font-size:24px;
-  color:#220;
+  color:#2f2f00;
 }
 #floor {
   padding:20px;
+}
+.msg {
+  font-family:sans-serif;
+  font-size:1em;
+  color:#696969;
+}
+@media screen and ( max-width:700px ) {
+  #area64 {
+    width:420px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0 0 0 6px;
+  }
+  .test {
+    font-family:monospace;
+    font-size:12px;
+    color:#000000;
+  }
+  #floor {
+    padding:0;
+  }
 }
 </style>
 </head>

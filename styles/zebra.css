@@ -49,4 +49,12 @@ td.pd {
   font-size:14px;
   color:#555;
 }
+@media screen and ( max-width:500px ) {
+  td.pd {
+    padding:0 14px 0 14px;
+  }
+  pre {
+    font-size:12px;
+  }
+}
 
