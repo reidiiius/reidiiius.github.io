@@ -304,22 +304,22 @@ button:hover {
   width:400px;
   height:400px;
 }
-#ftr42 {
+#ftrMst {
   position:absolute;
   left:300px;
-  top:4200px;
+  top:4180px;
   width:430px;
 }
-#ftr52 {
+#ftrGst {
   position:absolute;
   left:300px;
-  top:5200px;
+  top:5340px;
   width:430px;
 }
-#ftr76 {
+#ftrQin {
   position:absolute;
   left:300px;
-  top:7600px;
+  top:7120px;
   width:430px;
 }
 .copy {
