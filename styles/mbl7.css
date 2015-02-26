@@ -55,7 +55,7 @@ a:hover {
   white-space:nowrap;
 }
 .bttn {
-  border:1px solid #fffff0;
+  border:0;
   background-color:#fffff0;
   font-family:consolas,"courier new",monospace;
   font-size:12px;

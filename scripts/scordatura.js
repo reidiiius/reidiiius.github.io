@@ -84,6 +84,8 @@ var blks = {
  n167x4:qq+vv+vv+qq+vv+qq+vv+qq+qq+qq+vv+qq,
  n345y7:vv+qq+vv+vv+qq+qq+vv+qq+qq+qq+vv+qq,
 j2k56x4:qq+qq+vv+vv+qq+vv+vv+qq+qq+vv+qq+qq,
+j3k56x4:qq+vv+qq+qq+vv+vv+vv+qq+qq+vv+qq+qq,
+k1j56y7:vv+qq+qq+vv+qq+qq+qq+vv+qq+qq+vv+vv,
 k2j56y7:qq+vv+vv+qq+qq+qq+qq+vv+qq+qq+vv+vv}
 
 var eE = [
@@ -273,6 +275,8 @@ var uCrypt = {
  n167x4:hGaU+_zz_+_zz_+uRcU+_zz_+pBsN+_zz_+aUhG+nPfE+aGtI+_zz_+fEnP,
  n345y7:_zz_+cUuR+_zz_+_zz_+aUhG+nPfE+_zz_+tIaG+fEnP+hGaU+_zz_+sNpB,
 j2k56x4:hGhG+pUfE+_zz_+_zz_+cUnP+_zz_+_zz_+aUpB+nPcU+_zz_+tIsN+fEpU,
+j3k56x4:hGtI+_zz_+sNnP+uRaU+_zz_+_zz_+_zz_+aUuR+nPsN+_zz_+tIhG+fEfE,
+k1j56y7:_zz_+aUuR+nPsN+_zz_+tIhG+fEfE+hGtI+_zz_+sNnP+uRaU+_zz_+_zz_,
 k2j56y7:nPcU+_zz_+_zz_+fEpU+hGhG+pUfE+sNtI+_zz_+cUnP+pBaU+_zz_+_zz_}
 
 var u_eadgbe = function( t, x ) {
@@ -407,6 +411,8 @@ var clave = {
  n167x4:"HgAu ____ ____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp ",
  n345y7:"____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ",
 j2k56x4:"HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu ",
+j3k56x4:"HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe ",
+k1j56y7:"____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ",
 k2j56y7:"NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ "}
 
 var t_eadgbe = function( t, x ) {
@@ -521,6 +527,7 @@ function j346y5()  { tune_("j346y5",  trans_(typSet_.j346y5))  }
 function j36()     { tune_("j36",     trans_(typSet_.j36))     }
 function j3k5()    { tune_("j3k5",    trans_(typSet_.j3k5))    }
 function j3k5x4()  { tune_("j3k5x4",  trans_(typSet_.j3k5x4))  }
+function j3k56x4() { tune_("j3k56x4", trans_(typSet_.j3k56x4)) }
 function j3k6()    { tune_("j3k6",    trans_(typSet_.j3k6))    }
 function j3()      { tune_("j3",      trans_(typSet_.j3))      }
 function j34k6()   { tune_("j34k6",   trans_(typSet_.j34k6))   }
@@ -537,6 +544,7 @@ function k157x6()  { tune_("k157x6",  trans_(typSet_.k157x6))  }
 function k15()     { tune_("k15",     trans_(typSet_.k15))     }
 function k17j5()   { tune_("k17j5",   trans_(typSet_.k17j5))   }
 function k1j5()    { tune_("k1j5",    trans_(typSet_.k1j5))    }
+function k1j56y7() { tune_("k1j56y7", trans_(typSet_.k1j56y7)) }
 function k1j6()    { tune_("k1j6",    trans_(typSet_.k1j6))    }
 function k1j6y7()  { tune_("k1j6y7",  trans_(typSet_.k1j6y7))  }
 function k1()      { tune_("k1",      trans_(typSet_.k1))      }
@@ -1048,6 +1056,20 @@ var o_j3k5x4 = [
   _n6(cycln.j3k5x4),
   _n2(cycln.j3k5x4)]
 
+var o_j3k56x4 = [
+  _n5(cycln.j3k56x4),
+  _n1(cycln.j3k56x4),
+  _n4(cycln.j3k56x4),
+  _j7(cycln.j3k56x4),
+  _j3(cycln.j3k56x4),
+  _j6(cycln.j3k56x4),
+  _j2(cycln.j3k56x4),
+  _j5(cycln.j3k56x4),
+  _n7(cycln.j3k56x4),
+  _n3(cycln.j3k56x4),
+  _n6(cycln.j3k56x4),
+  _n2(cycln.j3k56x4)]
+
 var o_j3k6 = [
   _n5(cycln.j3k6),
   _n1(cycln.j3k6),
@@ -1257,6 +1279,20 @@ var o_k1j5 = [
   _n3(cycln.k1j5),
   _n6(cycln.k1j5),
   _n2(cycln.k1j5)]
+
+var o_k1j56y7 = [
+  _n5(cycln.k1j56y7),
+  _n1(cycln.k1j56y7),
+  _n4(cycln.k1j56y7),
+  _j7(cycln.k1j56y7),
+  _j3(cycln.k1j56y7),
+  _j6(cycln.k1j56y7),
+  _j2(cycln.k1j56y7),
+  _j5(cycln.k1j56y7),
+  _n7(cycln.k1j56y7),
+  _n3(cycln.k1j56y7),
+  _n6(cycln.k1j56y7),
+  _n2(cycln.k1j56y7)]
 
 var o_k1j6 = [
   _n5(cycln.k1j6),

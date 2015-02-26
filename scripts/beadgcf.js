@@ -297,6 +297,14 @@ var beadgcf = {
   "n45y2_E"  :" ____ PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ",
   "n45y2_B"  :" FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg ",
 
+"j3k56x4_F"  :" ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ",
+"j3k56x4_C"  :" HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe ",
+"j3k56x4_G"  :" AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ ",
+"j3k56x4_D"  :" SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ",
+"j3k56x4_A"  :" ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ",
+"j3k56x4_E"  :" ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ",
+"j3k56x4_B"  :" FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg ",
+
   "k2j6_F"   :" PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe ",
   "k2j6_C"   :" HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu ",
   "k2j6_G"   :" AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ",
@@ -616,6 +624,14 @@ var beadgcf = {
   "n67x2_A"  :" UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp ",
   "n67x2_E"  :" TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ ",
   "n67x2_B"  :" PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ",
+
+"k1j56y7_F"  :" FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg ",
+"k1j56y7_C"  :" ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ",
+"k1j56y7_G"  :" ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ",
+"k1j56y7_D"  :" NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr ",
+"k1j56y7_A"  :" UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp ",
+"k1j56y7_E"  :" TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ ",
+"k1j56y7_B"  :" ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ",
 
   "j2k5_F"   :" CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg ",
   "j2k5_C"   :" FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb ",
@@ -1067,6 +1083,17 @@ function gtr4ths_n45y2() {
               x.n45y2_B);
 }
 
+function gtr4ths_j3k56x4() {
+  var x = beadgcf;
+  fingerBoard(x.j3k56x4_F,
+              x.j3k56x4_C,
+              x.j3k56x4_G,
+              x.j3k56x4_D,
+              x.j3k56x4_A,
+              x.j3k56x4_E,
+              x.j3k56x4_B);
+}
+
 function gtr4ths_k2j6() {
   var x = beadgcf;
   fingerBoard(x.k2j6_F,
@@ -1505,6 +1532,17 @@ function gtr4ths_n67x2() {
               x.n67x2_A,
               x.n67x2_E,
               x.n67x2_B);
+}
+
+function gtr4ths_k1j56y7() {
+  var x = beadgcf;
+  fingerBoard(x.k1j56y7_F,
+              x.k1j56y7_C,
+              x.k1j56y7_G,
+              x.k1j56y7_D,
+              x.k1j56y7_A,
+              x.k1j56y7_E,
+              x.k1j56y7_B);
 }
 
 function gtr4ths_j2k5() {
@@ -1960,6 +1998,17 @@ function gtrSTD_n45y2() {
               x.n45y2_C);
 }
 
+function gtrSTD_j3k56x4() {
+  var x = beadgcf;
+  fingerBoard(x.j3k56x4_E,
+              x.j3k56x4_B,
+              x.j3k56x4_G,
+              x.j3k56x4_D,
+              x.j3k56x4_A,
+              x.j3k56x4_E,
+              x.j3k56x4_C);
+}
+
 function gtrSTD_k2j6() {
   var x = beadgcf;
   fingerBoard(x.k2j6_E,
@@ -2398,6 +2447,17 @@ function gtrSTD_n67x2() {
               x.n67x2_A,
               x.n67x2_E,
               x.n67x2_C);
+}
+
+function gtrSTD_k1j56y7() {
+  var x = beadgcf;
+  fingerBoard(x.k1j56y7_E,
+              x.k1j56y7_B,
+              x.k1j56y7_G,
+              x.k1j56y7_D,
+              x.k1j56y7_A,
+              x.k1j56y7_E,
+              x.k1j56y7_C);
 }
 
 function gtrSTD_j2k5() {

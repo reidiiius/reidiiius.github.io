@@ -83,6 +83,8 @@
   z_n167x4 = [uc[0],uc[1],uc[0],uc[0],uc[0],uc[1],uc[0],uc[0],uc[1],uc[1],uc[0],uc[1]],
   z_n345y7 = [uc[0],uc[1],uc[0],uc[0],uc[0],uc[1],uc[0],uc[1],uc[0],uc[1],uc[1],uc[0]],
  z_j2k56x4 = [uc[1],uc[1],uc[0],uc[0],uc[1],uc[0],uc[0],uc[0],uc[0],uc[1],uc[1],uc[0]],
+ z_j3k56x4 = [uc[1],uc[1],uc[0],uc[0],uc[1],uc[0],uc[0],uc[0],uc[1],uc[0],uc[0],uc[1]],
+ z_k1j56y7 = [uc[0],uc[0],uc[1],uc[0],uc[0],uc[1],uc[1],uc[1],uc[0],uc[0],uc[1],uc[0]],
  z_k2j56y7 = [uc[0],uc[0],uc[1],uc[0],uc[0],uc[1],uc[1],uc[0],uc[1],uc[1],uc[0],uc[0]]
 
 function rR(z) {

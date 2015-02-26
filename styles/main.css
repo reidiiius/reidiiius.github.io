@@ -102,7 +102,7 @@ a:hover {
   font-family:consolas,"courier new",monospace;
   font-size:18px;
   color:#1e90ff;
-  padding:2px;
+  padding:1px;
   cursor:pointer;
 }
 button:hover {
