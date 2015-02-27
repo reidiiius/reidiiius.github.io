@@ -2,6 +2,11 @@
 body {
   background-color:#fefef0;
 }
+h1 {
+  font-family:helvetica,sans-serif;
+  color:#a9a9a9;
+  margin-left:20px;
+}
 ul {
   list-style-type:none;
   text-align:center;
@@ -12,97 +17,65 @@ ul {
 li {
   padding:2px; 
 }
-a:link {
+a {
   text-decoration:none;
-  color:#555; 
-}
-a:visited {
-  text-decoration:none;
-  color:#555; 
+  color:#5a5a5a; 
 }
 a:hover {
   text-decoration:underline;
-  color:#222; 
+  color:#2f2f2f; 
 }
-a:active {
-  text-decoration:none;
-  color:#222; 
-}
-h1, h2 {
-  font-family:helvetica,sans-serif;
-  color:#a9a9a9;
-  margin-left:20px;
-}
-.topaz {
-  position:absolute;
-  left:60px;
-  top:118px;
+.nav {
   background-color:#fffff0; 
   border:2px solid #d3d3d3;
   border-radius:15px;
 }
-.sapphire {
+#topaz {
+  position:absolute;
+  left:60px;
+  top:118px;
+}
+#sapphire {
   position:absolute;
   left:20px;
-  top:235px; 
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
+  top:235px;
 }
-.peridot {
+#peridot {
   position:absolute;
   left:264px;
-  top:75px; 
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
+  top:75px;
 }
-.amethyst {
+#amethyst {
   position:absolute;
   left:252px;
-  top:275px; 
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
+  top:275px;
 }
-.onyx {
+#onyx {
   position:absolute;
   left:510px;
-  top:52px; 
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
+  top:52px;
 }
-.agate {
+#agate {
   position:absolute;
   left:790px;
-  top:100px; 
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
+  top:100px;
 }
-.beryl {
+#beryl {
   position:absolute;
   left:800px;
-  top:250px; 
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px; 
+  top:250px;
 }
-.xtrNav {
+#xtrNav {
   position:absolute;
   left:40px;
   top:420px;
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
 }
 #obv {
   position:absolute;
   left:80px;
   top: 40px;
   background-color:#fffff0;
-  border:1px dotted #888;
+  border:1px dotted #808080;
   padding:10px 30px 0px 40px;
 }
 #rev {
@@ -110,13 +83,13 @@ h1, h2 {
   left:80px;
   top:300px;
   background-color:#fffff0;
-  border:1px dotted #888;
+  border:1px dotted #808080;
   padding:10px 30px 0px 40px;
 }
 .tt {
   font-family:consolas,monospace;
   font-size:20px;
-  color:#444;
+  color:#4a4a4a;
 }
 .seq {
   font-size:16px;
@@ -135,9 +108,9 @@ h1, h2 {
 .attr {
   font-family:verdana,sans-serif;
   font-size:14px;
-  color:#888;
+  color:#808080;
 }
-.ftr {
+#ftr {
   position:absolute;
   left:40px;
   top:572px;
@@ -151,7 +124,7 @@ h1, h2 {
     margin-right:auto;
     text-align:center;
   }
-  .ui {
+  #ui {
     width:300px;
     margin-left:auto;
     margin-right:auto;
@@ -159,42 +132,42 @@ h1, h2 {
   li {
     padding:10px; 
   }
-  .topaz {
+  #topaz {
     position:relative;
     left:0;
     top:0;
   }
-  .sapphire {
+  #sapphire {
     position:relative;
     left:0;
     top:0;
   }
-  .peridot {
+  #peridot {
     position:relative;
     left:0;
     top:0;
   }
-  .amethyst {
+  #amethyst {
     position:relative;
     left:0;
     top:0;
   }
-  .onyx {
+  #onyx {
     position:relative;
     left:0;
     top:0;
   }
-  .agate {
+  #agate {
     position:relative;
     left:0;
     top:0;
   }
-  .beryl {
+  #beryl {
     position:relative;
     left:0;
     top:0;
   }
-  .xtrNav {
+  #xtrNav {
     position:relative;
     left:0;
     top:0;
@@ -220,7 +193,7 @@ h1, h2 {
   }
   .tt {
     font-size:12px;
-    color:#111;
+    color:#1a1a1a;
   }
   dd {
     margin:0;
@@ -244,7 +217,7 @@ h1, h2 {
     text-align:center;
     margin:10px;
   }
-  .ftr {
+  #ftr {
     position:relative;
     left:0;
     top:0;
@@ -253,7 +226,7 @@ h1, h2 {
     margin:10px 0 0 0;
     padding:0;
     text-align:center;
-    color:#555;
+    color:#5a5a5a;
   }
 }
 

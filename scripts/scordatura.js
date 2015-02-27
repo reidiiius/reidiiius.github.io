@@ -591,7 +591,7 @@ function dsplyTm() {
   document.getElementById("revTm").innerHTML = xTm
 }
 
-function mdlTag() {
+function mdlTag(q, r) {
   var s = document.getElementById(q),
       t = s.getElementsByTagName("dt"),
       u = s.getElementsByTagName("dd")
@@ -603,7 +603,7 @@ function mdlTag() {
   u[4].innerHTML = tn1(r)
 }
 
-function gtrClass() {
+function gtrClass(q, r) {
   var s = document.getElementById(q),
       t = s.getElementsByClassName("sttl"),
       u = s.getElementsByClassName("strg")
