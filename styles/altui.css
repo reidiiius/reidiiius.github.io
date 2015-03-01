@@ -1,86 +1,80 @@
 
-html {
+body {
   background-color:#fffef0;
 }
-body {
-  background-color:transparent;
-}
-.content {
-  text-align:center;
-  font-family:consolas,monospace;
-  font-size:16px;
-  color:#550;
-  white-space:nowrap;
-}
 h1 {
-  font-family:SimSun,SimHei,monospace;
+  font-family:monospace;
   color:#696969;
   margin-left:20px;
 }
-.topaz {
+#content {
+  text-align:center;
+  font-family:monospace;
+  font-size:18px;
+  color:#550;
+  white-space:nowrap;
+}
+ul {
+  list-style-type:none;
+}
+li {
+  margin:4px 0 4px 0;
+}
+a {
+  text-decoration:none;
+  color:#a0522d;
+}
+a:hover {
+  text-decoration:underline;
+  color:#8b4513;
+}
+.nav {
+  background-color:#fffff0;
+  border:2px solid #d3d3d3;
+  border-radius:15px;
+  padding-right:40px;
+}
+#topaz {
   position:absolute;
   left:85px;
   top:118px;
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
-  padding-right:40px;
 }
-.sapphire {
+#sapphire {
   position:absolute;
   left:30px;
   top:230px;
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
-  padding-right:40px;
 }
-.peridot {
+#peridot {
   position:absolute;
-  left:250px;
+  left:290px;
   top:80px;
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
-  padding-right:40px;
 }
-.amethyst {
+#amethyst {
   position:absolute;
   left:280px;
-  top:230px;
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
-  padding-right:40px;
+  top:280px;
 }
-.onyx {
+#onyx {
   position:absolute;
   left:550px;
   top:52px;
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
-  padding-right:40px;
 }
-.agate {
+#agate {
   position:absolute;
-  left:840px;
+  left:820px;
   top:100px;
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
-  padding-right:40px;
 }
-.beryl {
+#beryl {
   position:absolute;
-  left:850px;
-  top:230px;
-  background-color:#fffff0;
-  border:2px solid #d3d3d3;
-  border-radius:15px;
-  padding-right:40px;
+  left:830px;
+  top:250px;
 }
-.attr {
+#logo {
+  position:absolute;
+  left:70px;
+  top:420px;
+}
+#attr {
   position:absolute;
   left:40px;
   top:575px;
@@ -90,27 +84,4 @@ h1 {
   font-size:16px;
   color:#a9a9a9;
 }
-.logo {
-  position:absolute;
-  left:70px;
-  top:420px;
-}
-ul {
-  list-style-type:none;
-}
-a:link {
-  text-decoration:none;
-  color:#a0522d;
-}
-a:visited {
-  text-decoration:none;
-  color:#a0522d;
-}
-a:hover {
-  text-decoration:underline;
-  color:#8b4513;
-}
-a:active {
-  text-decoration:underline;
-  color:#8b4513;
-}
+
