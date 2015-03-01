@@ -335,6 +335,15 @@ var QualitativE = [
   "nE":"____ PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ",
   "nB":"FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg "},
 
+ {"$T":"j3k56x4",
+  "nF":"____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ",
+  "nC":"HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe ",
+  "nG":"AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ ",
+  "nD":"SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ",
+  "nA":"____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ",
+  "nE":"____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ",
+  "nB":"FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg "},
+
  {"$T":"k2j6",
   "nF":"PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe ",
   "nC":"HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu ",
@@ -703,6 +712,15 @@ var QualitativE = [
   "nA":"UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp ",
   "nE":"TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ ",
   "nB":"PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ "},
+
+ {"$T":"k1j56y7",
+  "nF":"FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg ",
+  "nC":"____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ",
+  "nG":"____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ",
+  "nD":"NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr ",
+  "nA":"UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp ",
+  "nE":"TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ ",
+  "nB":"____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ "},
 
  {"$T":"j2k5",
   "nF":"CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg ",

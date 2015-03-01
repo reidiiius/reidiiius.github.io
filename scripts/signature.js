@@ -333,6 +333,15 @@
  en:"____ PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ",
  bn:"FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg "}
 
+ var j3k56x4 = {  // 1425171416811
+ fn:"____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ",
+ cn:"HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe ",
+ gn:"AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ ",
+ dn:"SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ",
+ an:"____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ",
+ en:"____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ",
+ bn:"FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg "}
+
  var k2j6 = {  // 1392407932687
  fn:"PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe ",
  cn:"HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu ",
@@ -692,6 +701,15 @@
  an:"UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp ",
  en:"TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ ",
  bn:"PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ "}
+
+ var k1j56y7 = {  // 1425171441213
+ fn:"FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg ",
+ cn:"____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ",
+ gn:"____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ",
+ dn:"NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr ",
+ an:"UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp ",
+ en:"TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ ",
+ bn:"____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ "}
 
  var j2k5 = {  // 1392410698484
  fn:"CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg ",

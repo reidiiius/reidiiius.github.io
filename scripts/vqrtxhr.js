@@ -44,6 +44,7 @@ function qrtk1j6() { eQf("/beadgcf/vrt/obv/qrtk1j6.txt") }
 function qrtn345() { eQf("/beadgcf/vrt/obv/qrtn345.txt") }
 function qrtj3k6() { eQf("/beadgcf/vrt/obv/qrtj3k6.txt") }
 function qrtn45y2() { eQf("/beadgcf/vrt/obv/qrtn45y2.txt") }
+function qrtj3k56x4() { eQf("/beadgcf/vrt/obv/qrtj3k56x4.txt") }
 function qrtk2j6() { eQf("/beadgcf/vrt/obv/qrtk2j6.txt") }
 function qrtn5y2() { eQf("/beadgcf/vrt/obv/qrtn5y2.txt") }
 function qrtk26() { eQf("/beadgcf/vrt/obv/qrtk26.txt") }
@@ -87,6 +88,7 @@ function qrtj3k5() { eQf("/beadgcf/vrt/rev/qrtj3k5.txt") }
 function qrtn167() { eQf("/beadgcf/vrt/rev/qrtn167.txt") }
 function qrtk1j5() { eQf("/beadgcf/vrt/rev/qrtk1j5.txt") }
 function qrtn67x2() { eQf("/beadgcf/vrt/rev/qrtn67x2.txt") }
+function qrtk1j56y7() { eQf("/beadgcf/vrt/rev/qrtk1j56y7.txt") }
 function qrtj2k5() { eQf("/beadgcf/vrt/rev/qrtj2k5.txt") }
 function qrtn6x2() { eQf("/beadgcf/vrt/rev/qrtn6x2.txt") }
 function qrtj25() { eQf("/beadgcf/vrt/rev/qrtj25.txt") }
