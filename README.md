@@ -1,4 +1,4 @@
-![nautilyph](https://raw.github.com/reidiiius/reidiiius.github.io/master/images/nautilyph.PNG)
+![nautilyph](https://raw.github.com/reidiiius/reidiiius.github.io/master/images/nautilyph.png)
 
  - [http://reidiiius.github.io/](http://reidiiius.github.io/)
 
