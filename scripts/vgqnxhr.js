@@ -44,6 +44,7 @@ function gqk1j6() { gQn("/guqin/vrt/obv/gqk1j6.txt") }
 function gqn345() { gQn("/guqin/vrt/obv/gqn345.txt") }
 function gqj3k6() { gQn("/guqin/vrt/obv/gqj3k6.txt") }
 function gqn45y2() { gQn("/guqin/vrt/obv/gqn45y2.txt") }
+function gqj3k56x4() { gQn("/guqin/vrt/obv/gqj3k56x4.txt") }
 function gqk2j6() { gQn("/guqin/vrt/obv/gqk2j6.txt") }
 function gqn5y2() { gQn("/guqin/vrt/obv/gqn5y2.txt") }
 function gqk26() { gQn("/guqin/vrt/obv/gqk26.txt") }
@@ -87,6 +88,7 @@ function gqj3k5() { gQn("/guqin/vrt/rev/gqj3k5.txt") }
 function gqn167() { gQn("/guqin/vrt/rev/gqn167.txt") }
 function gqk1j5() { gQn("/guqin/vrt/rev/gqk1j5.txt") }
 function gqn67x2() { gQn("/guqin/vrt/rev/gqn67x2.txt") }
+function gqk1j56y7() { gQn("/guqin/vrt/rev/gqk1j56y7.txt") }
 function gqj2k5() { gQn("/guqin/vrt/rev/gqj2k5.txt") }
 function gqn6x2() { gQn("/guqin/vrt/rev/gqn6x2.txt") }
 function gqj25() { gQn("/guqin/vrt/rev/gqj25.txt") }
