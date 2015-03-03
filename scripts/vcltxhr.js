@@ -44,6 +44,7 @@ function cltk1j6() { pgCll("/mst/vrt/obv/cltk1j6.txt") }
 function cltn345() { pgCll("/mst/vrt/obv/cltn345.txt") }
 function cltj3k6() { pgCll("/mst/vrt/obv/cltj3k6.txt") }
 function cltn45y2() { pgCll("/mst/vrt/obv/cltn45y2.txt") }
+function cltj3k56x4() { pgCll("/mst/vrt/obv/cltj3k56x4.txt") }
 function cltk2j6() { pgCll("/mst/vrt/obv/cltk2j6.txt") }
 function cltn5y2() { pgCll("/mst/vrt/obv/cltn5y2.txt") }
 function cltk26() { pgCll("/mst/vrt/obv/cltk26.txt") }
@@ -87,6 +88,7 @@ function cltj3k5() { pgCll("/mst/vrt/rev/cltj3k5.txt") }
 function cltn167() { pgCll("/mst/vrt/rev/cltn167.txt") }
 function cltk1j5() { pgCll("/mst/vrt/rev/cltk1j5.txt") }
 function cltn67x2() { pgCll("/mst/vrt/rev/cltn67x2.txt") }
+function cltk1j56y7() { pgCll("/mst/vrt/rev/cltk1j56y7.txt") }
 function cltj2k5() { pgCll("/mst/vrt/rev/cltj2k5.txt") }
 function cltn6x2() { pgCll("/mst/vrt/rev/cltn6x2.txt") }
 function cltj25() { pgCll("/mst/vrt/rev/cltj25.txt") }
