@@ -296,6 +296,14 @@ n45y2
  AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ____ PbPb ____ 
  ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ 
 
+j3k56x4
+ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ 
+ FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg 
+ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ 
+ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ 
+ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ 
+ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ 
+
 k2j6
  ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ 
  FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ 
@@ -623,6 +631,14 @@ n67x2
  ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr 
  ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi 
  ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr 
+
+k1j56y7
+ NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr 
+ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ 
+ ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi 
+ NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr 
+ ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi 
+ NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr 
 
 j2k5
  ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn 
