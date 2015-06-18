@@ -80,8 +80,8 @@
   n167x4='HgAu ____ ____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp ',
   n345y7='____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ',
  j2k56x4='HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu ',
- j3k56x4="HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe ",
- k1j56y7="____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ",
+ j3k56x4='HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe ',
+ k1j56y7='____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ',
  k2j56y7='NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ ';
 
 function cyclone() { var d=document;
