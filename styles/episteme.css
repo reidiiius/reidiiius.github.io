@@ -7,6 +7,10 @@ body {
 #nav {
   margin:8px 0 8px 0;
 }
+hr {
+  float:left;
+  width:220px;
+}
 #views {
   position:fixed;
   left:300px;
