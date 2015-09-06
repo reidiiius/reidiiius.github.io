@@ -1,5 +1,7 @@
 // Copyright 2015 Reid Netterville III
 
+"use strict";
+
 var Hephaestus = [
 "FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ ",
 "FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ ____ TiFe ",

@@ -1,5 +1,7 @@
 /* Copyright 2014-2015 Reid Netterville III */
 
+"use strict";
+
 function pgTmp(resId) {
   var xhrq = new XMLHttpRequest()
   xhrq.open("get", resId, false); xhrq.send()

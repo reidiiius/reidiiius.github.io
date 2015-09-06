@@ -1,5 +1,7 @@
 // Copyright 2013-2015 Reid Netterville III 
 
+"use strict";
+
 mdlSTD_topaz=[
 "<pre>",
 "Topaz",

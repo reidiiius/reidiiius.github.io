@@ -1,5 +1,7 @@
 // Copyright 2014-2015 Reid Netterville III 
 
+"use strict";
+
   var j2="汞汞 钚铁 一一 一一 铜镎 铅金 一一 金铅 一一 银铀 一一 铁钚 ",
       j3="汞锡 一一 锡汞 铀铁 一一 铅银 一一 金金 一一 银铅 一一 铁铀 ",
       j5="铅铜 一一 金锡 一一 银汞 钒铁 铁钒 一一 一一 锡金 一一 铜铅 ",
@@ -143,5 +145,5 @@ function guqin(o) { var d=document
 function serialism() {
  var nt = new Date()
  var sr = document.getElementById("qe")
- sr.innerHTML=nt.getTime() }
+ sr.textContent = nt.getTime() }
 

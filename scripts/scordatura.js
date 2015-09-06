@@ -1,5 +1,7 @@
 /*  Copyright 2014-2015 Reid Netterville III  */
 
+"use strict";
+
 var vv = "\u2591\u2591\u2591\u2591 ",
     qq = "\u2592\u2592\u2592\u2592 "
 
@@ -280,22 +282,22 @@ k1j56y7:_zz_+aUuR+nPsN+_zz_+tIhG+fEfE+hGtI+_zz_+sNnP+uRaU+_zz_+_zz_,
 k2j56y7:nPcU+_zz_+_zz_+fEpU+hGhG+pUfE+sNtI+_zz_+cUnP+pBaU+_zz_+_zz_}
 
 var u_eadgbe = function( t, x ) {
-document.getElementById("sT").innerHTML=t
-document.getElementById("s0").innerHTML=x.slice(12,36).concat(x.slice(0,14))
-document.getElementById("s1").innerHTML=x.slice(33,36).concat(x.slice(0,35))
-document.getElementById("s2").innerHTML=x.slice(21,36).concat(x.slice(0,23))
-document.getElementById("s3").innerHTML=x.slice( 6,36).concat(x.slice(0, 8))
-document.getElementById("s4").innerHTML=x.slice(27,36).concat(x.slice(0,29))
-document.getElementById("s5").innerHTML=x.slice(12,36).concat(x.slice(0,14))
+document.getElementById("sT").textContent=t
+document.getElementById("s0").textContent=x.slice(12,36).concat(x.slice(0,14))
+document.getElementById("s1").textContent=x.slice(33,36).concat(x.slice(0,35))
+document.getElementById("s2").textContent=x.slice(21,36).concat(x.slice(0,23))
+document.getElementById("s3").textContent=x.slice( 6,36).concat(x.slice(0, 8))
+document.getElementById("s4").textContent=x.slice(27,36).concat(x.slice(0,29))
+document.getElementById("s5").textContent=x.slice(12,36).concat(x.slice(0,14))
 }
 var u_eadgcf = function( t, x ) {
-document.getElementById("sT").innerHTML=t
-document.getElementById("s0").innerHTML=x.slice(15,36).concat(x.slice(0,17))
-document.getElementById("s1").innerHTML=x.slice( 0,36).concat(x.slice(0, 2))
-document.getElementById("s2").innerHTML=x.slice(21,36).concat(x.slice(0,23))
-document.getElementById("s3").innerHTML=x.slice( 6,36).concat(x.slice(0, 8))
-document.getElementById("s4").innerHTML=x.slice(27,36).concat(x.slice(0,29))
-document.getElementById("s5").innerHTML=x.slice(12,36).concat(x.slice(0,14))
+document.getElementById("sT").textContent=t
+document.getElementById("s0").textContent=x.slice(15,36).concat(x.slice(0,17))
+document.getElementById("s1").textContent=x.slice( 0,36).concat(x.slice(0, 2))
+document.getElementById("s2").textContent=x.slice(21,36).concat(x.slice(0,23))
+document.getElementById("s3").textContent=x.slice( 6,36).concat(x.slice(0, 8))
+document.getElementById("s4").textContent=x.slice(27,36).concat(x.slice(0,29))
+document.getElementById("s5").textContent=x.slice(12,36).concat(x.slice(0,14))
 }
 
 function uGj(o){ document.writeln(o.slice(18,36).concat(o.slice(0,18))) }
@@ -416,49 +418,49 @@ k1j56y7:"____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ",
 k2j56y7:"NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ "}
 
 var t_eadgbe = function( t, x ) {
-document.getElementById("sT").innerHTML=t
-document.getElementById("s0").innerHTML=x.slice(20,61).concat(x.slice(0,20))
-document.getElementById("s1").innerHTML=x.slice(55,61).concat(x.slice(0,55))
-document.getElementById("s2").innerHTML=x.slice(35,61).concat(x.slice(0,35))
-document.getElementById("s3").innerHTML=x.slice(10,61).concat(x.slice(0,10))
-document.getElementById("s4").innerHTML=x.slice(45,61).concat(x.slice(0,45))
-document.getElementById("s5").innerHTML=x.slice(20,61).concat(x.slice(0,20))
+document.getElementById("sT").textContent=t
+document.getElementById("s0").textContent=x.slice(20,61).concat(x.slice(0,20))
+document.getElementById("s1").textContent=x.slice(55,61).concat(x.slice(0,55))
+document.getElementById("s2").textContent=x.slice(35,61).concat(x.slice(0,35))
+document.getElementById("s3").textContent=x.slice(10,61).concat(x.slice(0,10))
+document.getElementById("s4").textContent=x.slice(45,61).concat(x.slice(0,45))
+document.getElementById("s5").textContent=x.slice(20,61).concat(x.slice(0,20))
 }
 var t_fkbjdn = function( t, x ) {
-document.getElementById("sT").innerHTML=t
-document.getElementById("s0").innerHTML=x.slice(10,61).concat(x.slice(0,10))
-document.getElementById("s1").innerHTML=x.slice(50,61).concat(x.slice(0,50))
-document.getElementById("s2").innerHTML=x.slice(30,61).concat(x.slice(0,30))
-document.getElementById("s3").innerHTML=x.slice(10,61).concat(x.slice(0,10))
-document.getElementById("s4").innerHTML=x.slice(50,61).concat(x.slice(0,50))
-document.getElementById("s5").innerHTML=x.slice(30,61).concat(x.slice(0,30))
+document.getElementById("sT").textContent=t
+document.getElementById("s0").textContent=x.slice(10,61).concat(x.slice(0,10))
+document.getElementById("s1").textContent=x.slice(50,61).concat(x.slice(0,50))
+document.getElementById("s2").textContent=x.slice(30,61).concat(x.slice(0,30))
+document.getElementById("s3").textContent=x.slice(10,61).concat(x.slice(0,10))
+document.getElementById("s4").textContent=x.slice(50,61).concat(x.slice(0,50))
+document.getElementById("s5").textContent=x.slice(30,61).concat(x.slice(0,30))
 }
 var t_eadgcf = function( t, x ) {
-document.getElementById("sT").innerHTML=t
-document.getElementById("s0").innerHTML=x.slice(25,61).concat(x.slice(0,25))
-document.getElementById("s1").innerHTML=x.slice( 0,61).concat(x.slice(0, 0))
-document.getElementById("s2").innerHTML=x.slice(35,61).concat(x.slice(0,35))
-document.getElementById("s3").innerHTML=x.slice(10,61).concat(x.slice(0,10))
-document.getElementById("s4").innerHTML=x.slice(45,61).concat(x.slice(0,45))
-document.getElementById("s5").innerHTML=x.slice(20,61).concat(x.slice(0,20))
+document.getElementById("sT").textContent=t
+document.getElementById("s0").textContent=x.slice(25,61).concat(x.slice(0,25))
+document.getElementById("s1").textContent=x.slice( 0,61).concat(x.slice(0, 0))
+document.getElementById("s2").textContent=x.slice(35,61).concat(x.slice(0,35))
+document.getElementById("s3").textContent=x.slice(10,61).concat(x.slice(0,10))
+document.getElementById("s4").textContent=x.slice(45,61).concat(x.slice(0,45))
+document.getElementById("s5").textContent=x.slice(20,61).concat(x.slice(0,20))
 }
 var t_bfbfbf = function( t, x ) {
-document.getElementById("sT").innerHTML=t
-document.getElementById("s0").innerHTML=x.slice(25,61).concat(x.slice(0,25))
-document.getElementById("s1").innerHTML=x.slice(55,61).concat(x.slice(0,55))
-document.getElementById("s2").innerHTML=x.slice(25,61).concat(x.slice(0,25))
-document.getElementById("s3").innerHTML=x.slice(55,61).concat(x.slice(0,55))
-document.getElementById("s4").innerHTML=x.slice(25,61).concat(x.slice(0,25))
-document.getElementById("s5").innerHTML=x.slice(55,61).concat(x.slice(0,55))
+document.getElementById("sT").textContent=t
+document.getElementById("s0").textContent=x.slice(25,61).concat(x.slice(0,25))
+document.getElementById("s1").textContent=x.slice(55,61).concat(x.slice(0,55))
+document.getElementById("s2").textContent=x.slice(25,61).concat(x.slice(0,25))
+document.getElementById("s3").textContent=x.slice(55,61).concat(x.slice(0,55))
+document.getElementById("s4").textContent=x.slice(25,61).concat(x.slice(0,25))
+document.getElementById("s5").textContent=x.slice(55,61).concat(x.slice(0,55))
 }
 var t_fcgdae = function( t, x ) {
-document.getElementById("sT").innerHTML=t
-document.getElementById("s0").innerHTML=x.slice(20,61).concat(x.slice(0,20))
-document.getElementById("s1").innerHTML=x.slice(45,61).concat(x.slice(0,45))
-document.getElementById("s2").innerHTML=x.slice(10,61).concat(x.slice(0,10))
-document.getElementById("s3").innerHTML=x.slice(35,61).concat(x.slice(0,35))
-document.getElementById("s4").innerHTML=x.slice( 0,61).concat(x.slice(0, 0))
-document.getElementById("s5").innerHTML=x.slice(25,61).concat(x.slice(0,25))
+document.getElementById("sT").textContent=t
+document.getElementById("s0").textContent=x.slice(20,61).concat(x.slice(0,20))
+document.getElementById("s1").textContent=x.slice(45,61).concat(x.slice(0,45))
+document.getElementById("s2").textContent=x.slice(10,61).concat(x.slice(0,10))
+document.getElementById("s3").textContent=x.slice(35,61).concat(x.slice(0,35))
+document.getElementById("s4").textContent=x.slice( 0,61).concat(x.slice(0, 0))
+document.getElementById("s5").textContent=x.slice(25,61).concat(x.slice(0,25))
 }
 
 function sGj(o){ document.writeln(o.slice(30,61).concat(o.slice(0,30))) }
@@ -587,33 +589,33 @@ function srl() { document.write(new Date().getTime()) }
 
 function dsplyTm() {
   var xTm = new Date().getTime()
-  document.getElementById("obvTm").innerHTML = xTm
-  document.getElementById("revTm").innerHTML = xTm
+  document.getElementById("obvTm").textContent = xTm
+  document.getElementById("revTm").textContent = xTm
 }
 
 function mdlTag(q, r) {
   var s = document.getElementById(q),
       t = s.getElementsByTagName("dt"),
       u = s.getElementsByTagName("dd")
-  t[0].innerHTML = q
-  u[0].innerHTML = tj6(r)
-  u[1].innerHTML = tj3(r)
-  u[2].innerHTML = tj7(r)
-  u[3].innerHTML = tn4(r)
-  u[4].innerHTML = tn1(r)
+  t[0].textContent = q
+  u[0].textContent = tj6(r)
+  u[1].textContent = tj3(r)
+  u[2].textContent = tj7(r)
+  u[3].textContent = tn4(r)
+  u[4].textContent = tn1(r)
 }
 
 function gtrClass(q, r) {
   var s = document.getElementById(q),
       t = s.getElementsByClassName("sttl"),
       u = s.getElementsByClassName("strg")
-  t[0].innerHTML = q
-  u[0].innerHTML = tj6(r)
-  u[1].innerHTML = tj2(r)
-  u[2].innerHTML = tn4(r)
-  u[3].innerHTML = tj7(r)
-  u[4].innerHTML = tj3(r)
-  u[5].innerHTML = tj6(r)
+  t[0].textContent = q
+  u[0].textContent = tj6(r)
+  u[1].textContent = tj2(r)
+  u[2].textContent = tn4(r)
+  u[3].textContent = tj7(r)
+  u[4].textContent = tj3(r)
+  u[5].textContent = tj6(r)
 }
 
 var cycln = blks

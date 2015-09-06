@@ -1,5 +1,7 @@
 /* Copyright 2014 Reid Netterville III */
 
+"use strict";
+
 function makeTable(x) {
   var xtbl = document.createElement("TABLE");
   xtbl.setAttribute("id", x);

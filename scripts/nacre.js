@@ -1,5 +1,7 @@
 // Copyright 2013-2015 Reid Netterville III
 
+"use strict";
+
   var j2='HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu ',
       j3='HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr ',
       j5='PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ CuPb ',

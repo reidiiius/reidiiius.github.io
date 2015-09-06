@@ -1,5 +1,7 @@
 /* Copyright 2014 Reid Netterville III */
 
+"use strict";
+
 var coLor = "#deb887";
 var bgClr = "inherit";
 

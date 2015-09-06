@@ -1,5 +1,7 @@
 // Copyright 2015 Reid Netterville III 
 
+"use strict";
+
 var QualitativE = [
 
  {"$T":"n0",

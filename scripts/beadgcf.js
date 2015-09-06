@@ -1,5 +1,7 @@
 // Copyright 2013-2015 Reid Netterville III
 
+"use strict";
+
 var beadgcf = {
   "n0_F"     :" PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg ",
   "n0_C"     :" HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb ",
@@ -667,13 +669,13 @@ var beadgcf = {
 };
 
 function fingerBoard(s1, s2, s3, s4, s5, s6, s7) {
-  document.getElementById("str_01").innerHTML = s1;
-  document.getElementById("str_02").innerHTML = s2;
-  document.getElementById("str_03").innerHTML = s3;
-  document.getElementById("str_04").innerHTML = s4;
-  document.getElementById("str_05").innerHTML = s5;
-  document.getElementById("str_06").innerHTML = s6;
-  document.getElementById("str_07").innerHTML = s7;
+  document.getElementById("str_01").textContent = s1;
+  document.getElementById("str_02").textContent = s2;
+  document.getElementById("str_03").textContent = s3;
+  document.getElementById("str_04").textContent = s4;
+  document.getElementById("str_05").textContent = s5;
+  document.getElementById("str_06").textContent = s6;
+  document.getElementById("str_07").textContent = s7;
 }
 
 function gtr4ths_n0() {

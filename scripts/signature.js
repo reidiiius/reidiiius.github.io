@@ -1,5 +1,7 @@
 /*  Copyright 2014-2015 Reid Netterville III  */
 
+"use strict";
+
  var n0 = {  // 1392405136828
  fn:"PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg ",
  cn:"HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb ",
