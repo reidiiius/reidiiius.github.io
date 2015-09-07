@@ -6,6 +6,7 @@
   <title>k56_j56</title>
   <meta name="author" content="Reid Netterville III" />
   <link rel="stylesheet" href="/styles/adpe.css" type="text/css" />
+  <script src="/scripts/horologium.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="frm-topaz">
@@ -19,9 +20,7 @@
 <div class="srl">
 <span id="nmbr"></span>
 <script>
-var nd = new Date();
-var sx = document.getElementById("nmbr");
-sx.textContent = nd.getTime();
+  chronoMetric("nmbr");
 </script>
 </div>
 <div class="footer">
