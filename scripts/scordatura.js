@@ -585,8 +585,6 @@ function n5y2()    { tune_("n5y2",    trans_(typSet_.n5y2))    }
 function n67x2()   { tune_("n67x2",   trans_(typSet_.n67x2))   }
 function n6x2()    { tune_("n6x2",    trans_(typSet_.n6x2))    }
 
-function srl() { document.write(new Date().getTime()) }
-
 function dsplyTm() {
   var xTm = new Date().getTime()
   document.getElementById("obvTm").textContent = xTm
