@@ -2,23 +2,40 @@
 
 "use strict";
 
-function celestial(resId) {
-  var xhrq = new XMLHttpRequest();
-  xhrq.open("get", resId, false); xhrq.send();
-  document.getElementById("view").innerHTML = xhrq.responseText;
+function castorPollux() {
+  synChro("\/beadgcf\/reliquary\/agate.txt", "view");
 }
-
-function castorPollux() { celestial("\/beadgcf\/reliquary\/agate.txt")      }
-function alpherg()      { celestial("\/beadgcf\/reliquary\/amethyst.txt")   }
-function antares()      { celestial("\/beadgcf\/reliquary\/beryl.txt")      }
-function hamal()        { celestial("\/beadgcf\/reliquary\/bloodstone.txt") }
-function spica()        { celestial("\/beadgcf\/reliquary\/carnelian.txt")  }
-function acubens()      { celestial("\/beadgcf\/reliquary\/emerald.txt")    }
-function sadalmelik()   { celestial("\/beadgcf\/reliquary\/garnet.txt")     }
-function regulus()      { celestial("\/beadgcf\/reliquary\/onyx.txt")       }
-function zubenelgenubi(){ celestial("\/beadgcf\/reliquary\/peridot.txt")    }
-function algedi()       { celestial("\/beadgcf\/reliquary\/ruby.txt")       }
-function aldebaran()    { celestial("\/beadgcf\/reliquary\/sapphire.txt")   }
-function rukbat()       { celestial("\/beadgcf\/reliquary\/topaz.txt")      }
-
+function alpherg() {
+  synChro("\/beadgcf\/reliquary\/amethyst.txt", "view");
+}
+function antares() {
+  synChro("\/beadgcf\/reliquary\/beryl.txt", "view");
+}
+function hamal() {
+  synChro("\/beadgcf\/reliquary\/bloodstone.txt", "view");
+}
+function spica() {
+  synChro("\/beadgcf\/reliquary\/carnelian.txt", "view");
+}
+function acubens() {
+  synChro("\/beadgcf\/reliquary\/emerald.txt", "view");
+}
+function sadalmelik() {
+  synChro("\/beadgcf\/reliquary\/garnet.txt", "view");
+}
+function regulus() {
+  synChro("\/beadgcf\/reliquary\/onyx.txt", "view");
+}
+function zubenelgenubi() {
+  synChro("\/beadgcf\/reliquary\/peridot.txt", "view");
+}
+function algedi() {
+  synChro("\/beadgcf\/reliquary\/ruby.txt", "view");
+}
+function aldebaran() {
+  synChro("\/beadgcf\/reliquary\/sapphire.txt", "view");
+}
+function rukbat() {
+  synChro("\/beadgcf\/reliquary\/topaz.txt", "view");
+}
 
