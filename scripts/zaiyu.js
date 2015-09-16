@@ -7,8 +7,7 @@
   for (var n = 0; n < 49; n++) {
     f.push(Math.pow(2, n / 12) * 1);
   }
-  for (var a = 0; a < 37; a++) {
-    document.writeln(f[a]);
-  }
+  var z = document.getElementById("zhu");
+  z.insertAdjacentHTML("afterbegin", f.join("\n"));
 })();
 
