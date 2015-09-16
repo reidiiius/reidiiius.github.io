@@ -8,6 +8,6 @@
     f.push(Math.pow(2, n / 12) * 1);
   }
   var z = document.getElementById("zhu");
-  z.insertAdjacentHTML("afterbegin", f.join("\n"));
+  z.textContent = f.join("\n");
 })();
 
