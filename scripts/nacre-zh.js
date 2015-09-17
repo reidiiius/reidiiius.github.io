@@ -86,64 +86,72 @@
  k1j56y7="一一 金铀 镎锡 一一 钒汞 铁铁 汞钒 一一 锡镎 铀金 一一 一一 ",
  k2j56y7="镎铜 一一 一一 铁钚 汞汞 钚铁 锡钒 一一 铜镎 铅金 一一 一一 ";
 
-function cgdae(o) { var d=document
- d.writeln(o.slice(12,36).concat(o.slice(0,14)))
- d.writeln(o.slice(27,36).concat(o.slice(0,29)))
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
- d.writeln(o.slice(21,36).concat(o.slice(0,23)))
- d.writeln(o.slice( 0,36).concat(o.slice(0, 2))) }
+function cgdae(o) { var d = document;
+  d.writeln(o.slice(12,36).concat(o.slice(0,14)));
+  d.writeln(o.slice(27,36).concat(o.slice(0,29)));
+  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)));
+  d.writeln(o.slice(21,36).concat(o.slice(0,23)));
+  d.writeln(o.slice( 0,36).concat(o.slice(0, 2)));
+}
 
-function dadgad(o) { var d=document
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
- d.writeln(o.slice(27,36).concat(o.slice(0,29)))
- d.writeln(o.slice(21,36).concat(o.slice(0,23)))
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
- d.writeln(o.slice(27,36).concat(o.slice(0,29)))
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8))) }
+function dadgad(o) { var d = document;
+  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)));
+  d.writeln(o.slice(27,36).concat(o.slice(0,29)));
+  d.writeln(o.slice(21,36).concat(o.slice(0,23)));
+  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)));
+  d.writeln(o.slice(27,36).concat(o.slice(0,29)));
+  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)));
+}
 
-function dgdgbd(o) { var d=document
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
- d.writeln(o.slice(33,36).concat(o.slice(0,35)))
- d.writeln(o.slice(21,36).concat(o.slice(0,23)))
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
- d.writeln(o.slice(21,36).concat(o.slice(0,23)))
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8))) }
+function dgdgbd(o) { var d = document;
+  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)));
+  d.writeln(o.slice(33,36).concat(o.slice(0,35)));
+  d.writeln(o.slice(21,36).concat(o.slice(0,23)));
+  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)));
+  d.writeln(o.slice(21,36).concat(o.slice(0,23)));
+  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)));
+}
 
-function eadgbe(o) { var d=document
- d.writeln(o.slice(12,36).concat(o.slice(0,14)))
- d.writeln(o.slice(33,36).concat(o.slice(0,35)))
- d.writeln(o.slice(21,36).concat(o.slice(0,23)))
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
- d.writeln(o.slice(27,36).concat(o.slice(0,29)))
- d.writeln(o.slice(12,36).concat(o.slice(0,14))) }
+function eadgbe(o) { var d = document;
+  d.writeln(o.slice(12,36).concat(o.slice(0,14)));
+  d.writeln(o.slice(33,36).concat(o.slice(0,35)));
+  d.writeln(o.slice(21,36).concat(o.slice(0,23)));
+  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)));
+  d.writeln(o.slice(27,36).concat(o.slice(0,29)));
+  d.writeln(o.slice(12,36).concat(o.slice(0,14)));
+}
 
-function eadgcf(o) { var d=document
- d.writeln(o.slice(15,36).concat(o.slice(0,17)))
- d.writeln(o.slice( 0,36).concat(o.slice(0, 2)))
- d.writeln(o.slice(21,36).concat(o.slice(0,23)))
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
- d.writeln(o.slice(27,36).concat(o.slice(0,29)))
- d.writeln(o.slice(12,36).concat(o.slice(0,14))) }
+function eadgcf(o) { var d = document;
+  d.writeln(o.slice(15,36).concat(o.slice(0,17)));
+  d.writeln(o.slice( 0,36).concat(o.slice(0, 2)));
+  d.writeln(o.slice(21,36).concat(o.slice(0,23)));
+  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)));
+  d.writeln(o.slice(27,36).concat(o.slice(0,29)));
+  d.writeln(o.slice(12,36).concat(o.slice(0,14)));
+}
 
-function fkbjdn(o) { var d=document
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
- d.writeln(o.slice(30,36).concat(o.slice(0,32)))
- d.writeln(o.slice(18,36).concat(o.slice(0,20)))
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
- d.writeln(o.slice(30,36).concat(o.slice(0,32)))
- d.writeln(o.slice(18,36).concat(o.slice(0,20))) }
+function fkbjdn(o) { var d = document;
+  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)));
+  d.writeln(o.slice(30,36).concat(o.slice(0,32)));
+  d.writeln(o.slice(18,36).concat(o.slice(0,20)));
+  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)));
+  d.writeln(o.slice(30,36).concat(o.slice(0,32)));
+  d.writeln(o.slice(18,36).concat(o.slice(0,20)));
+}
 
-function guqin(o) { var d=document
- d.writeln(o.slice(21,36).concat(o.slice(0,23)))
- d.writeln(o.slice(27,36).concat(o.slice(0,29)))
- d.writeln(o.slice( 0,36).concat(o.slice(0, 2)))
- d.writeln(o.slice( 6,36).concat(o.slice(0, 8)))
- d.writeln(o.slice(12,36).concat(o.slice(0,14)))
- d.writeln(o.slice(21,36).concat(o.slice(0,23)))
- d.writeln(o.slice(27,36).concat(o.slice(0,29))) }
+function guqin(o) { var d = document;
+  d.writeln(o.slice(21,36).concat(o.slice(0,23)));
+  d.writeln(o.slice(27,36).concat(o.slice(0,29)));
+  d.writeln(o.slice( 0,36).concat(o.slice(0, 2)));
+  d.writeln(o.slice( 6,36).concat(o.slice(0, 8)));
+  d.writeln(o.slice(12,36).concat(o.slice(0,14)));
+  d.writeln(o.slice(21,36).concat(o.slice(0,23)));
+  d.writeln(o.slice(27,36).concat(o.slice(0,29)));
+}
 
-function serialism() {
- var nt = new Date()
- var sr = document.getElementById("qe")
- sr.textContent = nt.getTime() }
+function serialism(o) { // chronoMetric
+  var gebi = document.getElementById(o);
+  var nwdt = new Date();
+  gebi.textContent = nwdt.getTime();
+}
 

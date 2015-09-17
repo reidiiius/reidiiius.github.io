@@ -86,41 +86,44 @@
  k1j56y7='____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ',
  k2j56y7='NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ ';
 
-function cyclone() { var d=document;
-d.writeln(o.slice(25,60).concat(o.slice(0,25))) // n4
-d.writeln(o.slice(0, 60).concat(o.slice(0, 0))) // n1
-d.writeln(o.slice(35,60).concat(o.slice(0,35))) // n5
-d.writeln(o.slice(10,60).concat(o.slice(0,10))) // n2
-d.writeln(o.slice(45,60).concat(o.slice(0,45))) // n6
-d.writeln(o.slice(20,60).concat(o.slice(0,20))) // n3
-d.writeln(o.slice(55,60).concat(o.slice(0,55))) // n7
-d.writeln(o.slice(30,60).concat(o.slice(0,30))) // j5
-d.writeln(o.slice(5, 60).concat(o.slice(0, 5))) // j2
-d.writeln(o.slice(40,60).concat(o.slice(0,40))) // j6
-d.writeln(o.slice(15,60).concat(o.slice(0,15))) // j3
-d.writeln(o.slice(50,60).concat(o.slice(0,50))) // j7
+function cyclone(o) { var d = document;
+  d.writeln(o.slice(25,60).concat(o.slice(0,25))); // n4
+  d.writeln(o.slice( 0,60).concat(o.slice(0, 0))); // n1
+  d.writeln(o.slice(35,60).concat(o.slice(0,35))); // n5
+  d.writeln(o.slice(10,60).concat(o.slice(0,10))); // n2
+  d.writeln(o.slice(45,60).concat(o.slice(0,45))); // n6
+  d.writeln(o.slice(20,60).concat(o.slice(0,20))); // n3
+  d.writeln(o.slice(55,60).concat(o.slice(0,55))); // n7
+  d.writeln(o.slice(30,60).concat(o.slice(0,30))); // j5
+  d.writeln(o.slice( 5,60).concat(o.slice(0, 5))); // j2
+  d.writeln(o.slice(40,60).concat(o.slice(0,40))); // j6
+  d.writeln(o.slice(15,60).concat(o.slice(0,15))); // j3
+  d.writeln(o.slice(50,60).concat(o.slice(0,50))); // j7
 }
 
-function gstd() { var d=document;
-d.writeln(o.slice(20,60).concat(o.slice(0,20)))
-d.writeln(o.slice(55,60).concat(o.slice(0,55)))
-d.writeln(o.slice(35,60).concat(o.slice(0,35)))
-d.writeln(o.slice(10,60).concat(o.slice(0,10)))
-d.writeln(o.slice(45,60).concat(o.slice(0,45)))
-d.writeln(o.slice(20,60).concat(o.slice(0,20))) }
+function gstd(o) { var d = document;
+  d.writeln(o.slice(20,60).concat(o.slice(0,20)));
+  d.writeln(o.slice(55,60).concat(o.slice(0,55)));
+  d.writeln(o.slice(35,60).concat(o.slice(0,35)));
+  d.writeln(o.slice(10,60).concat(o.slice(0,10)));
+  d.writeln(o.slice(45,60).concat(o.slice(0,45)));
+  d.writeln(o.slice(20,60).concat(o.slice(0,20)));
+}
 
-function guQin() { var d=document;
-d.writeln(o.slice(35,60).concat(o.slice(0,39)))
-d.writeln(o.slice(45,60).concat(o.slice(0,49)))
-d.writeln(o.slice(0, 60).concat(o.slice(0, 4)))
-d.writeln(o.slice(10,60).concat(o.slice(0,14)))
-d.writeln(o.slice(20,60).concat(o.slice(0,24)))
-d.writeln(o.slice(35,60).concat(o.slice(0,39)))
-d.writeln(o.slice(45,60).concat(o.slice(0,49))) }
+function guQin(o) { var d = document;
+  d.writeln(o.slice(35,60).concat(o.slice(0,39)));
+  d.writeln(o.slice(45,60).concat(o.slice(0,49)));
+  d.writeln(o.slice( 0,60).concat(o.slice(0, 4)));
+  d.writeln(o.slice(10,60).concat(o.slice(0,14)));
+  d.writeln(o.slice(20,60).concat(o.slice(0,24)));
+  d.writeln(o.slice(35,60).concat(o.slice(0,39)));
+  d.writeln(o.slice(45,60).concat(o.slice(0,49)));
+}
 
-function mstd() { var d=document;
-d.writeln(o.slice(20,60).concat(o.slice(0,20)))
-d.writeln(o.slice(45,60).concat(o.slice(0,45)))
-d.writeln(o.slice(10,60).concat(o.slice(0,10)))
-d.writeln(o.slice(35,60).concat(o.slice(0,35))) }
+function mstd(o) { var d = document;
+  d.writeln(o.slice(20,60).concat(o.slice(0,20)));
+  d.writeln(o.slice(45,60).concat(o.slice(0,45)));
+  d.writeln(o.slice(10,60).concat(o.slice(0,10)));
+  d.writeln(o.slice(35,60).concat(o.slice(0,35)));
+}
 
