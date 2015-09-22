@@ -1,6 +1,9 @@
 
 body {
+  margin:0;
+  padding:0;
   background-color:#fffff0;
+  font-family:"DejaVu Sans",helvetica,arial,sans-serif;
 }
 #fxd {
   position:fixed;
@@ -28,7 +31,6 @@ h1 {
   padding:0 0 0 10px;
 }
 .molign {
-  font-family:helvetica,arial,sans-serif;
   font-size:28px;
   color:#4f4f4f;
 }
@@ -52,7 +54,6 @@ ul {
 }
 li {
   display:inline;
-  font-family:helvetica,arial,sans-serif;
   font-size:18px;
   padding:0 5px 0 5px;
 }
@@ -72,25 +73,14 @@ a:hover {
   background-color:#fffff0;
   margin-top:120px;
 }
-#scribe {
-  background-color:transparent;
-  margin-top:130px;
-}
-.symbol {
-  white-space:nowrap;
-}
 .strings {
-  font-family:monospace;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:20px;
   color:#2f4f4f;
   white-space:nowrap;
 }
 .center {
   text-align:center;
-}
-.t-center {
-  margin-left:auto;
-  margin-right:auto;
 }
 .cmd-ui {
   text-align:center;
@@ -99,7 +89,7 @@ a:hover {
 .bttn {
   border:1px solid #fffff0;
   background-color:#fffff0;
-  font-family:consolas,"courier new",monospace;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:18px;
   color:#1e90ff;
   padding:1px;
@@ -109,20 +99,33 @@ button:hover {
   color:#4682b4;
   text-decoration:underline;
 }
+#scribe {
+  background-color:transparent;
+  margin-top:130px;
+}
+.t-center {
+  margin-left:auto;
+  margin-right:auto;
+}
+.symbol {
+  white-space:nowrap;
+}
 .fretboard {
   background-color:transparent; 
   border-collapse:collapse;
-  margin-left:auto;
-  margin-right:auto;
+  margin:0 auto 0 auto;
 }
 .glyph {
   width:40px;
   height:54px;
 }
+#ndex td {
+  padding:16px;
+}
 #gst-ui {
   background-color:#fffff0; 
   text-align:center;
-  font-family:monospace;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:18px;
   position:absolute;
   left:20px;
@@ -134,12 +137,12 @@ button:hover {
   top:100px;
   font-family:monospace;
   font-size:14px;
-  color:#a0522d; /* #deb887 */
+  color:#a0522d;
 }
 #mst-ui {
   background-color:#fffff0; 
   text-align:center;
-  font-family:monospace;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:18px;
   position:absolute;
   left:466px;
@@ -154,105 +157,80 @@ button:hover {
   padding:8px;
 }
 .nav-ttl {
-  font-family:sans-serif;
   font-size:28px;
   color:#cdcdcd;
 }
 #opal-sapphire-gst {
   background-color:#fffaf0;
-  padding:16px;
 }
 #opal-peridot-gst {
   background-color:#fff8dc;
-  padding:16px;
 }
 #opal-amethyst-gst {
   background-color:#fffaf0;
-  padding:16px;
 }
 #opal-onyx-gst {
   background-color:#fff8dc;
-  padding:16px;
 }
 #opal-agate-gst {
   background-color:#fffaf0;
-  padding:16px;
 }
 #opal-beryl-gst {
   background-color:#fff8dc;
-  padding:16px;
 }
 #topaz-sapphire-gst {
   background-color:#fffaf0;
-  padding:16px;
 }
 #topaz-peridot-gst {
   background-color:#fff8dc;
-  padding:16px;
 }
 #topaz-amethyst-gst {
   background-color:#fffaf0;
-  padding:16px;
 }
 #topaz-onyx-gst {
   background-color:#fff8dc;
-  padding:16px;
 }
 #topaz-agate-gst {
   background-color:#fffaf0;
-  padding:16px;
 }
 #topaz-beryl-gst {
   background-color:#fff8dc;
-  padding:16px;
 }
 #opal-sapphire-mst {
   background-color:#fffaf0;
-  padding:16px;
 }
 #opal-peridot-mst {
   background-color:#fff8dc;
-  padding:16px;
 }
 #opal-amethyst-mst {
   background-color:#fffaf0;
-  padding:16px;
 }
 #opal-onyx-mst {
   background-color:#fff8dc;
-  padding:16px;
 }
 #opal-agate-mst {
   background-color:#fffaf0;
-  padding:16px;
 }
 #opal-beryl-mst {
   background-color:#fff8dc;
-  padding:16px;
 }
 #topaz-sapphire-mst {
   background-color:#fffaf0;
-  padding:16px;
 }
 #topaz-peridot-mst {
   background-color:#fff8dc;
-  padding:16px;
 }
 #topaz-amethyst-mst {
   background-color:#fffaf0;
-  padding:16px;
 }
 #topaz-onyx-mst {
   background-color:#fff8dc;
-  padding:16px;
 }
 #topaz-agate-mst {
   background-color:#fffaf0;
-  padding:16px;
 }
 #topaz-beryl-mst {
   background-color:#fff8dc;
-  padding:16px;
 }
 .brdt {
   border:1px dotted #aaa;
@@ -270,13 +248,13 @@ button:hover {
   width:430px;
 }
 .nstr {
-  font-family:monospace;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:12px;
   color:#2f4f4f;
   padding:0 0 0 10px;
 }
 .han {
-  font-family:SimSun,SimHei,monospace;
+  font-family:"WenQuanYi Zen Hei Mono",monospace;
   font-size:12px;
   color:#2f4f4f;
   padding:0 5px 0 5px;
@@ -287,16 +265,15 @@ button:hover {
   top:88px;
 }
 .logarithm {
-  font-family:monospace;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:12px;
   color:#2f4f4f;
 }
 .embed {
   width:675px;
-  margin-left:auto;
-  margin-right:auto;
+  margin:0 auto 0 auto;
   padding:10px;
-  font-family:monospace;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:18px;
   color:#2f4f4f;
 }
@@ -324,7 +301,6 @@ button:hover {
 }
 .copy {
   text-align:center;
-  font-family:sans-serif;
   font-size:12px;
   color:#2f4f4f;
   padding:10px;
@@ -332,7 +308,6 @@ button:hover {
 #footer {
   background-color:#fffff0;
   width:600px;
-  font-family:sans-serif;
   color:#a9a9a9;
   padding-bottom:2px;
 }
@@ -351,10 +326,10 @@ button:hover {
   top:580px;
 }
 .credit {
-  font-family:sans-serif;
   font-size:14px;
-  color:#bcbcbc;
+  color:#808080;
   padding:10px;
+}
 }
 @media print {
 #header {
@@ -369,6 +344,5 @@ button:hover {
 #footer {
   text-align:center; 
   color:#a9a9a9;
-}
 }
 

@@ -1,10 +1,21 @@
 
-@media (max-width:700px) {
+@media ( max-width:700px ) {
 body {
+  margin:0;
+  padding:0;
   background-color:#fffff0;
-  font-family:helvetica,arial,sans-serif;
+  font-family:"DejaVu Sans",helvetica,arial,sans-serif;
+}
+#fxd {
+  position:relative;
+}
+#header {
+  width:auto;
+  height:auto;
+  border:0;
 }
 .logo {
+  position:relative;
   float:left;
 }
 .molign {
@@ -14,7 +25,13 @@ body {
   color:#2f4f4f;
 }
 #menu {
-  margin:50px 0 0 20px;;
+  position:relative;
+  left:0;
+  top:10px;
+  margin:30px;
+}
+#side-menu {
+  display:none;
 }
 ul {
   list-style:square;
@@ -36,13 +53,11 @@ a:hover {
   text-decoration:underline; 
   color:#4682b4;
 }
-#ndex {
-  width:280px;
-  margin-left:auto;
-  margin-right:auto;
+#content {
+  margin:0;
 }
 .strings {
-  font-family:consolas,"courier new",monospace;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:12px;
   color:#2f4f4f;
   white-space:nowrap;
@@ -51,13 +66,14 @@ a:hover {
   text-align:center;
 }
 .cmd-ui {
+  line-height:24px;
   text-align:center;
   white-space:nowrap;
 }
 .bttn {
   border:0;
   background-color:#fffff0;
-  font-family:consolas,"courier new",monospace;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:12px;
   color:#1e90ff;
   padding:0;
@@ -65,213 +81,102 @@ a:hover {
 }
 #scribe {
   background-color:transparent;
+  margin:0;
 }
 .t-center {
   margin-left:auto;
   margin-right:auto;
 }
+.symbol {
+  white-space:nowrap;
+}
 .fretboard {
   background-color:transparent; 
   border-collapse:collapse;
-  margin-left:auto;
-  margin-right:auto;
+  margin:0 auto 0 auto;
 }
 .glyph {
   width:40px;
   height:54px;
 }
-.symbol {
-  white-space:nowrap;
+#ndex {
+  width:280px;
+  margin:0 auto 0 auto;
+}
+#ndex table {
+  border-collapse:collapse;
+}
+#ndex th, #ndex td {
+  border:1px dotted #cdcdcd;
+  padding:4px;
+  background-color:#fffafa;
 }
 #gst-ui, #mst-ui {
   text-align:center;
-  font-size:24px;
+  font-size:20px;
+}
+#vGtrMdl {
+  position:relative;
+  left:auto;
+  top:auto;
+  z-index:-1;
+  text-align:center;
+  font-family:monospace;
+  font-size:16px;
+  color:#a0522d;
 }
 #gemstone-gst {
   background-color:#fffff5;
-  border:1px dotted #ccc;
+  border:1px dotted #cdcdcd;
   padding:16px 2px 2px 2px;
 }
 #gemstone-mst {
   background-color:#fffff5;
-  border:1px dotted #ccc;
+  border:1px dotted #cdcdcd;
   padding:16px 2px 2px 2px;
 }
 .nav-ttl {
   font-size:28px;
   color:#cd853f;
 }
-#opal-sapphire-gst {
-  background-color:#fffff3;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#opal-peridot-gst {
-  background-color:#fffff5;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#opal-amethyst-gst {
-  background-color:#fffff3;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#opal-onyx-gst {
-  background-color:#fffff5;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#opal-agate-gst {
-  background-color:#fffff3;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#opal-beryl-gst {
-  background-color:#fffff5;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#topaz-sapphire-gst {
-  background-color:#fffff3;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#topaz-peridot-gst {
-  background-color:#fffff5;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#topaz-amethyst-gst {
-  background-color:#fffff3;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#topaz-onyx-gst {
-  background-color:#fffff5;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#topaz-agate-gst {
-  background-color:#fffff3;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#topaz-beryl-gst {
-  background-color:#fffff5;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#opal-sapphire-mst {
-  background-color:#fffff3;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#opal-peridot-mst {
-  background-color:#fffff5;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#opal-amethyst-mst {
-  background-color:#fffff3;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#opal-onyx-mst {
-  background-color:#fffff5;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#opal-agate-mst {
-  background-color:#fffff3;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#opal-beryl-mst {
-  background-color:#fffff5;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#topaz-sapphire-mst {
-  background-color:#fffff3;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#topaz-peridot-mst {
-  background-color:#fffff5;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#topaz-amethyst-mst {
-  background-color:#fffff3;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#topaz-onyx-mst {
-  background-color:#fffff5;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#topaz-agate-mst {
-  background-color:#fffff3;
-  border:1px dotted #ccc;
-  padding:2px;
-}
-#topaz-beryl-mst {
-  background-color:#fffff5;
-  border:1px dotted #ccc;
-  padding:2px;
-}
 .lnk {
   padding:24px;
-}
-#vGtrMdl {
-  text-align:center;
-  font-family:monospace;
-  font-size:16px;
-  color:#a0522d;
-}
-#side-menu {
-  display:none;
 }
 .brdt {
   border:1px dotted #aaa;
 }
 #viewTopaz, #viewOpal {
   width:430px;
-  margin-left:auto;
-  margin-right:auto;
+  margin:0 auto 0 auto;
 }
 .nstr {
-  font-family:monospace;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:12px;
   color:#2f4f4f;
   padding:0 5px 0 5px;
 }
 .han {
-  font-family:SimSun,SimHei,monospace;
-  font-size:14px;
+  font-family:"WenQuanYi Zen Hei Mono",monospace;
+  font-size:12px;
   color:#2f4f4f;
   padding:0 5px 0 5px;
 }
 #cochlea {
   width:150px;
-  margin-top:1em;
-  margin-left:auto;
-  margin-right:auto;
-  border:1px dotted #ccc;
+  margin:1em auto 0.5em auto;
+  border:1px dotted #cdcdcd;
   padding:12px 0 0 24px;
 }
 .logarithm {
-  font-family:monospace;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:12px;
   color:#2f4f4f;
 }
 .embed {
   width:430px;
-  margin-left:auto;
-  margin-right:auto;
+  margin:0 auto 0 auto;
   padding:8px;
-  font-family:monospace;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:12px;
   color:#2f4f4f;
 }
@@ -283,6 +188,16 @@ a:hover {
   text-align:center;
   font-size:14px;
   color:#2f4f4f;
+  padding:10px;
+}
+.attr {
+  position:relative;
+  left:auto;
+  top:auto;
+}
+.credit {
+  font-size:14px;
+  color:#bcbcbc;
   padding:10px;
 }
 }

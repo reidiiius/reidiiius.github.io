@@ -1,10 +1,11 @@
 
 body {
   background-color:#fffff0;
+  font-family:"WenQuanYi Zen Hei Mono",monospace;
+  white-space:nowrap;
 }
 h1 {
   text-align:center;
-  font-family:SimSun,SimHei,monospace;
   font-size:32px;
   color:#888800;
   padding:16px;
@@ -14,47 +15,34 @@ h1 {
   padding:20px;
 }
 .cpy {
-  font-family:sans-serif;
+  font-family:"DejaVu Sans",helvetica,arial,sans-serif;
   font-size:14px;
-  color:#696969;
-  white-space:nowrap;
+  color:#808080;
 }
 @media ( min-width:800px ) {
 .content {
   width:832px;
-  margin-left:auto;
-  margin-right:auto;
-  font-family:SimSun,SimHei,monospace;
+  margin:0 auto 0 auto;
   font-size:24px;
   color:#555500;
-  white-space:nowrap;
 }
 .qin-octave {
   width:892px;
-  margin-left:auto;
-  margin-right:auto;
-  font-family:SimSun,SimHei,monospace;
+  margin:0 auto 0 auto;
   font-size:24px;
   color:#555500;
-  white-space:nowrap;
 } }
 @media ( max-width:800px ) {
 .content {
   width:432px;
-  margin-left:auto;
-  margin-right:auto;
-  font-family:SimSun,SimHei,monospace;
+  margin:0 auto 0 auto;
   font-size:14px;
   color:#444400;
-  white-space:nowrap;
 }
 .qin-octave {
   width:468px;
-  margin-left:auto;
-  margin-right:auto;
-  font-family:SimSun,SimHei,monospace;
+  margin:0 auto 0 auto;
   font-size:14px;
   color:#444400;
-  white-space:nowrap;
 } }
 
