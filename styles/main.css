@@ -58,7 +58,8 @@ li {
   padding:0 5px 0 5px;
 }
 .page {
-  background-color:#fff8dc;
+  border:1px dotted #f0e68c;
+  background-color:#fafad2;
 }
 a {
   text-decoration:none;
@@ -107,6 +108,17 @@ button:hover {
   margin-left:auto;
   margin-right:auto;
 }
+#frm {
+  margin:12px 0 0 12px;
+  font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
+  font-size:12px;
+  color:#3e3e3e;
+}
+#frm iframe {
+  width:460px;
+  height:130px;
+  border:0;
+}
 .symbol {
   white-space:nowrap;
 }
@@ -121,15 +133,16 @@ button:hover {
 }
 #ndex td {
   padding:16px;
+  line-height:24px;
 }
 #gst-ui {
+  position:absolute;
+  left:20px;
+  top:100px;
   background-color:#fffff0; 
   text-align:center;
   font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:18px;
-  position:absolute;
-  left:20px;
-  top:100px;
 }
 #vGtrMdl {
   position:fixed;
@@ -140,13 +153,13 @@ button:hover {
   color:#a0522d;
 }
 #mst-ui {
+  position:absolute;
+  left:466px;
+  top:100px;
   background-color:#fffff0; 
   text-align:center;
   font-family:"DejaVu Sans Mono",consolas,"courier new",monospace;
   font-size:18px;
-  position:absolute;
-  left:466px;
-  top:100px;
 }
 #gemstone-gst {
   background-color:#fff8dc;
@@ -314,7 +327,7 @@ button:hover {
 .ndx-low {
   position:absolute;
   left:20px;
-  top:1280px;
+  top:1350px;
   white-space:nowrap;
 }
 .cush {
@@ -328,7 +341,7 @@ button:hover {
 .credit {
   font-size:14px;
   color:#808080;
-  padding:10px;
+  padding:8px;
 }
 }
 @media print {
