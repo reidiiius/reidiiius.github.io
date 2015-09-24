@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Reid Netterville III" />
+  <title>Exposit</title>
+  <link rel="stylesheet" href="/styles/olivebone.css" type="text/css" />
+</head>
+<body>
+
+<section id="zero"></section>
+
+<script type="application/javascript">
+(function() { "use strict";
+var secZero = document.getElementById("zero");
+var xhrq = new XMLHttpRequest();
+    xhrq.open("GET", "\/cabinet\/syngnathidae.xml", false);
+    xhrq.send();
+    secZero.insertAdjacentHTML("afterbegin", xhrq.responseText);
+})();
+</script>
+
+<pre data-graph="hanzi cgdae n0">
+<script type="application/javascript">
+(function() { "use strict";
+var dfn = document.getElementById("hanzi");
+var obj = new String(dfn.dataset.n0);
+  document.writeln(obj.length);
+  document.writeln(obj.slice(12,36).concat(obj.slice(0,14)));
+  document.writeln(obj.slice(27,36).concat(obj.slice(0,29)));
+  document.writeln(obj.slice( 6,36).concat(obj.slice(0, 8)));
+  document.writeln(obj.slice(21,36).concat(obj.slice(0,23)));
+  document.writeln(obj + obj.slice(0, 2));
+})();
+</script>
+</pre>
+
+<pre data-graph="latin cgdae n0">
+<script type="application/javascript">
+(function() { "use strict";
+var dfn = document.getElementById("latin");
+var obj = new String(dfn.dataset.n0);
+  document.writeln(obj.length);
+  document.writeln(obj.slice(20,60).concat(obj.slice(0,25)));
+  document.writeln(obj.slice(45,60).concat(obj.slice(0,50)));
+  document.writeln(obj.slice(10,60).concat(obj.slice(0,15)));
+  document.writeln(obj.slice(35,60).concat(obj.slice(0,40)));
+  document.writeln(obj + obj.slice(0, 5));
+})();
+</script>
+</pre>
+
+<footer id="notice">
+  <p class="msg">&#169; 2015 Reid Netterville III</p>
+</footer>
+
+</body>
+</html>
+
