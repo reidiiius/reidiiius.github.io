@@ -8,27 +8,89 @@
   <link rel="stylesheet" href="/styles/easel.css" type="text/css">
   <script src="/scripts/qualitative.js" type="application/javascript"></script>
 </head>
-<body>
-<div id="embed">
-<pre>
+<body onload="perfectFourthsTuning()">
+<nav id="nav">
+  <button type="button" onclick="guitarStandardTuning()">EADGBE</button>
+  <button type="button" onclick="perfectFourthsTuning()">EADGCF</button>
+  <button type="button" onclick="guitarDADGADTuning()">DADGAD</button>
+  <button type="button" onclick="guitarDGDGBDTuning()">DGDGBD</button>
+  <button type="button" onclick="celloStandardTuning()">CGDAE</button>
+</nav>
 <script type="application/javascript">
-(function() {
-  var a = QualitativE;
-  for (var i = 0; i < a.length; i++) {
-    document.writeln(a[i].$T);
-    document.writeln(a[i].nF);
-    document.writeln(a[i].nC);
-    document.writeln(a[i].nG);
-    document.writeln(a[i].nD);
-    document.writeln(a[i].nA);
-    document.writeln(a[i].nE);
-    document.writeln(a[i].nB);
-    document.writeln(   "\n");
+"use strict";
+var QE = new Object(QualitativE);
+for (var i = 0; i < QE.length; i++) {
+  var b = document.getElementsByTagName("body")[0];
+  var p = document.createElement("pre");
+  p.setAttribute("class", "str");
+  p.setAttribute("data-graph", [i]);
+  b.appendChild(p);
+}
+function guitarStandardTuning() {
+  var pre = document.getElementsByTagName("pre");
+  for ( var i = 0; i < pre.length; i++) {
+    var x = pre[i];
+    x.textContent = QE[i].$T +
+            "\n" + QE[i].nE +
+           "\n" + QE[i].nB +
+          "\n" + QE[i].nG +
+         "\n" + QE[i].nD +
+        "\n" + QE[i].nA +
+       "\n" + QE[i].nE ;
   }
-})();
+}
+function perfectFourthsTuning() {
+  var pre = document.getElementsByTagName("pre");
+  for ( var i = 0; i < pre.length; i++) {
+    var x = pre[i];
+    x.textContent = QE[i].$T +
+            "\n" + QE[i].nF +
+           "\n" + QE[i].nC +
+          "\n" + QE[i].nG +
+         "\n" + QE[i].nD +
+        "\n" + QE[i].nA +
+       "\n" + QE[i].nE ;
+  }
+}
+function guitarDADGADTuning() {
+  var pre = document.getElementsByTagName("pre");
+  for ( var i = 0; i < pre.length; i++) {
+    var x = pre[i];
+    x.textContent = QE[i].$T +
+            "\n" + QE[i].nD +
+           "\n" + QE[i].nA +
+          "\n" + QE[i].nG +
+         "\n" + QE[i].nD +
+        "\n" + QE[i].nA +
+       "\n" + QE[i].nD ;
+  }
+}
+function guitarDGDGBDTuning() {
+  var pre = document.getElementsByTagName("pre");
+  for ( var i = 0; i < pre.length; i++) {
+    var x = pre[i];
+    x.textContent = QE[i].$T +
+            "\n" + QE[i].nD +
+           "\n" + QE[i].nB +
+          "\n" + QE[i].nG +
+         "\n" + QE[i].nD +
+        "\n" + QE[i].nG +
+       "\n" + QE[i].nD ;
+  }
+}
+function celloStandardTuning() {
+  var pre = document.getElementsByTagName("pre");
+  for ( var i = 0; i < pre.length; i++) {
+    var x = pre[i];
+    x.textContent = QE[i].$T +
+            "\n" + QE[i].nE +
+           "\n" + QE[i].nA +
+          "\n" + QE[i].nD +
+         "\n" + QE[i].nG +
+        "\n" + QE[i].nC ;
+  }
+}
 </script>
-</pre>
-</div>
 <div id="footer">
   <p class="attr">Copyright © 2015 Reid Netterville III</p>
 </div>
