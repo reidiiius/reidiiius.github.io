@@ -1,0 +1,90 @@
+<!doctype html>
+
+  <meta charset=UTF-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Reid Netterville III">
+  <title>Seahorse</title>
+<style type="text/css">
+body {
+  background-color: Aquamarine;
+}
+#coralreef {
+  display: none;
+}
+#seagrass {
+  width: 90%;
+  margin: 1% auto 1% auto;
+  background-color: LightSkyBlue;
+  line-height:133.5%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  font-family: "DejaVu Sans Mono", Monospace;
+  color: Sienna;
+}
+#notice {
+  margin: 5em 1em;
+}
+.msg {
+  text-align: center;
+  font-family: "DejaVu Sans", sans-serif;
+  font-size: 0.85em;
+  color: SlateGrey;
+}
+@media screen and (min-width:300px) {
+  #seagrass {
+    font-size: 0.465em;
+  }
+}
+@media screen and (min-width:450px) {
+  #seagrass {
+    font-size: 0.75em;
+  }
+}
+@media screen and (min-width:750px) {
+  #seagrass {
+    font-size: 1.1em;
+  }
+}
+@media screen and (min-width:960px) {
+  #seagrass {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width:1150px) {
+  #seagrass {
+    font-size: 1.75em;
+  }
+}
+</style>
+<script src="/scripts/synchronic.js" type="application/javascript"></script>
+
+<section id="coralreef"></section>
+
+<article id="seagrass">
+  <div id="n0HgCu"></div>
+  <div id="j3HgSn"></div>
+  <div id="j6HgAu"></div>
+  <div id="j2HgHg"></div>
+</article>
+
+<script type="application/javascript">
+  hippoCampus("coralreef", "\/cabinet\/syngnathidae.xml");
+
+var LatinSys = document.getElementById("latin");
+
+var n0HgCu = document.getElementById("n0HgCu");
+var j3HgSn = document.getElementById("j3HgSn");
+var j6HgAu = document.getElementById("j6HgAu");
+var j2HgHg = document.getElementById("j2HgHg");
+
+  n0HgCu.textContent = LatinSys.dataset.n0;
+  j3HgSn.textContent = LatinSys.dataset.j3;
+  j6HgAu.textContent = LatinSys.dataset.j6;
+  j2HgHg.textContent = LatinSys.getAttribute("data-j2");
+</script>
+
+<footer id="notice">
+  <p class="msg">&#169; 2015 Reid Netterville III</p>
+</footer>
+

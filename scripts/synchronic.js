@@ -17,3 +17,11 @@ function synChro(rsrc, elmt) {
   xhrq.send();
 }
 
+function hippoCampus(x, y) {
+  var gebi = document.getElementById(x);
+  var xhrq = new XMLHttpRequest();
+  xhrq.open("GET", y, false);
+  xhrq.send();
+  gebi.insertAdjacentHTML("afterbegin", xhrq.responseText);
+}
+

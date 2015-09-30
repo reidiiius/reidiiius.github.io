@@ -6,19 +6,14 @@
   <meta name="author" content="Reid Netterville III" />
   <title>Exposit</title>
   <link rel="stylesheet" href="/styles/olivebone.css" type="text/css" />
+  <script src="/scripts/synchronic.js" type="application/javascript"></script>
 </head>
 <body>
 
 <section id="zero"></section>
 
 <script type="application/javascript">
-(function() { "use strict";
-var secZero = document.getElementById("zero");
-var xhrq = new XMLHttpRequest();
-    xhrq.open("GET", "\/cabinet\/syngnathidae.xml", false);
-    xhrq.send();
-    secZero.insertAdjacentHTML("afterbegin", xhrq.responseText);
-})();
+  hippoCampus("zero", "\/cabinet\/syngnathidae.xml");
 </script>
 
 <pre data-graph="hanzi cgdae n0">
