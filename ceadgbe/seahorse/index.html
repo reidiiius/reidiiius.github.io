@@ -13,46 +13,57 @@ body {
 }
 #seagrass {
   width: 90%;
-  margin: 1% auto 1% auto;
+  margin: 3% auto 1% auto;
   background-color: LightSkyBlue;
-  line-height:133.5%;
   white-space: nowrap;
   overflow: hidden;
+}
+#seagrass div {
+  margin: 0.5% auto 0.5% auto;
+  border: 2px solid LightSeaGreen;
+  background-color: Seashell;
+  padding: 0.5em;
+  line-height:133.5%;
   text-align: center;
   font-family: "DejaVu Sans Mono", Monospace;
   color: Sienna;
 }
 #notice {
-  margin: 5em 1em;
+  margin: 1em;
 }
 .msg {
   text-align: center;
   font-family: "DejaVu Sans", sans-serif;
-  font-size: 0.85em;
-  color: SlateGrey;
+  font-size: 0.8em;
+  color: SaddleBrown;
 }
 @media screen and (min-width:300px) {
-  #seagrass {
+  #seagrass div {
     font-size: 0.465em;
   }
 }
 @media screen and (min-width:450px) {
-  #seagrass {
-    font-size: 0.75em;
+  #seagrass div {
+    font-size: 0.655em;
+  }
+}
+@media screen and (min-width:600px) {
+  #seagrass div {
+    font-size: 0.85em;
   }
 }
 @media screen and (min-width:750px) {
-  #seagrass {
-    font-size: 1.1em;
+  #seagrass div {
+    font-size: 1.05em;
   }
 }
-@media screen and (min-width:960px) {
-  #seagrass {
-    font-size: 1.5em;
+@media screen and (min-width:900px) {
+  #seagrass div {
+    font-size: 1.4em;
   }
 }
-@media screen and (min-width:1150px) {
-  #seagrass {
+@media screen and (min-width:1050px) {
+  #seagrass div {
     font-size: 1.75em;
   }
 }
@@ -63,9 +74,12 @@ body {
 
 <article id="seagrass">
   <div id="n0HgCu"></div>
+  <div id="k6HgAg"></div>
   <div id="j3HgSn"></div>
   <div id="j6HgAu"></div>
   <div id="j2HgHg"></div>
+  <div id="j3k6HgTi"></div>
+  <div id="k2j6HgMn"></div>
 </article>
 
 <script type="application/javascript">
@@ -73,15 +87,21 @@ body {
 
 var LatinSys = document.getElementById("latin");
 
-var n0HgCu = document.getElementById("n0HgCu");
-var j3HgSn = document.getElementById("j3HgSn");
-var j6HgAu = document.getElementById("j6HgAu");
-var j2HgHg = document.getElementById("j2HgHg");
+var n0HgCu   = document.getElementById("n0HgCu");
+var k6HgAg   = document.getElementById("k6HgAg");
+var j3HgSn   = document.getElementById("j3HgSn");
+var j6HgAu   = document.getElementById("j6HgAu");
+var j2HgHg   = document.getElementById("j2HgHg");
+var j3k6HgTi = document.getElementById("j3k6HgTi");
+var k2j6HgMn = document.getElementById("k2j6HgMn");
 
-  n0HgCu.textContent = LatinSys.dataset.n0;
-  j3HgSn.textContent = LatinSys.dataset.j3;
-  j6HgAu.textContent = LatinSys.dataset.j6;
-  j2HgHg.textContent = LatinSys.getAttribute("data-j2");
+  n0HgCu  .textContent = LatinSys.dataset.n0;
+  k6HgAg  .textContent = LatinSys.getAttribute("data-k6");
+  j3HgSn  .textContent = LatinSys.dataset.j3;
+  j6HgAu  .textContent = LatinSys.dataset.j6;
+  j2HgHg  .textContent = LatinSys.getAttribute("data-j2");
+  j3k6HgTi.textContent = LatinSys.dataset.j3k6
+  k2j6HgMn.textContent = LatinSys.dataset.k2j6
 </script>
 
 <footer id="notice">
