@@ -1,6 +1,6 @@
 
 <aside id="syngnathidae" data-rel="musical scales">
-<dfn id="hanzi"
+<dfn id="hanzi" lang="zh"
       data-j2="汞汞 钚铁 一一 一一 铜镎 铅金 一一 金铅 一一 银铀 一一 铁钚 "
       data-j3="汞锡 一一 锡汞 铀铁 一一 铅银 一一 金金 一一 银铅 一一 铁铀 "
       data-j5="铅铜 一一 金锡 一一 银汞 钒铁 铁钒 一一 一一 锡金 一一 铜铅 "
@@ -85,7 +85,7 @@
  data-k1j56y7="一一 金铀 镎锡 一一 钒汞 铁铁 汞钒 一一 锡镎 铀金 一一 一一 "
  data-k2j56y7="镎铜 一一 一一 铁钚 汞汞 钚铁 锡钒 一一 铜镎 铅金 一一 一一 ">
 </dfn>
-<dfn id="latin"
+<dfn id="latin" lang="sv"
       data-j2="HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu "
       data-j3="HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr "
       data-j5="PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ CuPb "

@@ -12,30 +12,31 @@ body {
   display: none;
 }
 #seagrass {
-  width: 90%;
+  width: 85%;
   margin: 3% auto 1% auto;
   background-color: LightSkyBlue;
   white-space: nowrap;
   overflow: hidden;
 }
 #seagrass div {
-  margin: 0.5% auto 0.5% auto;
+  margin: 0.5%;
   border: 2px solid LightSeaGreen;
   background-color: Seashell;
-  padding: 0.5em;
+  padding: 0.45em;
   line-height:133.5%;
   text-align: center;
   font-family: "DejaVu Sans Mono", Monospace;
   color: Sienna;
 }
 #notice {
-  margin: 1em;
+  margin: 0.5em;
+  padding: 0.5em;
 }
 .msg {
   text-align: center;
   font-family: "DejaVu Sans", sans-serif;
   font-size: 0.8em;
-  color: SaddleBrown;
+  color: Chocolate;
 }
 @media screen and (min-width:300px) {
   #seagrass div {
@@ -44,7 +45,7 @@ body {
 }
 @media screen and (min-width:450px) {
   #seagrass div {
-    font-size: 0.655em;
+    font-size: 0.594em;
   }
 }
 @media screen and (min-width:600px) {
@@ -59,12 +60,12 @@ body {
 }
 @media screen and (min-width:900px) {
   #seagrass div {
-    font-size: 1.4em;
+    font-size: 1.25em;
   }
 }
 @media screen and (min-width:1050px) {
   #seagrass div {
-    font-size: 1.75em;
+    font-size: 1.45em;
   }
 }
 </style>
@@ -72,7 +73,7 @@ body {
 
 <section id="coralreef"></section>
 
-<article id="seagrass">
+<article id="seagrass" onclick="coDex(LatinSys)">
   <div id="n0HgCu"></div>
   <div id="k6HgAg"></div>
   <div id="j3HgSn"></div>
@@ -85,6 +86,7 @@ body {
 <script type="application/javascript">
   hippoCampus("coralreef", "\/cabinet\/syngnathidae.xml");
 
+var HanziSys = document.getElementById("hanzi");
 var LatinSys = document.getElementById("latin");
 
 var n0HgCu   = document.getElementById("n0HgCu");
@@ -95,13 +97,17 @@ var j2HgHg   = document.getElementById("j2HgHg");
 var j3k6HgTi = document.getElementById("j3k6HgTi");
 var k2j6HgMn = document.getElementById("k2j6HgMn");
 
-  n0HgCu  .textContent = LatinSys.dataset.n0;
-  k6HgAg  .textContent = LatinSys.getAttribute("data-k6");
-  j3HgSn  .textContent = LatinSys.dataset.j3;
-  j6HgAu  .textContent = LatinSys.dataset.j6;
-  j2HgHg  .textContent = LatinSys.getAttribute("data-j2");
-  j3k6HgTi.textContent = LatinSys.dataset.j3k6
-  k2j6HgMn.textContent = LatinSys.dataset.k2j6
+function coDex(qp) {
+  n0HgCu  .textContent = qp.dataset.n0;
+  k6HgAg  .textContent = qp.dataset.k6;
+  j3HgSn  .textContent = qp.dataset.j3;
+  j6HgAu  .textContent = qp.dataset.j6;
+  j2HgHg  .textContent = qp.dataset.j2;
+  j3k6HgTi.textContent = qp.getAttribute("data-j3k6");
+  k2j6HgMn.textContent = qp.getAttribute("data-k2j6");
+}
+
+  coDex(HanziSys);
 </script>
 
 <footer id="notice">
