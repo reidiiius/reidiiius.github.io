@@ -172,7 +172,47 @@ AmmoLite: {
  j2k56x4:"HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu ",
  j3k56x4:"HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe ",
  k1j56y7:"____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ",
- k2j56y7:"NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ "}
+ k2j56y7:"NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ "},
+
+Hanzi: { // TianLong procedures
+  gj: function(qp) {return(qp.slice(18,36).concat(qp.slice(0,20)))},
+  dj: function(qp) {return(qp.slice( 3,36).concat(qp.slice(0, 5)))},
+  aj: function(qp) {return(qp.slice(24,36).concat(qp.slice(0,26)))},
+  ej: function(qp) {return(qp.slice( 9,36).concat(qp.slice(0,11)))},
+  bj: function(qp) {return(qp.slice(30,36).concat(qp.slice(0,32)))},
+  fn: function(qp) {return(qp.slice(15,36).concat(qp.slice(0,17)))},
+  cn: function(qp) {return(qp.slice( 0,36).concat(qp.slice(0, 2)))},
+  gn: function(qp) {return(qp.slice(21,36).concat(qp.slice(0,23)))},
+  dn: function(qp) {return(qp.slice( 6,36).concat(qp.slice(0, 8)))},
+  an: function(qp) {return(qp.slice(27,36).concat(qp.slice(0,29)))},
+  en: function(qp) {return(qp.slice(12,36).concat(qp.slice(0,14)))},
+  bn: function(qp) {return(qp.slice(33,36).concat(qp.slice(0,35)))},
+  fk: function(qp) {return(qp.slice(18,36).concat(qp.slice(0,20)))},
+  ck: function(qp) {return(qp.slice( 3,36).concat(qp.slice(0, 5)))},
+  gk: function(qp) {return(qp.slice(24,36).concat(qp.slice(0,26)))},
+  dk: function(qp) {return(qp.slice( 9,36).concat(qp.slice(0,11)))},
+  ak: function(qp) {return(qp.slice(30,36).concat(qp.slice(0,32)))}
+  },
+
+Latin: { // AmmoLite  procedures
+  gj: function(qp) {return(qp.slice(30,60).concat(qp.slice(0,30)))},
+  dj: function(qp) {return(qp.slice( 5,60).concat(qp.slice(0, 5)))},
+  aj: function(qp) {return(qp.slice(40,60).concat(qp.slice(0,40)))},
+  ej: function(qp) {return(qp.slice(15,60).concat(qp.slice(0,15)))},
+  bj: function(qp) {return(qp.slice(50,60).concat(qp.slice(0,50)))},
+  fn: function(qp) {return(qp.slice(25,60).concat(qp.slice(0,25)))},
+  cn: function(qp) {return(qp.slice( 0,60).concat(qp.slice(0, 0)))},
+  gn: function(qp) {return(qp.slice(35,60).concat(qp.slice(0,35)))},
+  dn: function(qp) {return(qp.slice(10,60).concat(qp.slice(0,10)))},
+  an: function(qp) {return(qp.slice(45,60).concat(qp.slice(0,45)))},
+  en: function(qp) {return(qp.slice(20,60).concat(qp.slice(0,20)))},
+  bn: function(qp) {return(qp.slice(55,60).concat(qp.slice(0,55)))},
+  fk: function(qp) {return(qp.slice(30,60).concat(qp.slice(0,30)))},
+  ck: function(qp) {return(qp.slice( 5,60).concat(qp.slice(0, 5)))},
+  gk: function(qp) {return(qp.slice(40,60).concat(qp.slice(0,40)))},
+  dk: function(qp) {return(qp.slice(15,60).concat(qp.slice(0,15)))},
+  ak: function(qp) {return(qp.slice(50,60).concat(qp.slice(0,50)))}
+  }
 
 };
 
