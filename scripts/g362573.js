@@ -2,7 +2,7 @@
 
 "use strict";
 
-gtrSTD=[
+var gtrSTD = [
 "<pre>",
 "Guitar Standard Tuning",
 "<a name='n0'><\/a>",

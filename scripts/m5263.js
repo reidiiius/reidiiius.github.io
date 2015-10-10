@@ -2,7 +2,7 @@
 
 "use strict";
 
-mdlSTD=[
+var mdlSTD = [
 "<pre>",
 "Mandolin Standard Tuning",
 "<a name='n0'><\/a>",
