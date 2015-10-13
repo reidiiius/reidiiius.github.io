@@ -1,0 +1,34 @@
+
+body {
+  background-color: Indigo;
+}
+#arboretum {
+  margin: 5% 2%;
+  font-size: 24px;
+  color: Gold;
+}
+#notice {
+  margin: 5% 2%;
+}
+.msg {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: Silver;
+}
+@media screen and (max-width: 900px ) {
+  #arboretum {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px ) {
+  #arboretum {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 500px ) {
+  #arboretum {
+    font-size: 12px;
+  }
+}
+
