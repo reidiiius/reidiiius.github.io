@@ -5,50 +5,70 @@
 var LaurAsia = Object.create(NeoPanGaea.TianLong);
 var GondWana = Object.create(NeoPanGaea.AmmoLite);
 
-function sprOut(regNum, phyLum) {
+function antheridia(tectonic, sprout) {
 
-var graPheme;
+var grapheme;
 
-  if (phyLum === GondWana) {
-    graPheme = NeoPanGaea.Latin;
+  if (tectonic === GondWana) {
+    grapheme = NeoPanGaea.Latin;
+  }
+  else if (tectonic === LaurAsia) {
+    grapheme = NeoPanGaea.Hanzi;
   }
   else {
-    graPheme = NeoPanGaea.Hanzi;
+    return ;
   }
 
-var lyreTuner = [
- graPheme.fn(phyLum[regNum]),
- graPheme.cn(phyLum[regNum]),
- graPheme.gn(phyLum[regNum]),
- graPheme.dn(phyLum[regNum]),
- graPheme.an(phyLum[regNum]),
- graPheme.en(phyLum[regNum]),
- graPheme.bn(phyLum[regNum])
-];
+var chapterSegment = document.getElementById(sprout);
 
-var chapterSegment = document.getElementById("arboretum");
+  if (chapterSegment === null) {
+    chapterSegment = document.getElementsByTagName("body")[0];
+    chapterSegment.style.padding = "2%";
+    chapterSegment.style.backgroundColor = "rgb(0, 0, 0)";
+    chapterSegment.style.fontSize = (innerWidth / 500) + "em";
+    chapterSegment.style.color = "rgb(128, 128, 0)";
+  }
+
   chapterSegment.style.fontFamily = "monospace";
   chapterSegment.style.whiteSpace = "nowrap";
 
-var descList = document.createElement("dl");
-  descList.setAttribute("id", regNum);
-  chapterSegment.appendChild(descList);
+  for (var bough = 0;
+         bough < NeoPanGaea.Specimen.length;
+       bough++) {
 
-var descTitle = document.createElement("dt");
-  descTitle.textContent = regNum;
-  descList.appendChild(descTitle);
+    for (var twig = 0;
+           twig < NeoPanGaea.Specimen[bough].length;
+         twig++) {
 
-  for (var wireCord in lyreTuner) {
-    var descElm = document.createElement("dd");
-    descElm.textContent = lyreTuner[wireCord];
-    descList.appendChild(descElm);
-  }
-}
+      var blossom = NeoPanGaea.Specimen[bough][twig];
 
-function antheridia(alloGraph) {
-  for (var u in NeoPanGaea.Specimen) {
-    for (var i in NeoPanGaea.Specimen[u]) {
-      sprOut(NeoPanGaea.Specimen[u][i], alloGraph);
+      var descList = document.createElement("dl");
+        descList.setAttribute("id", blossom);
+      chapterSegment.appendChild(descList);
+
+      var descTitle = document.createElement("dt");
+        descTitle.textContent = blossom;
+      descList.appendChild(descTitle);
+
+      var lyreTuner = [
+      grapheme.fn(tectonic[blossom]),
+      grapheme.cn(tectonic[blossom]),
+      grapheme.gn(tectonic[blossom]),
+      grapheme.dn(tectonic[blossom]),
+      grapheme.an(tectonic[blossom]),
+      grapheme.en(tectonic[blossom]),
+      grapheme.bn(tectonic[blossom])
+      ];
+
+      for (var bud = 0;
+             bud < lyreTuner.length;
+           bud++) {
+
+        var descElm = document.createElement("dd");
+          descElm.textContent = lyreTuner[bud];
+        descList.appendChild(descElm);
+
+      }
     }
   }
 }
