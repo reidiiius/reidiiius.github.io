@@ -1,6 +1,6 @@
 
 body {
-  background-color:#fffff0
+  background-color:#fffff0;
 }
 #nv {
   position:fixed;
@@ -82,6 +82,16 @@ iframe {
   font-size:20px;
   color:#bdb76b;
 }
+#capsulate dl {
+  margin:2% 0 0 2%;
+  font-family:monospace;
+  font-size:18px;
+  color:#2f4f4f;
+  white-space:nowrap;
+}
+#capsulate dd {
+  margin:0 0 0 1%;
+}
 .ftr {
   text-align:center;
   font-family:sans-serif;
@@ -127,6 +137,11 @@ iframe {
   }
   .pllr {
     font-size:14px;
+  }
+}
+@media screen and ( max-width:500px ) {
+  #capsulate dl {
+    font-size:12px;
   }
 }
 

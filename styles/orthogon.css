@@ -1,0 +1,666 @@
+/*  Copyright 2015 Reid Netterville III  */
+
+ .n0_F:after      {content:" PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg "}
+ .n0_C:after      {content:" HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb "}
+ .n0_G:after      {content:" AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ "}
+ .n0_D:after      {content:" SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ "}
+ .n0_A:after      {content:" AgAu ____ FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ "}
+ .n0_E:after      {content:" CuHg PbFe ____ AuAg ____ AgAu ____ FePb HgCu ____ SnSn ____ "}
+ .n0_B:after      {content:" FePb HgCu ____ SnSn ____ CuHg PbFe ____ AuAg ____ AgAu ____ "}
+
+ .k6_F:after      {content:" PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ CuPb "}
+ .k6_C:after      {content:" HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ ____ TiFe FeTi "}
+ .k6_G:after      {content:" AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ "}
+ .k6_D:after      {content:" SnAu ____ CuPb PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ "}
+ .k6_A:after      {content:" ____ TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ "}
+ .k6_E:after      {content:" CuPb PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ "}
+ .k6_B:after      {content:" FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ ____ TiFe "}
+
+ .j17_F:after     {content:" PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ CuPb "}
+ .j17_C:after     {content:" ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi "}
+ .j17_G:after     {content:" AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ CuPb PbCu ____ "}
+ .j17_D:after     {content:" SnAu ____ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ "}
+ .j17_A:after     {content:" AgHg TiFe FeTi ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ "}
+ .j17_E:after     {content:" CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ "}
+ .j17_B:after     {content:" FeTi ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ AgHg TiFe "}
+
+ .k6x5_F:after    {content:" PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb "}
+ .k6x5_C:after    {content:" HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ AgHg TiFe FeTi "}
+ .k6x5_G:after    {content:" ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ "}
+ .k6x5_D:after    {content:" SnAu ____ CuPb PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ "}
+ .k6x5_A:after    {content:" AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ "}
+ .k6x5_E:after    {content:" CuPb PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ "}
+ .k6x5_B:after    {content:" FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ AgHg TiFe "}
+
+ .j17y2_F:after   {content:" PbCu ____ AuSn ____ AgHg TiFe FeTi HgAg ____ ____ ____ CuPb "}
+ .j17y2_C:after   {content:" HgAg ____ ____ ____ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi "}
+ .j17y2_G:after   {content:" AuSn ____ AgHg TiFe FeTi HgAg ____ ____ ____ CuPb PbCu ____ "}
+ .j17y2_D:after   {content:" ____ ____ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi HgAg ____ "}
+ .j17y2_A:after   {content:" AgHg TiFe FeTi HgAg ____ ____ ____ CuPb PbCu ____ AuSn ____ "}
+ .j17y2_E:after   {content:" CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi HgAg ____ ____ ____ "}
+ .j17y2_B:after   {content:" FeTi HgAg ____ ____ ____ CuPb PbCu ____ AuSn ____ AgHg TiFe "}
+
+ .j3_F:after      {content:" PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ "}
+ .j3_C:after      {content:" HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr "}
+ .j3_G:after      {content:" AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ "}
+ .j3_D:after      {content:" SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ "}
+ .j3_A:after      {content:" AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ "}
+ .j3_E:after      {content:" ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe "}
+ .j3_B:after      {content:" FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ "}
+
+ .j34k6_F:after   {content:" ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi "}
+ .j34k6_C:after   {content:" HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn "}
+ .j34k6_G:after   {content:" AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ "}
+ .j34k6_D:after   {content:" SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ "}
+ .j34k6_A:after   {content:" ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ "}
+ .j34k6_E:after   {content:" CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe "}
+ .j34k6_B:after   {content:" FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu "}
+
+ .j17k2_F:after   {content:" PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi "}
+ .j17k2_C:after   {content:" ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn "}
+ .j17k2_G:after   {content:" AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ "}
+ .j17k2_D:after   {content:" ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ "}
+ .j17k2_A:after   {content:" AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ "}
+ .j17k2_E:after   {content:" CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe "}
+ .j17k2_B:after   {content:" FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu "}
+
+ .n26y5_F:after   {content:" PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi "}
+ .n26y5_C:after   {content:" ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn "}
+ .n26y5_G:after   {content:" ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ "}
+ .n26y5_D:after   {content:" SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ "}
+ .n26y5_A:after   {content:" AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ "}
+ .n26y5_E:after   {content:" CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe "}
+ .n26y5_B:after   {content:" FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu "}
+
+ .k26x5_F:after   {content:" PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi "}
+ .k26x5_C:after   {content:" HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn "}
+ .k26x5_G:after   {content:" ____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ "}
+ .k26x5_D:after   {content:" ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ "}
+ .k26x5_A:after   {content:" AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ "}
+ .k26x5_E:after   {content:" CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe "}
+ .k26x5_B:after   {content:" FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu "}
+
+ .j6_F:after      {content:" PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb ____ CuUr "}
+ .j6_C:after      {content:" HgAu ____ SnPb ____ CuUr PbSn ____ AuHg NpFe ____ ____ FeNp "}
+ .j6_G:after      {content:" AuHg NpFe ____ ____ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ "}
+ .j6_D:after      {content:" SnPb ____ CuUr PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ "}
+ .j6_A:after      {content:" ____ ____ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ AuHg NpFe "}
+ .j6_E:after      {content:" CuUr PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb ____ "}
+ .j6_B:after      {content:" FeNp HgAu ____ SnPb ____ CuUr PbSn ____ AuHg NpFe ____ ____ "}
+
+ .j36_F:after     {content:" PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb UrCu ____ "}
+ .j36_C:after     {content:" HgAu ____ SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ FeNp "}
+ .j36_G:after     {content:" AuHg NpFe ____ ____ FeNp HgAu ____ SnPb UrCu ____ PbSn ____ "}
+ .j36_D:after     {content:" SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ "}
+ .j36_A:after     {content:" ____ ____ FeNp HgAu ____ SnPb UrCu ____ PbSn ____ AuHg NpFe "}
+ .j36_E:after     {content:" ____ PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb UrCu "}
+ .j36_B:after     {content:" FeNp HgAu ____ SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ "}
+
+ .k56_F:after     {content:" PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr "}
+ .k56_C:after     {content:" HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg FeNp "}
+ .k56_G:after     {content:" ____ NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr PbSn ____ "}
+ .k56_D:after     {content:" SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ "}
+ .k56_A:after     {content:" ____ TiAg FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe "}
+ .k56_E:after     {content:" CuUr PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ SnPb ____ "}
+ .k56_B:after     {content:" FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg "}
+
+ .j136y7_F:after  {content:" PbSn ____ AuHg NpFe AgTi ____ FeNp ____ ____ SnPb UrCu ____ "}
+ .j136y7_C:after  {content:" ____ ____ SnPb UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp "}
+ .j136y7_G:after  {content:" AuHg NpFe AgTi ____ FeNp ____ ____ SnPb UrCu ____ PbSn ____ "}
+ .j136y7_D:after  {content:" SnPb UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp ____ ____ "}
+ .j136y7_A:after  {content:" AgTi ____ FeNp ____ ____ SnPb UrCu ____ PbSn ____ AuHg NpFe "}
+ .j136y7_E:after  {content:" ____ PbSn ____ AuHg NpFe AgTi ____ FeNp ____ ____ SnPb UrCu "}
+ .j136y7_B:after  {content:" FeNp ____ ____ SnPb UrCu ____ PbSn ____ AuHg NpFe AgTi ____ "}
+
+ .k56x4_F:after   {content:" ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr "}
+ .k56x4_C:after   {content:" HgAu ____ SnPb ____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp "}
+ .k56x4_G:after   {content:" AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr ____ ____ "}
+ .k56x4_D:after   {content:" SnPb ____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ "}
+ .k56x4_A:after   {content:" ____ TiAg FeNp HgAu ____ SnPb ____ CuUr ____ ____ AuHg NpFe "}
+ .k56x4_E:after   {content:" CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ____ "}
+ .k56x4_B:after   {content:" FeNp HgAu ____ SnPb ____ CuUr ____ ____ AuHg NpFe ____ TiAg "}
+
+ .n167x4_F:after  {content:" PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ ____ UrCu ____ "}
+ .n167x4_C:after  {content:" HgAu ____ ____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp "}
+ .n167x4_G:after  {content:" AuHg NpFe AgTi ____ FeNp HgAu ____ ____ UrCu ____ PbSn ____ "}
+ .n167x4_D:after  {content:" ____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ "}
+ .n167x4_A:after  {content:" AgTi ____ FeNp HgAu ____ ____ UrCu ____ PbSn ____ AuHg NpFe "}
+ .n167x4_E:after  {content:" ____ PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ ____ UrCu "}
+ .n167x4_B:after  {content:" FeNp HgAu ____ ____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ "}
+
+ .j3k5x4_F:after  {content:" ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ "}
+ .j3k5x4_C:after  {content:" HgAu ____ SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ FeNp "}
+ .j3k5x4_G:after  {content:" AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ ____ ____ "}
+ .j3k5x4_D:after  {content:" SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ "}
+ .j3k5x4_A:after  {content:" AgTi ____ FeNp HgAu ____ SnPb UrCu ____ ____ ____ AuHg NpFe "}
+ .j3k5x4_E:after  {content:" ____ ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu "}
+ .j3k5x4_B:after  {content:" FeNp HgAu ____ SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ "}
+
+ .j167y2_F:after  {content:" PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr "}
+ .j167y2_C:after  {content:" HgAu ____ ____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg FeNp "}
+ .j167y2_G:after  {content:" AuHg NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr PbSn ____ "}
+ .j167y2_D:after  {content:" ____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ "}
+ .j167y2_A:after  {content:" ____ TiAg FeNp HgAu ____ ____ ____ CuUr PbSn ____ AuHg NpFe "}
+ .j167y2_E:after  {content:" CuUr PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ ____ ____ "}
+ .j167y2_B:after  {content:" FeNp HgAu ____ ____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg "}
+
+ .j2k56x4_F:after {content:" ____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp "}
+ .j2k56x4_C:after {content:" HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu "}
+ .j2k56x4_G:after {content:" AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ____ ____ "}
+ .j2k56x4_D:after {content:" ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe "}
+ .j2k56x4_A:after {content:" ____ TiSn FePu HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu "}
+ .j2k56x4_E:after {content:" CuNp ____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ "}
+ .j2k56x4_B:after {content:" FePu HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn "}
+
+ .k157x6_F:after  {content:" PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp "}
+ .k157x6_C:after  {content:" HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu "}
+ .k157x6_G:after  {content:" ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ "}
+ .k157x6_D:after  {content:" SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe "}
+ .k157x6_A:after  {content:" ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu "}
+ .k157x6_E:after  {content:" CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ "}
+ .k157x6_B:after  {content:" FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ "}
+
+ .k1j6_F:after    {content:" PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp "}
+ .k1j6_C:after    {content:" ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu "}
+ .k1j6_G:after    {content:" AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ "}
+ .k1j6_D:after    {content:" SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe "}
+ .k1j6_A:after    {content:" ____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu "}
+ .k1j6_E:after    {content:" CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ "}
+ .k1j6_B:after    {content:" FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ "}
+
+ .n345_F:after    {content:" PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp "}
+ .n345_C:after    {content:" ____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu "}
+ .n345_G:after    {content:" AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ "}
+ .n345_D:after    {content:" ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe "}
+ .n345_A:after    {content:" ____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu "}
+ .n345_E:after    {content:" CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ "}
+ .n345_B:after    {content:" FePu ____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn "}
+
+ .j2_F:after      {content:" PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp "}
+ .j2_C:after      {content:" HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu "}
+ .j2_G:after      {content:" AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ "}
+ .j2_D:after      {content:" ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe "}
+ .j2_A:after      {content:" AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ "}
+ .j2_E:after      {content:" CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ "}
+ .j2_B:after      {content:" FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ "}
+
+ .j26_F:after     {content:" PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp "}
+ .j26_C:after     {content:" HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu "}
+ .j26_G:after     {content:" AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ "}
+ .j26_D:after     {content:" ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe "}
+ .j26_A:after     {content:" ____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu "}
+ .j26_E:after     {content:" CuNp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ "}
+ .j26_B:after     {content:" FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ "}
+
+ .j236_F:after    {content:" PbAu ____ AuPb NpCu ____ ____ FePb HgHg PuFe ____ UrAg ____ "}
+ .j236_C:after    {content:" HgHg PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ ____ FePu "}
+ .j236_G:after    {content:" AuPb NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ "}
+ .j236_D:after    {content:" ____ UrAg ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe "}
+ .j236_A:after    {content:" ____ ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb NpCu "}
+ .j236_E:after    {content:" ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ UrAg "}
+ .j236_B:after    {content:" FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ ____ "}
+
+ .j23_F:after     {content:" PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg ____ "}
+ .j23_C:after     {content:" HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ AgUr ____ FePu "}
+ .j23_G:after     {content:" AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ "}
+ .j23_D:after     {content:" ____ UrAg ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe "}
+ .j23_A:after     {content:" AgUr ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ "}
+ .j23_E:after     {content:" ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg "}
+ .j23_B:after     {content:" FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ AgUr ____ "}
+
+ .j23k6_F:after   {content:" PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ UrAg ____ "}
+ .j23k6_C:after   {content:" HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ ____ TiSn FePu "}
+ .j23k6_G:after   {content:" AuPb ____ ____ TiSn FePu HgHg PuFe ____ UrAg ____ PbAu ____ "}
+ .j23k6_D:after   {content:" ____ UrAg ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe "}
+ .j23k6_A:after   {content:" ____ TiSn FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ "}
+ .j23k6_E:after   {content:" ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ UrAg "}
+ .j23k6_B:after   {content:" FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ ____ TiSn "}
+
+ .j2y3_F:after    {content:" PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ "}
+ .j2y3_C:after    {content:" HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ FePu "}
+ .j2y3_G:after    {content:" AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ "}
+ .j2y3_D:after    {content:" SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe "}
+ .j2y3_A:after    {content:" AgUr ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ "}
+ .j2y3_E:after    {content:" ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ "}
+ .j2y3_B:after    {content:" FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ "}
+
+ .j2k6_F:after    {content:" PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp "}
+ .j2k6_C:after    {content:" HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn FePu "}
+ .j2k6_G:after    {content:" AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ "}
+ .j2k6_D:after    {content:" ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe "}
+ .j2k6_A:after    {content:" ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ "}
+ .j2k6_E:after    {content:" CuNp PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ "}
+ .j2k6_B:after    {content:" FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn "}
+
+ .j26y3_F:after   {content:" PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ____ "}
+ .j26y3_C:after   {content:" HgHg PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ FePu "}
+ .j26y3_G:after   {content:" AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ "}
+ .j26y3_D:after   {content:" SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe "}
+ .j26y3_A:after   {content:" ____ ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb NpCu "}
+ .j26y3_E:after   {content:" ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ "}
+ .j26y3_B:after   {content:" FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ "}
+
+ .j2k56_F:after   {content:" PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp "}
+ .j2k56_C:after   {content:" HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu "}
+ .j2k56_G:after   {content:" ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ "}
+ .j2k56_D:after   {content:" ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe "}
+ .j2k56_A:after   {content:" ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu "}
+ .j2k56_E:after   {content:" CuNp PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ "}
+ .j2k56_B:after   {content:" FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn "}
+
+ .j246y3_F:after  {content:" ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp "}
+ .j246y3_C:after  {content:" HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ FePu "}
+ .j246y3_G:after  {content:" AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ "}
+ .j246y3_D:after  {content:" SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe "}
+ .j246y3_A:after  {content:" ____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu "}
+ .j246y3_E:after  {content:" CuNp ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ "}
+ .j246y3_B:after  {content:" FePu HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ "}
+
+ .j26y34_F:after  {content:" ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ____ "}
+ .j26y34_C:after  {content:" HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ FePu "}
+ .j26y34_G:after  {content:" AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ____ ____ ____ "}
+ .j26y34_D:after  {content:" SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe "}
+ .j26y34_A:after  {content:" ____ ____ FePu HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu "}
+ .j26y34_E:after  {content:" ____ ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg "}
+ .j26y34_B:after  {content:" FePu HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ "}
+
+ .j2k6x5_F:after  {content:" PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp "}
+ .j2k6x5_C:after  {content:" HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu "}
+ .j2k6x5_G:after  {content:" ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ "}
+ .j2k6x5_D:after  {content:" ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe "}
+ .j2k6x5_A:after  {content:" AgUr TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ "}
+ .j2k6x5_E:after  {content:" CuNp PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ "}
+ .j2k6x5_B:after  {content:" FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn "}
+
+ .j2k6y3_F:after  {content:" PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ "}
+ .j2k6y3_C:after  {content:" HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu "}
+ .j2k6y3_G:after  {content:" AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ "}
+ .j2k6y3_D:after  {content:" SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe "}
+ .j2k6y3_A:after  {content:" ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ "}
+ .j2k6y3_E:after  {content:" ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ "}
+ .j2k6y3_B:after  {content:" FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn "}
+
+ .j3k6_F:after    {content:" PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ "}
+ .j3k6_C:after    {content:" HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe "}
+ .j3k6_G:after    {content:" AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ "}
+ .j3k6_D:after    {content:" SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ "}
+ .j3k6_A:after    {content:" ____ TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ "}
+ .j3k6_E:after    {content:" ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu "}
+ .j3k6_B:after    {content:" FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg "}
+
+ .n45y2_F:after   {content:" PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ____ "}
+ .n45y2_C:after   {content:" HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg FeFe "}
+ .n45y2_G:after   {content:" AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ____ PbPb ____ "}
+ .n45y2_D:after   {content:" ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ "}
+ .n45y2_A:after   {content:" ____ TiHg FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn "}
+ .n45y2_E:after   {content:" ____ PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu "}
+ .n45y2_B:after   {content:" FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg "}
+
+ .j3k56x4_F:after {content:" ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ "}
+ .j3k56x4_C:after {content:" HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe "}
+ .j3k56x4_G:after {content:" AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ "}
+ .j3k56x4_D:after {content:" SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ "}
+ .j3k56x4_A:after {content:" ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn "}
+ .j3k56x4_E:after {content:" ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu "}
+ .j3k56x4_B:after {content:" FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg "}
+
+ .k2j6_F:after    {content:" PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe "}
+ .k2j6_C:after    {content:" HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu "}
+ .k2j6_G:after    {content:" AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ "}
+ .k2j6_D:after    {content:" ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ "}
+ .k2j6_A:after    {content:" ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu "}
+ .k2j6_E:after    {content:" CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg "}
+ .k2j6_B:after    {content:" FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ "}
+
+ .n5y2_F:after    {content:" ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe "}
+ .n5y2_C:after    {content:" HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu "}
+ .n5y2_G:after    {content:" AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ "}
+ .n5y2_D:after    {content:" ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ "}
+ .n5y2_A:after    {content:" ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu "}
+ .n5y2_E:after    {content:" CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg "}
+ .n5y2_B:after    {content:" FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb "}
+
+ .k26_F:after     {content:" PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe "}
+ .k26_C:after     {content:" HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu "}
+ .k26_G:after     {content:" AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ "}
+ .k26_D:after     {content:" ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ "}
+ .k26_A:after     {content:" ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ "}
+ .k26_E:after     {content:" CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg "}
+ .k26_B:after     {content:" FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb "}
+
+ .k256_F:after    {content:" PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe "}
+ .k256_C:after    {content:" HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb FeCu "}
+ .k256_G:after    {content:" ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ "}
+ .k256_D:after    {content:" ____ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ "}
+ .k256_A:after    {content:" ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu "}
+ .k256_E:after    {content:" CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg "}
+ .k256_B:after    {content:" FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb "}
+
+ .j5_F:after      {content:" TiFe FeTi ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ AgHg "}
+ .j5_C:after      {content:" PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ CuPb "}
+ .j5_G:after      {content:" ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi "}
+ .j5_D:after      {content:" AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ CuPb PbCu ____ "}
+ .j5_A:after      {content:" SnAu ____ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ "}
+ .j5_E:after      {content:" AgHg TiFe FeTi ____ ____ SnAu ____ CuPb PbCu ____ AuSn ____ "}
+ .j5_B:after      {content:" CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ "}
+
+ .k34_F:after     {content:" TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ ____ "}
+ .k34_C:after     {content:" PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ CuPb "}
+ .k34_G:after     {content:" HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ ____ TiFe FeTi "}
+ .k34_D:after     {content:" AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ "}
+ .k34_A:after     {content:" SnAu ____ CuPb PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ "}
+ .k34_E:after     {content:" ____ TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ AuSn ____ "}
+ .k34_B:after     {content:" CuPb PbCu ____ AuSn ____ ____ TiFe FeTi HgAg ____ SnAu ____ "}
+
+ .j5y6_F:after    {content:" TiFe FeTi HgAg ____ ____ ____ CuPb PbCu ____ AuSn ____ AgHg "}
+ .j5y6_C:after    {content:" PbCu ____ AuSn ____ AgHg TiFe FeTi HgAg ____ ____ ____ CuPb "}
+ .j5y6_G:after    {content:" HgAg ____ ____ ____ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi "}
+ .j5y6_D:after    {content:" AuSn ____ AgHg TiFe FeTi HgAg ____ ____ ____ CuPb PbCu ____ "}
+ .j5y6_A:after    {content:" ____ ____ CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi HgAg ____ "}
+ .j5y6_E:after    {content:" AgHg TiFe FeTi HgAg ____ ____ ____ CuPb PbCu ____ AuSn ____ "}
+ .j5y6_B:after    {content:" CuPb PbCu ____ AuSn ____ AgHg TiFe FeTi HgAg ____ ____ ____ "}
+
+ .k34x2_F:after   {content:" TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ AgHg "}
+ .k34x2_C:after   {content:" PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb "}
+ .k34x2_G:after   {content:" HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ AgHg TiFe FeTi "}
+ .k34x2_D:after   {content:" ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ "}
+ .k34x2_A:after   {content:" SnAu ____ CuPb PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ "}
+ .k34x2_E:after   {content:" AgHg TiFe FeTi HgAg ____ SnAu ____ CuPb PbCu ____ ____ ____ "}
+ .k34x2_B:after   {content:" CuPb PbCu ____ ____ ____ AgHg TiFe FeTi HgAg ____ SnAu ____ "}
+
+ .k1_F:after      {content:" UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg "}
+ .k1_C:after      {content:" ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb "}
+ .k1_G:after      {content:" PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ "}
+ .k1_D:after      {content:" HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr "}
+ .k1_A:after      {content:" AuAu ____ AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ "}
+ .k1_E:after      {content:" SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr HgSn ____ "}
+ .k1_B:after      {content:" AgPb ____ FeUr HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ "}
+
+ .k17j5_F:after   {content:" MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg "}
+ .k17j5_C:after   {content:" TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ "}
+ .k17j5_G:after   {content:" ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi "}
+ .k17j5_D:after   {content:" HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn "}
+ .k17j5_A:after   {content:" AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ "}
+ .k17j5_E:after   {content:" SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ "}
+ .k17j5_B:after   {content:" ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ "}
+
+ .j2k34_F:after   {content:" MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ "}
+ .j2k34_C:after   {content:" TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb "}
+ .j2k34_G:after   {content:" PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi "}
+ .j2k34_D:after   {content:" ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn "}
+ .j2k34_A:after   {content:" AuAu ____ AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ "}
+ .j2k34_E:after   {content:" ____ MnFe CuTi PbAg ____ AuAu ____ AgPb TiCu FeMn ____ ____ "}
+ .j2k34_B:after   {content:" AgPb TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ "}
+
+ .n25x6_F:after   {content:" MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ "}
+ .n25x6_C:after   {content:" TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb "}
+ .n25x6_G:after   {content:" PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi "}
+ .n25x6_D:after   {content:" HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn "}
+ .n25x6_A:after   {content:" ____ ____ AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ "}
+ .n25x6_E:after   {content:" ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn HgSn ____ "}
+ .n25x6_B:after   {content:" AgPb TiCu FeMn HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ "}
+
+ .j25y6_F:after   {content:" MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg "}
+ .j25y6_C:after   {content:" TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ AgPb "}
+ .j25y6_G:after   {content:" PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi "}
+ .j25y6_D:after   {content:" ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn "}
+ .j25y6_A:after   {content:" ____ ____ AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ "}
+ .j25y6_E:after   {content:" SnHg MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ____ ____ "}
+ .j25y6_B:after   {content:" AgPb TiCu FeMn ____ ____ SnHg MnFe CuTi PbAg ____ ____ ____ "}
+
+ .k5_F:after      {content:" NpFe ____ ____ FeNp HgAu ____ SnPb UrCu ____ PbSn ____ AuHg "}
+ .k5_C:after      {content:" UrCu ____ PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb "}
+ .k5_G:after      {content:" ____ FeNp HgAu ____ SnPb UrCu ____ PbSn ____ AuHg NpFe ____ "}
+ .k5_D:after      {content:" PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb UrCu ____ "}
+ .k5_A:after      {content:" HgAu ____ SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ FeNp "}
+ .k5_E:after      {content:" AuHg NpFe ____ ____ FeNp HgAu ____ SnPb UrCu ____ PbSn ____ "}
+ .k5_B:after      {content:" SnPb UrCu ____ PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ "}
+
+ .k15_F:after     {content:" NpFe ____ ____ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ AuHg "}
+ .k15_C:after     {content:" ____ CuUr PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb "}
+ .k15_G:after     {content:" ____ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ AuHg NpFe ____ "}
+ .k15_D:after     {content:" PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ SnPb ____ CuUr "}
+ .k15_A:after     {content:" HgAu ____ SnPb ____ CuUr PbSn ____ AuHg NpFe ____ ____ FeNp "}
+ .k15_E:after     {content:" AuHg NpFe ____ ____ FeNp HgAu ____ SnPb ____ CuUr PbSn ____ "}
+ .k15_B:after     {content:" SnPb ____ CuUr PbSn ____ AuHg NpFe ____ ____ FeNp HgAu ____ "}
+
+ .j56_F:after     {content:" NpFe AgTi ____ FeNp ____ ____ SnPb UrCu ____ PbSn ____ AuHg "}
+ .j56_C:after     {content:" UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp ____ ____ SnPb "}
+ .j56_G:after     {content:" ____ FeNp ____ ____ SnPb UrCu ____ PbSn ____ AuHg NpFe AgTi "}
+ .j56_D:after     {content:" PbSn ____ AuHg NpFe AgTi ____ FeNp ____ ____ SnPb UrCu ____ "}
+ .j56_A:after     {content:" ____ ____ SnPb UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp "}
+ .j56_E:after     {content:" AuHg NpFe AgTi ____ FeNp ____ ____ SnPb UrCu ____ PbSn ____ "}
+ .j56_B:after     {content:" SnPb UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp ____ ____ "}
+
+ .k135x4_F:after  {content:" NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ "}
+ .k135x4_C:after  {content:" ____ CuUr PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ SnPb "}
+ .k135x4_G:after  {content:" TiAg FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe ____ "}
+ .k135x4_D:after  {content:" PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr "}
+ .k135x4_A:after  {content:" HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg FeNp "}
+ .k135x4_E:after  {content:" ____ NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr PbSn ____ "}
+ .k135x4_B:after  {content:" SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ "}
+
+ .j56y7_F:after   {content:" NpFe AgTi ____ FeNp HgAu ____ ____ UrCu ____ PbSn ____ AuHg "}
+ .j56y7_C:after   {content:" UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ ____ "}
+ .j56y7_G:after   {content:" ____ FeNp HgAu ____ ____ UrCu ____ PbSn ____ AuHg NpFe AgTi "}
+ .j56y7_D:after   {content:" PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ ____ UrCu ____ "}
+ .j56y7_A:after   {content:" HgAu ____ ____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp "}
+ .j56y7_E:after   {content:" AuHg NpFe AgTi ____ FeNp HgAu ____ ____ UrCu ____ PbSn ____ "}
+ .j56y7_B:after   {content:" ____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ "}
+
+ .n345y7_F:after  {content:" NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr ____ ____ AuHg "}
+ .n345y7_C:after  {content:" ____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb "}
+ .n345y7_G:after  {content:" TiAg FeNp HgAu ____ SnPb ____ CuUr ____ ____ AuHg NpFe ____ "}
+ .n345y7_D:after  {content:" ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr "}
+ .n345y7_A:after  {content:" HgAu ____ SnPb ____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp "}
+ .n345y7_E:after  {content:" AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ____ CuUr ____ ____ "}
+ .n345y7_B:after  {content:" SnPb ____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ "}
+
+ .k1j6y7_F:after  {content:" NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr PbSn ____ AuHg "}
+ .k1j6y7_C:after  {content:" ____ CuUr PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ ____ "}
+ .k1j6y7_G:after  {content:" TiAg FeNp HgAu ____ ____ ____ CuUr PbSn ____ AuHg NpFe ____ "}
+ .k1j6y7_D:after  {content:" PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr "}
+ .k1j6y7_A:after  {content:" HgAu ____ ____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg FeNp "}
+ .k1j6y7_E:after  {content:" AuHg NpFe ____ TiAg FeNp HgAu ____ ____ ____ CuUr PbSn ____ "}
+ .k1j6y7_B:after  {content:" ____ ____ CuUr PbSn ____ AuHg NpFe ____ TiAg FeNp HgAu ____ "}
+
+ .k345x2_F:after  {content:" NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ ____ ____ AuHg "}
+ .k345x2_C:after  {content:" UrCu ____ ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb "}
+ .k345x2_G:after  {content:" ____ FeNp HgAu ____ SnPb UrCu ____ ____ ____ AuHg NpFe AgTi "}
+ .k345x2_D:after  {content:" ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ "}
+ .k345x2_A:after  {content:" HgAu ____ SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ FeNp "}
+ .k345x2_E:after  {content:" AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ ____ ____ "}
+ .k345x2_B:after  {content:" SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ "}
+
+ .k2j56y7_F:after {content:" PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg "}
+ .k2j56y7_C:after {content:" NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ "}
+ .k2j56y7_G:after {content:" ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi "}
+ .k2j56y7_D:after {content:" ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ "}
+ .k2j56y7_A:after {content:" PbAu ____ ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp "}
+ .k2j56y7_E:after {content:" HgHg PuFe SnTi ____ CuNp PbAu ____ ____ NpCu ____ ____ FePu "}
+ .k2j56y7_B:after {content:" ____ NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ "}
+
+ .j346y5_F:after  {content:" PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu HgHg "}
+ .j346y5_C:after  {content:" NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ____ ____ AuPb "}
+ .j346y5_G:after  {content:" ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ "}
+ .j346y5_D:after  {content:" TiSn FePu HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ "}
+ .j346y5_A:after  {content:" ____ ____ AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp "}
+ .j346y5_E:after  {content:" HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu "}
+ .j346y5_B:after  {content:" AuPb NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp ____ ____ "}
+
+ .j3k5_F:after    {content:" PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ____ "}
+ .j3k5_C:after    {content:" NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ AuPb "}
+ .j3k5_G:after    {content:" ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ "}
+ .j3k5_D:after    {content:" TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ "}
+ .j3k5_A:after    {content:" PbAu ____ AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp "}
+ .j3k5_E:after    {content:" ____ PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ TiSn FePu "}
+ .j3k5_B:after    {content:" AuPb NpCu ____ TiSn FePu ____ PuFe ____ ____ CuNp PbAu ____ "}
+
+ .n167_F:after    {content:" PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ "}
+ .n167_C:after    {content:" NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb "}
+ .n167_G:after    {content:" ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi "}
+ .n167_D:after    {content:" ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ "}
+ .n167_A:after    {content:" PbAu ____ AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp "}
+ .n167_E:after    {content:" ____ PuFe SnTi ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu "}
+ .n167_B:after    {content:" AuPb NpCu ____ ____ FePu ____ PuFe SnTi ____ CuNp PbAu ____ "}
+
+ .k2_F:after      {content:" PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ ____ FePb HgHg "}
+ .k2_C:after      {content:" NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb "}
+ .k2_G:after      {content:" UrAg ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ "}
+ .k2_D:after      {content:" ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ "}
+ .k2_A:after      {content:" PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ "}
+ .k2_E:after      {content:" HgHg PuFe ____ UrAg ____ PbAu ____ AuPb NpCu ____ ____ FePu "}
+ .k2_B:after      {content:" AuPb NpCu ____ ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ "}
+
+ .k125_F:after    {content:" PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg "}
+ .k125_C:after    {content:" ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb "}
+ .k125_G:after    {content:" ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ "}
+ .k125_D:after    {content:" ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr "}
+ .k125_A:after    {content:" PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp "}
+ .k125_E:after    {content:" HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu "}
+ .k125_B:after    {content:" AuPb ____ AgUr ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ "}
+
+ .k25_F:after     {content:" PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePb HgHg "}
+ .k25_C:after     {content:" NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb "}
+ .k25_G:after     {content:" ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ "}
+ .k25_D:after     {content:" ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ "}
+ .k25_A:after     {content:" PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp "}
+ .k25_E:after     {content:" HgHg PuFe ____ ____ CuNp PbAu ____ AuPb NpCu ____ ____ FePu "}
+ .k25_B:after     {content:" AuPb NpCu ____ ____ FePu HgHg PuFe ____ ____ CuNp PbAu ____ "}
+
+ .k12_F:after     {content:" PuFe ____ UrAg ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg "}
+ .k12_C:after     {content:" ____ AgUr ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb "}
+ .k12_G:after     {content:" UrAg ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ "}
+ .k12_D:after     {content:" ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ AgUr "}
+ .k12_A:after     {content:" PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg ____ "}
+ .k12_E:after     {content:" HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ AgUr ____ FePu "}
+ .k12_B:after     {content:" AuPb ____ AgUr ____ FePu HgHg PuFe ____ UrAg ____ PbAu ____ "}
+
+ .k12j5_F:after   {content:" PuFe SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg "}
+ .k12j5_C:after   {content:" ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb "}
+ .k12j5_G:after   {content:" ____ ____ PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe SnTi "}
+ .k12j5_D:after   {content:" ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ AgUr "}
+ .k12j5_A:after   {content:" PbAu ____ AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ "}
+ .k12j5_E:after   {content:" HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ AgUr ____ FePu "}
+ .k12j5_B:after   {content:" AuPb ____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ "}
+
+ .k2x1_F:after    {content:" PuFe ____ UrAg ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg "}
+ .k2x1_C:after    {content:" ____ ____ TiSn FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb "}
+ .k2x1_G:after    {content:" UrAg ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ "}
+ .k2x1_D:after    {content:" TiSn FePu HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ ____ "}
+ .k2x1_A:after    {content:" PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ UrAg ____ "}
+ .k2x1_E:after    {content:" HgHg PuFe ____ UrAg ____ PbAu ____ AuPb ____ ____ TiSn FePu "}
+ .k2x1_B:after    {content:" AuPb ____ ____ TiSn FePu HgHg PuFe ____ UrAg ____ PbAu ____ "}
+
+ .k2j5_F:after    {content:" PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg "}
+ .k2j5_C:after    {content:" NpCu ____ ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb "}
+ .k2j5_G:after    {content:" ____ ____ PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi "}
+ .k2j5_D:after    {content:" ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ "}
+ .k2j5_A:after    {content:" PbAu ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ____ "}
+ .k2j5_E:after    {content:" HgHg PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ FePu "}
+ .k2j5_B:after    {content:" AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ "}
+
+ .k25x1_F:after   {content:" PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn FePu HgHg "}
+ .k25x1_C:after   {content:" ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb "}
+ .k25x1_G:after   {content:" ____ CuNp PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ "}
+ .k25x1_D:after   {content:" TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ "}
+ .k25x1_A:after   {content:" PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp "}
+ .k25x1_E:after   {content:" HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ ____ TiSn FePu "}
+ .k25x1_B:after   {content:" AuPb ____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ "}
+
+ .k2j56_F:after   {content:" PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ FePu HgHg "}
+ .k2j56_C:after   {content:" NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ AuPb "}
+ .k2j56_G:after   {content:" ____ CuNp ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi "}
+ .k2j56_D:after   {content:" ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ "}
+ .k2j56_A:after   {content:" ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp "}
+ .k2j56_E:after   {content:" HgHg PuFe SnTi ____ CuNp ____ ____ AuPb NpCu ____ ____ FePu "}
+ .k2j56_B:after   {content:" AuPb NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ "}
+
+ .k257x1_F:after  {content:" PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu HgHg "}
+ .k257x1_C:after  {content:" NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ "}
+ .k257x1_G:after  {content:" ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ "}
+ .k257x1_D:after  {content:" TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ "}
+ .k257x1_A:after  {content:" PbAu ____ ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp "}
+ .k257x1_E:after  {content:" HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu "}
+ .k257x1_B:after  {content:" ____ NpCu ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ "}
+
+ .k2j5y6_F:after  {content:" PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ FePu HgHg "}
+ .k2j5y6_C:after  {content:" NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ____ ____ ____ AuPb "}
+ .k2j5y6_G:after  {content:" UrAg ____ ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi "}
+ .k2j5y6_D:after  {content:" ____ FePu HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ____ "}
+ .k2j5y6_A:after  {content:" ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ____ "}
+ .k2j5y6_E:after  {content:" HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ FePu "}
+ .k2j5y6_B:after  {content:" AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ____ ____ ____ "}
+
+ .k25x17_F:after  {content:" PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu HgHg "}
+ .k25x17_C:after  {content:" ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ "}
+ .k25x17_G:after  {content:" ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ "}
+ .k25x17_D:after  {content:" TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr "}
+ .k25x17_A:after  {content:" PbAu ____ ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp "}
+ .k25x17_E:after  {content:" HgHg PuFe ____ ____ CuNp PbAu ____ ____ ____ AgUr TiSn FePu "}
+ .k25x17_B:after  {content:" ____ ____ AgUr TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ "}
+
+ .k2j5x1_F:after  {content:" PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg "}
+ .k2j5x1_C:after  {content:" ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb "}
+ .k2j5x1_G:after  {content:" ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi "}
+ .k2j5x1_D:after  {content:" TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ "}
+ .k2j5x1_A:after  {content:" PbAu ____ AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ "}
+ .k2j5x1_E:after  {content:" HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ____ ____ TiSn FePu "}
+ .k2j5x1_B:after  {content:" AuPb ____ ____ TiSn FePu HgHg PuFe SnTi ____ ____ PbAu ____ "}
+
+ .k1j5_F:after    {content:" FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg "}
+ .k1j5_C:after    {content:" ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ____ PbPb "}
+ .k1j5_G:after    {content:" ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi "}
+ .k1j5_D:after    {content:" NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr "}
+ .k1j5_A:after    {content:" UrAu ____ PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ "}
+ .k1j5_E:after    {content:" TiHg FeFe HgTi ____ ____ UrAu ____ PbPb ____ AuUr NpSn ____ "}
+ .k1j5_B:after    {content:" PbPb ____ AuUr NpSn ____ TiHg FeFe HgTi ____ ____ UrAu ____ "}
+
+ .n67x2_F:after   {content:" FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg "}
+ .n67x2_C:after   {content:" ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb "}
+ .n67x2_G:after   {content:" ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi "}
+ .n67x2_D:after   {content:" ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr "}
+ .n67x2_A:after   {content:" UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp "}
+ .n67x2_E:after   {content:" TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ "}
+ .n67x2_B:after   {content:" PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu ____ "}
+
+ .k1j56y7_F:after {content:" FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg "}
+ .k1j56y7_C:after {content:" ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ "}
+ .k1j56y7_G:after {content:" ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi "}
+ .k1j56y7_D:after {content:" NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr "}
+ .k1j56y7_A:after {content:" UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp "}
+ .k1j56y7_E:after {content:" TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ "}
+ .k1j56y7_B:after {content:" ____ ____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ "}
+
+ .j2k5_F:after    {content:" CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg "}
+ .j2k5_C:after    {content:" FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb "}
+ .j2k5_G:after    {content:" ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ "}
+ .j2k5_D:after    {content:" ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn "}
+ .j2k5_A:after    {content:" NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp "}
+ .j2k5_E:after    {content:" MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ "}
+ .j2k5_B:after    {content:" TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu ____ "}
+
+ .n6x2_F:after    {content:" CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg "}
+ .n6x2_C:after    {content:" FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ "}
+ .n6x2_G:after    {content:" ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi "}
+ .n6x2_D:after    {content:" ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn "}
+ .n6x2_A:after    {content:" NpAu ____ ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp "}
+ .n6x2_E:after    {content:" MnHg CuFe PbTi ____ AuNp NpAu ____ ____ FeCu HgMn ____ ____ "}
+ .n6x2_B:after    {content:" ____ FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp NpAu ____ "}
+
+ .j25_F:after     {content:" CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg "}
+ .j25_C:after     {content:" FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb "}
+ .j25_G:after     {content:" ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi "}
+ .j25_D:after     {content:" ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn "}
+ .j25_A:after     {content:" NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ "}
+ .j25_E:after     {content:" MnHg CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ "}
+ .j25_B:after     {content:" TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ "}
+
+ .j256_F:after    {content:" CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg "}
+ .j256_C:after    {content:" FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb "}
+ .j256_G:after    {content:" ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi "}
+ .j256_D:after    {content:" ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn "}
+ .j256_A:after    {content:" ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp "}
+ .j256_E:after    {content:" MnHg CuFe PbTi ____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ "}
+ .j256_B:after    {content:" TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ AuNp ____ ____ "}
+
