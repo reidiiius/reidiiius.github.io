@@ -14,11 +14,11 @@ hr {
 #views {
   position:fixed;
   left:300px;
-  top:30px;
+  top:20px;
 }
 iframe {
-  width:650px;
-  height:550px;
+  width:620px;
+  height:440px;
   border:0;
   background-color:#fffff0;
 }
@@ -26,7 +26,7 @@ h2 {
   margin:5px 10px 0 10px;
   font-family:monospace;
   font-size:20px;
-  color:#808080;
+  color:#2f4f4f;
 }
 h3 {
   margin:10px 20px 0 20px;
@@ -59,11 +59,11 @@ a:hover {
   color:#000000;
 }
 #footer {
-  margin:128px 8px 16px 32px;
+  margin:99px 5px 15px 5px;
 }
 .attr {
   font-family:sans-serif;
-  font-size:14px;
+  font-size:12px;
   color:#808080;
 }
 @media screen and ( max-width:750px ) {
