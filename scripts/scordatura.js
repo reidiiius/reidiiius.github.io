@@ -481,6 +481,15 @@ function sGk(o){ document.writeln(o.slice(40,61).concat(o.slice(0,40))) }
 function sDk(o){ document.writeln(o.slice(15,61).concat(o.slice(0,15))) }
 function sAk(o){ document.writeln(o.slice(50,61).concat(o.slice(0,50))) }
 
+function allFourthsTuning(qp) {
+  sFn(qp);
+  sCn(qp);
+  sGn(qp);
+  sDn(qp);
+  sAn(qp);
+  sEn(qp);
+}
+
 function tk4(o) { return (o.slice(30,61).concat(o.slice(0,30))) }
 function tn7(o) { return (o.slice( 5,61).concat(o.slice(0, 5))) }
 function tn3(o) { return (o.slice(40,61).concat(o.slice(0,40))) }
