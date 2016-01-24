@@ -20,13 +20,13 @@
 <script type="application/javascript">
 (function() { "use strict";
 var dfn = document.getElementById("hanzi");
-var obj = new String(dfn.dataset.n0);
-  document.writeln(obj.length);
-  document.writeln(obj.slice(12,36).concat(obj.slice(0,14)));
-  document.writeln(obj.slice(27,36).concat(obj.slice(0,29)));
-  document.writeln(obj.slice( 6,36).concat(obj.slice(0, 8)));
-  document.writeln(obj.slice(21,36).concat(obj.slice(0,23)));
-  document.writeln(obj + obj.slice(0, 2));
+var str = String(dfn.dataset.n0);
+  document.writeln(str.length);
+  document.writeln(str.slice(12,36).concat(str.slice(0,14)));
+  document.writeln(str.slice(27,36).concat(str.slice(0,29)));
+  document.writeln(str.slice( 6,36).concat(str.slice(0, 8)));
+  document.writeln(str.slice(21,36).concat(str.slice(0,23)));
+  document.writeln(str + str.slice(0, 2));
 })();
 </script>
 </pre>
@@ -35,19 +35,19 @@ var obj = new String(dfn.dataset.n0);
 <script type="application/javascript">
 (function() { "use strict";
 var dfn = document.getElementById("latin");
-var obj = new String(dfn.dataset.n0);
-  document.writeln(obj.length);
-  document.writeln(obj.slice(20,60).concat(obj.slice(0,25)));
-  document.writeln(obj.slice(45,60).concat(obj.slice(0,50)));
-  document.writeln(obj.slice(10,60).concat(obj.slice(0,15)));
-  document.writeln(obj.slice(35,60).concat(obj.slice(0,40)));
-  document.writeln(obj + obj.slice(0, 5));
+var str = String(dfn.dataset.n0);
+  document.writeln(str.length);
+  document.writeln(str.slice(20,60).concat(str.slice(0,25)));
+  document.writeln(str.slice(45,60).concat(str.slice(0,50)));
+  document.writeln(str.slice(10,60).concat(str.slice(0,15)));
+  document.writeln(str.slice(35,60).concat(str.slice(0,40)));
+  document.writeln(str + str.slice(0, 5));
 })();
 </script>
 </pre>
 
 <footer id="notice">
-  <p class="msg">&#169; 2015 Reid Netterville III</p>
+  <p class="msg">&#169; 2015-2016 Reid Netterville III</p>
 </footer>
 
 </body>
