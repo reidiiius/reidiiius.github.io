@@ -13,11 +13,11 @@ hr {
 }
 #views {
   position:fixed;
-  left:300px;
+  left:280px;
   top:20px;
 }
 iframe {
-  width:620px;
+  width:660px;
   height:440px;
   border:0;
   background-color:#fffff0;
