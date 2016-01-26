@@ -321,7 +321,7 @@ button:hover {
 #footer {
   background-color:#fffff0;
   width:600px;
-  color:#a9a9a9;
+  color:#808080;
   padding-bottom:2px;
 }
 .ndx-low {
@@ -332,6 +332,7 @@ button:hover {
 }
 .cush {
   padding-left:16px;
+  font-size:14px;
 }
 .attr {
   position:absolute;
