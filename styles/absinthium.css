@@ -1,0 +1,22 @@
+
+pre {
+  display:none;
+}
+dl.viewlist {
+  padding:0 0.6em 1.16em 0;
+  white-space:nowrap;
+}
+dl.viewlist dd {
+  margin:0;
+}
+dt.genus {
+  font-weight:bold;
+}
+@media screen and ( max-width:700px ) {
+  dl.viewlist {
+    font-size:12px;
+    padding:0 0 2px 2px;
+  }
+}
+
+
