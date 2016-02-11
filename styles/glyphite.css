@@ -1,553 +1,554 @@
 
-#pis {background:url('/images/glyphite.png') -3px 0;}
-#aqu {background:url('/images/glyphite.png') -58px 0;}
-#cap {background:url('/images/glyphite.png') -110px 0;}
-#sag {background:url('/images/glyphite.png') -164px 0;}
-#sco {background:url('/images/glyphite.png') -218px 0;}
-#lib {background:url('/images/glyphite.png') -273px 0;}
-#vir {background:url('/images/glyphite.png') -327px 0;}
-#leo {background:url('/images/glyphite.png') -379px 0;}
+ .pis {background:url('/images/glyphite.png') -3px 0;}
+ .aqu {background:url('/images/glyphite.png') -58px 0;}
+ .cap {background:url('/images/glyphite.png') -110px 0;}
+ .sag {background:url('/images/glyphite.png') -164px 0;}
+ .sco {background:url('/images/glyphite.png') -218px 0;}
+ .lib {background:url('/images/glyphite.png') -273px 0;}
+ .vir {background:url('/images/glyphite.png') -327px 0;}
+ .leo {background:url('/images/glyphite.png') -379px 0;}
 
-#can {background:url('/images/glyphite.png') -4px -63px; }
-#gem {background:url('/images/glyphite.png') -57px -63px;}
-#tau {background:url('/images/glyphite.png') -111px -63px;}
-#ari {background:url('/images/glyphite.png') -164px -63px;}
-#TiCu {background:url('/images/glyphite.png') -217px -66px;}
-#FeMn {background:url('/images/glyphite.png') -273px -63px;}
-#MnFe {background:url('/images/glyphite.png') -325px -63px;}
-#CuTi {background:url('/images/glyphite.png') -380px -69px;}
+ .can {background:url('/images/glyphite.png') -4px -63px; }
+ .gem {background:url('/images/glyphite.png') -57px -63px;}
+ .tau {background:url('/images/glyphite.png') -111px -63px;}
+ .ari {background:url('/images/glyphite.png') -164px -63px;}
+ .TiCu {background:url('/images/glyphite.png') -217px -66px;}
+ .FeMn {background:url('/images/glyphite.png') -273px -63px;}
+ .MnFe {background:url('/images/glyphite.png') -325px -63px;}
+ .CuTi {background:url('/images/glyphite.png') -380px -69px;}
 
-#CuAu {background:url('/images/glyphite.png') -2px -126px; }
-#AuCu {background:url('/images/glyphite.png') -56px -126px;}
-#NpMn {background:url('/images/glyphite.png') -111px -126px;}
-#AgSn {background:url('/images/glyphite.png') -165px -126px;}
-#FeHg {background:url('/images/glyphite.png') -216px -125px;}
-#HgFe {background:url('/images/glyphite.png') -273px -126px;}
-#SnAg {background:url('/images/glyphite.png') -326px -126px;}
-#MnNp {background:url('/images/glyphite.png') -379px -126px;}
+ .CuAu {background:url('/images/glyphite.png') -2px -126px; }
+ .AuCu {background:url('/images/glyphite.png') -56px -126px;}
+ .NpMn {background:url('/images/glyphite.png') -111px -126px;}
+ .AgSn {background:url('/images/glyphite.png') -165px -126px;}
+ .FeHg {background:url('/images/glyphite.png') -216px -125px;}
+ .HgFe {background:url('/images/glyphite.png') -273px -126px;}
+ .SnAg {background:url('/images/glyphite.png') -326px -126px;}
+ .MnNp {background:url('/images/glyphite.png') -379px -126px;}
 
-#AgAu {background:url('/images/glyphite.png') -3px -189px; }
-#FePb {background:url('/images/glyphite.png') -56px -189px;}
-#HgCu {background:url('/images/glyphite.png') -110px -189px;}
-#SnSn {background:url('/images/glyphite.png') -165px -189px;}
-#CuHg {background:url('/images/glyphite.png') -218px -189px;}
-#PbFe {background:url('/images/glyphite.png') -271px -189px;}
-#AuAg {background:url('/images/glyphite.png') -327px -189px;}
-#NpNp {background:url('/images/glyphite.png') -381px -189px;}
+ .AgAu {background:url('/images/glyphite.png') -3px -189px; }
+ .FePb {background:url('/images/glyphite.png') -56px -189px;}
+ .HgCu {background:url('/images/glyphite.png') -110px -189px;}
+ .SnSn {background:url('/images/glyphite.png') -165px -189px;}
+ .CuHg {background:url('/images/glyphite.png') -218px -189px;}
+ .PbFe {background:url('/images/glyphite.png') -271px -189px;}
+ .AuAg {background:url('/images/glyphite.png') -327px -189px;}
+ .NpNp {background:url('/images/glyphite.png') -381px -189px;}
 
-#SnAu {background:url('/images/glyphite.png') -5px -250px; }
-#CuPb {background:url('/images/glyphite.png') -57px -251px;}
-#PbCu {background:url('/images/glyphite.png') -110px -252px;}
-#AuSn {background:url('/images/glyphite.png') -165px -251px;}
-#AgHg {background:url('/images/glyphite.png') -218px -252px;}
-#TiFe {background:url('/images/glyphite.png') -273px -252px;}
-#FeTi {background:url('/images/glyphite.png') -327px -252px;}
-#HgAg {background:url('/images/glyphite.png') -381px -252px;}
+ .SnAu {background:url('/images/glyphite.png') -5px -250px; }
+ .CuPb {background:url('/images/glyphite.png') -57px -251px;}
+ .PbCu {background:url('/images/glyphite.png') -110px -252px;}
+ .AuSn {background:url('/images/glyphite.png') -165px -251px;}
+ .AgHg {background:url('/images/glyphite.png') -218px -252px;}
+ .TiFe {background:url('/images/glyphite.png') -273px -252px;}
+ .FeTi {background:url('/images/glyphite.png') -327px -252px;}
+ .HgAg {background:url('/images/glyphite.png') -381px -252px;}
 
-#AuAu {background:url('/images/glyphite.png') -3px -313px; }
-#AgPb {background:url('/images/glyphite.png') -56px -314px;}
-#FeUr {background:url('/images/glyphite.png') -111px -313px;}
-#HgSn {background:url('/images/glyphite.png') -163px -313px;}
-#PuPu {background:url('/images/glyphite.png') -218px -313px;}
-#SnHg {background:url('/images/glyphite.png') -272px -313px;}
-#UrFe {background:url('/images/glyphite.png') -327px -313px;}
-#PbAg {background:url('/images/glyphite.png') -382px -314px;}
+ .AuAu {background:url('/images/glyphite.png') -3px -313px; }
+ .AgPb {background:url('/images/glyphite.png') -56px -314px;}
+ .FeUr {background:url('/images/glyphite.png') -111px -313px;}
+ .HgSn {background:url('/images/glyphite.png') -163px -313px;}
+ .PuPu {background:url('/images/glyphite.png') -218px -313px;}
+ .SnHg {background:url('/images/glyphite.png') -272px -313px;}
+ .UrFe {background:url('/images/glyphite.png') -327px -313px;}
+ .PbAg {background:url('/images/glyphite.png') -382px -314px;}
 
-#HgAu-Ti {background:url('/images/glyphite.png') -3px -377px; }
-#Ti-SnPb {background:url('/images/glyphite.png') -57px -377px;}
-#UrCu {background:url('/images/glyphite.png') -110px -375px;}
-#CuMn {background:url('/images/glyphite.png') -166px -378px;}
-#PbSn {background:url('/images/glyphite.png') -218px -377px;}
-#AuHg {background:url('/images/glyphite.png') -271px -376px;}
-#NpFe {background:url('/images/glyphite.png') -326px -378px;}
-#AgTi {background:url('/images/glyphite.png') -380px -377px;}
+ .HgAu-Ti {background:url('/images/glyphite.png') -3px -377px; }
+ .Ti-SnPb {background:url('/images/glyphite.png') -57px -377px;}
+ .UrCu {background:url('/images/glyphite.png') -110px -375px;}
+ .CuMn {background:url('/images/glyphite.png') -166px -378px;}
+ .PbSn {background:url('/images/glyphite.png') -218px -377px;}
+ .AuHg {background:url('/images/glyphite.png') -271px -376px;}
+ .NpFe {background:url('/images/glyphite.png') -326px -378px;}
+ .AgTi {background:url('/images/glyphite.png') -380px -377px;}
 
-#HgAu {background:url('/images/glyphite.png') -2px -441px; }
-#SnPb {background:url('/images/glyphite.png') -55px -441px;}
-#MnCu {background:url('/images/glyphite.png') -110px -441px;}
-#CuUr {background:url('/images/glyphite.png') -164px -441px;}
-#PbSn-Ti {background:url('/images/glyphite.png') -216px -441px;}
-#Ti-AuHg {background:url('/images/glyphite.png') -271px -441px;}
-#TiAg {background:url('/images/glyphite.png') -326px -441px;}
-#FeNp {background:url('/images/glyphite.png') -381px -441px;}
+ .HgAu {background:url('/images/glyphite.png') -2px -441px; }
+ .SnPb {background:url('/images/glyphite.png') -55px -441px;}
+ .MnCu {background:url('/images/glyphite.png') -110px -441px;}
+ .CuUr {background:url('/images/glyphite.png') -164px -441px;}
+ .PbSn-Ti {background:url('/images/glyphite.png') -216px -441px;}
+ .Ti-AuHg {background:url('/images/glyphite.png') -271px -441px;}
+ .TiAg {background:url('/images/glyphite.png') -326px -441px;}
+ .FeNp {background:url('/images/glyphite.png') -381px -441px;}
 
-#PbAu {background:url('/images/glyphite.png') -2px -504px; }
-#AuPb {background:url('/images/glyphite.png') -57px -504px;}
-#NpCu {background:url('/images/glyphite.png') -110px -504px;}
-#AgMn-Fe {background:url('/images/glyphite.png') -162px -504px;}
-#TiSn {background:url('/images/glyphite.png') -218px -504px;}
-#Mn-FePu {background:url('/images/glyphite.png') -273px -504px;}
-#HgHg-Ti {background:url('/images/glyphite.png') -327px -504px;}
-#PuFe {background:url('/images/glyphite.png') -380px -504px;}
+ .PbAu {background:url('/images/glyphite.png') -2px -504px; }
+ .AuPb {background:url('/images/glyphite.png') -57px -504px;}
+ .NpCu {background:url('/images/glyphite.png') -110px -504px;}
+ .AgMn-Fe {background:url('/images/glyphite.png') -162px -504px;}
+ .TiSn {background:url('/images/glyphite.png') -218px -504px;}
+ .Mn-FePu {background:url('/images/glyphite.png') -273px -504px;}
+ .HgHg-Ti {background:url('/images/glyphite.png') -327px -504px;}
+ .PuFe {background:url('/images/glyphite.png') -380px -504px;}
 
-#AgUr {background:url('/images/glyphite.png') -2px -567px; }
-#FePu {background:url('/images/glyphite.png') -57px -567px;}
-#Ti-HgHg {background:url('/images/glyphite.png') -110px -567px;}
-#PuFe-Mn {background:url('/images/glyphite.png') -163px -567px;}
-#SnTi {background:url('/images/glyphite.png') -219px -567px;}
-#Fe-MnAg {background:url('/images/glyphite.png') -274px -567px;}
-#CuNp {background:url('/images/glyphite.png') -327px -567px;}
-#UrAg {background:url('/images/glyphite.png') -380px -567px;}
+ .AgUr {background:url('/images/glyphite.png') -2px -567px; }
+ .FePu {background:url('/images/glyphite.png') -57px -567px;}
+ .Ti-HgHg {background:url('/images/glyphite.png') -110px -567px;}
+ .PuFe-Mn {background:url('/images/glyphite.png') -163px -567px;}
+ .SnTi {background:url('/images/glyphite.png') -219px -567px;}
+ .Fe-MnAg {background:url('/images/glyphite.png') -274px -567px;}
+ .CuNp {background:url('/images/glyphite.png') -327px -567px;}
+ .UrAg {background:url('/images/glyphite.png') -380px -567px;}
 
-#PbAu-Ti {background:url('/images/glyphite.png') -2px -630px; }
-#Ti-AuPb {background:url('/images/glyphite.png') -57px -630px;}
-#AgMn {background:url('/images/glyphite.png') -109px -630px;}
-#HgHg {background:url('/images/glyphite.png') -164px -630px;}
-#Ti-HgHg-Ti {background:url('/images/glyphite.png') -217px -630px;}
-#MnAg {background:url('/images/glyphite.png') -274px -630px;}
-#PuSn {background:url('/images/glyphite.png') -326px -630px;}
-#SnPu {background:url('/images/glyphite.png') -379px -630px;}
+ .PbAu-Ti {background:url('/images/glyphite.png') -2px -630px; }
+ .Ti-AuPb {background:url('/images/glyphite.png') -57px -630px;}
+ .AgMn {background:url('/images/glyphite.png') -109px -630px;}
+ .HgHg {background:url('/images/glyphite.png') -164px -630px;}
+ .Ti-HgHg-Ti {background:url('/images/glyphite.png') -217px -630px;}
+ .MnAg {background:url('/images/glyphite.png') -274px -630px;}
+ .PuSn {background:url('/images/glyphite.png') -326px -630px;}
+ .SnPu {background:url('/images/glyphite.png') -379px -630px;}
 
-#UrAu {background:url('/images/glyphite.png') -2px -693px; }
-#PbPb {background:url('/images/glyphite.png') -55px -693px;}
-#AuUr {background:url('/images/glyphite.png') -110px -693px;}
-#NpSn {background:url('/images/glyphite.png') -163px -693px;}
-#TiHg {background:url('/images/glyphite.png') -216px -693px;}
-#FeFe {background:url('/images/glyphite.png') -272px -693px;}
-#HgTi {background:url('/images/glyphite.png') -326px -693px;}
-#SnNp {background:url('/images/glyphite.png') -379px -693px;}
+ .UrAu {background:url('/images/glyphite.png') -2px -693px; }
+ .PbPb {background:url('/images/glyphite.png') -55px -693px;}
+ .AuUr {background:url('/images/glyphite.png') -110px -693px;}
+ .NpSn {background:url('/images/glyphite.png') -163px -693px;}
+ .TiHg {background:url('/images/glyphite.png') -216px -693px;}
+ .FeFe {background:url('/images/glyphite.png') -272px -693px;}
+ .HgTi {background:url('/images/glyphite.png') -326px -693px;}
+ .SnNp {background:url('/images/glyphite.png') -379px -693px;}
 
-#NpAu {background:url('/images/glyphite.png') -3px -756px; }
-#TiPb {background:url('/images/glyphite.png') -55px -756px;}
-#FeCu {background:url('/images/glyphite.png') -109px -756px;}
-#HgMn {background:url('/images/glyphite.png') -165px -756px;}
-#MnHg {background:url('/images/glyphite.png') -217px -756px;}
-#CuFe {background:url('/images/glyphite.png') -272px -756px;}
-#PbTi {background:url('/images/glyphite.png') -325px -756px;}
-#AuNp {background:url('/images/glyphite.png') -381px -756px;}
+ .NpAu {background:url('/images/glyphite.png') -3px -756px; }
+ .TiPb {background:url('/images/glyphite.png') -55px -756px;}
+ .FeCu {background:url('/images/glyphite.png') -109px -756px;}
+ .HgMn {background:url('/images/glyphite.png') -165px -756px;}
+ .MnHg {background:url('/images/glyphite.png') -217px -756px;}
+ .CuFe {background:url('/images/glyphite.png') -272px -756px;}
+ .PbTi {background:url('/images/glyphite.png') -325px -756px;}
+ .AuNp {background:url('/images/glyphite.png') -381px -756px;}
 
-#PuAu {background:url('/images/glyphite.png') -3px -819px; }
-#UrPb {background:url('/images/glyphite.png') -54px -820px;}
-#PbUr {background:url('/images/glyphite.png') -110px -820px;}
-#AuPu {background:url('/images/glyphite.png') -165px -819px;}
-#NpHg {background:url('/images/glyphite.png') -218px -819px;}
-#AgFe {background:url('/images/glyphite.png') -272px -819px;}
-#FeAg {background:url('/images/glyphite.png') -326px -819px;}
-#HgNp {background:url('/images/glyphite.png') -380px -819px;}
+ .PuAu {background:url('/images/glyphite.png') -3px -819px; }
+ .UrPb {background:url('/images/glyphite.png') -54px -820px;}
+ .PbUr {background:url('/images/glyphite.png') -110px -820px;}
+ .AuPu {background:url('/images/glyphite.png') -165px -819px;}
+ .NpHg {background:url('/images/glyphite.png') -218px -819px;}
+ .AgFe {background:url('/images/glyphite.png') -272px -819px;}
+ .FeAg {background:url('/images/glyphite.png') -326px -819px;}
+ .HgNp {background:url('/images/glyphite.png') -380px -819px;}
 
 /* black */
 
-#pis_black {background:url('/images/black.png') -3px 0;}
-#aqu_black {background:url('/images/black.png') -58px 0;}
-#cap_black {background:url('/images/black.png') -110px 0;}
-#sag_black {background:url('/images/black.png') -164px 0;}
-#sco_black {background:url('/images/black.png') -218px 0;}
-#lib_black {background:url('/images/black.png') -273px 0;}
-#vir_black {background:url('/images/black.png') -327px 0;}
-#leo_black {background:url('/images/black.png') -379px 0;}
+ .pis_black {background:url('/images/black.png') -3px 0;}
+ .aqu_black {background:url('/images/black.png') -58px 0;}
+ .cap_black {background:url('/images/black.png') -110px 0;}
+ .sag_black {background:url('/images/black.png') -164px 0;}
+ .sco_black {background:url('/images/black.png') -218px 0;}
+ .lib_black {background:url('/images/black.png') -273px 0;}
+ .vir_black {background:url('/images/black.png') -327px 0;}
+ .leo_black {background:url('/images/black.png') -379px 0;}
 
-#can_black {background:url('/images/black.png') -4px -63px; }
-#gem_black {background:url('/images/black.png') -57px -63px;}
-#tau_black {background:url('/images/black.png') -111px -63px;}
-#ari_black {background:url('/images/black.png') -164px -63px;}
-#TiCu_black {background:url('/images/black.png') -217px -66px;}
-#FeMn_black {background:url('/images/black.png') -273px -63px;}
-#MnFe_black {background:url('/images/black.png') -325px -63px;}
-#CuTi_black {background:url('/images/black.png') -380px -69px;}
+ .can_black {background:url('/images/black.png') -4px -63px; }
+ .gem_black {background:url('/images/black.png') -57px -63px;}
+ .tau_black {background:url('/images/black.png') -111px -63px;}
+ .ari_black {background:url('/images/black.png') -164px -63px;}
+ .TiCu_black {background:url('/images/black.png') -217px -66px;}
+ .FeMn_black {background:url('/images/black.png') -273px -63px;}
+ .MnFe_black {background:url('/images/black.png') -325px -63px;}
+ .CuTi_black {background:url('/images/black.png') -380px -69px;}
 
-#CuAu_black {background:url('/images/black.png') -2px -126px; }
-#AuCu_black {background:url('/images/black.png') -56px -126px;}
-#NpMn_black {background:url('/images/black.png') -111px -126px;}
-#AgSn_black {background:url('/images/black.png') -165px -126px;}
-#FeHg_black {background:url('/images/black.png') -216px -125px;}
-#HgFe_black {background:url('/images/black.png') -273px -126px;}
-#SnAg_black {background:url('/images/black.png') -326px -126px;}
-#MnNp_black {background:url('/images/black.png') -379px -126px;}
+ .CuAu_black {background:url('/images/black.png') -2px -126px; }
+ .AuCu_black {background:url('/images/black.png') -56px -126px;}
+ .NpMn_black {background:url('/images/black.png') -111px -126px;}
+ .AgSn_black {background:url('/images/black.png') -165px -126px;}
+ .FeHg_black {background:url('/images/black.png') -216px -125px;}
+ .HgFe_black {background:url('/images/black.png') -273px -126px;}
+ .SnAg_black {background:url('/images/black.png') -326px -126px;}
+ .MnNp_black {background:url('/images/black.png') -379px -126px;}
 
-#AgAu_black {background:url('/images/black.png') -3px -189px; }
-#FePb_black {background:url('/images/black.png') -56px -189px;}
-#HgCu_black {background:url('/images/black.png') -110px -189px;}
-#SnSn_black {background:url('/images/black.png') -165px -189px;}
-#CuHg_black {background:url('/images/black.png') -218px -189px;}
-#PbFe_black {background:url('/images/black.png') -271px -189px;}
-#AuAg_black {background:url('/images/black.png') -327px -189px;}
-#NpNp_black {background:url('/images/black.png') -381px -189px;}
+ .AgAu_black {background:url('/images/black.png') -3px -189px; }
+ .FePb_black {background:url('/images/black.png') -56px -189px;}
+ .HgCu_black {background:url('/images/black.png') -110px -189px;}
+ .SnSn_black {background:url('/images/black.png') -165px -189px;}
+ .CuHg_black {background:url('/images/black.png') -218px -189px;}
+ .PbFe_black {background:url('/images/black.png') -271px -189px;}
+ .AuAg_black {background:url('/images/black.png') -327px -189px;}
+ .NpNp_black {background:url('/images/black.png') -381px -189px;}
 
-#SnAu_black {background:url('/images/black.png') -5px -250px; }
-#CuPb_black {background:url('/images/black.png') -57px -251px;}
-#PbCu_black {background:url('/images/black.png') -110px -252px;}
-#AuSn_black {background:url('/images/black.png') -165px -251px;}
-#AgHg_black {background:url('/images/black.png') -218px -252px;}
-#TiFe_black {background:url('/images/black.png') -273px -252px;}
-#FeTi_black {background:url('/images/black.png') -327px -252px;}
-#HgAg_black {background:url('/images/black.png') -381px -252px;}
+ .SnAu_black {background:url('/images/black.png') -5px -250px; }
+ .CuPb_black {background:url('/images/black.png') -57px -251px;}
+ .PbCu_black {background:url('/images/black.png') -110px -252px;}
+ .AuSn_black {background:url('/images/black.png') -165px -251px;}
+ .AgHg_black {background:url('/images/black.png') -218px -252px;}
+ .TiFe_black {background:url('/images/black.png') -273px -252px;}
+ .FeTi_black {background:url('/images/black.png') -327px -252px;}
+ .HgAg_black {background:url('/images/black.png') -381px -252px;}
 
-#AuAu_black {background:url('/images/black.png') -3px -313px; }
-#AgPb_black {background:url('/images/black.png') -56px -314px;}
-#FeUr_black {background:url('/images/black.png') -111px -313px;}
-#HgSn_black {background:url('/images/black.png') -163px -313px;}
-#PuPu_black {background:url('/images/black.png') -218px -313px;}
-#SnHg_black {background:url('/images/black.png') -272px -313px;}
-#UrFe_black {background:url('/images/black.png') -327px -313px;}
-#PbAg_black {background:url('/images/black.png') -382px -314px;}
+ .AuAu_black {background:url('/images/black.png') -3px -313px; }
+ .AgPb_black {background:url('/images/black.png') -56px -314px;}
+ .FeUr_black {background:url('/images/black.png') -111px -313px;}
+ .HgSn_black {background:url('/images/black.png') -163px -313px;}
+ .PuPu_black {background:url('/images/black.png') -218px -313px;}
+ .SnHg_black {background:url('/images/black.png') -272px -313px;}
+ .UrFe_black {background:url('/images/black.png') -327px -313px;}
+ .PbAg_black {background:url('/images/black.png') -382px -314px;}
 
-#HgAu-Ti_black {background:url('/images/black.png') -3px -377px; }
-#Ti-SnPb_black {background:url('/images/black.png') -57px -377px;}
-#UrCu_black {background:url('/images/black.png') -110px -375px;}
-#CuMn_black {background:url('/images/black.png') -166px -378px;}
-#PbSn_black {background:url('/images/black.png') -218px -377px;}
-#AuHg_black {background:url('/images/black.png') -271px -376px;}
-#NpFe_black {background:url('/images/black.png') -326px -378px;}
-#AgTi_black {background:url('/images/black.png') -380px -377px;}
+ .HgAu-Ti_black {background:url('/images/black.png') -3px -377px; }
+ .Ti-SnPb_black {background:url('/images/black.png') -57px -377px;}
+ .UrCu_black {background:url('/images/black.png') -110px -375px;}
+ .CuMn_black {background:url('/images/black.png') -166px -378px;}
+ .PbSn_black {background:url('/images/black.png') -218px -377px;}
+ .AuHg_black {background:url('/images/black.png') -271px -376px;}
+ .NpFe_black {background:url('/images/black.png') -326px -378px;}
+ .AgTi_black {background:url('/images/black.png') -380px -377px;}
 
-#HgAu_black {background:url('/images/black.png') -2px -441px; }
-#SnPb_black {background:url('/images/black.png') -55px -441px;}
-#MnCu_black {background:url('/images/black.png') -110px -441px;}
-#CuUr_black {background:url('/images/black.png') -164px -441px;}
-#PbSn-Ti_black {background:url('/images/black.png') -216px -441px;}
-#Ti-AuHg_black {background:url('/images/black.png') -271px -441px;}
-#TiAg_black {background:url('/images/black.png') -326px -441px;}
-#FeNp_black {background:url('/images/black.png') -381px -441px;}
+ .HgAu_black {background:url('/images/black.png') -2px -441px; }
+ .SnPb_black {background:url('/images/black.png') -55px -441px;}
+ .MnCu_black {background:url('/images/black.png') -110px -441px;}
+ .CuUr_black {background:url('/images/black.png') -164px -441px;}
+ .PbSn-Ti_black {background:url('/images/black.png') -216px -441px;}
+ .Ti-AuHg_black {background:url('/images/black.png') -271px -441px;}
+ .TiAg_black {background:url('/images/black.png') -326px -441px;}
+ .FeNp_black {background:url('/images/black.png') -381px -441px;}
 
-#PbAu_black {background:url('/images/black.png') -2px -504px; }
-#AuPb_black {background:url('/images/black.png') -57px -504px;}
-#NpCu_black {background:url('/images/black.png') -110px -504px;}
-#AgMn-Fe_black {background:url('/images/black.png') -162px -504px;}
-#TiSn_black {background:url('/images/black.png') -218px -504px;}
-#Mn-FePu_black {background:url('/images/black.png') -273px -504px;}
-#HgHg-Ti_black {background:url('/images/black.png') -327px -504px;}
-#PuFe_black {background:url('/images/black.png') -380px -504px;}
+ .PbAu_black {background:url('/images/black.png') -2px -504px; }
+ .AuPb_black {background:url('/images/black.png') -57px -504px;}
+ .NpCu_black {background:url('/images/black.png') -110px -504px;}
+ .AgMn-Fe_black {background:url('/images/black.png') -162px -504px;}
+ .TiSn_black {background:url('/images/black.png') -218px -504px;}
+ .Mn-FePu_black {background:url('/images/black.png') -273px -504px;}
+ .HgHg-Ti_black {background:url('/images/black.png') -327px -504px;}
+ .PuFe_black {background:url('/images/black.png') -380px -504px;}
 
-#AgUr_black {background:url('/images/black.png') -2px -567px; }
-#FePu_black {background:url('/images/black.png') -57px -567px;}
-#Ti-HgHg_black {background:url('/images/black.png') -110px -567px;}
-#PuFe-Mn_black {background:url('/images/black.png') -163px -567px;}
-#SnTi_black {background:url('/images/black.png') -219px -567px;}
-#Fe-MnAg_black {background:url('/images/black.png') -274px -567px;}
-#CuNp_black {background:url('/images/black.png') -327px -567px;}
-#UrAg_black {background:url('/images/black.png') -380px -567px;}
+ .AgUr_black {background:url('/images/black.png') -2px -567px; }
+ .FePu_black {background:url('/images/black.png') -57px -567px;}
+ .Ti-HgHg_black {background:url('/images/black.png') -110px -567px;}
+ .PuFe-Mn_black {background:url('/images/black.png') -163px -567px;}
+ .SnTi_black {background:url('/images/black.png') -219px -567px;}
+ .Fe-MnAg_black {background:url('/images/black.png') -274px -567px;}
+ .CuNp_black {background:url('/images/black.png') -327px -567px;}
+ .UrAg_black {background:url('/images/black.png') -380px -567px;}
 
-#PbAu-Ti_black {background:url('/images/black.png') -2px -630px; }
-#Ti-AuPb_black {background:url('/images/black.png') -57px -630px;}
-#AgMn_black {background:url('/images/black.png') -109px -630px;}
-#HgHg_black {background:url('/images/black.png') -164px -630px;}
-#Ti-HgHg-Ti_black {background:url('/images/black.png') -217px -630px;}
-#MnAg_black {background:url('/images/black.png') -274px -630px;}
-#PuSn_black {background:url('/images/black.png') -326px -630px;}
-#SnPu_black {background:url('/images/black.png') -379px -630px;}
+ .PbAu-Ti_black {background:url('/images/black.png') -2px -630px; }
+ .Ti-AuPb_black {background:url('/images/black.png') -57px -630px;}
+ .AgMn_black {background:url('/images/black.png') -109px -630px;}
+ .HgHg_black {background:url('/images/black.png') -164px -630px;}
+ .Ti-HgHg-Ti_black {background:url('/images/black.png') -217px -630px;}
+ .MnAg_black {background:url('/images/black.png') -274px -630px;}
+ .PuSn_black {background:url('/images/black.png') -326px -630px;}
+ .SnPu_black {background:url('/images/black.png') -379px -630px;}
 
-#UrAu_black {background:url('/images/black.png') -2px -693px; }
-#PbPb_black {background:url('/images/black.png') -55px -693px;}
-#AuUr_black {background:url('/images/black.png') -110px -693px;}
-#NpSn_black {background:url('/images/black.png') -163px -693px;}
-#TiHg_black {background:url('/images/black.png') -216px -693px;}
-#FeFe_black {background:url('/images/black.png') -272px -693px;}
-#HgTi_black {background:url('/images/black.png') -326px -693px;}
-#SnNp_black {background:url('/images/black.png') -379px -693px;}
+ .UrAu_black {background:url('/images/black.png') -2px -693px; }
+ .PbPb_black {background:url('/images/black.png') -55px -693px;}
+ .AuUr_black {background:url('/images/black.png') -110px -693px;}
+ .NpSn_black {background:url('/images/black.png') -163px -693px;}
+ .TiHg_black {background:url('/images/black.png') -216px -693px;}
+ .FeFe_black {background:url('/images/black.png') -272px -693px;}
+ .HgTi_black {background:url('/images/black.png') -326px -693px;}
+ .SnNp_black {background:url('/images/black.png') -379px -693px;}
 
-#NpAu_black {background:url('/images/black.png') -3px -756px; }
-#TiPb_black {background:url('/images/black.png') -55px -756px;}
-#FeCu_black {background:url('/images/black.png') -109px -756px;}
-#HgMn_black {background:url('/images/black.png') -165px -756px;}
-#MnHg_black {background:url('/images/black.png') -217px -756px;}
-#CuFe_black {background:url('/images/black.png') -272px -756px;}
-#PbTi_black {background:url('/images/black.png') -325px -756px;}
-#AuNp_black {background:url('/images/black.png') -381px -756px;}
+ .NpAu_black {background:url('/images/black.png') -3px -756px; }
+ .TiPb_black {background:url('/images/black.png') -55px -756px;}
+ .FeCu_black {background:url('/images/black.png') -109px -756px;}
+ .HgMn_black {background:url('/images/black.png') -165px -756px;}
+ .MnHg_black {background:url('/images/black.png') -217px -756px;}
+ .CuFe_black {background:url('/images/black.png') -272px -756px;}
+ .PbTi_black {background:url('/images/black.png') -325px -756px;}
+ .AuNp_black {background:url('/images/black.png') -381px -756px;}
 
-#PuAu_black {background:url('/images/black.png') -3px -819px; }
-#UrPb_black {background:url('/images/black.png') -54px -820px;}
-#PbUr_black {background:url('/images/black.png') -110px -820px;}
-#AuPu_black {background:url('/images/black.png') -165px -819px;}
-#NpHg_black {background:url('/images/black.png') -218px -819px;}
-#AgFe_black {background:url('/images/black.png') -272px -819px;}
-#FeAg_black {background:url('/images/black.png') -326px -819px;}
-#HgNp_black {background:url('/images/black.png') -380px -819px;}
+ .PuAu_black {background:url('/images/black.png') -3px -819px; }
+ .UrPb_black {background:url('/images/black.png') -54px -820px;}
+ .PbUr_black {background:url('/images/black.png') -110px -820px;}
+ .AuPu_black {background:url('/images/black.png') -165px -819px;}
+ .NpHg_black {background:url('/images/black.png') -218px -819px;}
+ .AgFe_black {background:url('/images/black.png') -272px -819px;}
+ .FeAg_black {background:url('/images/black.png') -326px -819px;}
+ .HgNp_black {background:url('/images/black.png') -380px -819px;}
 
 /* violet */
 
-#pis_violet {background:url('/images/violet.png') -3px 0;}
-#aqu_violet {background:url('/images/violet.png') -58px 0;}
-#cap_violet {background:url('/images/violet.png') -110px 0;}
-#sag_violet {background:url('/images/violet.png') -164px 0;}
-#sco_violet {background:url('/images/violet.png') -218px 0;}
-#lib_violet {background:url('/images/violet.png') -273px 0;}
-#vir_violet {background:url('/images/violet.png') -327px 0;}
-#leo_violet {background:url('/images/violet.png') -379px 0;}
+ .pis_violet {background:url('/images/violet.png') -3px 0;}
+ .aqu_violet {background:url('/images/violet.png') -58px 0;}
+ .cap_violet {background:url('/images/violet.png') -110px 0;}
+ .sag_violet {background:url('/images/violet.png') -164px 0;}
+ .sco_violet {background:url('/images/violet.png') -218px 0;}
+ .lib_violet {background:url('/images/violet.png') -273px 0;}
+ .vir_violet {background:url('/images/violet.png') -327px 0;}
+ .leo_violet {background:url('/images/violet.png') -379px 0;}
 
-#can_violet {background:url('/images/violet.png') -4px -63px; }
-#gem_violet {background:url('/images/violet.png') -57px -63px;}
-#tau_violet {background:url('/images/violet.png') -111px -63px;}
-#ari_violet {background:url('/images/violet.png') -164px -63px;}
-#TiCu_violet {background:url('/images/violet.png') -217px -66px;}
-#FeMn_violet {background:url('/images/violet.png') -273px -63px;}
-#MnFe_violet {background:url('/images/violet.png') -325px -63px;}
-#CuTi_violet {background:url('/images/violet.png') -380px -69px;}
+ .can_violet {background:url('/images/violet.png') -4px -63px; }
+ .gem_violet {background:url('/images/violet.png') -57px -63px;}
+ .tau_violet {background:url('/images/violet.png') -111px -63px;}
+ .ari_violet {background:url('/images/violet.png') -164px -63px;}
+ .TiCu_violet {background:url('/images/violet.png') -217px -66px;}
+ .FeMn_violet {background:url('/images/violet.png') -273px -63px;}
+ .MnFe_violet {background:url('/images/violet.png') -325px -63px;}
+ .CuTi_violet {background:url('/images/violet.png') -380px -69px;}
 
-#CuAu_violet {background:url('/images/violet.png') -2px -126px; }
-#AuCu_violet {background:url('/images/violet.png') -56px -126px;}
-#NpMn_violet {background:url('/images/violet.png') -111px -126px;}
-#AgSn_violet {background:url('/images/violet.png') -165px -126px;}
-#FeHg_violet {background:url('/images/violet.png') -216px -125px;}
-#HgFe_violet {background:url('/images/violet.png') -273px -126px;}
-#SnAg_violet {background:url('/images/violet.png') -326px -126px;}
-#MnNp_violet {background:url('/images/violet.png') -379px -126px;}
+ .CuAu_violet {background:url('/images/violet.png') -2px -126px; }
+ .AuCu_violet {background:url('/images/violet.png') -56px -126px;}
+ .NpMn_violet {background:url('/images/violet.png') -111px -126px;}
+ .AgSn_violet {background:url('/images/violet.png') -165px -126px;}
+ .FeHg_violet {background:url('/images/violet.png') -216px -125px;}
+ .HgFe_violet {background:url('/images/violet.png') -273px -126px;}
+ .SnAg_violet {background:url('/images/violet.png') -326px -126px;}
+ .MnNp_violet {background:url('/images/violet.png') -379px -126px;}
 
-#AgAu_violet {background:url('/images/violet.png') -3px -189px; }
-#FePb_violet {background:url('/images/violet.png') -56px -189px;}
-#HgCu_violet {background:url('/images/violet.png') -110px -189px;}
-#SnSn_violet {background:url('/images/violet.png') -165px -189px;}
-#CuHg_violet {background:url('/images/violet.png') -218px -189px;}
-#PbFe_violet {background:url('/images/violet.png') -271px -189px;}
-#AuAg_violet {background:url('/images/violet.png') -327px -189px;}
-#NpNp_violet {background:url('/images/violet.png') -381px -189px;}
+ .AgAu_violet {background:url('/images/violet.png') -3px -189px; }
+ .FePb_violet {background:url('/images/violet.png') -56px -189px;}
+ .HgCu_violet {background:url('/images/violet.png') -110px -189px;}
+ .SnSn_violet {background:url('/images/violet.png') -165px -189px;}
+ .CuHg_violet {background:url('/images/violet.png') -218px -189px;}
+ .PbFe_violet {background:url('/images/violet.png') -271px -189px;}
+ .AuAg_violet {background:url('/images/violet.png') -327px -189px;}
+ .NpNp_violet {background:url('/images/violet.png') -381px -189px;}
 
-#SnAu_violet {background:url('/images/violet.png') -5px -250px; }
-#CuPb_violet {background:url('/images/violet.png') -57px -251px;}
-#PbCu_violet {background:url('/images/violet.png') -110px -252px;}
-#AuSn_violet {background:url('/images/violet.png') -165px -251px;}
-#AgHg_violet {background:url('/images/violet.png') -218px -252px;}
-#TiFe_violet {background:url('/images/violet.png') -273px -252px;}
-#FeTi_violet {background:url('/images/violet.png') -327px -252px;}
-#HgAg_violet {background:url('/images/violet.png') -381px -252px;}
+ .SnAu_violet {background:url('/images/violet.png') -5px -250px; }
+ .CuPb_violet {background:url('/images/violet.png') -57px -251px;}
+ .PbCu_violet {background:url('/images/violet.png') -110px -252px;}
+ .AuSn_violet {background:url('/images/violet.png') -165px -251px;}
+ .AgHg_violet {background:url('/images/violet.png') -218px -252px;}
+ .TiFe_violet {background:url('/images/violet.png') -273px -252px;}
+ .FeTi_violet {background:url('/images/violet.png') -327px -252px;}
+ .HgAg_violet {background:url('/images/violet.png') -381px -252px;}
 
-#AuAu_violet {background:url('/images/violet.png') -3px -313px; }
-#AgPb_violet {background:url('/images/violet.png') -56px -314px;}
-#FeUr_violet {background:url('/images/violet.png') -111px -313px;}
-#HgSn_violet {background:url('/images/violet.png') -163px -313px;}
-#PuPu_violet {background:url('/images/violet.png') -218px -313px;}
-#SnHg_violet {background:url('/images/violet.png') -272px -313px;}
-#UrFe_violet {background:url('/images/violet.png') -327px -313px;}
-#PbAg_violet {background:url('/images/violet.png') -382px -314px;}
+ .AuAu_violet {background:url('/images/violet.png') -3px -313px; }
+ .AgPb_violet {background:url('/images/violet.png') -56px -314px;}
+ .FeUr_violet {background:url('/images/violet.png') -111px -313px;}
+ .HgSn_violet {background:url('/images/violet.png') -163px -313px;}
+ .PuPu_violet {background:url('/images/violet.png') -218px -313px;}
+ .SnHg_violet {background:url('/images/violet.png') -272px -313px;}
+ .UrFe_violet {background:url('/images/violet.png') -327px -313px;}
+ .PbAg_violet {background:url('/images/violet.png') -382px -314px;}
 
-#HgAu-Ti_violet {background:url('/images/violet.png') -3px -377px; }
-#Ti-SnPb_violet {background:url('/images/violet.png') -57px -377px;}
-#UrCu_violet {background:url('/images/violet.png') -110px -375px;}
-#CuMn_violet {background:url('/images/violet.png') -166px -378px;}
-#PbSn_violet {background:url('/images/violet.png') -218px -377px;}
-#AuHg_violet {background:url('/images/violet.png') -271px -376px;}
-#NpFe_violet {background:url('/images/violet.png') -326px -378px;}
-#AgTi_violet {background:url('/images/violet.png') -380px -377px;}
+ .HgAu-Ti_violet {background:url('/images/violet.png') -3px -377px; }
+ .Ti-SnPb_violet {background:url('/images/violet.png') -57px -377px;}
+ .UrCu_violet {background:url('/images/violet.png') -110px -375px;}
+ .CuMn_violet {background:url('/images/violet.png') -166px -378px;}
+ .PbSn_violet {background:url('/images/violet.png') -218px -377px;}
+ .AuHg_violet {background:url('/images/violet.png') -271px -376px;}
+ .NpFe_violet {background:url('/images/violet.png') -326px -378px;}
+ .AgTi_violet {background:url('/images/violet.png') -380px -377px;}
 
-#HgAu_violet {background:url('/images/violet.png') -2px -441px; }
-#SnPb_violet {background:url('/images/violet.png') -55px -441px;}
-#MnCu_violet {background:url('/images/violet.png') -110px -441px;}
-#CuUr_violet {background:url('/images/violet.png') -164px -441px;}
-#PbSn-Ti_violet {background:url('/images/violet.png') -216px -441px;}
-#Ti-AuHg_violet {background:url('/images/violet.png') -271px -441px;}
-#TiAg_violet {background:url('/images/violet.png') -326px -441px;}
-#FeNp_violet {background:url('/images/violet.png') -381px -441px;}
+ .HgAu_violet {background:url('/images/violet.png') -2px -441px; }
+ .SnPb_violet {background:url('/images/violet.png') -55px -441px;}
+ .MnCu_violet {background:url('/images/violet.png') -110px -441px;}
+ .CuUr_violet {background:url('/images/violet.png') -164px -441px;}
+ .PbSn-Ti_violet {background:url('/images/violet.png') -216px -441px;}
+ .Ti-AuHg_violet {background:url('/images/violet.png') -271px -441px;}
+ .TiAg_violet {background:url('/images/violet.png') -326px -441px;}
+ .FeNp_violet {background:url('/images/violet.png') -381px -441px;}
 
-#PbAu_violet {background:url('/images/violet.png') -2px -504px; }
-#AuPb_violet {background:url('/images/violet.png') -57px -504px;}
-#NpCu_violet {background:url('/images/violet.png') -110px -504px;}
-#AgMn-Fe_violet {background:url('/images/violet.png') -162px -504px;}
-#TiSn_violet {background:url('/images/violet.png') -218px -504px;}
-#Mn-FePu_violet {background:url('/images/violet.png') -273px -504px;}
-#HgHg-Ti_violet {background:url('/images/violet.png') -327px -504px;}
-#PuFe_violet {background:url('/images/violet.png') -380px -504px;}
+ .PbAu_violet {background:url('/images/violet.png') -2px -504px; }
+ .AuPb_violet {background:url('/images/violet.png') -57px -504px;}
+ .NpCu_violet {background:url('/images/violet.png') -110px -504px;}
+ .AgMn-Fe_violet {background:url('/images/violet.png') -162px -504px;}
+ .TiSn_violet {background:url('/images/violet.png') -218px -504px;}
+ .Mn-FePu_violet {background:url('/images/violet.png') -273px -504px;}
+ .HgHg-Ti_violet {background:url('/images/violet.png') -327px -504px;}
+ .PuFe_violet {background:url('/images/violet.png') -380px -504px;}
 
-#AgUr_violet {background:url('/images/violet.png') -2px -567px; }
-#FePu_violet {background:url('/images/violet.png') -57px -567px;}
-#Ti-HgHg_violet {background:url('/images/violet.png') -110px -567px;}
-#PuFe-Mn_violet {background:url('/images/violet.png') -163px -567px;}
-#SnTi_violet {background:url('/images/violet.png') -219px -567px;}
-#Fe-MnAg_violet {background:url('/images/violet.png') -274px -567px;}
-#CuNp_violet {background:url('/images/violet.png') -327px -567px;}
-#UrAg_violet {background:url('/images/violet.png') -380px -567px;}
+ .AgUr_violet {background:url('/images/violet.png') -2px -567px; }
+ .FePu_violet {background:url('/images/violet.png') -57px -567px;}
+ .Ti-HgHg_violet {background:url('/images/violet.png') -110px -567px;}
+ .PuFe-Mn_violet {background:url('/images/violet.png') -163px -567px;}
+ .SnTi_violet {background:url('/images/violet.png') -219px -567px;}
+ .Fe-MnAg_violet {background:url('/images/violet.png') -274px -567px;}
+ .CuNp_violet {background:url('/images/violet.png') -327px -567px;}
+ .UrAg_violet {background:url('/images/violet.png') -380px -567px;}
 
-#PbAu-Ti_violet {background:url('/images/violet.png') -2px -630px; }
-#Ti-AuPb_violet {background:url('/images/violet.png') -57px -630px;}
-#AgMn_violet {background:url('/images/violet.png') -109px -630px;}
-#HgHg_violet {background:url('/images/violet.png') -164px -630px;}
-#Ti-HgHg-Ti_violet {background:url('/images/violet.png') -217px -630px;}
-#MnAg_violet {background:url('/images/violet.png') -274px -630px;}
-#PuSn_violet {background:url('/images/violet.png') -326px -630px;}
-#SnPu_violet {background:url('/images/violet.png') -379px -630px;}
+ .PbAu-Ti_violet {background:url('/images/violet.png') -2px -630px; }
+ .Ti-AuPb_violet {background:url('/images/violet.png') -57px -630px;}
+ .AgMn_violet {background:url('/images/violet.png') -109px -630px;}
+ .HgHg_violet {background:url('/images/violet.png') -164px -630px;}
+ .Ti-HgHg-Ti_violet {background:url('/images/violet.png') -217px -630px;}
+ .MnAg_violet {background:url('/images/violet.png') -274px -630px;}
+ .PuSn_violet {background:url('/images/violet.png') -326px -630px;}
+ .SnPu_violet {background:url('/images/violet.png') -379px -630px;}
 
-#UrAu_violet {background:url('/images/violet.png') -2px -693px; }
-#PbPb_violet {background:url('/images/violet.png') -55px -693px;}
-#AuUr_violet {background:url('/images/violet.png') -110px -693px;}
-#NpSn_violet {background:url('/images/violet.png') -163px -693px;}
-#TiHg_violet {background:url('/images/violet.png') -216px -693px;}
-#FeFe_violet {background:url('/images/violet.png') -272px -693px;}
-#HgTi_violet {background:url('/images/violet.png') -326px -693px;}
-#SnNp_violet {background:url('/images/violet.png') -379px -693px;}
+ .UrAu_violet {background:url('/images/violet.png') -2px -693px; }
+ .PbPb_violet {background:url('/images/violet.png') -55px -693px;}
+ .AuUr_violet {background:url('/images/violet.png') -110px -693px;}
+ .NpSn_violet {background:url('/images/violet.png') -163px -693px;}
+ .TiHg_violet {background:url('/images/violet.png') -216px -693px;}
+ .FeFe_violet {background:url('/images/violet.png') -272px -693px;}
+ .HgTi_violet {background:url('/images/violet.png') -326px -693px;}
+ .SnNp_violet {background:url('/images/violet.png') -379px -693px;}
 
-#NpAu_violet {background:url('/images/violet.png') -3px -756px; }
-#TiPb_violet {background:url('/images/violet.png') -55px -756px;}
-#FeCu_violet {background:url('/images/violet.png') -109px -756px;}
-#HgMn_violet {background:url('/images/violet.png') -165px -756px;}
-#MnHg_violet {background:url('/images/violet.png') -217px -756px;}
-#CuFe_violet {background:url('/images/violet.png') -272px -756px;}
-#PbTi_violet {background:url('/images/violet.png') -325px -756px;}
-#AuNp_violet {background:url('/images/violet.png') -381px -756px;}
+ .NpAu_violet {background:url('/images/violet.png') -3px -756px; }
+ .TiPb_violet {background:url('/images/violet.png') -55px -756px;}
+ .FeCu_violet {background:url('/images/violet.png') -109px -756px;}
+ .HgMn_violet {background:url('/images/violet.png') -165px -756px;}
+ .MnHg_violet {background:url('/images/violet.png') -217px -756px;}
+ .CuFe_violet {background:url('/images/violet.png') -272px -756px;}
+ .PbTi_violet {background:url('/images/violet.png') -325px -756px;}
+ .AuNp_violet {background:url('/images/violet.png') -381px -756px;}
 
-#PuAu_violet {background:url('/images/violet.png') -3px -819px; }
-#UrPb_violet {background:url('/images/violet.png') -54px -820px;}
-#PbUr_violet {background:url('/images/violet.png') -110px -820px;}
-#AuPu_violet {background:url('/images/violet.png') -165px -819px;}
-#NpHg_violet {background:url('/images/violet.png') -218px -819px;}
-#AgFe_violet {background:url('/images/violet.png') -272px -819px;}
-#FeAg_violet {background:url('/images/violet.png') -326px -819px;}
-#HgNp_violet {background:url('/images/violet.png') -380px -819px;}
+ .PuAu_violet {background:url('/images/violet.png') -3px -819px; }
+ .UrPb_violet {background:url('/images/violet.png') -54px -820px;}
+ .PbUr_violet {background:url('/images/violet.png') -110px -820px;}
+ .AuPu_violet {background:url('/images/violet.png') -165px -819px;}
+ .NpHg_violet {background:url('/images/violet.png') -218px -819px;}
+ .AgFe_violet {background:url('/images/violet.png') -272px -819px;}
+ .FeAg_violet {background:url('/images/violet.png') -326px -819px;}
+ .HgNp_violet {background:url('/images/violet.png') -380px -819px;}
 
 /* indigo */ 
 
-#pis_indigo {background:url('/images/indigo.png') -3px 0;}
-#aqu_indigo {background:url('/images/indigo.png') -58px 0;}
-#cap_indigo {background:url('/images/indigo.png') -110px 0;}
-#sag_indigo {background:url('/images/indigo.png') -164px 0;}
-#sco_indigo {background:url('/images/indigo.png') -218px 0;}
-#lib_indigo {background:url('/images/indigo.png') -273px 0;}
-#vir_indigo {background:url('/images/indigo.png') -327px 0;}
-#leo_indigo {background:url('/images/indigo.png') -379px 0;}
+ .pis_indigo {background:url('/images/indigo.png') -3px 0;}
+ .aqu_indigo {background:url('/images/indigo.png') -58px 0;}
+ .cap_indigo {background:url('/images/indigo.png') -110px 0;}
+ .sag_indigo {background:url('/images/indigo.png') -164px 0;}
+ .sco_indigo {background:url('/images/indigo.png') -218px 0;}
+ .lib_indigo {background:url('/images/indigo.png') -273px 0;}
+ .vir_indigo {background:url('/images/indigo.png') -327px 0;}
+ .leo_indigo {background:url('/images/indigo.png') -379px 0;}
 
-#can_indigo {background:url('/images/indigo.png') -4px -63px; }
-#gem_indigo {background:url('/images/indigo.png') -57px -63px;}
-#tau_indigo {background:url('/images/indigo.png') -111px -63px;}
-#ari_indigo {background:url('/images/indigo.png') -164px -63px;}
-#TiCu_indigo {background:url('/images/indigo.png') -217px -66px;}
-#FeMn_indigo {background:url('/images/indigo.png') -273px -63px;}
-#MnFe_indigo {background:url('/images/indigo.png') -325px -63px;}
-#CuTi_indigo {background:url('/images/indigo.png') -380px -69px;}
+ .can_indigo {background:url('/images/indigo.png') -4px -63px; }
+ .gem_indigo {background:url('/images/indigo.png') -57px -63px;}
+ .tau_indigo {background:url('/images/indigo.png') -111px -63px;}
+ .ari_indigo {background:url('/images/indigo.png') -164px -63px;}
+ .TiCu_indigo {background:url('/images/indigo.png') -217px -66px;}
+ .FeMn_indigo {background:url('/images/indigo.png') -273px -63px;}
+ .MnFe_indigo {background:url('/images/indigo.png') -325px -63px;}
+ .CuTi_indigo {background:url('/images/indigo.png') -380px -69px;}
 
-#CuAu_indigo {background:url('/images/indigo.png') -2px -126px; }
-#AuCu_indigo {background:url('/images/indigo.png') -56px -126px;}
-#NpMn_indigo {background:url('/images/indigo.png') -111px -126px;}
-#AgSn_indigo {background:url('/images/indigo.png') -165px -126px;}
-#FeHg_indigo {background:url('/images/indigo.png') -216px -125px;}
-#HgFe_indigo {background:url('/images/indigo.png') -273px -126px;}
-#SnAg_indigo {background:url('/images/indigo.png') -326px -126px;}
-#MnNp_indigo {background:url('/images/indigo.png') -379px -126px;}
+ .CuAu_indigo {background:url('/images/indigo.png') -2px -126px; }
+ .AuCu_indigo {background:url('/images/indigo.png') -56px -126px;}
+ .NpMn_indigo {background:url('/images/indigo.png') -111px -126px;}
+ .AgSn_indigo {background:url('/images/indigo.png') -165px -126px;}
+ .FeHg_indigo {background:url('/images/indigo.png') -216px -125px;}
+ .HgFe_indigo {background:url('/images/indigo.png') -273px -126px;}
+ .SnAg_indigo {background:url('/images/indigo.png') -326px -126px;}
+ .MnNp_indigo {background:url('/images/indigo.png') -379px -126px;}
 
-#AgAu_indigo {background:url('/images/indigo.png') -3px -189px; }
-#FePb_indigo {background:url('/images/indigo.png') -56px -189px;}
-#HgCu_indigo {background:url('/images/indigo.png') -110px -189px;}
-#SnSn_indigo {background:url('/images/indigo.png') -165px -189px;}
-#CuHg_indigo {background:url('/images/indigo.png') -218px -189px;}
-#PbFe_indigo {background:url('/images/indigo.png') -271px -189px;}
-#AuAg_indigo {background:url('/images/indigo.png') -327px -189px;}
-#NpNp_indigo {background:url('/images/indigo.png') -381px -189px;}
+ .AgAu_indigo {background:url('/images/indigo.png') -3px -189px; }
+ .FePb_indigo {background:url('/images/indigo.png') -56px -189px;}
+ .HgCu_indigo {background:url('/images/indigo.png') -110px -189px;}
+ .SnSn_indigo {background:url('/images/indigo.png') -165px -189px;}
+ .CuHg_indigo {background:url('/images/indigo.png') -218px -189px;}
+ .PbFe_indigo {background:url('/images/indigo.png') -271px -189px;}
+ .AuAg_indigo {background:url('/images/indigo.png') -327px -189px;}
+ .NpNp_indigo {background:url('/images/indigo.png') -381px -189px;}
 
-#SnAu_indigo {background:url('/images/indigo.png') -5px -250px; }
-#CuPb_indigo {background:url('/images/indigo.png') -57px -251px;}
-#PbCu_indigo {background:url('/images/indigo.png') -110px -252px;}
-#AuSn_indigo {background:url('/images/indigo.png') -165px -251px;}
-#AgHg_indigo {background:url('/images/indigo.png') -218px -252px;}
-#TiFe_indigo {background:url('/images/indigo.png') -273px -252px;}
-#FeTi_indigo {background:url('/images/indigo.png') -327px -252px;}
-#HgAg_indigo {background:url('/images/indigo.png') -381px -252px;}
+ .SnAu_indigo {background:url('/images/indigo.png') -5px -250px; }
+ .CuPb_indigo {background:url('/images/indigo.png') -57px -251px;}
+ .PbCu_indigo {background:url('/images/indigo.png') -110px -252px;}
+ .AuSn_indigo {background:url('/images/indigo.png') -165px -251px;}
+ .AgHg_indigo {background:url('/images/indigo.png') -218px -252px;}
+ .TiFe_indigo {background:url('/images/indigo.png') -273px -252px;}
+ .FeTi_indigo {background:url('/images/indigo.png') -327px -252px;}
+ .HgAg_indigo {background:url('/images/indigo.png') -381px -252px;}
 
-#AuAu_indigo {background:url('/images/indigo.png') -3px -313px; }
-#AgPb_indigo {background:url('/images/indigo.png') -56px -314px;}
-#FeUr_indigo {background:url('/images/indigo.png') -111px -313px;}
-#HgSn_indigo {background:url('/images/indigo.png') -163px -313px;}
-#PuPu_indigo {background:url('/images/indigo.png') -218px -313px;}
-#SnHg_indigo {background:url('/images/indigo.png') -272px -313px;}
-#UrFe_indigo {background:url('/images/indigo.png') -327px -313px;}
-#PbAg_indigo {background:url('/images/indigo.png') -382px -314px;}
+ .AuAu_indigo {background:url('/images/indigo.png') -3px -313px; }
+ .AgPb_indigo {background:url('/images/indigo.png') -56px -314px;}
+ .FeUr_indigo {background:url('/images/indigo.png') -111px -313px;}
+ .HgSn_indigo {background:url('/images/indigo.png') -163px -313px;}
+ .PuPu_indigo {background:url('/images/indigo.png') -218px -313px;}
+ .SnHg_indigo {background:url('/images/indigo.png') -272px -313px;}
+ .UrFe_indigo {background:url('/images/indigo.png') -327px -313px;}
+ .PbAg_indigo {background:url('/images/indigo.png') -382px -314px;}
 
-#HgAu-Ti_indigo {background:url('/images/indigo.png') -3px -377px; }
-#Ti-SnPb_indigo {background:url('/images/indigo.png') -57px -377px;}
-#UrCu_indigo {background:url('/images/indigo.png') -110px -375px;}
-#CuMn_indigo {background:url('/images/indigo.png') -166px -378px;}
-#PbSn_indigo {background:url('/images/indigo.png') -218px -377px;}
-#AuHg_indigo {background:url('/images/indigo.png') -271px -376px;}
-#NpFe_indigo {background:url('/images/indigo.png') -326px -378px;}
-#AgTi_indigo {background:url('/images/indigo.png') -380px -377px;}
+ .HgAu-Ti_indigo {background:url('/images/indigo.png') -3px -377px; }
+ .Ti-SnPb_indigo {background:url('/images/indigo.png') -57px -377px;}
+ .UrCu_indigo {background:url('/images/indigo.png') -110px -375px;}
+ .CuMn_indigo {background:url('/images/indigo.png') -166px -378px;}
+ .PbSn_indigo {background:url('/images/indigo.png') -218px -377px;}
+ .AuHg_indigo {background:url('/images/indigo.png') -271px -376px;}
+ .NpFe_indigo {background:url('/images/indigo.png') -326px -378px;}
+ .AgTi_indigo {background:url('/images/indigo.png') -380px -377px;}
 
-#HgAu_indigo {background:url('/images/indigo.png') -2px -441px; }
-#SnPb_indigo {background:url('/images/indigo.png') -55px -441px;}
-#MnCu_indigo {background:url('/images/indigo.png') -110px -441px;}
-#CuUr_indigo {background:url('/images/indigo.png') -164px -441px;}
-#PbSn-Ti_indigo {background:url('/images/indigo.png') -216px -441px;}
-#Ti-AuHg_indigo {background:url('/images/indigo.png') -271px -441px;}
-#TiAg_indigo {background:url('/images/indigo.png') -326px -441px;}
-#FeNp_indigo {background:url('/images/indigo.png') -381px -441px;}
+ .HgAu_indigo {background:url('/images/indigo.png') -2px -441px; }
+ .SnPb_indigo {background:url('/images/indigo.png') -55px -441px;}
+ .MnCu_indigo {background:url('/images/indigo.png') -110px -441px;}
+ .CuUr_indigo {background:url('/images/indigo.png') -164px -441px;}
+ .PbSn-Ti_indigo {background:url('/images/indigo.png') -216px -441px;}
+ .Ti-AuHg_indigo {background:url('/images/indigo.png') -271px -441px;}
+ .TiAg_indigo {background:url('/images/indigo.png') -326px -441px;}
+ .FeNp_indigo {background:url('/images/indigo.png') -381px -441px;}
 
-#PbAu_indigo {background:url('/images/indigo.png') -2px -504px; }
-#AuPb_indigo {background:url('/images/indigo.png') -57px -504px;}
-#NpCu_indigo {background:url('/images/indigo.png') -110px -504px;}
-#AgMn-Fe_indigo {background:url('/images/indigo.png') -162px -504px;}
-#TiSn_indigo {background:url('/images/indigo.png') -218px -504px;}
-#Mn-FePu_indigo {background:url('/images/indigo.png') -273px -504px;}
-#HgHg-Ti_indigo {background:url('/images/indigo.png') -327px -504px;}
-#PuFe_indigo {background:url('/images/indigo.png') -380px -504px;}
+ .PbAu_indigo {background:url('/images/indigo.png') -2px -504px; }
+ .AuPb_indigo {background:url('/images/indigo.png') -57px -504px;}
+ .NpCu_indigo {background:url('/images/indigo.png') -110px -504px;}
+ .AgMn-Fe_indigo {background:url('/images/indigo.png') -162px -504px;}
+ .TiSn_indigo {background:url('/images/indigo.png') -218px -504px;}
+ .Mn-FePu_indigo {background:url('/images/indigo.png') -273px -504px;}
+ .HgHg-Ti_indigo {background:url('/images/indigo.png') -327px -504px;}
+ .PuFe_indigo {background:url('/images/indigo.png') -380px -504px;}
 
-#AgUr_indigo {background:url('/images/indigo.png') -2px -567px; }
-#FePu_indigo {background:url('/images/indigo.png') -57px -567px;}
-#Ti-HgHg_indigo {background:url('/images/indigo.png') -110px -567px;}
-#PuFe-Mn_indigo {background:url('/images/indigo.png') -163px -567px;}
-#SnTi_indigo {background:url('/images/indigo.png') -219px -567px;}
-#Fe-MnAg_indigo {background:url('/images/indigo.png') -274px -567px;}
-#CuNp_indigo {background:url('/images/indigo.png') -327px -567px;}
-#UrAg_indigo {background:url('/images/indigo.png') -380px -567px;}
+ .AgUr_indigo {background:url('/images/indigo.png') -2px -567px; }
+ .FePu_indigo {background:url('/images/indigo.png') -57px -567px;}
+ .Ti-HgHg_indigo {background:url('/images/indigo.png') -110px -567px;}
+ .PuFe-Mn_indigo {background:url('/images/indigo.png') -163px -567px;}
+ .SnTi_indigo {background:url('/images/indigo.png') -219px -567px;}
+ .Fe-MnAg_indigo {background:url('/images/indigo.png') -274px -567px;}
+ .CuNp_indigo {background:url('/images/indigo.png') -327px -567px;}
+ .UrAg_indigo {background:url('/images/indigo.png') -380px -567px;}
 
-#PbAu-Ti_indigo {background:url('/images/indigo.png') -2px -630px; }
-#Ti-AuPb_indigo {background:url('/images/indigo.png') -57px -630px;}
-#AgMn_indigo {background:url('/images/indigo.png') -109px -630px;}
-#HgHg_indigo {background:url('/images/indigo.png') -164px -630px;}
-#Ti-HgHg-Ti_indigo {background:url('/images/indigo.png') -217px -630px;}
-#MnAg_indigo {background:url('/images/indigo.png') -274px -630px;}
-#PuSn_indigo {background:url('/images/indigo.png') -326px -630px;}
-#SnPu_indigo {background:url('/images/indigo.png') -379px -630px;}
+ .PbAu-Ti_indigo {background:url('/images/indigo.png') -2px -630px; }
+ .Ti-AuPb_indigo {background:url('/images/indigo.png') -57px -630px;}
+ .AgMn_indigo {background:url('/images/indigo.png') -109px -630px;}
+ .HgHg_indigo {background:url('/images/indigo.png') -164px -630px;}
+ .Ti-HgHg-Ti_indigo {background:url('/images/indigo.png') -217px -630px;}
+ .MnAg_indigo {background:url('/images/indigo.png') -274px -630px;}
+ .PuSn_indigo {background:url('/images/indigo.png') -326px -630px;}
+ .SnPu_indigo {background:url('/images/indigo.png') -379px -630px;}
 
-#UrAu_indigo {background:url('/images/indigo.png') -2px -693px; }
-#PbPb_indigo {background:url('/images/indigo.png') -55px -693px;}
-#AuUr_indigo {background:url('/images/indigo.png') -110px -693px;}
-#NpSn_indigo {background:url('/images/indigo.png') -163px -693px;}
-#TiHg_indigo {background:url('/images/indigo.png') -216px -693px;}
-#FeFe_indigo {background:url('/images/indigo.png') -272px -693px;}
-#HgTi_indigo {background:url('/images/indigo.png') -326px -693px;}
-#SnNp_indigo {background:url('/images/indigo.png') -379px -693px;}
+ .UrAu_indigo {background:url('/images/indigo.png') -2px -693px; }
+ .PbPb_indigo {background:url('/images/indigo.png') -55px -693px;}
+ .AuUr_indigo {background:url('/images/indigo.png') -110px -693px;}
+ .NpSn_indigo {background:url('/images/indigo.png') -163px -693px;}
+ .TiHg_indigo {background:url('/images/indigo.png') -216px -693px;}
+ .FeFe_indigo {background:url('/images/indigo.png') -272px -693px;}
+ .HgTi_indigo {background:url('/images/indigo.png') -326px -693px;}
+ .SnNp_indigo {background:url('/images/indigo.png') -379px -693px;}
 
-#NpAu_indigo {background:url('/images/indigo.png') -3px -756px; }
-#TiPb_indigo {background:url('/images/indigo.png') -55px -756px;}
-#FeCu_indigo {background:url('/images/indigo.png') -109px -756px;}
-#HgMn_indigo {background:url('/images/indigo.png') -165px -756px;}
-#MnHg_indigo {background:url('/images/indigo.png') -217px -756px;}
-#CuFe_indigo {background:url('/images/indigo.png') -272px -756px;}
-#PbTi_indigo {background:url('/images/indigo.png') -325px -756px;}
-#AuNp_indigo {background:url('/images/indigo.png') -381px -756px;}
+ .NpAu_indigo {background:url('/images/indigo.png') -3px -756px; }
+ .TiPb_indigo {background:url('/images/indigo.png') -55px -756px;}
+ .FeCu_indigo {background:url('/images/indigo.png') -109px -756px;}
+ .HgMn_indigo {background:url('/images/indigo.png') -165px -756px;}
+ .MnHg_indigo {background:url('/images/indigo.png') -217px -756px;}
+ .CuFe_indigo {background:url('/images/indigo.png') -272px -756px;}
+ .PbTi_indigo {background:url('/images/indigo.png') -325px -756px;}
+ .AuNp_indigo {background:url('/images/indigo.png') -381px -756px;}
 
-#PuAu_indigo {background:url('/images/indigo.png') -3px -819px; }
-#UrPb_indigo {background:url('/images/indigo.png') -54px -820px;}
-#PbUr_indigo {background:url('/images/indigo.png') -110px -820px;}
-#AuPu_indigo {background:url('/images/indigo.png') -165px -819px;}
-#NpHg_indigo {background:url('/images/indigo.png') -218px -819px;}
-#AgFe_indigo {background:url('/images/indigo.png') -272px -819px;}
-#FeAg_indigo {background:url('/images/indigo.png') -326px -819px;}
-#HgNp_indigo {background:url('/images/indigo.png') -380px -819px;}
+ .PuAu_indigo {background:url('/images/indigo.png') -3px -819px; }
+ .UrPb_indigo {background:url('/images/indigo.png') -54px -820px;}
+ .PbUr_indigo {background:url('/images/indigo.png') -110px -820px;}
+ .AuPu_indigo {background:url('/images/indigo.png') -165px -819px;}
+ .NpHg_indigo {background:url('/images/indigo.png') -218px -819px;}
+ .AgFe_indigo {background:url('/images/indigo.png') -272px -819px;}
+ .FeAg_indigo {background:url('/images/indigo.png') -326px -819px;}
+ .HgNp_indigo {background:url('/images/indigo.png') -380px -819px;}
 
 /* unicode */ 
 
-#uMn:before {content:"\25CA";padding-left:0.3em;padding-right:0.225em;}
-#uUp:before {content:"\260A";}
-#uDw:before {content:"\260B";}
-#uOp:before {content:"\260D";}
-#uTi:before {content:"\2604";}
-#uSt:before {content:"\2606";}
-#uAu:before {content:"\2609";}
-#ugA:before {content:"\263D";}
-#uAg:before {content:"\263E";}
-#uHg:before {content:"\263F";}
-#uCu:before {content:"\2640";padding-left:0.15em;padding-right:0.15em;}
-#uCo:before {content:"\2641";}
-#uFe:before {content:"\2642";padding-left:0.15em;padding-right:0.15em;}
-#uSn:before {content:"\2643";}
-#uPb:before {content:"\2644";}
-#uUr:before {content:"\2645";}
-#uNp:before {content:"\2646";}
-#uPu:before {content:"\2647";}
-#u__:before {content:"\2003";}
+ .uMn:before {content:"\25CA";padding-left:0.3em;padding-right:0.225em;}
+ .uUp:before {content:"\260A";}
+ .uDw:before {content:"\260B";}
+ .uOp:before {content:"\260D";}
+ .uTi:before {content:"\2604";}
+ .uSt:before {content:"\2606";}
+ .uAu:before {content:"\2609";}
+ .ugA:before {content:"\263D";}
+ .uAg:before {content:"\263E";}
+ .uHg:before {content:"\263F";}
+ .uCu:before {content:"\2640";padding-left:0.15em;padding-right:0.15em;}
+ .uCo:before {content:"\2641";}
+ .uFe:before {content:"\2642";padding-left:0.15em;padding-right:0.15em;}
+ .uSn:before {content:"\2643";}
+ .uPb:before {content:"\2644";}
+ .uUr:before {content:"\2645";}
+ .uNp:before {content:"\2646";}
+ .uPu:before {content:"\2647";}
+ .u__:before {content:"\2003";}
 
-#uAri:before {content:"\2648";font-size:98%;}
-#uTau:before {content:"\2649";font-size:98%;}
-#uGem:before {content:"\264A";font-size:98%;}
-#uCan:before {content:"\264B";font-size:98%;}
-#uLeo:before {content:"\264C";font-size:98%;}
-#uVir:before {content:"\264D";font-size:98%;}
-#uLib:before {content:"\264E";font-size:98%;}
-#uSco:before {content:"\264F";font-size:98%;}
-#uSag:before {content:"\2650";font-size:98%;}
-#uCap:before {content:"\2651";font-size:98%;}
-#uAqu:before {content:"\2652";font-size:98%;}
-#uPis:before {content:"\2653";font-size:98%;}
+ .uAri:before {content:"\2648";font-size:98%;}
+ .uTau:before {content:"\2649";font-size:98%;}
+ .uGem:before {content:"\264A";font-size:98%;}
+ .uCan:before {content:"\264B";font-size:98%;}
+ .uLeo:before {content:"\264C";font-size:98%;}
+ .uVir:before {content:"\264D";font-size:98%;}
+ .uLib:before {content:"\264E";font-size:98%;}
+ .uSco:before {content:"\264F";font-size:98%;}
+ .uSag:before {content:"\2650";font-size:98%;}
+ .uCap:before {content:"\2651";font-size:98%;}
+ .uAqu:before {content:"\2652";font-size:98%;}
+ .uPis:before {content:"\2653";font-size:98%;}
 
-#uFlt:before {content:"\266D";}
-#uNtl:before {content:"\266E";}
-#uShp:before {content:"\266F";}
-#uRst:before {content:"\203A";}
-#uUbt:before {content:"\2191";}
-#uDbt:before {content:"\2193";}
-#uCpy:before {content:"\2200";padding-right:0.15em;}
+ .uFlt:before {content:"\266D";}
+ .uNtl:before {content:"\266E";}
+ .uShp:before {content:"\266F";}
+ .uRst:before {content:"\203A";}
+ .uUbt:before {content:"\2191";}
+ .uDbt:before {content:"\2193";}
+ .uCpy:before {content:"\2200";padding-right:0.15em;}
+

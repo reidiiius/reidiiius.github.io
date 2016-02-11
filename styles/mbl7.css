@@ -91,13 +91,19 @@ a:hover {
   white-space:nowrap;
 }
 .fretboard {
-  background-color:transparent; 
-  border-collapse:collapse;
+  width:520px;
   margin:0 auto 0 auto;
+  background-color:transparent;
+  border-spacing:0 0;
 }
 .glyph {
   width:40px;
   height:54px;
+}
+.cosmic {
+  text-align:center;
+  font-size:14px;
+  color:#696969;
 }
 #ndex {
   width:280px;
