@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Reid Netterville III">
+  <title>简牍</title>
+<style type="text/css">
+body {
+  background-color:#fffff0;
+}
+article#book {
+  padding-top:1em;
+  text-align:center;
+  line-height:36px;
+  font-family:monospace;
+  font-size:24px;
+  color:#696900;
+}
+footer#notice {
+  margin:1em;
+}
+p.msg {
+  text-align:center;
+  font-family:sans-serif;
+  font-size:14px;
+  color:#2f4f4f;
+}
+</style>
+  <script src="/scripts/panthalassa.js" type="application/javascript"></script>
+</head>
+<body>
+<article id="book">
+  <pre id="jiandu"></pre>
+</article>
+<script type="application/javascript">
+"use strict";
+(function() {
+var LaurAsia = Object.create(NeoPanGaea["TianLong"]),
+     arrText = [],
+     strItem = [11, 4, 9, 2, 7, 0, 5],
+      colArr = [];
+for (var propStr in LaurAsia) {
+  arrText = LaurAsia[propStr].split(" ");
+  for (var qp = 0; qp < 13; qp++) {
+    for (var i = 0, uu; i < strItem.length; i++) {
+      uu = strItem[i] + qp;
+      switch (typeof uu === "number") {
+        case (uu === 12) : uu -= 12;
+          break;
+        case (uu === 13) : uu -= 12;
+          break;
+        case (uu === 14) : uu -= 12;
+          break;
+        case (uu === 15) : uu -= 12;
+          break;
+        case (uu === 16) : uu -= 12;
+          break;
+        case (uu === 17) : uu -= 12;
+          break;
+        case (uu === 18) : uu -= 12;
+          break;
+        case (uu === 19) : uu -= 12;
+          break;
+        case (uu === 20) : uu -= 12;
+          break;
+        case (uu === 21) : uu -= 12;
+          break;
+        case (uu === 22) : uu -= 12;
+          break;
+        case (uu === 23) : uu -= 12;
+          break;
+        case (uu === 24) : uu -= 12 * 2;
+          break;
+        case (uu === 25) : uu -= 12 * 2;
+          break;
+        case (uu === 26) : uu -= 12 * 2;
+          break;
+        case (uu === 27) : uu -= 12 * 2;
+          break;
+      }
+      colArr.push(arrText[uu] + " ");
+    }
+    colArr.push("\n");
+  }
+  colArr.push("\n\n");
+}
+var jiandu = document.getElementById("jiandu");
+  jiandu.textContent = colArr.join("").replace(/[\u2F00\u4E00]|__/g, "\u2F01");
+})();
+</script>
+<footer id="notice">
+  <p class="msg">Copyright © 2016 Reid Netterville III</p>
+</footer>
+</body>
+</html>
+
