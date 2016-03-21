@@ -3,11 +3,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Reid Netterville III">
-  <title>Seahorse</title>
+  <title>Orchid</title>
   <link rel="stylesheet" href="/styles/seagrass.css" style type="text/css">
   <script src="/scripts/synchronic.js" type="application/javascript"></script>
-
-<section id="coralreef"></section>
+  <script id="pompona" type="application/json"></script>
 
 <article id="seagrass" onclick="coDex(LatinSys)">
   <div id="n0HgCu"></div>
@@ -22,7 +21,7 @@
 <script type="application/javascript">
 "use strict";
 
-  hippoCampus("coralreef", "\/cabinet\/syngnathidae.xml");
+  hippoCampus("pompona", "\/cabinet\/vanilla.json");
 
 var n0HgCu   = document.getElementById("n0HgCu");
 var k6HgAg   = document.getElementById("k6HgAg");
@@ -32,17 +31,19 @@ var j2HgHg   = document.getElementById("j2HgHg");
 var j3k6HgTi = document.getElementById("j3k6HgTi");
 var k2j6HgMn = document.getElementById("k2j6HgMn");
 
-var HanziSys = document.getElementById("hanzi");
-var LatinSys = document.getElementById("latin");
+var Pompona = document.getElementById("pompona").textContent;
+var Vanilla = JSON.parse(Pompona);
+var LatinSys = Object.create(Vanilla.bahiana);
+var HanziSys = Object.create(Vanilla.aphylla);
 
 function coDex(qp) {
-  n0HgCu  .textContent = qp.dataset.n0;
-  k6HgAg  .textContent = qp.dataset.k6;
-  j3HgSn  .textContent = qp.dataset.j3;
-  j6HgAu  .textContent = qp.dataset.j6;
-  j2HgHg  .textContent = qp.dataset.j2;
-  j3k6HgTi.textContent = qp.getAttribute("data-j3k6");
-  k2j6HgMn.textContent = qp.getAttribute("data-k2j6");
+  n0HgCu  .textContent = qp.n0;
+  k6HgAg  .textContent = qp.k6;
+  j3HgSn  .textContent = qp.j3;
+  j6HgAu  .textContent = qp.j6;
+  j2HgHg  .textContent = qp.j2;
+  j3k6HgTi.textContent = qp.j3k6;
+  k2j6HgMn.textContent = qp.k2j6;
 }
 
   coDex(HanziSys);

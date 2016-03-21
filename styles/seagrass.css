@@ -1,0 +1,65 @@
+
+body {
+  background-color: Aquamarine;
+}
+#coralreef {
+  display: none;
+}
+#seagrass {
+  width: 85%;
+  margin: 3% auto 1% auto;
+  background-color: LightSkyBlue;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#seagrass div {
+  margin: 0.5%;
+  border: 2px solid LightSeaGreen;
+  background-color: Seashell;
+  padding: 0.45em;
+  line-height:133.5%;
+  text-align: center;
+  font-family: "DejaVu Sans Mono", Monospace;
+  color: Sienna;
+}
+#notice {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.msg {
+  text-align: center;
+  font-family: "DejaVu Sans", sans-serif;
+  font-size: 0.8em;
+  color: Chocolate;
+}
+@media screen and (min-width:300px) {
+  #seagrass div {
+    font-size: 0.465em;
+  }
+}
+@media screen and (min-width:450px) {
+  #seagrass div {
+    font-size: 0.594em;
+  }
+}
+@media screen and (min-width:600px) {
+  #seagrass div {
+    font-size: 0.85em;
+  }
+}
+@media screen and (min-width:750px) {
+  #seagrass div {
+    font-size: 1.05em;
+  }
+}
+@media screen and (min-width:900px) {
+  #seagrass div {
+    font-size: 1.25em;
+  }
+}
+@media screen and (min-width:1050px) {
+  #seagrass div {
+    font-size: 1.45em;
+  }
+}
+
