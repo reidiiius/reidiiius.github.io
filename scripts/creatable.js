@@ -239,7 +239,7 @@ function rplc(rw) {
 
 }
 
-function genesis() {
+function genesis(o) {
   makeTable("tbl00");
   makeRow("rw00");
   makeRow("rw01");
@@ -248,7 +248,7 @@ function genesis() {
   makeRow("rw04");
   makeRow("rw05");
   makeRow("rw06");
-  viewScale(n0);
+  viewScale(o);
 }
 
 
