@@ -5,3 +5,4 @@ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____
 ____ TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ 
 CuTi ____ ____ AuAu ____ ____ TiCu FeMn HgSn ____ SnHg MnFe 
 FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu 
+
