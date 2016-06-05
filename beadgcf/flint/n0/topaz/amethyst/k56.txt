@@ -5,3 +5,4 @@ SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____
 ____ TiAg FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe 
 CuUr PbSn ____ ____ NpFe ____ TiAg FeNp HgAu ____ SnPb ____ 
 FeNp HgAu ____ SnPb ____ CuUr PbSn ____ ____ NpFe ____ TiAg 
+

@@ -5,3 +5,4 @@ SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe
 ____ ____ FePu HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu 
 ____ ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg 
 FePu HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ 
+

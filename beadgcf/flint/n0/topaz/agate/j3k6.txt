@@ -5,3 +5,4 @@ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____
 ____ TiHg FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ 
 ____ PbPb ____ AuUr ____ ____ TiHg FeFe HgTi ____ SnNp UrAu 
 FeFe HgTi ____ SnNp UrAu ____ PbPb ____ AuUr ____ ____ TiHg 
+
