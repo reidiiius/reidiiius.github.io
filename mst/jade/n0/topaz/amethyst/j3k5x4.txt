@@ -3,3 +3,4 @@ ____ ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu
 AgTi ____ FeNp HgAu ____ SnPb UrCu ____ ____ ____ AuHg NpFe 
 SnPb UrCu ____ ____ ____ AuHg NpFe AgTi ____ FeNp HgAu ____ 
 AuHg NpFe AgTi ____ FeNp HgAu ____ SnPb UrCu ____ ____ ____ 
+

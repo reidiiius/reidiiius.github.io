@@ -3,3 +3,4 @@ ____ ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg
 ____ ____ FePu HgHg PuFe SnTi UrAg ____ ____ ____ AuPb NpCu 
 SnTi UrAg ____ ____ ____ AuPb NpCu ____ ____ FePu HgHg PuFe 
 AuPb NpCu ____ ____ FePu HgHg PuFe SnTi UrAg ____ ____ ____ 
+
