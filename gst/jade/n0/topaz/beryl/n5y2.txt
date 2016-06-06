@@ -5,3 +5,4 @@ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____
 ____ MnHg CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ 
 ____ TiPb FeCu HgMn ____ ____ MnHg CuFe ____ ____ AuNp NpAu 
 CuFe ____ ____ AuNp NpAu ____ TiPb FeCu HgMn ____ ____ MnHg 
+

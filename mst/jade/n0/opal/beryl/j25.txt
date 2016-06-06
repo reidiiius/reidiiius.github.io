@@ -3,3 +3,4 @@ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____
 NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____ ____ 
 ____ ____ MnHg CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn 
 ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi 
+
