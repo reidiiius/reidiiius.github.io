@@ -4,18 +4,24 @@ body {
   padding:0;
   background-color:#f5f5dc;
 }
+iframe {
+  width:438px;
+  height:132px;
+  border:0;
+  overflow:hidden;
+}
 .frm-topaz, .frm-opal, .srl {
   background-color:#fffff0; 
   border:1px solid #d3d3d3;
   padding:6px;
 }
 .frm-topaz, .frm-opal {
-  width:512px;
+  width:440px;
   border-radius:12px;
 }
 .srl {
   font-family:monospace;
-  border-radius:8px;
+  border-radius:6px;
 }
 .footer {
   padding:1px;
