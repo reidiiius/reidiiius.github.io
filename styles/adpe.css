@@ -5,7 +5,7 @@ body {
   background-color:#f5f5dc;
 }
 iframe {
-  width:438px;
+  width:498px;
   height:132px;
   border:0;
   overflow:hidden;
@@ -16,7 +16,8 @@ iframe {
   padding:6px;
 }
 .frm-topaz, .frm-opal {
-  width:440px;
+  width:500px;
+  height:134px;
   border-radius:12px;
 }
 .srl {
