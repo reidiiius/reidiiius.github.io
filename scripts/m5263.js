@@ -1,4 +1,4 @@
-// Copyright 2013-2016 Reid Netterville III 
+// Copyright 2013-2017 Reid Netterville III 
 
 "use strict";
 
@@ -493,7 +493,7 @@ var mdlSTD = [
 "____ AuNp ____ ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi",
 " ",
 " ",
-"Copyright \u00A9 2013-2016 Reid Netterville III",
+"Copyright \u00A9 2013-2017 Reid Netterville III",
 "<\/pre>"];
 
 for (var i = 0; i < mdlSTD.length; i++) {

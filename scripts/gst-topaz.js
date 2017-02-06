@@ -1,4 +1,4 @@
-// Copyright 2013-2016 Reid Netterville III 
+// Copyright 2013-2017 Reid Netterville III 
 
 "use strict";
 
@@ -335,7 +335,7 @@ gtrSTD_topaz=[
 "CuFe PbTi ____ ____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg",
 " ",
 " ",
-"Copyright \u00A9 2013-2016 Reid Netterville III",
+"Copyright \u00A9 2013-2017 Reid Netterville III",
 "<\/pre>"];
 
 for (var i = 0; i < gtrSTD_topaz.length; i++) {

@@ -1,4 +1,4 @@
-// Copyright 2013-2016 Reid Netterville III 
+// Copyright 2013-2017 Reid Netterville III 
 
 "use strict";
 
@@ -253,7 +253,7 @@ mdlSTD_topaz=[
 "____ NpAu ____ TiPb FeCu HgMn ____ ____ MnHg CuFe PbTi ____",
 " ",
 " ",
-"Copyright \u00A9 2013-2016 Reid Netterville III",
+"Copyright \u00A9 2013-2017 Reid Netterville III",
 "<\/pre>"];
 
 for (var i = 0; i < mdlSTD_topaz.length; i++) {
