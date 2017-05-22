@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
-<meta charset="UTF-8"/>
+<meta charset="UTF-8" />
 <title>404</title>
-<link rel="icon" type="image/x-icon" href="/images/nautilus.ico"/>
-<link rel="shortcut icon" type="image/x-icon" href="/images/nautilus.ico"/>
-<script type="text/javascript">
-function delayTime(){ 
-  window.location = "/"} 
+<script type="application/javascript">
+function delayTime() { 
+  window.location = "/";
+} 
 </script>
-<style>
+<style type="text/css">
 body {
- background-color:#fffff0; }
-#container {
- font-family:sans-serif;
- color:#888;
- position:fixed;
- left:100px;
- top:100px; }
-#mic {
- text-align:center;
- font-size:100px; }
+  background-color: #fffff0;
+}
+div#container {
+  text-align: center;
+  font-family: sans-serif;
+}
+div#header {
+  color: #cd5c5c;
+}
+div#kenobi {
+  color: #5f9ea0;
+}
+div#MIC {
+  font-size: 128px;
+  color: #dcdcdc;
+} 
 </style>
 </head>
-<body onLoad="setTimeout('delayTime()',5000)">
+<body onLoad="setTimeout('delayTime()', 5000)">
 <div id="container">
-<div id="header">
-<h1>Error code 404</h1>
-</div>
-<div id="content">
-<h2>Move along, nothing to see here.</h2>
-<p>This is not the page you're looking for. You will be redirected.</p>
-</div>
-<div id="mic">
-<script>document.getElementById("mic").innerHTML="&#911;";</script>
-</div>
+  <div id="header">
+    <h1>Error code 404</h1>
+  </div>
+  <div id="kenobi">
+    <h2>Move along, nothing to see here.</h2>
+    <p><b>This is not the page you're looking for.</b></p>
+  </div>
+  <div id="MIC">&#911;</div>
 </div>
 </body>
 </html>

@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fffff0;
-  font-family: "DejaVu Sans", helvetica,arial, sans-serif;
+  font-family: "DejaVu Sans", helvetica, arial, sans-serif;
 }
 #fxd {
   width: 100%;
@@ -70,7 +70,7 @@ a:hover {
 }
 #content {
   width: 1024px;
-  margin: 6.5em auto;
+  margin: 5.5em auto 0 auto;
   background-color: #fffff0;
   padding: 1em 0;
 }
@@ -124,6 +124,9 @@ button:hover {
   width: 512px;
   height: 132px;
   border: 0;
+}
+dl.viewlist {
+  margin: 1em 0.5em;
 }
 .hide {
   display: none;
@@ -193,6 +196,8 @@ article#ndex td {
   background-color: #fffaf0;
 }
 .nav-ttl {
+  margin-top: 0.1em;
+  padding: 0.1em;
   font-size: 28px;
   color: #cdcdcd;
 }
@@ -257,7 +262,7 @@ article#invert {
   padding: 1em;
 }
 .attr {
-  position: relative;
+  position: static;
 }
 .credit {
   width: 300px;
@@ -268,7 +273,7 @@ article#invert {
   color: #808080;
   padding: 1em;
 }
-@media screen and ( max-width: 600px ) {
+@media screen and ( max-width: 700px ) {
   .symbol {
     width: auto;
     padding: 0;
