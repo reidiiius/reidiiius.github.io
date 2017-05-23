@@ -66,7 +66,6 @@ a {
 a:hover {
   text-decoration: underline;
   color: #4682b4;
-  background-color: #fffff0;
 }
 #content {
   width: 1024px;
@@ -129,7 +128,7 @@ dl.viewlist {
   margin: 1em 0.5em;
 }
 .hide {
-  display: none;
+  visibility: hidden;
 }
 .symbol {
   width: 1024px;
@@ -157,7 +156,6 @@ dl.viewlist {
 article#ndex {
   width: 1024px;
   margin: 6.5em auto;
-  background-color: transparent;
 }
 article#ndex table {
   background-color: #fffff0;
