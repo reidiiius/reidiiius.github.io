@@ -6,27 +6,56 @@
   <title>Ogdoad</title>
 <style type="text/css">
 body {
+  margin: 0;
+  padding: 0;
   background-color: #fffff0;
   font-family: monospace;
   font-size: 16px;
   color: #2f4f4f;
 }
 header {
-  padding: 0.2em 0 0 0;
   text-align: center;
   font-family: sans-serif;
   color: #d2b48c;
 }
-pre {
-  width: 480px;
-  margin: 1em auto;
-  font-size: 20px;
+article#hermopolis {
+  width: 870px;
+  margin: 0 auto;
+}
+section.papyrus {
+  border: 0;
+}
+section.papyrus pre {
+  width: 280px;
+  margin: 0.3em auto;
+  display: inline-block;
+  border: 1px dotted #a9a9a9;
+  vertical-align: top;
+  background-color: #fffff0;
+  font-size: 12px;
 }
 footer {
   text-align: center;
   font-family: sans-serif;
   font-size: 14px;
   color: #696969;
+}
+@media screen and (max-width: 900px) {
+  article#hermopolis {
+    width: 100%;
+  }
+  section.papyrus {
+    width: 580px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 620px) {
+  section.papyrus {
+    width: 90%;
+  }
+  section.papyrus pre {
+    display: block;
+  }
 }
 </style>
 <script type="application/javascript">
@@ -124,16 +153,15 @@ Argonaut.chronoMetric = function() {
 Argonaut.serialStamp = Argonaut.chronoMetric();
 
 Argonaut.inStrum = function() {
-  let tng = arguments[0];
-  let arr = arguments[1].reverse();
-  let d = document, s = "  ";
-  for (let i in this.ogdoad) {
-    for (let j in this.ogdoad[i]) {
-      let m = s + i.slice(0,4) + "-" + j + "-" + tng + "-v" + this.serialStamp;
-      d.writeln();
-      d.writeln(m);
-      for (let k = 0; k < arr.length; k++) {
-        d.writeln(s + this.gamut(arr[k], this.ogdoad[i][j]));
+  let t = arguments[0], a = arguments[1].reverse();
+  let d = document, s = "  ", h = "-", g, i, j, k, m;
+  for (i in this.ogdoad) {
+    g = i.slice( 0, 4);
+    for (j in this.ogdoad[i]) {
+      m = s + g + h + j + h + t + "-v" + this.serialStamp;
+      d.writeln("\n" + m);
+      for (k = 0; k < a.length; k++) {
+        d.writeln(s + this.gamut(a[k], this.ogdoad[i][j]));
       }
       d.writeln();
     }
@@ -141,9 +169,9 @@ Argonaut.inStrum = function() {
 };
 
 Argonaut.cxliv = function() {
-  let arr = [];
-  for (let i = 11; i >= 0; i--) arr.push(i);
-  this.inStrum('cxliv', arr);
+  let headstock = [];
+  for (let i = 11; i >= 0; i--) headstock.push(i);
+  this.inStrum('cxliv', headstock);
 };
 
 Argonaut.beadgcf = function() {
@@ -179,11 +207,42 @@ Argonaut.fkbjdn = function() {
 <header>
   <h2>Ogdoad</h2>
 </header>
+<article id="hermopolis">
+<section class="papyrus">
 <pre>
-<script type="application/javascript">
-  Argonaut.cxliv();
+<script>
+  Argonaut.eadgbe();
 </script>
 </pre>
+<pre>
+<script>
+  Argonaut.dadgad();
+</script>
+</pre>
+<pre>
+<script>
+  Argonaut.dgdgbd();
+</script>
+</pre>
+</section>
+<section class="papyrus">
+<pre>
+<script>
+  Argonaut.fkbjdn();
+</script>
+</pre>
+<pre>
+<script>
+  Argonaut.cgdae();
+</script>
+</pre>
+<pre>
+<script>
+  Argonaut.bfbfb();
+</script>
+</pre>
+</section>
+</article>
 <footer>
   <p>Copyright &#169; 2017 Reid Netterville III</p>
 </footer>
