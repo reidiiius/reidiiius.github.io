@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Reid Netterville III" />
+  <title>Ogdoad</title>
+<style type="text/css">
+body {
+  background-color: #fffff0;
+  font-family: monospace;
+  font-size: 16px;
+  color: #2f4f4f;
+}
+header {
+  padding: 0.2em 0 0 0;
+  text-align: center;
+  font-family: sans-serif;
+  color: #d2b48c;
+}
+pre {
+  width: 480px;
+  margin: 1em auto;
+  font-size: 20px;
+}
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #696969;
+}
+</style>
+<script type="application/javascript">
+"use strict";
+
+var Argonaut = new Object();
+
+Argonaut.ogdoad = {
+  agate: {
+    j3k6wj6: "92 __ 7C B8 __ AA __ 8B C7 __ 29 44 "
+  },
+  beryl: {
+     k26wj6: "93 __ __ 39 54 A2 __ 8C C8 __ 2A 45 "
+  },
+  topaz: {
+      n0wj6: "95 __ 77 __ 59 A4 __ 86 CC 68 __ 4A ",
+      n0wk2: "95 __ 77 3E 59 A4 __ 86 __ 68 __ 4A ",
+      n0wj2: "95 E3 77 __ 59 A4 __ 86 __ 68 __ 4A "
+  },
+  sapphire: {
+      k6wn6: "96 __ 78 __ 5A A5 __ 87 __ 69 24 42 "
+  },
+  peridot: {
+   j34k6wn4: "97 __ 79 34 52 A6 __ 88 __ __ 25 4B ",
+      j3wn3: "97 __ 79 34 52 A6 __ 88 __ 6A __ 4B ",
+      j3wk6: "97 __ 79 B4 __ A6 __ 88 __ 6A 25 43 ",
+      j3wn2: "97 EE 79 B4 __ A6 __ 88 __ 6A __ 4B "
+  },
+  amethyst: {
+      j6wk6: "98 __ 7A __ 5B A7 __ 89 C4 __ 26 4C ",
+      j6wk2: "98 __ 7A 35 53 A7 __ 89 C4 __ __ 4C ",
+     j36wn6: "98 __ 7A B5 __ A7 __ 89 C4 62 __ 4C "
+  },
+  onyx: {
+     j26wk6: "99 E4 __ __ 5C A8 __ 8A C5 __ 27 4E ",
+     j26wn6: "99 E4 __ __ 5C A8 __ 8A C5 63 __ 4E ",
+      j2wk2: "99 E4 __ 36 5C A8 __ 8A __ 6B __ 4E ",
+     j26wk2: "99 E4 __ 36 5C A8 __ 8A C5 __ __ 4E ",
+     j23wk6: "99 E4 __ B6 __ A8 __ 8A __ 6B 27 4E ",
+    j236wk6: "99 E4 __ B6 __ A8 __ 8A C5 __ 27 4E ",
+    j236wn6: "99 E4 __ B6 __ A8 __ 8A C5 63 __ 4E ",
+      j2wn2: "99 E4 72 __ 5C A8 __ 8A __ 6B __ 4E ",
+     j26wn2: "99 E4 72 __ 5C A8 __ 8A C5 __ __ 4E ",
+     j23wn2: "99 E4 72 B6 __ A8 __ 8A __ 6B __ 4E "
+  },
+  heliotrope: {
+    j236wn6: "9C E8 __ BA __ AB __ 8E C9 64 __ 46 "
+  }
+};
+
+Argonaut.orthodigraph = {
+  gj: function(qp) {return(qp.slice(18,36).concat(qp.slice(0,18)))},
+  dj: function(qp) {return(qp.slice( 3,36).concat(qp.slice(0, 3)))},
+  aj: function(qp) {return(qp.slice(24,36).concat(qp.slice(0,24)))},
+  ej: function(qp) {return(qp.slice( 9,36).concat(qp.slice(0, 9)))},
+  bj: function(qp) {return(qp.slice(30,36).concat(qp.slice(0,30)))},
+  fn: function(qp) {return(qp.slice(15,36).concat(qp.slice(0,15)))},
+  cn: function(qp) {return(qp.slice( 0,36).concat(qp.slice(0, 0)))},
+  gn: function(qp) {return(qp.slice(21,36).concat(qp.slice(0,21)))},
+  dn: function(qp) {return(qp.slice( 6,36).concat(qp.slice(0, 6)))},
+  an: function(qp) {return(qp.slice(27,36).concat(qp.slice(0,27)))},
+  en: function(qp) {return(qp.slice(12,36).concat(qp.slice(0,12)))},
+  bn: function(qp) {return(qp.slice(33,36).concat(qp.slice(0,33)))},
+  fk: function(qp) {return(qp.slice(18,36).concat(qp.slice(0,18)))},
+  ck: function(qp) {return(qp.slice( 3,36).concat(qp.slice(0, 3)))},
+  gk: function(qp) {return(qp.slice(24,36).concat(qp.slice(0,24)))},
+  dk: function(qp) {return(qp.slice( 9,36).concat(qp.slice(0, 9)))},
+  ak: function(qp) {return(qp.slice(30,36).concat(qp.slice(0,30)))}
+};
+
+Argonaut.gamut = function(ndx, qp) {
+  let sym = "orthodigraph";
+  let arr = [
+    this[sym].fn(qp),
+    this[sym].cn(qp),
+    this[sym].gn(qp),
+    this[sym].dn(qp),
+    this[sym].an(qp),
+    this[sym].en(qp),
+    this[sym].bn(qp),
+    this[sym].fk(qp),
+    this[sym].ck(qp),
+    this[sym].gk(qp),
+    this[sym].dk(qp),
+    this[sym].ak(qp)
+  ];
+  return arr[ndx];
+};
+
+Argonaut.chronoMetric = function() {
+  let nwdt = new Date();
+  return nwdt.getTime();
+};
+
+Argonaut.serialStamp = Argonaut.chronoMetric();
+
+Argonaut.inStrum = function() {
+  let tng = arguments[0];
+  let arr = arguments[1].reverse();
+  let d = document, s = "  ";
+  for (let i in this.ogdoad) {
+    for (let j in this.ogdoad[i]) {
+      let m = s + i.slice(0,4) + "-" + j + "-" + tng + "-v" + this.serialStamp;
+      d.writeln();
+      d.writeln(m);
+      for (let k = 0; k < arr.length; k++) {
+        d.writeln(s + this.gamut(arr[k], this.ogdoad[i][j]));
+      }
+      d.writeln();
+    }
+  }
+};
+
+Argonaut.cxliv = function() {
+  let arr = [];
+  for (let i = 11; i >= 0; i--) arr.push(i);
+  this.inStrum('cxliv', arr);
+};
+
+Argonaut.beadgcf = function() {
+  this.inStrum('beadgcf', [6, 5, 4, 3, 2, 1, 0]);
+};
+
+Argonaut.bfbfb = function() {
+  this.inStrum('bfbfb', [6, 0, 6, 0, 6]);
+};
+
+Argonaut.cgdae = function() {
+  this.inStrum('cgdae', [1, 2, 3, 4, 5]);
+};
+
+Argonaut.dadgad = function() {
+  this.inStrum('dadgad', [3, 4, 3, 2, 4, 3]);
+};
+
+Argonaut.dgdgbd = function() {
+  this.inStrum('dgdgbd', [3, 2, 3, 2, 6, 3]);
+};
+
+Argonaut.eadgbe = function() {
+  this.inStrum('eadgbe', [5, 4, 3, 2, 6, 5]);
+};
+
+Argonaut.fkbjdn = function() {
+  this.inStrum('fkbjdn', [7, 11, 3, 7, 11, 3]);
+};
+</script>
+</head>
+<body>
+<header>
+  <h2>Ogdoad</h2>
+</header>
+<pre>
+<script type="application/javascript">
+  Argonaut.cxliv();
+</script>
+</pre>
+<footer>
+  <p>Copyright &#169; 2017 Reid Netterville III</p>
+</footer>
+</body>
+</html>
+

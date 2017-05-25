@@ -140,46 +140,48 @@ Panopolis.gamut = function(ndx, qp) {
   return arr[ndx];
 };
 
-function inStrum() {
-  let qp = arguments[0], tng = arguments[1], arr = arguments[2].reverse();
-  document.writeln("\n  " + qp + '-' + tng + '-hx' + Panopolis.serialStamp);
+Panopolis.inStrum = function() {
+  let qp = arguments[0],
+     tng = arguments[1],
+     arr = arguments[2].reverse();
+  document.writeln("\n  " + qp + '-' + tng + '-hx' + this.serialStamp);
   for (let i = 0; i < arr.length; i++) {
-    document.writeln("  " + Panopolis.gamut(arr[i], Panopolis.nystrom(qp)));
+    document.writeln("  " + this.gamut(arr[i], this.nystrom(qp)));
   }
 }
 
-Panopolis.stringTuner = function(qp) {
-  var arr = [];
+Panopolis.cxliv = function(qp) {
+  let arr = [];
   for (let i = 11; i >= 0; i--) arr.push(i);
-  inStrum(qp, 'CXLIV', arr);
+  this.inStrum(qp, 'cxliv', arr);
 };
 
 Panopolis.beadgcf = function(qp) {
-  inStrum(qp, 'beadgcf', [6, 5, 4, 3, 2, 1, 0]);
+  this.inStrum(qp, 'beadgcf', [6, 5, 4, 3, 2, 1, 0]);
 };
 
 Panopolis.bfbfb = function(qp) {
-  inStrum(qp, 'bfbfb', [6, 0, 6, 0, 6]);
+  this.inStrum(qp, 'bfbfb', [6, 0, 6, 0, 6]);
 };
 
 Panopolis.cgdae = function(qp) {
-  inStrum(qp, 'cgdae', [1, 2, 3, 4, 5]);
+  this.inStrum(qp, 'cgdae', [1, 2, 3, 4, 5]);
 };
 
 Panopolis.dadgad = function(qp) {
-  inStrum(qp, 'dadgad', [3, 4, 3, 2, 4, 3]);
+  this.inStrum(qp, 'dadgad', [3, 4, 3, 2, 4, 3]);
 };
 
 Panopolis.dgdgbd = function(qp) {
-  inStrum(qp, 'dgdgbd', [3, 2, 3, 2, 6, 3]);
+  this.inStrum(qp, 'dgdgbd', [3, 2, 3, 2, 6, 3]);
 };
 
 Panopolis.eadgbe = function(qp) {
-  inStrum(qp, 'eadgbe', [5, 4, 3, 2, 6, 5]);
+  this.inStrum(qp, 'eadgbe', [5, 4, 3, 2, 6, 5]);
 };
 
 Panopolis.fkbjdn = function(qp) {
-  inStrum(qp, 'fkbjdn', [7, 11, 3, 7, 11, 3]);
+  this.inStrum(qp, 'fkbjdn', [7, 11, 3, 7, 11, 3]);
 };
 
 Panopolis.chronoMetric = function() {
@@ -190,15 +192,15 @@ Panopolis.chronoMetric = function() {
 Panopolis.serialStamp = Panopolis.chronoMetric();
 
 Panopolis.harlequin = function() {
-  for (let i in Panopolis.amalgam) {
-    Panopolis.stringTuner(i);
+  for (let i in this.amalgam) {
+    this.cxliv(i);
     document.writeln();
   }
 }
 
 Panopolis.tuning = function(str) {
-  for (let i in Panopolis.amalgam) {
-    Panopolis[str](i);
+  for (let i in this.amalgam) {
+    this[str](i);
     document.writeln();
   }
 }
