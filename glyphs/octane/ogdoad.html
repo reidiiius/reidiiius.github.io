@@ -127,8 +127,8 @@ Argonaut.orthodigraph = {
 };
 
 Argonaut.gamut = function(ndx, qp) {
-  let sym = "orthodigraph";
-  let arr = [
+  var sym = "orthodigraph";
+  var arr = [
     this[sym].fn(qp),
     this[sym].cn(qp),
     this[sym].gn(qp),
@@ -146,15 +146,15 @@ Argonaut.gamut = function(ndx, qp) {
 };
 
 Argonaut.chronoMetric = function() {
-  let nwdt = new Date();
+  var nwdt = new Date();
   return nwdt.getTime();
 };
 
 Argonaut.serialStamp = Argonaut.chronoMetric();
 
 Argonaut.inStrum = function() {
-  let t = arguments[0], a = arguments[1].reverse();
-  let d = document, s = "  ", h = "-", g, i, j, k, m;
+  var t = arguments[0], a = arguments[1].reverse();
+  var d = document, s = "  ", h = "-", g, i, j, k, m;
   for (i in this.ogdoad) {
     g = i.slice( 0, 4);
     for (j in this.ogdoad[i]) {
@@ -169,8 +169,8 @@ Argonaut.inStrum = function() {
 };
 
 Argonaut.cxliv = function() {
-  let headstock = [];
-  for (let i = 11; i >= 0; i--) headstock.push(i);
+  var headstock = [];
+  for (var i = 11; i >= 0; i--) headstock.push(i);
   this.inStrum('cxliv', headstock);
 };
 

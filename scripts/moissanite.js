@@ -111,19 +111,19 @@ Panopolis.orthodigraph = {
 };
 
 Panopolis.nystrom = function(fortecken) {
-  let datarr = this.amalgam[fortecken];
-  let tmparr = [];
+  var datarr = this.amalgam[fortecken];
+  var tmparr = [];
     for (var i = 0; i < datarr.length; i++) {
       tmparr.push(datarr[i].toString(16));
     }
-  let novast = tmparr.join(" ").toUpperCase() + " ";
-  let result = novast.replace(/0/g, "__");
+  var novast = tmparr.join(" ").toUpperCase() + " ";
+  var result = novast.replace(/0/g, "__");
   return result;
 };
 
 Panopolis.gamut = function(ndx, qp) {
-  let sym = "orthodigraph";
-  let arr = [
+  var sym = "orthodigraph";
+  var arr = [
     this[sym].fn(qp),
     this[sym].cn(qp),
     this[sym].gn(qp),
@@ -141,19 +141,19 @@ Panopolis.gamut = function(ndx, qp) {
 };
 
 Panopolis.inStrum = function() {
-  let qp = arguments[0],
+  var qp = arguments[0],
      tng = arguments[1],
      arr = arguments[2].reverse();
   document.writeln("\n  " + qp + '-' + tng + '-hx' + this.serialStamp);
-  for (let i = 0; i < arr.length; i++) {
+  for (var i = 0; i < arr.length; i++) {
     document.writeln("  " + this.gamut(arr[i], this.nystrom(qp)));
   }
 }
 
 Panopolis.cxliv = function(qp) {
-  let arr = [];
-  for (let i = 11; i >= 0; i--) arr.push(i);
-  this.inStrum(qp, 'cxliv', arr);
+  var headstock = [];
+  for (var i = 11; i >= 0; i--) headstock.push(i);
+  this.inStrum(qp, 'cxliv', headstock);
 };
 
 Panopolis.beadgcf = function(qp) {
@@ -185,21 +185,21 @@ Panopolis.fkbjdn = function(qp) {
 };
 
 Panopolis.chronoMetric = function() {
-  let nwdt = new Date();
+  var nwdt = new Date();
   return nwdt.getTime();
 };
 
 Panopolis.serialStamp = Panopolis.chronoMetric();
 
 Panopolis.harlequin = function() {
-  for (let i in this.amalgam) {
+  for (var i in this.amalgam) {
     this.cxliv(i);
     document.writeln();
   }
 }
 
 Panopolis.tuning = function(str) {
-  for (let i in this.amalgam) {
+  for (var i in this.amalgam) {
     this[str](i);
     document.writeln();
   }
