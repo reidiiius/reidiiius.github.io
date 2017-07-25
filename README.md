@@ -20,7 +20,7 @@ command line
 
     python -m SimpleHTTPServer 8080
 
-    Shift+Ctrl+T
+Shift+Ctrl+T
 
     sensible-browser http://127.0.0.1:8080
 
