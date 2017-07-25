@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
-<meta charset="UTF-8" />
-<meta name="author" content="Reid Netterville III" />
-<title>Octane</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Reid Netterville III" />
+  <title>Octane</title>
 <style type="text/css">
 body {
   text-align: center;
@@ -16,9 +17,21 @@ header {
   font-family: sans-serif;
   color: #d2b48c;
 }
+hr.partition {
+  margin: 1.5em 10% 2.6em 10%;
+  border: 0;
+  background-color: #f5f5dc;
+  padding: 0.25em;
+}
 table.hexadigraph {
   margin: 0.5em auto;
   border-collapse: collapse;
+}
+table.hexadigraph th {
+  padding: 0.3em;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #5f9ea0;
 }
 table.hexadigraph td {
   width: 32px;
@@ -28,6 +41,7 @@ table.hexadigraph td {
   vertical-align: middle;
 }
 footer {
+  margin-top: 4em;
   font-family: sans-serif;
   font-size: 14px;
   color: #696969;
@@ -41,6 +55,9 @@ footer {
 </header>
 <table class="hexadigraph">
   <tr>
+    <th colspan="13">p6</th>
+  </tr>
+  <tr>
     <td>A4</td>
     <td>__</td>
     <td>86</td>
@@ -163,8 +180,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- n0(k2) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">q2</th>
+  </tr>
   <tr>
     <td>A4</td>
     <td>__</td>
@@ -288,8 +307,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- n0(j2) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">p2</th>
+  </tr>
   <tr>
     <td>A4</td>
     <td>__</td>
@@ -413,8 +434,11 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- k6(n6) -->
+<hr class="partition" />
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">q6</th>
+  </tr>
   <tr>
     <td>A5</td>
     <td>__</td>
@@ -538,8 +562,11 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j3(n6k6) -->
+<hr class="partition" />
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">j3q6</th>
+  </tr>
   <tr>
     <td>A6</td>
     <td>__</td>
@@ -663,8 +690,137 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j3(n2k2)  -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">q2k6</th>
+  </tr>
+  <tr>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>__</td>
+    <td>25</td>
+    <td>4B</td>
+    <td>97</td>
+    <td>__</td>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+  </tr>
+  <tr>
+    <td>97</td>
+    <td>__</td>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>__</td>
+    <td>25</td>
+    <td>4B</td>
+    <td>97</td>
+  </tr>
+  <tr>
+    <td>88</td>
+    <td>__</td>
+    <td>__</td>
+    <td>25</td>
+    <td>4B</td>
+    <td>97</td>
+    <td>__</td>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+  </tr>
+  <tr>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>__</td>
+    <td>25</td>
+    <td>4B</td>
+    <td>97</td>
+    <td>__</td>
+    <td>79</td>
+  </tr>
+  <tr>
+    <td>__</td>
+    <td>25</td>
+    <td>4B</td>
+    <td>97</td>
+    <td>__</td>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>__</td>
+  </tr>
+  <tr>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>__</td>
+    <td>25</td>
+    <td>4B</td>
+    <td>97</td>
+    <td>__</td>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+  </tr>
+  <tr>
+    <td>4B</td>
+    <td>97</td>
+    <td>__</td>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>__</td>
+    <td>25</td>
+    <td>4B</td>
+  </tr>
+</table>
+<table class="tmpl">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table class="hexadigraph">
+  <tr>
+    <th colspan="13">q2</th>
+  </tr>
   <tr>
     <td>A6</td>
     <td>__</td>
@@ -788,8 +944,264 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j3(j2n2) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">j17q2</th>
+  </tr>
+  <tr>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+    <td>__</td>
+    <td>__</td>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+  </tr>
+  <tr>
+    <td>__</td>
+    <td>__</td>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+    <td>__</td>
+  </tr>
+  <tr>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+    <td>__</td>
+    <td>__</td>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+  </tr>
+  <tr>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+    <td>__</td>
+    <td>__</td>
+    <td>79</td>
+  </tr>
+  <tr>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+    <td>__</td>
+    <td>__</td>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+  </tr>
+  <tr>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+    <td>__</td>
+    <td>__</td>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+  </tr>
+  <tr>
+    <td>43</td>
+    <td>__</td>
+    <td>__</td>
+    <td>79</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+  </tr>
+</table>
+<table class="tmpl">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table class="hexadigraph">
+  <tr>
+    <th colspan="13">k2q6</th>
+  </tr>
+  <tr>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+    <td>97</td>
+    <td>__</td>
+    <td>__</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+  </tr>
+  <tr>
+    <td>97</td>
+    <td>__</td>
+    <td>__</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+    <td>97</td>
+  </tr>
+  <tr>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+    <td>97</td>
+    <td>__</td>
+    <td>__</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+  </tr>
+  <tr>
+    <td>__</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+    <td>97</td>
+    <td>__</td>
+    <td>__</td>
+  </tr>
+  <tr>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+    <td>97</td>
+    <td>__</td>
+    <td>__</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+  </tr>
+  <tr>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+    <td>97</td>
+    <td>__</td>
+    <td>__</td>
+    <td>34</td>
+    <td>52</td>
+  </tr>
+  <tr>
+    <td>43</td>
+    <td>97</td>
+    <td>__</td>
+    <td>__</td>
+    <td>34</td>
+    <td>52</td>
+    <td>A6</td>
+    <td>__</td>
+    <td>88</td>
+    <td>__</td>
+    <td>6A</td>
+    <td>25</td>
+    <td>43</td>
+  </tr>
+</table>
+<table class="tmpl">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table class="hexadigraph">
+  <tr>
+    <th colspan="13">p2j3</th>
+  </tr>
   <tr>
     <td>A6</td>
     <td>__</td>
@@ -913,8 +1325,11 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j6(k6) -->
+<hr class="partition" />
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">m6</th>
+  </tr>
   <tr>
     <td>A7</td>
     <td>__</td>
@@ -1038,8 +1453,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j6(n2k2) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">q2j6</th>
+  </tr>
   <tr>
     <td>A7</td>
     <td>__</td>
@@ -1163,8 +1580,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j36(n6) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">j3p6</th>
+  </tr>
   <tr>
     <td>A7</td>
     <td>__</td>
@@ -1288,8 +1707,138 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j2(n2) -->
+<hr class="partition" />
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">k1m6</th>
+  </tr>
+  <tr>
+    <td>A8</td>
+    <td>__</td>
+    <td>8A</td>
+    <td>C5</td>
+    <td>__</td>
+    <td>27</td>
+    <td>4E</td>
+    <td>__</td>
+    <td>E4</td>
+    <td>72</td>
+    <td>__</td>
+    <td>5C</td>
+    <td>A8</td>
+  </tr>
+  <tr>
+    <td>__</td>
+    <td>E4</td>
+    <td>72</td>
+    <td>__</td>
+    <td>5C</td>
+    <td>A8</td>
+    <td>__</td>
+    <td>8A</td>
+    <td>C5</td>
+    <td>__</td>
+    <td>27</td>
+    <td>4E</td>
+    <td>__</td>
+  </tr>
+  <tr>
+    <td>8A</td>
+    <td>C5</td>
+    <td>__</td>
+    <td>27</td>
+    <td>4E</td>
+    <td>__</td>
+    <td>E4</td>
+    <td>72</td>
+    <td>__</td>
+    <td>5C</td>
+    <td>A8</td>
+    <td>__</td>
+    <td>8A</td>
+  </tr>
+  <tr>
+    <td>72</td>
+    <td>__</td>
+    <td>5C</td>
+    <td>A8</td>
+    <td>__</td>
+    <td>8A</td>
+    <td>C5</td>
+    <td>__</td>
+    <td>27</td>
+    <td>4E</td>
+    <td>__</td>
+    <td>E4</td>
+    <td>72</td>
+  </tr>
+  <tr>
+    <td>__</td>
+    <td>27</td>
+    <td>4E</td>
+    <td>__</td>
+    <td>E4</td>
+    <td>72</td>
+    <td>__</td>
+    <td>5C</td>
+    <td>A8</td>
+    <td>__</td>
+    <td>8A</td>
+    <td>C5</td>
+    <td>__</td>
+  </tr>
+  <tr>
+    <td>5C</td>
+    <td>A8</td>
+    <td>__</td>
+    <td>8A</td>
+    <td>C5</td>
+    <td>__</td>
+    <td>27</td>
+    <td>4E</td>
+    <td>__</td>
+    <td>E4</td>
+    <td>72</td>
+    <td>__</td>
+    <td>5C</td>
+  </tr>
+  <tr>
+    <td>4E</td>
+    <td>__</td>
+    <td>E4</td>
+    <td>72</td>
+    <td>__</td>
+    <td>5C</td>
+    <td>A8</td>
+    <td>__</td>
+    <td>8A</td>
+    <td>C5</td>
+    <td>__</td>
+    <td>27</td>
+    <td>4E</td>
+  </tr>
+</table>
+<table class="tmpl">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table class="hexadigraph">
+  <tr>
+    <th colspan="13">p2</th>
+  </tr>
   <tr>
     <td>A8</td>
     <td>__</td>
@@ -1413,8 +1962,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j236(k6) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">j23m6</th>
+  </tr>
   <tr>
     <td>A8</td>
     <td>__</td>
@@ -1538,8 +2089,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j2(k2) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">m2</th>
+  </tr>
   <tr>
     <td>A8</td>
     <td>__</td>
@@ -1663,8 +2216,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j236(n6) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">j23p6</th>
+  </tr>
   <tr>
     <td>A8</td>
     <td>__</td>
@@ -1788,8 +2343,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j26(n2) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">p2j6</th>
+  </tr>
   <tr>
     <td>A8</td>
     <td>__</td>
@@ -1913,8 +2470,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j26(k6) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">j2m6</th>
+  </tr>
   <tr>
     <td>A8</td>
     <td>__</td>
@@ -2038,8 +2597,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j26(k2) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">m2j6</th>
+  </tr>
   <tr>
     <td>A8</td>
     <td>__</td>
@@ -2163,8 +2724,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j26(n6) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">j2p6</th>
+  </tr>
   <tr>
     <td>A8</td>
     <td>__</td>
@@ -2288,8 +2851,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j23(n2) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">p2j3</th>
+  </tr>
   <tr>
     <td>A8</td>
     <td>__</td>
@@ -2413,8 +2978,10 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j23(k6) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">j23q6</th>
+  </tr>
   <tr>
     <td>A8</td>
     <td>__</td>
@@ -2538,8 +3105,11 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j36(k6) -->
+<hr class="partition" />
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">j3m6</th>
+  </tr>
   <tr>
     <td>AA</td>
     <td>__</td>
@@ -2663,8 +3233,11 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- k26(j6) -->
+<hr class="partition" />
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">k2m6</th>
+  </tr>
   <tr>
     <td>A2</td>
     <td>__</td>
@@ -2788,8 +3361,265 @@ footer {
     <td>&nbsp;</td>
   </tr>
 </table>
-<!-- j236(n6) -->
 <table class="hexadigraph">
+  <tr>
+    <th colspan="13">m2j6</th>
+  </tr>
+  <tr>
+    <td>A2</td>
+    <td>__</td>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+    <td>__</td>
+    <td>45</td>
+    <td>93</td>
+    <td>E7</td>
+    <td>__</td>
+    <td>39</td>
+    <td>54</td>
+    <td>A2</td>
+  </tr>
+  <tr>
+    <td>93</td>
+    <td>E7</td>
+    <td>__</td>
+    <td>39</td>
+    <td>54</td>
+    <td>A2</td>
+    <td>__</td>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+    <td>__</td>
+    <td>45</td>
+    <td>93</td>
+  </tr>
+  <tr>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+    <td>__</td>
+    <td>45</td>
+    <td>93</td>
+    <td>E7</td>
+    <td>__</td>
+    <td>39</td>
+    <td>54</td>
+    <td>A2</td>
+    <td>__</td>
+    <td>8C</td>
+  </tr>
+  <tr>
+    <td>__</td>
+    <td>39</td>
+    <td>54</td>
+    <td>A2</td>
+    <td>__</td>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+    <td>__</td>
+    <td>45</td>
+    <td>93</td>
+    <td>E7</td>
+    <td>__</td>
+  </tr>
+  <tr>
+    <td>__</td>
+    <td>__</td>
+    <td>45</td>
+    <td>93</td>
+    <td>E7</td>
+    <td>__</td>
+    <td>39</td>
+    <td>54</td>
+    <td>A2</td>
+    <td>__</td>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+  </tr>
+  <tr>
+    <td>54</td>
+    <td>A2</td>
+    <td>__</td>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+    <td>__</td>
+    <td>45</td>
+    <td>93</td>
+    <td>E7</td>
+    <td>__</td>
+    <td>39</td>
+    <td>54</td>
+  </tr>
+  <tr>
+    <td>45</td>
+    <td>93</td>
+    <td>E7</td>
+    <td>__</td>
+    <td>39</td>
+    <td>54</td>
+    <td>A2</td>
+    <td>__</td>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+    <td>__</td>
+    <td>45</td>
+  </tr>
+</table>
+<table class="tmpl">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table class="hexadigraph">
+  <tr>
+    <th colspan="13">j34m6</th>
+  </tr>
+  <tr>
+    <td>__</td>
+    <td>__</td>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+    <td>2A</td>
+    <td>45</td>
+    <td>93</td>
+    <td>__</td>
+    <td>7E</td>
+    <td>39</td>
+    <td>54</td>
+    <td>__</td>
+  </tr>
+  <tr>
+    <td>93</td>
+    <td>__</td>
+    <td>7E</td>
+    <td>39</td>
+    <td>54</td>
+    <td>__</td>
+    <td>__</td>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+    <td>2A</td>
+    <td>45</td>
+    <td>93</td>
+  </tr>
+  <tr>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+    <td>2A</td>
+    <td>45</td>
+    <td>93</td>
+    <td>__</td>
+    <td>7E</td>
+    <td>39</td>
+    <td>54</td>
+    <td>__</td>
+    <td>__</td>
+    <td>8C</td>
+  </tr>
+  <tr>
+    <td>7E</td>
+    <td>39</td>
+    <td>54</td>
+    <td>__</td>
+    <td>__</td>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+    <td>2A</td>
+    <td>45</td>
+    <td>93</td>
+    <td>__</td>
+    <td>7E</td>
+  </tr>
+  <tr>
+    <td>__</td>
+    <td>2A</td>
+    <td>45</td>
+    <td>93</td>
+    <td>__</td>
+    <td>7E</td>
+    <td>39</td>
+    <td>54</td>
+    <td>__</td>
+    <td>__</td>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+  </tr>
+  <tr>
+    <td>54</td>
+    <td>__</td>
+    <td>__</td>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+    <td>2A</td>
+    <td>45</td>
+    <td>93</td>
+    <td>__</td>
+    <td>7E</td>
+    <td>39</td>
+    <td>54</td>
+  </tr>
+  <tr>
+    <td>45</td>
+    <td>93</td>
+    <td>__</td>
+    <td>7E</td>
+    <td>39</td>
+    <td>54</td>
+    <td>__</td>
+    <td>__</td>
+    <td>8C</td>
+    <td>C8</td>
+    <td>__</td>
+    <td>2A</td>
+    <td>45</td>
+  </tr>
+</table>
+<table class="tmpl">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<hr class="partition" />
+<table class="hexadigraph">
+  <tr>
+    <th colspan="13">j23p6</th>
+  </tr>
   <tr>
     <td>AB</td>
     <td>__</td>
