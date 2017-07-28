@@ -511,19 +511,19 @@
 
 /* unicode */ 
 
- .uMn:before {content:"\25CA";padding-left:0.3em;padding-right:0.225em;}
+ .uMn:before {content:"\26B5";} /* 26B4 */
  .uUp:before {content:"\260A";}
  .uDw:before {content:"\260B";}
  .uOp:before {content:"\260D";}
- .uTi:before {content:"\2604";}
+ .uTi:before {content:"\26B6";} /* 26B3 */
  .uSt:before {content:"\2606";}
  .uAu:before {content:"\2609";}
  .ugA:before {content:"\263D";}
  .uAg:before {content:"\263E";}
  .uHg:before {content:"\263F";}
- .uCu:before {content:"\2640";padding-left:0.15em;padding-right:0.15em;}
+ .uCu:before {content:"\2640";}
  .uCo:before {content:"\2641";}
- .uFe:before {content:"\2642";padding-left:0.15em;padding-right:0.15em;}
+ .uFe:before {content:"\2642";}
  .uSn:before {content:"\2643";}
  .uPb:before {content:"\2644";}
  .uUr:before {content:"\2645";}
@@ -550,5 +550,5 @@
  .uRst:before {content:"\203A";}
  .uUbt:before {content:"\2191";}
  .uDbt:before {content:"\2193";}
- .uCpy:before {content:"\2200";padding-right:0.15em;}
+ .uCpy:before {content:"\2200";}
 

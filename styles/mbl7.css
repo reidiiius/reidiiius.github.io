@@ -78,23 +78,25 @@ a:hover {
   padding: 0;
   cursor: pointer;
 }
-#scribe {
-  background-color: #fffff0;
-  margin: 0;
-}
-.t-center {
-  margin-left: auto;
-  margin-right: auto;
-}
 dl.viewlist {
   margin: 1em 0.5em;
 }
 .hide {
   visibility: hidden;
 }
-.symbol {
+#scribe {
   background-color: #fffff0;
-  white-space: nowrap;
+  margin: 0;
+}
+.t-center {
+  margin: 0 auto;
+}
+hr.partition {
+  width: 520px;
+  margin: 0 auto;
+  border: 0;
+  padding: 0.2em;
+  background-color: #fffff0;
 }
 table.fretboard {
   width: 520px;
@@ -118,10 +120,21 @@ table.lexicon td {
   width: 40px;
   height: 54px;
 }
+.symbol {
+  background-color: #fffff0;
+  white-space: nowrap;
+}
 .cosmic {
   text-align: center;
   font-size: 14px;
   color: #696969;
+}
+table#astronomical {
+  border-collapse: collapse;
+}
+table#astronomical td {
+  border: 1px solid #cdcdcd;
+  padding: 2px;
 }
 article#ndex {
   width: 280px;
