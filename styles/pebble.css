@@ -35,6 +35,8 @@ iframe {
   background-color:#ffffff;
   border:2px solid #dcdcdc;
   border-radius:10px;
+  overflow:hidden;
+  white-space:nowrap;
   padding:12px;
 }
 #cntfrm {
@@ -46,12 +48,12 @@ iframe {
   top:50px;
 }
 .dm4x2 {
-  width:480px;
-  height:260px;
+  width:40em;
+  height:20em;
 }
 .dm5x2 {
-  width:580px;
-  height:284px;
+  width:40em;
+  height:20em;
 }
 #hepta-k56x4 {
   position:absolute;

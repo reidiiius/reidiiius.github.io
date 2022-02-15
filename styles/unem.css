@@ -7,21 +7,24 @@ div#ifrm {
   left:60px;
   top:20px;
 }
+div#ifrm iframe {
+  height: 14em;
+}
 div#menu-ooo {
   position:absolute;
   left:1px;
-  top:190px;
+  top:220px;
   background-color:#efefef;
 }
 div.logicon {
   position:absolute;
   left:78px;
-  top:462px; 
+  top:500px; 
 }
 div#footer {
   position:absolute;
   left:42px;
-  top:588px; 
+  top:630px; 
 }
 p.attr {
   font-family:sans-serif;

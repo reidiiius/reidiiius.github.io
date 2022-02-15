@@ -1,26 +1,31 @@
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: Ivory;
+  line-height: normal;
+  font-family: monospace;
+  font-size: 24px;
+  text-align: center;
 }
 header h1 {
-  text-align: center;
+  font-size: 1.5em;
   font-family: sans-serif;
   color: Tan;
 }
 div.cluster {
-  width: 99%;
-  border: 1px dotted transparent;
-  line-height: 180%;
-  text-align: center;
-  font-family: monospace;
-  font-size: 200%;
+  font-size: inherit;
 }
 div.cluster ul {
   list-style-type: none;
-  margin: 0;
+  margin: 1em 0;
   padding: 0;
 }
+div.cluster ul li {
+  margin: 0.5em 0;
+}
 div.cluster a {
+  margin: 0 0.5em;
   text-decoration: none;
   color: SteelBlue;
 }
@@ -29,20 +34,16 @@ div.cluster a:hover {
   color: MidnightBlue;
 }
 nav#menu {
-  width: 99%;
-  border: 1px dotted transparent;
-  line-height: 180%;
-  text-align: center;
-  font-family: monospace;
-  font-size: 200%;
+  font-size: inherit;
 }
 nav#menu ul {
   list-style-type: none;
   display: inline-block;
-  width: 40%;
-  border: 1px dotted transparent;
   margin: 0;
   padding: 0;
+}
+nav#menu ul li {
+  margin: 0.5em 0.8em;
 }
 nav#menu a {
   text-decoration: none;
@@ -53,39 +54,36 @@ nav#menu a:hover {
   color: teal;
 }
 dl.stella {
-  width: 62%;
-  margin: 5% auto;
-  border: 1px dotted transparent;
-  font-family: monospace;
+  width: 28em;
+  margin: 1em auto;
+  padding: 0.5em 0;
   white-space: nowrap;
   overflow: hidden;
 }
 dl.stella dt {
-  font-size: 265%;
+  font-size: 1em;
   color: Sienna;
 }
 dl.stella dd {
-  font-size: 400%;
+  margin: 0;
+  font-size: 1.5em;
   color: DarkGoldenrod;
 }
 dl.stella b {
   color: LightSteelBlue;
 }
 footer#floor {
-  width: 99%;
-  height: 8em;
-  border: 1px dotted transparent;
+  height: 4em;
 }
 p.attr {
-  margin-top: 6em;
-  text-align: center;
+  margin-top: 2em;
   font-family: sans-serif;
-  font-size: 90%;
+  font-size: 0.6em;
   color: LightSlateGrey;
 }
 @media screen and ( max-width: 860px ) {
   dl.stella {
-    width: 90%;
+    width: auto;
   }
 }
 

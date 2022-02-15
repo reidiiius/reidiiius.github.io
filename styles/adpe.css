@@ -6,8 +6,8 @@ body {
   font-size: 14px;
 }
 iframe {
-  width: 35.6em;
-  height: auto;
+  width: 43em;
+  height: 11.8em;
   border: 0;
   overflow: hidden;
   padding: 0;
@@ -18,9 +18,10 @@ div.frm-topaz, div.frm-opal, div.srl {
   padding: 0.2em;
 }
 div.frm-topaz, div.frm-opal {
-  width: 35.7em;
-  height: 10.8em;
+  width: 43.2em;
+  height: 12em;
   border-radius: 0.6em;
+  white-space: nowrap;
   overflow: hidden;
 }
 div.srl {
