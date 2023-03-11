@@ -531,18 +531,18 @@
  .uPu:before {content:"\2647";}
  .u__:before {content:"\2003";}
 
- .uAri:before {content:"\2648";font-size:98%;}
- .uTau:before {content:"\2649";font-size:98%;}
- .uGem:before {content:"\264A";font-size:98%;}
- .uCan:before {content:"\264B";font-size:98%;}
- .uLeo:before {content:"\264C";font-size:98%;}
- .uVir:before {content:"\264D";font-size:98%;}
- .uLib:before {content:"\264E";font-size:98%;}
- .uSco:before {content:"\264F";font-size:98%;}
- .uSag:before {content:"\2650";font-size:98%;}
- .uCap:before {content:"\2651";font-size:98%;}
- .uAqu:before {content:"\2652";font-size:98%;}
- .uPis:before {content:"\2653";font-size:98%;}
+ .uAri:before {content:"\2648\FE0E";font-size:98%;}
+ .uTau:before {content:"\2649\FE0E";font-size:98%;}
+ .uGem:before {content:"\264A\FE0E";font-size:98%;}
+ .uCan:before {content:"\264B\FE0E";font-size:98%;}
+ .uLeo:before {content:"\264C\FE0E";font-size:98%;}
+ .uVir:before {content:"\264D\FE0E";font-size:98%;}
+ .uLib:before {content:"\264E\FE0E";font-size:98%;}
+ .uSco:before {content:"\264F\FE0E";font-size:98%;}
+ .uSag:before {content:"\2650\FE0E";font-size:98%;}
+ .uCap:before {content:"\2651\FE0E";font-size:98%;}
+ .uAqu:before {content:"\2652\FE0E";font-size:98%;}
+ .uPis:before {content:"\2653\FE0E";font-size:98%;}
 
  .uFlt:before {content:"\266D";}
  .uNtl:before {content:"\266E";}
