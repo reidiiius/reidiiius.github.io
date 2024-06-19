@@ -7,8 +7,12 @@
   <title>Carbonado</title>
   <link rel="stylesheet" href="/styles/quartz.css" type="text/css" />
 <script type="text/javascript">
-function wo(x) {
-window.open("/gst/jade/n0/"+x+".txt","_blank","left=200,top=200,width=512,height=146");
+function wo(way) {
+  if (way) {
+    var path = "/gst/jade/n0/" + way + ".txt";
+    window.open(path, "_blank", "left=200, top=200, width=600, height=185");
+  }
+  return;
 }
 </script>
 </head>

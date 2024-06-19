@@ -41,7 +41,7 @@ body {
 .data {
   border:0.1em solid #b8860b;
   background-color:#4b0082;
-  padding:0.1em 0.1em 0 0.1em;
+  padding:0.1em 0.1em 0.1em 0.1em;
   line-height:1.0em;
 }
 .top {

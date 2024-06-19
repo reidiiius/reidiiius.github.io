@@ -111,9 +111,11 @@ button:hover {
   padding: 0.5em 0 0.2em 1em;
 }
 #frm iframe {
-  width: 512px;
-  height: 132px;
-  border: 0;
+  margin: 0;
+  width: 50em;
+  height: 16em;
+  border: none;
+  padding: 0;
 }
 dl.viewlist {
   margin: 1em 0.5em;
