@@ -100,20 +100,23 @@ button:hover {
   text-decoration: underline;
 }
 #frm {
-  width: 512px;
-  margin: 0.5em;
+  width: 42em;
+  margin: 0 auto;
+  border: 0;
   background-color: #fffff0;
+  overflow: hidden;
   font-family: "DejaVu Sans Mono", consolas, "courier new", monospace;
-  font-size: 12px;
+  font-size: 14px;
   color: #3e3e3e;
 }
 #frm pre {
-  padding: 0.5em 0 0.2em 1em;
+  padding: 0;
+  text-align: center;
 }
 #frm iframe {
   margin: 0;
   width: 50em;
-  height: 16em;
+  height: 12em;
   border: none;
   padding: 0;
 }
