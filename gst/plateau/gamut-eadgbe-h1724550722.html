@@ -6,51 +6,10 @@
   <meta name="description" content="Chordophone Cosmography" />
   <meta name="author" content="Reid Netterville III" />
   <title>gamut-eadgbe-h1724550722</title>
-<style type="text/css">
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #fffff0; /* Ivory */
-  font-size: 18px;
-}
-table.palindromic {
-  margin: 0 auto;
-  border-spacing: 1em;
-  white-space: nowrap;
-}
-table.palindromic td {
-  text-align: center;
-  font-family: monospace;
-  font-size: 1em;
-  color: #2f4f4f; /* DarkSlateGray */
-}
-table.palindromic dl {
-  margin: 0;
-  border: 1px dotted #dcdcdc;
-  padding: 1em;
-}
-table.palindromic dt {
-  font-weight: bold;
-  color: #8fbc8f; /* DarkSeaGreen */
-}
-table.palindromic dd {
-  margin: 0;
-}
-footer {
-  margin: 0;
-  border: 1px dotted #dcdcdc;
-  padding: 1em;
-}
-footer p.legal {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 0.8em;
-  color: #696969; /* DimGray */
-}
-</style>
+  <link rel="stylesheet" href="/styles/wampum.css" type="text/css" />
 </head>
 <body>
-<section>
+<section id="cardsharps">
 <code>
 <table class="palindromic">
   <tbody>
@@ -1813,10 +1772,11 @@ footer p.legal {
 <script type="application/javascript">
 (function() {
   var itr = 0;
-  var obj = document.getElementsByTagName("time");
+  var cds = document.getElementById("cardsharps");
+  var sqn = cds.getElementsByTagName("time");
   var gtm = new Date().getTime();
-  while (itr < obj.length) {
-    obj[itr].textContent = gtm;
+  while (itr < sqn.length) {
+    sqn[itr].textContent = gtm;
     itr++
   }
 })();
