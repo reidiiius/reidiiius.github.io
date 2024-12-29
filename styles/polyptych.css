@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: 18px;
+  color: #2f4f4f;
+}
+header {
+  padding: 0.3em;
+}
+section#polyptych div.panel {
+  width: 16.33em;
+  margin: 1em auto;
+  border: 1em solid beige; /* f5f5dc */
+  background-color: #fffff6; /* Ivory-Tint */
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+}
+section#polyptych dl.graph {
+  margin: 1em auto;
+  padding: 0;
+  white-space: nowrap;
+}
+section#polyptych dl.graph dt {
+  padding-bottom: 0.1em;
+  color: #8fbc8f; /* DarkSeaGreen */
+}
+section#polyptych dl.graph dd {
+  margin: 0;
+  padding: 0;
+  color: #587272; /* DarkSlateGray-Tint */
+}
+footer {
+  padding: 0.3em;
+}
+footer p.legal {
+  font-family: sans-serif;
+  text-align: center;
+  font-size:0.8em;
+  color: #777;
+}
+
